@@ -33,7 +33,7 @@
       "pnpm lint",
       "pnpm pretty"
     ],
-    "*.sass": [
+    "*.scss": [
       "pnpm pretty"
     ]
   }
