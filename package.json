@@ -29,7 +29,7 @@
     "pre-commit": "pnpm precommit"
   },
   "lint-staged": {
-    "*.(jsx|js)": [
+    "*.jsx": [
       "pnpm lint",
       "pnpm pretty"
     ],
