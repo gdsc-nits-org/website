@@ -1,5 +1,6 @@
-# Website
-The Official GDSC NIT Silchar Website
+# GDSC NITS Website
+The Official Website of GDSC NIT Silchar  
+Together We - Learn, Build, Solve, Transcend
 
 
 ### 🔨 Tools Used For UI/UX Designing:
