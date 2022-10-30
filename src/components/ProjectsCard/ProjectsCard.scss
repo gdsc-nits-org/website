@@ -1,0 +1,97 @@
+.project-card-container {
+  border: 0.05rem solid #d9d9d9;
+  border-radius: 0.625rem;
+  padding: 2.5rem;
+  margin: 0rem 3.375rem;
+
+  .project-card-header {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    margin-bottom: 1.5rem;
+    height: 9rem;
+  }
+
+  .project-card-project-status-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    .project-card-project-name {
+      flex-grow: 1;
+      justify-content: center;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.25rem;
+      color: #333333;
+    }
+
+    .project-card-project-status {
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.75rem;
+      align-self: flex-start;
+      color: #ffffff;
+    }
+  }
+
+  .project-card-project-img-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .project-card-content {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    align-items: center;
+    height: 10rem;
+    color: #292929;
+
+    padding: 1.5rem 0;
+
+    border-bottom: 0.05rem solid #d9d9d9;
+  }
+
+  .project-card-footer {
+    padding-top: 1.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    .project-card-footer-button {
+      border-radius: 50%;
+      display: inline-block;
+      padding: 1rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    .project-card-info-button {
+      &:hover {
+        background-color: lightcoral;
+      }
+    }
+    .project-card-members-button {
+      &:hover {
+        background-color: lightblue;
+      }
+    }
+    .project-card-tech-button {
+      &:hover {
+        background-color: lightgreen;
+      }
+    }
+    .project-card-link-button {
+      &:hover {
+        background-color: lightyellow;
+      }
+    }
+  }
+}
