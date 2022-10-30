@@ -1,8 +1,9 @@
 import React from "react";
 import "./Home.scss";
+import Hero from "../../components/Hero-Home/Hero";
 
 function Home() {
-  return <h1>This is the Home page</h1>;
+  return <Hero />;
 }
 
 export default Home;
