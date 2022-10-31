@@ -7,7 +7,7 @@ const IntroHome = () => {
     <div className="intro-home">
       <div className="contents">
         <div className="scroll">
-          <div className="gdsc">
+          <div className="gdsc intro-margins">
             <div className="title">
               <div className="logo"></div>
               <div className="heading">
@@ -28,7 +28,7 @@ const IntroHome = () => {
             </p>
           </div>
 
-          <div className="web">
+          <div className="web intro-margins">
             <div className="title">
               <div className="logo"></div>
               <div className="heading">Web Domain</div>
@@ -47,7 +47,7 @@ const IntroHome = () => {
             </p>
           </div>
 
-          <div className="ui-ux">
+          <div className="ui-ux intro-margins">
             <div className="title">
               <div className="logo"></div>
               <div className="heading">UI/UX Domain</div>
@@ -66,7 +66,7 @@ const IntroHome = () => {
             </p>
           </div>
 
-          <div className="android">
+          <div className="android intro-margins">
             <div className="title">
               <div className="logo"></div>
               <div className="heading">Android Domain</div>
@@ -85,7 +85,7 @@ const IntroHome = () => {
             </p>
           </div>
 
-          <div className="flutter">
+          <div className="flutter intro-margins">
             <div className="title">
               <div className="logo"></div>
               <div className="heading">Flutter Domain</div>
@@ -104,7 +104,7 @@ const IntroHome = () => {
             </p>
           </div>
 
-          <div className="cloud">
+          <div className="cloud intro-margins">
             <div className="title">
               <div className="logo"></div>
               <div className="heading">Cloud Domain</div>
