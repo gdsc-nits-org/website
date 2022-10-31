@@ -1,4 +1,12 @@
 .home-hero {
   width: 100%;
   height: calc(100vh - var(--navbar-height));
+  position: relative;
+}
+
+.scroll-gif {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
