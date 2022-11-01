@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Infographic.scss";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 
 const InfoGraphic = () => {
   const members_fixed = 861;
@@ -7,28 +9,50 @@ const InfoGraphic = () => {
   const organizers_fixed = 19;
   const projects_fixed = 29;
 
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
+
   const [members, setMembers] = useState(0);
   const [events, setEvents] = useState(0);
   const [organizers, setOrganizers] = useState(0);
   const [projects, setProjects] = useState(0);
 
-  setTimeout(() => {
-    if (members !== members_fixed) {
-      setMembers(members + 1);
+  useEffect(() => {
+    if (inView === false) {
+      setMembers(0);
+      setEvents(0);
+      setOrganizers(0);
+      setProjects(0);
+      console.log("inView2");
     }
-    if (events !== events_fixed) {
-      setEvents(events + 1);
+    console.log(inView);
+  }, [inView]);
+
+  useEffect(() => {
+    if (inView === true) {
+      setTimeout(() => {
+        if (members !== members_fixed) {
+          setMembers(members + 1);
+        }
+      }, "0.9");
+
+      setTimeout(() => {
+        if (events !== events_fixed) {
+          setEvents(events + 1);
+        }
+        if (organizers !== organizers_fixed) {
+          setOrganizers(organizers + 1);
+        }
+        if (projects !== projects_fixed) {
+          setProjects(projects + 1);
+        }
+      }, 20);
     }
-    if (organizers !== organizers_fixed) {
-      setOrganizers(organizers + 1);
-    }
-    if (projects !== projects_fixed) {
-      setProjects(projects + 1);
-    }
-  }, "1");
+  }, [members, inView, events, organizers, projects]);
 
   return (
-    <div className="info-graphic">
+    <div className="info-graphic" ref={ref}>
       <div className="red circles">
         <div className="int">{members}</div>
         <div className="text">Chapter Members</div>
