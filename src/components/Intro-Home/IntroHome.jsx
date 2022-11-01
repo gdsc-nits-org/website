@@ -1,6 +1,12 @@
 import React from "react";
 import "./IntroHome.scss";
 import animnav from "../../assets/images/animnav.png";
+import logo from "../../assets/images/logo.png";
+import web from "../../assets/images/web-circle.png";
+import ui from "../../assets/images/ux-circle.png";
+import flutter from "../../assets/images/flutter-circle.png";
+import kotlin from "../../assets/images/kotlin-circle.png";
+import cloud from "../../assets/images/cloud-circle.png";
 
 const IntroHome = () => {
   return (
@@ -9,7 +15,9 @@ const IntroHome = () => {
         <div className="scroll">
           <div className="gdsc intro-margins">
             <div className="title">
-              <div className="logo"></div>
+              <div className="logo">
+                <img src={logo} alt="" />
+              </div>
               <div className="heading">
                 Google Developer Student Clubs <br /> NIT SILCHAR
               </div>
@@ -30,7 +38,9 @@ const IntroHome = () => {
 
           <div className="web intro-margins">
             <div className="title">
-              <div className="logo"></div>
+              <div className="logo">
+                <img src={web} alt="" />
+              </div>
               <div className="heading">Web Domain</div>
             </div>
             <p className="text">
@@ -49,7 +59,9 @@ const IntroHome = () => {
 
           <div className="ui-ux intro-margins">
             <div className="title">
-              <div className="logo"></div>
+              <div className="logo">
+                <img src={ui} alt="" />
+              </div>
               <div className="heading">UI/UX Domain</div>
             </div>
             <p className="text">
@@ -68,7 +80,9 @@ const IntroHome = () => {
 
           <div className="android intro-margins">
             <div className="title">
-              <div className="logo"></div>
+              <div className="logo">
+                <img src={kotlin} alt="" />
+              </div>
               <div className="heading">Android Domain</div>
             </div>
             <p className="text">
@@ -87,7 +101,9 @@ const IntroHome = () => {
 
           <div className="flutter intro-margins">
             <div className="title">
-              <div className="logo"></div>
+              <div className="logo">
+                <img src={flutter} alt="" />
+              </div>
               <div className="heading">Flutter Domain</div>
             </div>
             <p className="text">
@@ -106,7 +122,9 @@ const IntroHome = () => {
 
           <div className="cloud intro-margins">
             <div className="title">
-              <div className="logo"></div>
+              <div className="logo">
+                <img src={cloud} alt="" />
+              </div>
               <div className="heading">Cloud Domain</div>
             </div>
             <p className="text">
