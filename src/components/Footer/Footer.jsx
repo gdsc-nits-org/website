@@ -35,66 +35,70 @@ function Footer() {
             </div>
           </div>
           <div className="footer-top-right">
-            <button>Join our Chapters</button>
+            <h2>Join our chapter</h2>
             <ul>to stay updated with our events</ul>
           </div>
         </div>
 
         <div className="footer-middle">
-          <div className="footer-mid-about">
-            <ul>About</ul>
-            <ul className="footer-line-y"></ul>
-            <a href="" className="footer-about">
-              Vision
-            </a>
-            <a href="" className="footer-about">
-              Mission
-            </a>
-            <a href="" className="footer-about">
-              Types of Events
-            </a>
-            <a href="" className="footer-about">
-              Google Technologies
-            </a>
+          <div className="footer-middle-mob1">
+            <div className="footer-mid-about">
+              <ul>About</ul>
+              <ul className="footer-line-y"></ul>
+              <a href="" className="footer-about">
+                Vision
+              </a>
+              <a href="" className="footer-about">
+                Mission
+              </a>
+              <a href="" className="footer-about">
+                Types of Events
+              </a>
+              <a href="" className="footer-about">
+                Google Technologies
+              </a>
+            </div>
+            <div className="footer-mid-events">
+              <ul>Events</ul>
+              <div className="footer-line-g"></div>
+              <a href="" className="footer-events">
+                Featured Events
+              </a>
+              <a href="" className="footer-events">
+                Study jams
+              </a>
+              <a href="" className="footer-events">
+                Hands On Workshop
+              </a>
+              <a href="" className="footer-events">
+                Tech Talks
+              </a>
+            </div>
           </div>
-          <div className="footer-mid-events">
-            <ul>Events</ul>
-            <div className="footer-line-g"></div>
-            <a href="" className="footer-events">
-              Featured Events
-            </a>
-            <a href="" className="footer-events">
-              Study jams
-            </a>
-            <a href="" className="footer-events">
-              Hands On Workshop
-            </a>
-            <a href="" className="footer-events">
-              Tech Talks
-            </a>
-          </div>
-          <div className="footer-mid-project">
-            <ul>Projects</ul>
-            <div className="footer-line-b"></div>
-            <a href="" className="footer-project">
-              Attendo App
-            </a>
-            <a href="" className="footer-project">
-              Website
-            </a>
-          </div>
-          <div className="footer-mid-team">
-            <ul>Team</ul>
-            <div className="footer-line-r"></div>
-            <a href="" className="footer-teas">
-              Executive Board
-            </a>
-            <a href="" className="footer-teas">
-              Departments
-            </a>
-            <a href="" className="footer-teas">
-              Join Us
-            </a>
+          <div className="footer-middle-mob1">
+            <div className="footer-mid-project">
+              <ul>Projects</ul>
+              <div className="footer-line-b"></div>
+              <a href="" className="footer-project">
+                Attendo App
+              </a>
+              <a href="" className="footer-project">
+                Website
+              </a>
+            </div>
+            <div className="footer-mid-team">
+              <ul>Team</ul>
+              <div className="footer-line-r"></div>
+              <a href="" className="footer-teas">
+                Executive Board
+              </a>
+              <a href="" className="footer-teas">
+                Departments
+              </a>
+              <a href="" className="footer-teas">
+                Join Us
+              </a>
+            </div>
           </div>
         </div>
 
