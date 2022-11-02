@@ -17,6 +17,7 @@ const IntroHome = () => {
             <div className="title">
               <div className="logo">
                 <img src={logo} alt="" />
+                <div className="circle"></div>
               </div>
               <div className="heading">
                 Google Developer Student Clubs <br /> NIT SILCHAR
