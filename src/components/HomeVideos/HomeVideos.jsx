@@ -1,24 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HomeVideos.scss";
+import TempVideos from "./TempVideos.json";
 
 function HomeVideos() {
+  const videoData = useState(TempVideos.video);
   return (
     <div className="video-section">
       <div className="video-title">Video section</div>
       <div className="video-container">
-        <div className="vid-wrapper">
-          <div className="vid-container">
-            <iframe
-              src="https://www.youtube.com/embed/eOVS1s3mJro"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-        <div className="vid-wrapper"></div>
-        <div className="vid-wrapper"></div>
+        {videoData.map((videoData) => {
+          return (
+            <div className="vid-wrapper">
+              <div className="vid-container">
+                <iframe
+                  src="https://www.youtube.com/embed/eOVS1s3mJro"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
