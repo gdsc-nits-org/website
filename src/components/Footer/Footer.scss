@@ -9,7 +9,7 @@
     padding: 1.5rem 2.25rem;
   }
   @media (max-width: 670px) {
-    padding: 1.5rem 1rem;
+    padding: 1.5rem 1rem 1.5rem 2rem;
   }
 
   a {
@@ -30,7 +30,8 @@
     .footer-top-left {
       width: 50%;
       @media (max-width: 600px) {
-        min-width: fit-content;
+        min-width: 100%;
+        align-items: baseline;
       }
       @media (max-width: 450px) {
         min-width: 100%;
@@ -84,7 +85,7 @@
       @media (max-width: 600px) {
         min-width: 100%;
       }
-      @media (max-width: 450px) {
+      @media (max-width: 590px) {
         min-width: 100%;
         align-items: baseline;
       }
