@@ -3,7 +3,6 @@
   height: calc(100vh - var(--navbar-height));
   position: relative;
   display: flex;
-  // transition: 1s;
   .circle {
     width: 7px;
     height: 7px;
@@ -16,10 +15,6 @@
     animation: animscroll 1s reverse infinite;
     border-radius: 50%;
   }
-  // .scroll-gif:hover .circle{
-  //   position: absolute;
-  //   top: 60%;
-  // }
   .text {
     display: flex;
     flex-direction: column;
@@ -79,4 +74,21 @@
     position: absolute;
     top: 60%;
   }
+}
+
+.canvas {
+  display: flex;
+  position: absolute;
+  // left: 110%;
+  height: 100%;
+  width: 100%;
+  .GDSClogo {
+    left: 0%;
+    position: absolute;
+    bottom: 20px;
+  }
+}
+
+.hero-img {
+  width: 100%;
 }
