@@ -12,7 +12,8 @@
   "plugins": ["react"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "react/jsx-filename-extension": [1, { "extensions": [".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx"] }],
+    "react/no-unknown-property":[2, { "ignore": ["intensity", "position", "object", "rotation"] }]
   },
   "settings": {
     "react": {
