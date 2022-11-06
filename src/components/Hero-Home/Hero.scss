@@ -2,6 +2,59 @@
   width: 100%;
   height: calc(100vh - var(--navbar-height));
   position: relative;
+  display: flex;
+  .circle {
+    width: 7px;
+    height: 7px;
+    background: black;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    animation: animscroll 1s reverse infinite;
+    border-radius: 50%;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 6rem;
+    .gdsc {
+      font-family: Poppins;
+      font-size: 178px;
+      font-weight: 700;
+      text-align: left;
+      height: 200px;
+    }
+    .nits {
+      font-family: Poppins;
+      font-size: 91px;
+      font-weight: 700;
+      text-align: left;
+    }
+    .twl {
+      display: flex;
+      flex-direction: column;
+      margin: 2rem 0px;
+      .tw {
+        font-family: Poppins;
+        font-size: 46px;
+        font-weight: 500;
+        line-height: 69px;
+        letter-spacing: 0em;
+        // text-align: center;
+      }
+      .learn {
+        font-family: Poppins;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 112px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3d86f6;
+      }
+    }
+  }
 }
 
 .scroll-gif {
@@ -9,4 +62,33 @@
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+@keyframes animscroll {
+  0% {
+    position: absolute;
+    top: 20%;
+  }
+
+  50% {
+    position: absolute;
+    top: 60%;
+  }
+}
+
+.canvas {
+  display: flex;
+  position: absolute;
+  // left: 110%;
+  height: 100%;
+  width: 100%;
+  .GDSClogo {
+    left: 0%;
+    position: absolute;
+    bottom: 20px;
+  }
+}
+
+.hero-img {
+  width: 100%;
 }
