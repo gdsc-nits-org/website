@@ -1,0 +1,51 @@
+.accordion-container {
+  width: 1400px;
+  max-width: 100%;
+  margin: auto;
+  background-color: var(--gdsc-bg-1-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 18px;
+  padding-bottom: 0px;
+
+  .accordion {
+    margin: 0px;
+
+    .accordion-title {
+      display: flex;
+      justify-content: space-between;
+      color: var(--gdsc-grayish-1-100);
+      align-items: center;
+      padding: 5px 20px 0px 20px;
+      border-bottom: 1px solid rgb(190, 177, 177);
+      cursor: pointer;
+
+      p {
+        margin-bottom: 10px;
+      }
+    }
+
+    .content {
+      max-height: 0;
+      overflow: hidden;
+      visibility: hidden;
+      color: var(--gdsc-grayish-1-100);
+      // display: none;
+      padding: 0px 20px 0px 20px;
+      margin: 10px 5px 10px 0px;
+      transition: all 0.3s cubic-bezier(0, 1, 0, 1);
+    }
+
+    .contentalt {
+      height: auto;
+      display: block;
+      max-height: 9999px;
+      color: var(--gdsc-grayish-1-100);
+      padding: 0px 20px 7px 20px;
+      margin: 10px 5px 10px 0px;
+      border-bottom: 1px solid rgb(190, 177, 177);
+      transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+    }
+  }
+}
