@@ -1,0 +1,16 @@
+{
+  "video": [
+    {
+      "id": "01",
+      "src": "https://www.youtube.com/embed/eOVS1s3mJro"
+    },
+    {
+      "id": "02",
+      "src": "https://www.youtube.com/embed/ujcKh1zdcRw"
+    },
+    {
+      "id": "03",
+      "src": "https://www.youtube.com/embed/UspUMrZoUIE"
+    }
+  ]
+}

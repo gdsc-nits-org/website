@@ -1,0 +1,46 @@
+.info-graphic {
+  display: flex;
+  width: 70%;
+  margin: 4rem auto;
+  .red {
+    background: var(--gdsc-red-2-100);
+  }
+  .green {
+    background: var(--gdsc-green-1-100);
+  }
+  .blue {
+    background: var(--gdsc-blue-2-100);
+  }
+  .yellow {
+    background: var(--gdsc-yellow-1-100);
+  }
+  .circles {
+    margin: auto;
+    width: 184px;
+    height: 184px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    .int {
+      font-family: Poppins;
+      font-size: 38px;
+      font-weight: 700;
+      line-height: 57px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin-top: auto;
+    }
+    .text {
+      text-align: center;
+      margin-bottom: auto;
+      font-family: Poppins;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}
