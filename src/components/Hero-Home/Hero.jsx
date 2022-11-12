@@ -4,14 +4,24 @@ import scroll from "../../assets/images/Scroll-Down.png";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader, Canvas } from "@react-three/fiber";
 import { ContactShadows, OrbitControls } from "@react-three/drei";
-import { Suspense } from "react";
+import { Suspense, useEffect, useState } from "react";
 
-//imported model
 const Model = () => {
-  const Model = useLoader(GLTFLoader, "../src/assets/model/gdsclogo4.gltf");
-  return <primitive object={Model.scene} scale={1.4} />;
-};
+  let [scale, setScale] = useState(1.4);
+  useEffect(() => {
+    if (window.innerWidth >= 600) {
+      setScale((scale = 1.4));
+    } else {
+      setScale(1.8);
+    }
+  });
 
+  const Model = useLoader(GLTFLoader, "../src/assets/model/gdsclogo4.gltf");
+  return <primitive object={Model.scene} scale={scale} />;
+};
+// scale={1.4}
+
+// });
 const Hero = () => {
   return (
     <div className="home-hero">
@@ -43,7 +53,7 @@ const Hero = () => {
           />
         </Canvas>
       </div>
-      <div className="hero-img"></div>
+      {/* <div className="hero-img"></div> */}
     </div>
   );
 };
