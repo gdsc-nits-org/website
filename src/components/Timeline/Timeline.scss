@@ -67,12 +67,24 @@
             justify-content: center;
             flex-direction: column;
             .timeline-event-content {
-              transform: translate(0, -7rem);
+              transform: translate(0, -8.5rem);
               width: 15rem;
               text-align: center;
               flex-direction: column;
               align-items: center;
               justify-content: center;
+              .timeline-event-logo {
+                width: auto;
+                height: 5rem;
+              }
+              .timeline-event-name {
+                color: #333333;
+                font-weight: 600;
+              }
+              .timeline-event-date {
+                color: #4f4f4f;
+                font-weight: 400;
+              }
             }
           }
           &:nth-child(even) {
@@ -80,7 +92,7 @@
             .timeline-stick {
               background-color: inherit;
               .timeline-event-content {
-                transform: translate(0, 10rem);
+                transform: translate(0, 8.5rem);
               }
             }
           }

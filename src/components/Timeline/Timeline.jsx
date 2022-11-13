@@ -29,7 +29,11 @@ function Timeline() {
                 >
                   <div className="timeline-stick">
                     <div className="timeline-event-content">
-                      <img src={timelineData.src} alt="" />
+                      <img
+                        src={timelineData.src}
+                        alt=""
+                        className="timeline-event-logo"
+                      />
                       <h3 className="timeline-event-name">{timelineData.name}</h3>
                       <h4 className="timeline-event-date">{timelineData.date}</h4>
                     </div>
