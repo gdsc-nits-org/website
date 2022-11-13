@@ -1,0 +1,104 @@
+.timeline-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  .timeline-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+  }
+  .timeline-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 39rem;
+      .timeline-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0.5rem solid #c6c6c6;
+        border-radius: 50%;
+        width: 7rem;
+        height: 7rem;
+        background: #f3f3f3;
+      }
+    }
+    .timeline-wrapper {
+      width: 80rem;
+      overflow-x: scroll;
+      min-height: 40rem;
+      display: flex;
+      align-items: center;
+      position: relative;
+      .timeline-bar {
+        height: 1.5rem;
+        background: #c6c6c6;
+        border-radius: 2rem;
+        display: flex;
+        padding: 0rem 12.5rem;
+        gap: 12.5rem;
+        align-items: center;
+        .timeline-circle {
+          display: block;
+          width: 3rem;
+          height: 3rem;
+          background-color: green;
+          border-radius: 50%;
+          border-color: white;
+          border-width: 0.5rem;
+          border-style: solid;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          .timeline-stick {
+            height: 7.5rem;
+            width: 0.25rem;
+            border-radius: 1rem;
+            background-color: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            .timeline-event-content {
+              transform: translate(0, -7rem);
+              width: 15rem;
+              text-align: center;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+          &:nth-child(even) {
+            align-items: flex-start;
+            .timeline-stick {
+              background-color: inherit;
+              .timeline-event-content {
+                transform: translate(0, 10rem);
+              }
+            }
+          }
+        }
+      }
+    }
+    .arrow-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 39rem;
+      .timeline-arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 7rem;
+        height: 7rem;
+      }
+    }
+  }
+}
