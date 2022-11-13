@@ -4,64 +4,64 @@
       "id": "01",
       "name": "Android Study Jams",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#3CBA54",
+      "src": "/src/assets/images/TimelineAndroid.png"
     },
     {
       "id": "02",
       "name": "Flutter Bootcamp",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#4885ED",
+      "src": "/src/assets/images/TimelineFlutter.png"
     },
     {
       "id": "03",
       "name": "Web Blitz",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#F4C20D",
+      "src": "/src/assets/images/TimelineWeb.png"
     },
     {
       "id": "04",
       "name": "30 Days of Google Cloud",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#4885ED",
+      "src": "/src/assets/images/TimelineCloud.png"
     },
     {
       "id": "05",
       "name": "Prototype Planery",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#DB3236",
+      "src": "/src/assets/images/TimelineUIUX.png"
     },
     {
       "id": "06",
       "name": "Flutter Bootcamp",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#4885ED",
+      "src": "/src/assets/images/TimelineFlutter.png"
     },
     {
       "id": "07",
       "name": "Web Blitz",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#F4C20D",
+      "src": "/src/assets/images/TimelineWeb.png"
     },
     {
       "id": "08",
       "name": "30 Days of Google Cloud",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#4885ED",
+      "src": "/src/assets/images/TimelineCloud.png"
     },
     {
       "id": "09",
       "name": "Prototype Planery",
       "date": "26 Sept - 27 Sept",
-      "color": "#00FFFF",
-      "src": "/src/assets/images/flutter-circle.png"
+      "color": "#DB3236",
+      "src": "/src/assets/images/TimelineUIUX.png"
     }
   ]
 }
