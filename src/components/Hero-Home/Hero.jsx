@@ -5,6 +5,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader, Canvas } from "@react-three/fiber";
 import { ContactShadows, OrbitControls } from "@react-three/drei";
 import { Suspense, useEffect, useState } from "react";
+import Typed from "react-typed";
 
 const Model = () => {
   let [scale, setScale] = useState(1.4);
@@ -23,18 +24,40 @@ const Model = () => {
 
 // });
 const Hero = () => {
+  const [typedColor, setTypedColor] = useState("var(--gdsc-red-1-100)");
+
   return (
     <div className="home-hero">
-      <div className="scroll-gif">
+      <a className="scroll-gif" href="#gdsc">
         <img src={scroll} alt="" className="scroll-img" />
         <div className="circle"></div>
-      </div>
+      </a>
       <div className="text">
         <div className="title gdsc">GDSC</div>
         <div className="title nits">NIT Silchar</div>
         <div className="twl">
           <div className="tw">Together we</div>
-          <div className="learn">Learn</div>
+          <div className="learn" style={{ color: typedColor }}>
+            <Typed
+              strings={["Build", "Solve", "Transcend", "Learn"]}
+              typeSpeed={40}
+              // onComplete={Color:}
+              backSpeed={50}
+              loop
+              preStringTyped={(i) => {
+                i === 1
+                  ? setTypedColor("var(--gdsc-yellow-1-100)")
+                  : i === 2
+                  ? setTypedColor("var(--gdsc-green-1-100)")
+                  : i === 3
+                  ? setTypedColor("var(--gdsc-blue-1-100)")
+                  : i === 0
+                  ? setTypedColor("var(--gdsc-red-1-100)")
+                  : "";
+              }}
+              // preStringTyped={(i)=>{i===1}}
+            />
+          </div>
         </div>
       </div>
       <div className="logo">
