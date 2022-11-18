@@ -1,7 +1,7 @@
 import "./Faq.scss";
 import { faqData } from "./dataset";
 import { SlArrowDown } from "react-icons/sl";
-import { SlArrowUp } from "react-icons/sl";
+// import { SlArrowUp } from "react-icons/sl";
 import { useState } from "react";
 
 const Faqs = () => {
@@ -14,21 +14,27 @@ const Faqs = () => {
   };
 
   return (
-    <>
+    <div className="faq-main">
+      <div className="faq-head">FAQ</div>
       <div className="accordion-container">
         {faqData.map((item, i) => (
           <div className="accordion" key={item.id}>
             <div className="accordion-title" onClick={() => toggle(i)}>
               <p>{item.question}</p>
               <span>
-                {selected == i ? <SlArrowUp size={23} /> : <SlArrowDown size={23} />}{" "}
+                <SlArrowDown
+                  size={23}
+                  className={`faq-arrow ${selected === i ? "active" : ""}`}
+                />
               </span>
             </div>
-            <div className={selected == i ? "contentalt" : "content"}>{item.answer}</div>
+            <div className={`accordion-content ${selected === i ? "active" : ""}`}>
+              <div className="accordion-content-inner">{item.answer}</div>
+            </div>
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
