@@ -9,6 +9,10 @@ import "./Timeline.scss";
 
 function Timeline() {
   const [timelineData] = useState(timeline.events);
+  const timelineScroll = () => {
+    document.getElementById("timeline-wrapper").scrollLeft +=
+      document.getElementById("timeline-wrapper").clientWidth / 4;
+  };
   return (
     <div className="timeline-container">
       <div className="timeline-title">Timeline</div>
@@ -18,8 +22,8 @@ function Timeline() {
             <img src={Logo} alt="" className="timeline-logo-icon" />
           </div>
         </div>
-        <div className="timeline-wrapper">
-          <div className="timeline-bar">
+        <div id="timeline-wrapper" className="timeline-wrapper">
+          <div id="timeline-bar" className="timeline-bar">
             {timelineData.map((timelineData) => {
               return (
                 <div
@@ -45,7 +49,13 @@ function Timeline() {
         </div>
         <div className="arrow-container">
           <div className="timeline-arrow">
-            <img src={RightArrow} alt="" className="timeline-arrow-icon" />
+            <img
+              onClick={timelineScroll}
+              src={RightArrow}
+              alt=""
+              id="timeline-scroll-button"
+              className="timeline-arrow-icon"
+            />
           </div>
         </div>
       </div>
