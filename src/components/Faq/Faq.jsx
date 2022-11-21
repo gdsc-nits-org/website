@@ -1,17 +1,22 @@
 import "./Faq.scss";
 import { faqData } from "./dataset";
 import { SlArrowDown } from "react-icons/sl";
-// import { SlArrowUp } from "react-icons/sl";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Faqs = () => {
   const [selected, setSelected] = useState(null);
+  const [accInner, setAccInner] = useState(0);
   const toggle = (i) => {
     if (selected == i) {
       return setSelected(null);
     }
     setSelected(i);
   };
+
+  useEffect(() => {
+    setAccInner(document.getElementById("accordion-inner").offsetHeight);
+    console.log(accInner);
+  }, [selected]);
 
   return (
     <div className="faq-main">
@@ -28,8 +33,13 @@ const Faqs = () => {
                 />
               </span>
             </div>
-            <div className={`accordion-content ${selected === i ? "active" : ""}`}>
-              <div className="accordion-content-inner">{item.answer}</div>
+            <div
+              className={`accordion-content ${selected === i ? "active" : ""}`}
+              style={{ height: selected === i ? `${accInner}px` : "0px" }}
+            >
+              <div className="accordion-content-inner" id="accordion-inner">
+                {item.answer}
+              </div>
             </div>
           </div>
         ))}
