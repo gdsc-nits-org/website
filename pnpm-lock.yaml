@@ -14,7 +14,9 @@ specifiers:
   react-dom: ^18.2.0
   react-icons: ^4.6.0
   react-intersection-observer: ^9.4.0
+  react-is: '>= 16.8.0'
   react-router-dom: '6'
+  react-typed: ^1.2.0
   sass: ^1.55.0
   simple-git-hooks: ^2.8.1
   styled-components: ^5.3.6
@@ -28,8 +30,10 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.6.0_react@18.2.0
   react-intersection-observer: 9.4.0_react@18.2.0
+  react-is: 16.13.1
   react-router-dom: 6.4.2_biqbaboplfbrettd7655fr4n2y
-  styled-components: 5.3.6_biqbaboplfbrettd7655fr4n2y
+  react-typed: 1.2.0_biqbaboplfbrettd7655fr4n2y
+  styled-components: 5.3.6_vtcxgy2wlmese7djxl6h7ok674
   three: 0.146.0
 
 devDependencies:
@@ -789,7 +793,7 @@ packages:
       babel-plugin-syntax-jsx: 6.18.0
       lodash: 4.17.21
       picomatch: 2.3.1
-      styled-components: 5.3.6_biqbaboplfbrettd7655fr4n2y
+      styled-components: 5.3.6_vtcxgy2wlmese7djxl6h7ok674
     dev: false
 
   /babel-plugin-syntax-jsx/6.18.0:
@@ -2379,6 +2383,18 @@ packages:
       react: 18.2.0
     dev: false
 
+  /react-typed/1.2.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-aDsaA6zkjAFJs8285APOqE85l/kwJ0/ZJmBhARwUrza4TTttrMM5FcMCGEDdThdfUdHo/0l9WXmxp1m2ik4qdw==}
+    peerDependencies:
+      react: ^16.3.0
+      react-dom: ^16.3.0
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      typed.js: 2.0.12
+    dev: false
+
   /react-use-measure/2.1.1_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-nocZhN26cproIiIduswYpV5y5lQpSQS1y/4KuvUCjSKmw7ZWIS/+g3aFnX3WdBkyuGUtTLif3UTqnLLhbDoQig==}
     peerDependencies:
@@ -2686,7 +2702,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components/5.3.6_biqbaboplfbrettd7655fr4n2y:
+  /styled-components/5.3.6_vtcxgy2wlmese7djxl6h7ok674:
     resolution: {integrity: sha512-hGTZquGAaTqhGWldX7hhfzjnIYBZ0IXQXkCYdvF1Sq3DsUaLx6+NTHC5Jj1ooM2F68sBiVz3lvhfwQs/S3l6qg==}
     engines: {node: '>=10'}
     requiresBuild: true
@@ -2705,6 +2721,7 @@ packages:
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      react-is: 16.13.1
       shallowequal: 1.1.0
       supports-color: 5.5.0
     dev: false
@@ -2833,6 +2850,10 @@ packages:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
     dev: true
+
+  /typed.js/2.0.12:
+    resolution: {integrity: sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw==}
+    dev: false
 
   /unbox-primitive/1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}

@@ -13,7 +13,7 @@ const IntroHome = () => {
     <div className="intro-home">
       <div className="contents">
         <div className="scroll">
-          <div className="gdsc intro-margins">
+          <div className="gdsc intro-margins" id="gdsc">
             <div className="title">
               <div className="logo">
                 <img src={logo} alt="" />
