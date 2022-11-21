@@ -38,11 +38,14 @@
     }
     .timeline-wrapper {
       width: 70vw;
-      overflow-x: auto;
+      overflow-x: hidden;
       min-height: 40rem;
       display: flex;
       align-items: center;
       position: relative;
+      @media screen and (max-width: 900px) {
+        overflow: scroll;
+      }
       .timeline-bar {
         height: 1.5vw;
         background: #c6c6c6;
@@ -65,7 +68,7 @@
           justify-content: center;
           .timeline-stick {
             height: 7.5rem;
-            width: 0.25rem;
+            width: 0.25vw;
             border-radius: 1rem;
             background-color: inherit;
             display: flex;
@@ -117,10 +120,14 @@
         align-items: center;
         width: 3.5rem;
         height: 3.5rem;
+        cursor: pointer;
         &:hover {
-          background-color: #4f4f4f;
+          background-color: #c6c6c6;
           border-radius: 50%;
         }
+      }
+      @media screen and (max-width: 900px) {
+        opacity: 0;
       }
     }
   }
