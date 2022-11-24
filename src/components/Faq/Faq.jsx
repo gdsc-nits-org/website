@@ -4,7 +4,7 @@ import { SlArrowDown } from "react-icons/sl";
 import { useEffect, useState } from "react";
 
 const Faqs = () => {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState(0);
   const [accInner, setAccInner] = useState(0);
   const toggle = (i) => {
     if (selected == i) {
@@ -14,7 +14,11 @@ const Faqs = () => {
   };
 
   useEffect(() => {
-    setAccInner(document.getElementById("accordion-inner").offsetHeight);
+    setAccInner(
+      document.getElementById(`accordion-inner${selected}`)
+        ? document.getElementById(`accordion-inner${selected}`).offsetHeight
+        : ""
+    );
     console.log(accInner);
   }, [selected]);
 
@@ -37,7 +41,7 @@ const Faqs = () => {
               className={`accordion-content ${selected === i ? "active" : ""}`}
               style={{ height: selected === i ? `${accInner}px` : "0px" }}
             >
-              <div className="accordion-content-inner" id="accordion-inner">
+              <div className="accordion-content-inner" id={`accordion-inner${i}`}>
                 {item.answer}
               </div>
             </div>

@@ -7,12 +7,14 @@ export const faqData = [
   {
     id: 2,
     question: "How do I create a blog?",
-    answer: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ratione?",
+    answer:
+      " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ratione? dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?dolor sit amet consectetur adipisicing elit. Nemo, ratione?",
   },
   {
     id: 3,
     question: "How to check any other profile?",
-    answer: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ratione?",
+    answer:
+      " Lorem ipsum dolor sit amet consectetur document.getElementById(`accordion-inner${selected}`)document.getElementById(`accordion-inner${selected}`)document.getElementById(`accordion-inner${selected}`)document.getElementById(`accordion-inner${selected}`)document.getElementById(`accordion-inner${selected}`)document.getElementById(`accordion-inner${selected}`) adipisicing elit. Nemo, ratione? ",
   },
   {
     id: 4,
