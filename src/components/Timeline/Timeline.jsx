@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 
-import Logo from "../../assets/images/logo.png";
-import RightArrow from "../../assets/images/RightArrow.svg";
+import logo from "../../assets/images/logo.png";
+import rightArrow from "../../assets/images/RightArrow.svg";
 import timeline from "./timeline.json";
 
 import "./Timeline.scss";
@@ -11,7 +11,7 @@ function Timeline() {
   const [timelineData] = useState(timeline.events);
   const timelineScroll = () => {
     document.getElementById("timeline-wrapper").scrollLeft +=
-      document.getElementById("timeline-wrapper").clientWidth / 4;
+      document.getElementById("timeline-wrapper").clientWidth / 3;
   };
   return (
     <div className="timeline-container">
@@ -19,7 +19,7 @@ function Timeline() {
       <div className="timeline-content">
         <div className="logo-container">
           <div className="timeline-logo">
-            <img src={Logo} alt="" className="timeline-logo-icon" />
+            <img src={logo} alt="" className="timeline-logo-icon" />
           </div>
         </div>
         <div id="timeline-wrapper" className="timeline-wrapper">
@@ -51,7 +51,7 @@ function Timeline() {
           <div className="timeline-arrow">
             <img
               onClick={timelineScroll}
-              src={RightArrow}
+              src={rightArrow}
               alt=""
               id="timeline-scroll-button"
               className="timeline-arrow-icon"
