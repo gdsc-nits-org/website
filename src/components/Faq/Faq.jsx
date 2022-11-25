@@ -4,7 +4,7 @@ import { SlArrowDown } from "react-icons/sl";
 import { useEffect, useState } from "react";
 
 const Faqs = () => {
-  const [selected, setSelected] = useState(0);
+  const [selected, setSelected] = useState(null);
   const [accInner, setAccInner] = useState(0);
   const toggle = (i) => {
     if (selected == i) {
@@ -19,7 +19,6 @@ const Faqs = () => {
         ? document.getElementById(`accordion-inner${selected}`).offsetHeight
         : ""
     );
-    console.log(accInner);
   }, [selected]);
 
   return (
