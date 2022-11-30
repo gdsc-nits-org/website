@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --gdsc-font-1: "Poppins", sans-serif;
@@ -74,6 +74,8 @@
 
   --aws-bg-1-100: #ff9900;
   --aws-fg-1-100: #000000;
+
+  --navbar-height: 75.65px;
 }
 
 * {
@@ -81,4 +83,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--gdsc-font-1);
+  @media screen and (max-width: 300px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
 }

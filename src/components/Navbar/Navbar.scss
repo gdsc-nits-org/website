@@ -1,25 +1,60 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   box-shadow: 0px 4px 6px rgba(128, 126, 126, 0.1);
+  height: var(--navbar-height);
 
   .nav-list {
     display: flex;
-    justify-content: space-around;
+    // justify-content: space-around;
+    margin-left: auto;
     width: 40%;
     list-style: none;
 
     .nav-button {
       display: inline-block;
-      margin: 2rem;
+      // margin: 2rem;
+      margin: auto;
+      position: relative;
 
       .nav-link {
-        margin: 5vw;
+        // margin: 5vw;
         text-decoration: none;
         font-weight: 700;
         font-size: 1rem;
         color: #646464;
       }
     }
+
+    .nav-button::after {
+      position: absolute;
+      width: 0%;
+      height: 5px;
+      content: "";
+      left: 0px;
+      bottom: -5px;
+      border-radius: 5px;
+      transition: 0.35s;
+    }
+
+    .home::after {
+      background: var(--gdsc-blue-1-100);
+    }
+
+    .projects::after {
+      background: var(--gdsc-red-1-100);
+    }
+
+    .team::after {
+      background: var(--gdsc-green-1-100);
+    }
+
+    .nav-button:hover::after {
+      width: 100%;
+    }
   }
 }
+
+// @keyframes navanim {
+//   100
+// }
