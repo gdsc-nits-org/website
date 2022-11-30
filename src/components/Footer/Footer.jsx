@@ -35,7 +35,9 @@ function Footer() {
             </div>
           </div>
           <div className="footer-top-right">
-            <h2>Join our chapter</h2>
+            <a href="/">
+              <h2>Join our chapter</h2>
+            </a>
             <ul>to stay updated with our events</ul>
           </div>
         </div>
