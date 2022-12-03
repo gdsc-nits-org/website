@@ -1,43 +1,14 @@
 import React from "react";
 import "./IntroHome.scss";
-import animnav from "../../assets/images/animnav.png";
 import logo from "../../assets/images/logo.png";
 import web from "../../assets/images/web-circle.png";
 import ui from "../../assets/images/ux-circle.png";
 import flutter from "../../assets/images/flutter-circle.png";
 import kotlin from "../../assets/images/kotlin-circle.png";
 import cloud from "../../assets/images/cloud-circle.png";
-import { create } from '@lottiefiles/lottie-interactivity'
-import { useEffect } from "react";
-import { useRef } from "react";
 import './IntroHome.css'
-
+import Static_scroll from "../Static_Scroll/Static_scroll";
 const IntroHome = () => {
-
-  const myRef = useRef(null)
-
-    useEffect(()=>{
-
-      document.querySelector('#firstLottie').addEventListener('load', (e) => {
-        document.querySelector('#firstLottie').shadowRoot.querySelector('#animation > svg').setAttribute('style', 'top: 30%; position: sticky; height: 400px');
-      })
-  
-
-        myRef.current.addEventListener('load', function (e) {
-            // 4. configure the interactivity library
-            create({
-              mode: 'scroll',
-              player: '#firstLottie',
-              actions: [
-                {
-                  visibility: [0, 1],
-                  type: 'seek',
-                  frames: [0, 100],
-                },
-              ],
-            });
-          });
-    })
 
   return (
     <div className="intro-home">
@@ -174,32 +145,7 @@ const IntroHome = () => {
         </div>
       </div>
       <div className="animated-navbar" id="animated-navbar">
-
-        {/* <lottie-player
-          ref={lottiee} // 2. set the reference for the player
-          id="firstLottie"
-          // controls
-          mode="normal"
-          src="https://assets2.lottiefiles.com/packages/lf20_g7dnFTvMeQ.json"
-          style={{ width: "320px", height: "20px" }}
-          //     ref={lottiee}
-      // mode="normal"
-      // id="pattern"
-      // src="https://assets1.lottiefiles.com/packages/lf20_WfrFg5.json"
-      // background="transparent"
-      // speed="0.4"
-      // loop
-      // autoplay
-    ></lottie-player> */}
-        <lottie-player
-          ref={myRef} // 2. set the reference for the player
-          id="firstLottie"
-          //   controls
-          mode="normal"
-          // src="https://assets2.lottiefiles.com/packages/lf20_g7dnFTvMeQ.json"
-          src="/static_scroll.json"
-          style={{ width: '320px' }}
-        ></lottie-player>
+        <Static_scroll/>
       </div>
     </div>
   );
