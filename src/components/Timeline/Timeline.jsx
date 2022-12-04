@@ -9,9 +9,30 @@ import "./Timeline.scss";
 
 function Timeline() {
   const [timelineData] = useState(timeline.events);
+  let dist = 0;
+  let isRev = false;
   const timelineScroll = () => {
-    document.getElementById("timeline-wrapper").scrollLeft +=
-      document.getElementById("timeline-wrapper").clientWidth / 3;
+    if (
+      dist <= document.getElementById("timeline-wrapper").clientWidth &&
+      isRev == false
+    ) {
+      document.getElementById("timeline-wrapper").scrollLeft += window.innerWidth / 3;
+      dist += window.innerWidth / 3;
+      console.log(document.getElementById("timeline-wrapper").clientWidth);
+      if (dist >= document.getElementById("timeline-wrapper").clientWidth) {
+        document.getElementById("timeline-scroll-button").style.transform =
+          "rotate(180deg)";
+        console.log(dist);
+        console.log(document.getElementById("timeline-wrapper").clientWidth);
+        isRev = true;
+        console.log(isRev);
+      }
+    } else if (isRev == true) {
+      document.getElementById("timeline-wrapper").scrollLeft = 0;
+      dist = 0;
+      document.getElementById("timeline-scroll-button").style.transform = "rotate(0deg)";
+      isRev = false;
+    }
   };
   return (
     <div className="timeline-container">
