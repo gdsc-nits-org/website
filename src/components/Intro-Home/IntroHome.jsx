@@ -36,13 +36,12 @@ const IntroHome = () => {
         <div className="scroll">
           <div className="gdsc intro-margins" id="gdsc">
             <div className="title">
-              <div className="logo" id="gdscLogoContainer">
+              <div id="gdscLogoContainer">
                 <lottie-player
                   ref={gdscLogoRef}
                   id="gdscLogo"
                   mode="normal"
                   src="/gdsc-logo.json"
-                  style={{ width: "400px" }}
                 ></lottie-player>
                 <div className="circle"></div>
               </div>
