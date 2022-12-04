@@ -4,10 +4,10 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 const InfoGraphic = () => {
-  const members_fixed = 861;
-  const events_fixed = 18;
-  const organizers_fixed = 19;
-  const projects_fixed = 29;
+  const members_fixed = 1528;
+  const events_fixed = 47;
+  const organizers_fixed = 62;
+  const projects_fixed = 4;
 
   const { ref, inView } = useInView({
     threshold: 0,
@@ -44,10 +44,13 @@ const InfoGraphic = () => {
         if (organizers !== organizers_fixed) {
           setOrganizers(organizers + 1);
         }
+      }, 20);
+
+      setTimeout(() => {
         if (projects !== projects_fixed) {
           setProjects(projects + 1);
         }
-      }, 20);
+      }, 200);
     }
   }, [members, inView, events, organizers, projects]);
 
