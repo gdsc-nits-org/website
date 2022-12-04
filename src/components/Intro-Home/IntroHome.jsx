@@ -6,10 +6,9 @@ import ui from "../../assets/images/ux-circle.png";
 import flutter from "../../assets/images/flutter-circle.png";
 import kotlin from "../../assets/images/kotlin-circle.png";
 import cloud from "../../assets/images/cloud-circle.png";
-import './IntroHome.css'
+
 import Static_scroll from "../Static_Scroll/Static_scroll";
 const IntroHome = () => {
-
   return (
     <div className="intro-home">
       <div className="contents">
@@ -145,10 +144,10 @@ const IntroHome = () => {
         </div>
       </div>
       <div className="animated-navbar" id="animated-navbar">
-        <Static_scroll/>
+        <Static_scroll />
       </div>
     </div>
   );
-}
+};
 
 export default IntroHome;
