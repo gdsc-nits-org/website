@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 import logo from "../../assets/images/logo.png";
-import rightArrow from "../../assets/images/RightArrow.svg";
+import rightArrow from "../../assets/images/rightArrow.svg";
 import timeline from "./timeline.json";
 
 import "./Timeline.scss";
