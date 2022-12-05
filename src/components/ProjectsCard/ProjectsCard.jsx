@@ -9,13 +9,13 @@ import TempAPI from "./tempAPI.json";
 
 function ProjectCard() {
   const [cardInfo] = useState(TempAPI.msg); //Linking the API
-  const [tabsState, modTabsState] = useState();
+  // const [tabsState, modTabsState] = useState();
 
   return (
     <>
       {cardInfo.map((cardInfo) => {
         return (
-          <div className="project-card-container">
+          <div className="project-card-container" key={cardInfo.id}>
             <div className="project-card-header">
               <div className="project-card-project-status-container">
                 <h2 className="project-card-project-name">{cardInfo.name}</h2>
