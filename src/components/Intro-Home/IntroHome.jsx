@@ -17,13 +17,20 @@ const IntroHome = () => {
   useLayoutEffect(() => {
     gdscLogoRef.current.addEventListener("load", () => {
       create({
-        mode: "scroll",
         player: "#gdscLogo",
+        mode: "chain",
         actions: [
           {
-            visibility: [0, 1],
-            type: "loop",
+            state: "autoplay",
+            transition: "onComplete",
             frames: [0, 216],
+            // reset: true,
+          },
+          {
+            state: "autoplay",
+            transition: "onComplete",
+            frames: [216, 0],
+            reset: true,
           },
         ],
       });
@@ -40,7 +47,7 @@ const IntroHome = () => {
                 <lottie-player
                   ref={gdscLogoRef}
                   id="gdscLogo"
-                  mode="normal"
+                  mode="chain"
                   src="/gdsc-logo.json"
                 ></lottie-player>
                 <div className="circle"></div>
