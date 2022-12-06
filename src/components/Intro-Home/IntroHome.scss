@@ -28,6 +28,23 @@
               margin: auto 1rem;
             }
           }
+          #gdscLogoContainer {
+            margin: 0 -6.5rem;
+            margin-top: -2rem;
+            margin-bottom: -5rem;
+
+            @media screen and (width < 1000px) {
+              margin: 0 -4rem;
+              margin-top: -1rem;
+              margin-bottom: -2.5rem;
+            }
+            #gdscLogo {
+              width: 22rem;
+              @media screen and (width < 1000px) {
+                width: 12rem;
+              }
+            }
+          }
         }
         .text {
           font-family: Poppins;

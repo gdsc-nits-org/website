@@ -1,6 +1,9 @@
 import React from "react";
+import { useRef } from "react";
+import { useLayoutEffect } from "react";
+import "@lottiefiles/lottie-player";
+import { create } from "@lottiefiles/lottie-interactivity";
 import "./IntroHome.scss";
-import logo from "../../assets/images/logo.png";
 import web from "../../assets/images/web-circle.png";
 import ui from "../../assets/images/ux-circle.png";
 import flutter from "../../assets/images/flutter-circle.png";
@@ -9,14 +12,44 @@ import cloud from "../../assets/images/cloud-circle.png";
 
 import Static_scroll from "../Static_Scroll/Static_scroll";
 const IntroHome = () => {
+  const gdscLogoRef = useRef();
+
+  useLayoutEffect(() => {
+    gdscLogoRef.current.addEventListener("load", () => {
+      create({
+        player: "#gdscLogo",
+        mode: "chain",
+        actions: [
+          {
+            state: "autoplay",
+            transition: "onComplete",
+            frames: [0, 216],
+            // reset: true,
+          },
+          {
+            state: "autoplay",
+            transition: "onComplete",
+            frames: [216, 0],
+            reset: true,
+          },
+        ],
+      });
+    });
+  }, []);
+
   return (
     <div className="intro-home">
       <div className="contents">
         <div className="scroll">
           <div className="gdsc intro-margins" id="gdsc">
             <div className="title">
-              <div className="logo">
-                <img src={logo} alt="" />
+              <div id="gdscLogoContainer">
+                <lottie-player
+                  ref={gdscLogoRef}
+                  id="gdscLogo"
+                  mode="chain"
+                  src="/gdsc-logo.json"
+                ></lottie-player>
                 <div className="circle"></div>
               </div>
               <div className="heading">

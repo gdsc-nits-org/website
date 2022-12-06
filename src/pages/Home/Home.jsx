@@ -7,6 +7,7 @@ import InfoGraphic from "../../components/InfoGraphic/InfoGraphic";
 import Timeline from "../../components/Timeline/Timeline";
 import HomeVideos from "../../components/HomeVideos/HomeVideos";
 import Faqs from "../../components/Faq/Faq";
+import Sponsors from "../../components/Sponsors/Sponsors";
 
 function Home() {
   return (
@@ -16,6 +17,7 @@ function Home() {
       <InfoGraphic />
       <Timeline />
       <HomeVideos />
+      <Sponsors />
       <Faqs />
     </>
   );
