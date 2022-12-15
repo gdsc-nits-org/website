@@ -24,9 +24,7 @@ const InfoGraphic = () => {
       setEvents(0);
       setOrganizers(0);
       setProjects(0);
-      console.log("inView2");
     }
-    console.log(inView);
   }, [inView]);
 
   useEffect(() => {
