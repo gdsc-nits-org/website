@@ -18,14 +18,10 @@ function Timeline() {
     ) {
       document.getElementById("timeline-wrapper").scrollLeft += window.innerWidth / 3;
       dist += window.innerWidth / 3;
-      console.log(document.getElementById("timeline-wrapper").clientWidth);
       if (dist >= document.getElementById("timeline-wrapper").clientWidth) {
         document.getElementById("timeline-scroll-button").style.transform =
           "rotate(180deg)";
-        console.log(dist);
-        console.log(document.getElementById("timeline-wrapper").clientWidth);
         isRev = true;
-        console.log(isRev);
       }
     } else if (isRev == true) {
       document.getElementById("timeline-wrapper").scrollLeft = 0;
