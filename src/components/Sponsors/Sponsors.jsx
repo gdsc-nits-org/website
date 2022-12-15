@@ -7,14 +7,17 @@ import reskillXsparkLogo from "../../assets/sponsors/reskillXsparkLogo.png";
 const Sponsors = () => {
   const sponsors = [
     {
+      id: 1,
       logo: eggheadLogo,
       title: "egghead",
     },
     {
+      id: 2,
       logo: GMCLogo,
       title: "Give My Certificate",
     },
     {
+      id: 3,
       logo: reskillXsparkLogo,
       title: "Reskill & SparkAR",
     },
@@ -26,9 +29,9 @@ const Sponsors = () => {
       <div className="sponsorContainer">
         {sponsors.map((sponsor) => {
           return (
-            <>
+            <div key={sponsor.id}>
               <SponsorCard logo={sponsor.logo} title={sponsor.title} />
-            </>
+            </div>
           );
         })}
       </div>
