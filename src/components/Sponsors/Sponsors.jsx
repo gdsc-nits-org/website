@@ -9,14 +9,17 @@ const Sponsors = () => {
     {
       logo: eggheadLogo,
       title: "egghead",
+      link: "https://egghead.io/",
     },
     {
       logo: GMCLogo,
       title: "Give My Certificate",
+      link: "https://givemycertificate.com/",
     },
     {
       logo: reskillXsparkLogo,
       title: "Reskill & SparkAR",
+      link: "https://sparkar.reskilll.com/",
     },
   ];
 
@@ -27,7 +30,11 @@ const Sponsors = () => {
         {sponsors.map((sponsor) => {
           return (
             <>
-              <SponsorCard logo={sponsor.logo} title={sponsor.title} />
+              <SponsorCard
+                logo={sponsor.logo}
+                title={sponsor.title}
+                link={sponsor.link}
+              />
             </>
           );
         })}
