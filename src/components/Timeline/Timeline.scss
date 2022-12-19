@@ -110,13 +110,14 @@
               }
               .timeline-event-logo {
                 width: auto;
-                height: 2.5vw;
+                height: 4.5vw;
                 @media screen and (max-width: 600px) {
                   width: auto;
-                  height: 1.5rem;
+                  height: 2rem;
                 }
               }
               .timeline-event-name {
+                font-size: 1rem;
                 color: #333333;
                 font-weight: 600;
                 @media screen and (max-width: 600px) {

@@ -31,7 +31,7 @@ function Timeline() {
     }
   };
   return (
-    <div className="timeline-container">
+    <div id="timeLine" className="timeline-container">
       <div className="timeline-title">Timeline</div>
       <div className="timeline-content">
         <div className="logo-container">

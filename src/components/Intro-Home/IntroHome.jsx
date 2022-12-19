@@ -38,7 +38,7 @@ const IntroHome = () => {
   }, []);
 
   return (
-    <div className="intro-home">
+    <div className="intro-home" id="introHome">
       <div className="contents">
         <div className="scroll">
           <div className="gdsc intro-margins" id="gdsc">
@@ -70,7 +70,7 @@ const IntroHome = () => {
             </p>
           </div>
 
-          <div className="ui-ux intro-margins">
+          <div id="ui-ux" className="ui-ux intro-margins">
             <div className="title">
               <div className="logo">
                 <img src={ui} alt="" />
