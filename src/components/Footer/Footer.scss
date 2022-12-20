@@ -5,6 +5,7 @@
   padding: 1.5rem 6.25rem;
   gap: 1.5rem;
   margin: auto;
+  margin-top: 2rem;
   max-width: 100rem;
   border-top: 1px solid #c5c5c5;
   @media (max-width: 800px) {
@@ -46,7 +47,7 @@
         .footer-social-links {
           display: inline-block;
           border-radius: 60px;
-          box-shadow: 0 0 3px rgb(61, 59, 59);
+          box-shadow: 0 0 0.188rem rgb(61, 59, 59);
           padding: 0.5rem 0.5rem 0.2em 0.55rem;
           margin: 0rem 0.4rem 0.6rem;
           transition: 0.4s;
@@ -96,10 +97,10 @@
         text-align: center;
         font-size: 1.8rem;
         font-weight: 600;
-        width: 400px;
-        height: 50px;
-        border: 2px solid grey;
-        border-radius: 5px;
+        width: 25rem;
+        height: 3.125rem;
+        border: 0.125rem solid grey;
+        border-radius: 0.313rem;
 
         @media (max-width: 920px) {
           border: none;
@@ -190,7 +191,7 @@
 
       .footer-line-b {
         width: 3rem;
-        height: 0px;
+        height: 0;
         border-bottom: 0.2rem solid var(--gdsc-blue-1-100);
       }
     }
@@ -207,7 +208,7 @@
 
       .footer-line-r {
         width: 3rem;
-        height: 0px;
+        height: 0;
         border-bottom: 0.2rem solid var(--gdsc-red-1-100);
       }
     }

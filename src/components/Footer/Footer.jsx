@@ -84,7 +84,7 @@ function Footer() {
             <div className="footer-mid-events">
               <ul>Events</ul>
               <div className="footer-line-g"></div>
-              <p>Comming Soon</p>
+              <p>Coming Soon</p>
               {/* <a href="" className="footer-events">
                 Featured Events
               </a>
@@ -103,7 +103,7 @@ function Footer() {
             <div className="footer-mid-project">
               <ul>Projects</ul>
               <div className="footer-line-b"></div>
-              <p>Comming Soon</p>
+              <p>Coming Soon</p>
               {/* <a href="" className="footer-project">
                 Attendo App
               </a>
@@ -114,7 +114,7 @@ function Footer() {
             <div className="footer-mid-team">
               <ul>Team</ul>
               <div className="footer-line-r"></div>
-              <p>Comming Soon</p>
+              <p>Coming Soon</p>
               {/* <a href="" className="footer-teas">
                 Executive Board
               </a>
