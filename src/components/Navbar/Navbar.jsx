@@ -4,6 +4,8 @@ import { useState } from "react";
 import "./Navbar.scss";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImCross } from 'react-icons/im';
+import logo from '../../assets/images/logo.png'
+// import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -20,8 +22,13 @@ function Navbar() {
 
   return (
     <nav className="navbar">
+      <div className="logo">
+        <a href="/">
+        <img src={logo} alt="" />
+        </a>
+      </div>
       <img className="nav-img" src="" alt="" />
-      <div className="backdrop" style={{ zIndex: `${hamburg===true?200:0}`,background: `${hamburg === false ? 'transparent' : 'rgba(0, 0, 0, 0.492)'}` }}></div>
+      <div className="backdrop" style={{ zIndex: `${hamburg===true?200:-100}`,background: `${hamburg === false ? 'transparent' : 'rgba(0, 0, 0, 0.492)'}` }}></div>
       {winWidth > 900 ? <ul className="nav-list">
         <li className="nav-button home">
           <a href="http://localhost:3000/" className="nav-link">
