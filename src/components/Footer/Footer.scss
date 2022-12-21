@@ -7,7 +7,7 @@
   margin: auto;
   margin-top: 2rem;
   max-width: 100rem;
-  border-top: 1px solid #c5c5c5;
+  border-top: 0.062rem solid #c5c5c5;
   @media (max-width: 800px) {
     padding: 1.5rem 2.25rem;
   }
@@ -46,9 +46,9 @@
 
         .footer-social-links {
           display: inline-block;
-          border-radius: 60px;
+          border-radius: 3.75rem;
           box-shadow: 0 0 0.188rem rgb(61, 59, 59);
-          padding: 0.5rem 0.5rem 0.2em 0.55rem;
+          padding: 0.5rem 0.5rem 0.2rem 0.55rem;
           margin: 0rem 0.4rem 0.6rem;
           transition: 0.4s;
         }
@@ -158,7 +158,7 @@
 
       .footer-line-y {
         width: 3rem;
-        height: 0px;
+        height: 0;
         border-bottom: 0.2rem solid var(--gdsc-yellow-1-100);
       }
     }
@@ -174,7 +174,7 @@
 
       .footer-line-g {
         width: 3rem;
-        height: 0px;
+        height: 0;
         border-bottom: 0.2rem solid var(--android-bg-1-100);
       }
     }
