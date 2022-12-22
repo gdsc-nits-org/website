@@ -5,7 +5,7 @@ import "./Navbar.scss";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { ImCross } from 'react-icons/im';
 import logo from '../../assets/images/logo.png'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 function Navbar() {
@@ -23,27 +23,27 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <a href="/">
+        <Link to="/">
         <img src={logo} alt="" />
-        </a>
+        </Link>
       </div>
       <img className="nav-img" src="" alt="" />
       <div className="backdrop" style={{ zIndex: `${hamburg===true?200:-100}`,background: `${hamburg === false ? 'transparent' : 'rgba(0, 0, 0, 0.492)'}` }}></div>
       {winWidth > 900 ? <ul className="nav-list">
         <li className="nav-button home">
-          <a href="http://localhost:3000/" className="nav-link">
+          <Link to="/" className="nav-link">
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-button projects">
-          <a href="http://localhost:3000/projects" className="nav-link">
+          <Link to="/projects" className="nav-link">
             Projects
-          </a>
+          </Link>
         </li>
         <li className="nav-button team">
-          <a href="http://localhost:3000/team" className="nav-link">
+          <Link to="/team" className="nav-link">
             Team
-          </a>
+          </Link>
         </li>
       </ul> : <>
         <div className="hamburger" style={{fontSize: `${hamburg===false?'40px':'30px'}`,margin: `${hamburg===false?'auto':''}`, marginRight: `${hamburg===false?'2rem':''}`,transform: `${hamburg===true?'translateY(-50%)':''}`, position: `${hamburg===true?'fixed':''}`, right: `${hamburg===true?'30px':''}`}} onClick={() => { hamburg === false ? setHamburg(true) : hamburg === true ? setHamburg(false) : '' }}>
@@ -54,19 +54,19 @@ function Navbar() {
           <ul className="hamlist">
 
             <li className="nav-button home">
-              <a href="http://localhost:3000/" className="nav-link">
+              <Link to="/" className="nav-link">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-button projects">
-              <a href="http://localhost:3000/projects" className="nav-link">
+              <Link to="/projects" className="nav-link">
                 Projects
-              </a>
+              </Link>
             </li>
             <li className="nav-button team">
-              <a href="http://localhost:3000/team" className="nav-link">
+              <Link to="/team" className="nav-link">
                 Team
-              </a>
+              </Link>
             </li>
           </ul>
 
