@@ -1,0 +1,64 @@
+* {
+    font-size: unset;
+}
+.teamHome{
+    display: flex;
+    overflow: hidden;
+}
+.lottie{
+    transform: translate(10rem,-1rem);
+}
+.text{
+    font-family: Poppins;
+    font-size: 7vw;
+    font-weight: 700;
+    transform: translate(7vw,10vw); 
+    height: 15rem;
+    color: #313033;
+}
+@media only screen and (max-width:990px){
+    .teamHome{
+        height: 55vw;
+    }
+    .text{
+        font-size: 6.8vw;
+        font-weight: 600;
+        transform: translate(2rem,18vw); 
+    }
+    .lottie{
+        transform: translateX(2rem);
+    }
+}
+@media only screen and (max-width:660px){
+    .teamHome{
+        height: 55vw;
+    }
+    .text{
+        font-size: 7vw;
+        font-weight: 600;
+        transform: translate(2rem,18vw); 
+    }
+    .lottie{
+        transform: translateX(1.8rem);
+    }
+}
+@media only screen and (max-width:390px){
+    .text{
+        font-size: 6vw;
+        font-weight: 700;
+        transform: translate(1.6rem,23vw); 
+    }
+    .lottie{
+        transform: translateX(2rem);
+    }
+}
+@media only screen and (max-width:330px){
+    .text{
+        font-size: 6vw;
+        font-weight: 700;
+        transform: translate(1.6rem,23vw); 
+    }
+    .lottie{
+        transform: translateX(1.5rem);
+    }
+}
