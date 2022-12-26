@@ -1,229 +1,421 @@
 
 .teamCard{
-    animation: transform .5s;
+    transition-duration: 0.6s;
     overflow: hidden;
-    height: 25rem;
-    width: 19.5rem;
-    padding-bottom: 20px;
-    animation-duration: 2s;
+    height: 30vw;
+    width: 26vw;
+    border-radius: 2%;
     .animation{
-        height: 25rem;
-        width: 19.5rem;
-    .pic{
-        display: block;
-        height: 25rem;
-        width: 19.5rem;
-        
-        .image{
-            border-radius:0.3rem ;
-            height: 25rem;
-            width: 19.5rem;
+        transition-duration: 0.6s;
+        height: 24.5vw;
+        width: 26vw;
+        .pic{
+            transition-duration: 0.6s;
+            display: block;
+            height: 30vw;
+            width: 26vw;
+            
+            .image{
+                transition-duration: 0.6s;
+                height: 35vw;
+                width: 26vw;
+                border-radius: 2%;
+            }
+            
         }
-        
-    }
-}
-    .socials{
-        transition-duration: 0.8s;
-            display: flex;  
-            justify-content: space-evenly;
-            width: 70%;
-            transform: translate(15%);
-            scale: 1.3;
-        
     }
     .details{
-        transform: translateY(-5rem);
+        transform: translateX(1rem);
         color: aliceblue;
         .name{
-            font-size: 25px;
+            transition-duration: 0.6s;
+            font-size: 1.78vw;
             font-weight: 500;
-            transform: translateX(15px);
+            
         }
         .domian{
-            transform: translateX(15px);
+            transition-duration: 0.6s;
+            font-size: 1.1vw;
+            font-weight: 400;
         }
     }
     .description{
+        transform: translate(0,1vw) ;
         align-items: center;
         transition-duration: 0.5s;
         text-align: center;
-        font-size: small;
+        font-size: large;
     }
-}
-.teamCard:hover{
-
-    .animation{
-    .pic{
-        transition: transform 0.9s, height 0.5s , width 0.8s;
-        transform: translate(50% , 28%);
-        align-content: center;
-        height: 15rem;
-        width: 15rem;
-        overflow: hidden;
-        border-radius: 100%;
-        .image{
-            transition: 0.8s;
-            height: 20rem;
-            width: 15rem;
-        }
-    }
-}
-    .details{
-        transition: 0.8s;
-        transform: translate(-0.8rem,-17rem);
-        color: rgb(0, 0, 0);
-        // transform: translate(-5%,65%);
-        text-align: center;
+    .socials{
+            transition-duration: 0.8s;
+            display: flex;  
+            justify-content: space-evenly;
+            width: 70%;
+            transform: translate(15%,3vw);
+            scale: 1.3;
+            .socialIcon{
+                scale: 0.9;
+                display: inline-block;
+                border-radius: 3.75rem;
+                box-shadow: 0 0 0.188rem rgb(61, 59, 59);
+                transition: 0.4s;
+            }
+            .linkdin{
+                scale: 0.8;
+                padding: 0.5rem 0.6rem 0.0rem 0.6rem;
+                margin: 0rem 0.4rem 0.6rem;
+            }
+            .facebook{
+                scale: 0.79;
+                padding: 0.5rem 0.85rem 0rem 0.85rem;
+                margin: 0rem 0.4rem 0.5rem;
+            }
+            .instagram{
+                scale: 0.84;
+                padding: 0.45rem 0.6rem 0.12rem 0.6rem;
+                margin: 0rem 0.4rem 0.6rem;
+            }
+            .twitter{
+                scale: 0.8;
+                padding: 0.5rem 0.5rem 0.2rem 0.55rem;
+                margin: 0rem 0.4rem 0.6rem;    
+            }
         
     }
-    .description{
-        font-size: larger;
-        transform: translate(0,-14rem);
-    }
-        .socials{
-            
-            transform: translate(15%,-9rem);
-            
-        }
-        .socialIcon:hover
-        {
-            scale: 0.8;
-
-        }
+    
 }
+@media (min-width: 990px){
+        .teamCard:hover{
+        transition-duration: 0.6s;
+        border-radius: 2%;
+        box-shadow: 0 0 0.088rem rgb(61, 59, 59);
+
+        .animation{
+            transition-duration: 0.6s;
+            .pic{
+                transition-duration: 0.6s;
+                transform: translate(7.5vw,4vw);
+                width: 11vw;
+                height: 11vw;
+                border-radius: 100%;
+                overflow: hidden;
+                .image{
+                    width: 12vw;
+                    height: 15vw;
+                }
+            }
+        
+        }
+        .details{        
+            .name{
+                transition-duration: 0.6s;
+                transform: translate(6vw,-8.5vw);
+                color: rgb(0, 0, 0);
+            }
+            .domian{
+                transition-duration: 0.6s;
+                transform: translate(10.9vw,-8.5vw);
+                color: rgb(0, 0, 0);
+            }
+        }
+        .description{
+            transform: translate(0,-7.5vw) ;
+            transition-duration: 0.5s;
+            color:rgb(61, 59, 59) ;
+            font-size: small;
+        }
+        .socials{
+            transition-duration: 0.6s;
+            transform: translate(15%,-4.2vw);
+            scale: 1.3;
+            .linkdin:hover{
+                scale: 0.7;
+            }
+            .facebook:hover{
+                scale: 0.69;
+            }
+            .instagram:hover{
+                scale: 0.74;
+            }
+            .twitter:hover{
+                scale: 0.7;   
+            }
+        }
+    }
+}
+
 
 @media only screen and (max-width:990px){
     .teamCard{
-        animation: transform .5s;
-        overflow: hidden;
-        height: 60vw;
-        width: 44vw;
-        border-radius: 2%;
-        padding-bottom: 20px;
-        animation-duration: 2s;
+        transition-duration: 0.5s;
+        height: 42vw;
+        width: 34vw;
         .animation{
-            height: 60vw;
-            width: 44vw;
+            transition-duration: 0.5s;
+            height: 33.5vw;
+            width: 34vw;
         .pic{
+            transition-duration: 0.5s;
             display: block;
-            height: 66vw;
-            width: 44vw;
-            border-radius: 0%;
-            
+            height: 42vw;
+            width: 34vw;            
             .image{
-                border-radius:0.3rem ;
-                height: 66vw;
-                width: 44vw;
+                transition-duration: 0.5s;
+                height: 48vw;
+                width: 34vw;
                 }
             }
         
         }
         .details{
-            transform: translateY(-9vw);
+            transform: translate(2vw);
             color: rgb(255, 255, 255);
             .name{
-                font-size: 25px;
-                transform: translateX(2vw);
+                font-size:1.1rem;
+                transition-duration: 0.5s;
             }
             .domian{
-                transform: translateX(2vw);
+                transition-duration: 0.5s;
+                font-size:0.8rem;
             }
         }
         
     }
-    .teamCard:hover{
-        .pic{
-            transition: transform 0s;
-            transform: translate(0%);
-            .image{
-                transition: 0s;
+    
+    .teamCard:focus{
+        transition-duration: 0.5s;    
+        border-radius: 2%;
+        box-shadow: 0 0 0.088rem rgb(61, 59, 59);
+        .animation{
+            transition-duration: 0.5s;
+            .pic{
+                transition-duration: 0.5s;
+                transform: translate(10vw,5vw);
+                width: 14vw;
+                height: 14vw;
+                border-radius: 100%;
+                overflow: hidden;
+                .image{
+                    width: 15vw;
+                    height: 18vw;
+                }
             }
+        
         }
-        .details{
-            transition: 0s;
-            transform: translate(0rem);
-            color: rgb(0, 0, 0);
+        .details{        
+            .name{
+                transition-duration: 0.5s;
+                transform: translate(8vw,-12.5vw);
+                color: rgb(0, 0, 0);
+            }
+            .domian{
+                transition-duration: 0.5s;
+                transform: translate(13.5vw,-12.5vw);
+                color: rgb(0, 0, 0);
+            }
         }
         .description{
-            display: hidden;
+            transform: translate(0,-9.5vw) ;
+            transition-duration: 0.5s;
+            color:rgb(61, 59, 59) ;
+            font-size: small;
         }
-            .socials{
-                
-                transform: translate(0%);
-                
-            }
-            .socialIcon:hover
-            {
-                scale: 1
-    
-            }
+        .socials{
+            transition-duration: 0.5s;
+            transform: translate(15%,-5.2vw);
+            scale: 1.3;
+        }
     }
+
 }
 @media only screen and (max-width:660px){
     .teamCard{
-        overflow: hidden;
-        height: 45vw;
+        transition-duration: 0.5s;
+        height: 42vw;
         width: 34vw;
-        .animation{
-            height: 45vw;
-            width: 34vw;
-        .pic{
-            height: 45vw;
-            width: 34vw;
-            
-            .image{
-                height: 55vw;
-                width: 38vw;
-                }
-            }
-        
-        }
         .details{
-            transform: translateY(-2.5rem);
+            transform: translate(2vw);
+            color: rgb(255, 255, 255);
             .name{
-                font-size: 2.7vw;
-                transform: translateX(1.5vw);
+                font-size:1rem;
+                transition-duration: 0.5s;
             }
             .domian{
-                font-size: 2.3vw;
-                transform: translateX(1.5vw);
+                transition-duration: 0.5s;
+                font-size:0.7rem;
             }
         }
-    }
-
-}
-@media only screen and (max-width:3900px){
-    .teamCard{
-        height: 40vw;
-        width: 30vw;
-        .animation{
-            height: 40vw;
-            width: 30vw;
-        .pic{
-            height: 40vw;
-            width: 30vw;
-            
-            .image{
-                height: 46vw;
-                width: 32vw;
-                }
-            }
+        .socials{
+            transition-duration: 0.5s;
+            transform: translate(15%,2.2vw);
+            scale: 1.1;
+            padding-right: 4vw;
+            padding-left: 6vw;
+        }
         
-        }
-        .details{
-            transform: translateY(-7.5vw);
-            .name{
-                font-size: 2vw;
-                transform: translateX(1.5vw);
-            }
-            .domian{
-                font-size: 1.8vw;
-                transform: translateX(1.5vw);
-            }
-        }
     }
-
-}
     
+    .teamCard:focus{
+        .animation{
+            transition-duration: 0.5s;
+            .pic{
+                transition-duration: 0.5s;
+                transform: translate(9.5vw,5vw);
+                width: 15vw;
+                height: 15vw;
+            }
+        
+        }
+        .details{        
+            .name{
+                transform: translate(6vw,-12.5vw);
+            }
+            .domian{
+                transform: translate(12.5vw,-12.5vw);
+            }
+        }
+        .description{
+            transform: translate(0,-9.5vw) ;
+            transition-duration: 0.5s;
+            color:rgb(61, 59, 59) ;
+            font-size: small;
+        }
+        .socials{
+            transition-duration: 0.5s;
+            transform: translate(15%,-7.2vw);
+            scale: 1.1;
+            padding-right: 4vw;
+            padding-left: 6vw;
+        }
+    }
+
+}
+@media only screen and (max-width:590px){
+    .teamCard:focus{
+        .socials{
+            transform: translate(15%,-10.2vw);
+            scale: 0.9;
+            padding-right: 1vw;
+        }
+    }
+}
+@media only screen and (max-width:490px){
+    .teamCard{
+        .details{
+            .name{
+                font-size: 0.85rem;
+            }
+            .domian{
+                font-size: 0.7rem;
+            }
+        }
+    }
+    .teamCard:focus{
+        .details{       
+            .name{
+                
+                transform: translate(4.5vw,-12.5vw);
+            }
+            .domian{
+                transform: translate(10.8vw,-12.5vw);
+            }
+        }
+        .description{
+            transform: translate(0,-12.5vw) ;
+            font-size: x-small ;
+        }
+        .socials{
+            transform: translate(15%,-16.2vw);
+            scale: 0.8;
+            padding-right: 1vw;
+        }
+    }
+}
+@media only screen and (max-width:420px){
+    .teamCard{
+        .details{
+            .name{
+                font-size:0.61rem;
+            }
+            .domian{
+                font-size:0.5rem;
+            }
+        }
+        .socials{
+            transition-duration: 0.5s;
+            transform: translate(15%,2.2vw);
+            scale: 0.6;
+            padding-right: 3vw;
+            padding-left: 11vw;
+        }
+        
+    }
+    .teamCard:focus{
+        .details{       
+            .name{
+                
+                transform: translate(6vw,-12.5vw);
+            }
+            .domian{
+                transform: translate(11.8vw,-12.5vw);
+            }
+        }
+        .description{
+            transform: translate(0,-12.5vw) ;
+            font-size: x-small ;
+        }
+        .socials{
+            transform: translate(15%,-22vw);
+            scale: 0.6;
+            padding-right: 3vw;
+            padding-left: 11vw;
+        }
+    }
+}
+
+@media only screen and (max-width:330px){
+    .teamCard{
+        .details{
+            .name{
+                font-size:0.51rem;
+            }
+            .domian{
+                font-size:0.4rem;
+            }
+        }
+        .description{
+            font-size:0.2rem;
+        }
+        .socials{
+            transition-duration: 0.5s;
+            transform: translate(15%,2.2vw);
+            scale: 1.1;
+            padding-right: 5vw;
+            padding-left: 6vw;
+        }
+        
+    }
+    .teamCard:focus{
+        .details{       
+            .name{
+                
+                transform: translate(5vw,-12.5vw);
+            }
+            .domian{
+                transform: translate(11.8vw,-12.5vw);
+            }
+        }
+        .description{
+            transform: translate(0,-12.5vw) ;
+            font-size: 0.5rem;
+        }
+        .socials{
+            transform: translate(15%,-30vw);
+            scale: 0.5;
+            padding-right: 3vw;
+            padding-left: 15vw;
+        }
+    }
+}
 
 

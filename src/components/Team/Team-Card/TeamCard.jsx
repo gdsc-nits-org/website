@@ -21,7 +21,7 @@ return(  <div className="teamCard">
         </div>
         <div className="description">{props.Description}</div>
         <div className="socials">
-            <div className="Linkdin socialIcon">
+            <div className="linkdin socialIcon">
                 <Link to = {props.Linkdin}>
                     <img src={lin} alt="" />
                 </Link>
@@ -32,9 +32,9 @@ return(  <div className="teamCard">
                 </Link>
             </div>
             <div className="instagram socialIcon">
-                <a href="https://google.com" target="_blank" rel="noreferrer">
+                <Link to ={props.Instagram}>
                     <img src={insta} alt="example" />
-                </a>
+                </Link>
             </div>
             <div className="twitter socialIcon">
                 <Link to = {props.Twitter}>

@@ -2,9 +2,11 @@
     height: calc(100vh - var(--navbar-height));
 }
 .grid{
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
     display: grid;
     grid-template-columns: auto auto auto;
-    row-gap: 1rem;
+    row-gap: 2rem;
     padding-top: 2rem;
     justify-content: space-evenly;
     
@@ -25,6 +27,8 @@
 }
 @media only screen and (max-width:990px){
     .grid{
+        margin-left: 5vw;
+        margin-right: 5vw;
         grid-template-columns: auto auto;
         justify-content: space-evenly;
         
@@ -34,8 +38,8 @@
 
 @media only screen and (max-width:660px){
     .grid{
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding-left: 7vw;
+        padding-right: 7vw;
         padding-top: 5vw;
     }
     .filter{

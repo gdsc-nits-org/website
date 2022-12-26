@@ -10,7 +10,7 @@ function TeamHome(){
         
         return (
         <div className="teamHome">
-            <div className="text">
+            <div className="textContent">
                 <div className="title our">OUR</div>
                 <div className="title Team">MEMBERS</div>
             </div>

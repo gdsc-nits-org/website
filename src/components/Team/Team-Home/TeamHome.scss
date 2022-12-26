@@ -8,7 +8,7 @@
 .lottie{
     transform: translate(10rem,-1rem);
 }
-.text{
+.textContent{
     font-family: Poppins;
     font-size: 7vw;
     font-weight: 700;
@@ -20,7 +20,7 @@
     .teamHome{
         height: 55vw;
     }
-    .text{
+    .textContent{
         font-size: 6.8vw;
         font-weight: 600;
         transform: translate(2rem,18vw); 
@@ -33,7 +33,7 @@
     .teamHome{
         height: 55vw;
     }
-    .text{
+    .textContent{
         font-size: 7vw;
         font-weight: 600;
         transform: translate(2rem,18vw); 
@@ -43,7 +43,7 @@
     }
 }
 @media only screen and (max-width:390px){
-    .text{
+    .textContent{
         font-size: 6vw;
         font-weight: 700;
         transform: translate(1.6rem,23vw); 
@@ -53,7 +53,7 @@
     }
 }
 @media only screen and (max-width:330px){
-    .text{
+    .textContent{
         font-size: 6vw;
         font-weight: 700;
         transform: translate(1.6rem,23vw); 
