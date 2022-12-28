@@ -16,8 +16,12 @@ return(  <div className="teamCard">
         </div>
         </div>
         <div className="details">
-            <div className="name">{props.Name}</div>
-            <div className="domian">{props.Domain}</div>
+            <div>
+                <div className="name">{props.Name}</div>
+            </div>
+            <div>
+                <div className="domian">{props.Domain}</div>
+            </div>
         </div>
         <div className="description">{props.Description}</div>
         <div className="socials">

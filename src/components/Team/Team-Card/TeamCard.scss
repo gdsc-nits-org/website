@@ -25,15 +25,18 @@
         }
     }
     .details{
+        transition: transform 0.6s;
         transform: translateX(1rem);
         color: aliceblue;
         .name{
-            transition-duration: 0.6s;
+            display: inline-block;
+            transition: transform 0.6s;
             font-size: 1.78vw;
             font-weight: 500;
             
         }
         .domian{
+            display: inline-block;
             transition-duration: 0.6s;
             font-size: 1.1vw;
             font-weight: 400;
@@ -104,27 +107,27 @@
             }
         
         }
-        .details{      
+        .details{
+            transform: translate(50%);
             .name{
-                transition-duration: 0.6s;
-                transform: translate(5.4vw,-8.5vw);
+                transform: translate(-50%,-8.5vw);
                 color: rgb(0, 0, 0);
             }
             .domian{
-                transition-duration: 0.6s;
-                transform: translate(10.9vw,-8.5vw);
+                transform: translate(-50%,-8.5vw);
                 color: rgb(0, 0, 0);
+                
             }
         }
         .description{
-            transform: translate(0vw,-7.5vw) ;
+            transform: translate(0vw,-7.8vw) ;
             transition-duration: 0.6s;
             color:rgb(61, 59, 59) ;
             font-size: small;
         }
         .socials{
             transition-duration: 0.6s;
-            transform: translate(15%,-4.2vw);
+            transform: translate(15%,-4.5vw);
             scale: 1.3;
             .linkdin:hover{
                 scale: 0.7;
@@ -169,10 +172,12 @@
             transform: translate(2vw);
             color: rgb(255, 255, 255);
             .name{
+                transform: translate(0vw,1vw);
                 font-size:1.1rem;
                 transition-duration: 0.5s;
             }
             .domian{
+                transform: translate(0vw,0.5vw);
                 transition-duration: 0.5s;
                 font-size:0.8rem;
             }
@@ -200,27 +205,28 @@
             }
         
         }
-        .details{        
+        .details{
+            transform: translate(50%);
             .name{
                 transition-duration: 0.5s;
-                transform: translate(8.2vw,-12.5vw);
+                transform: translate(-50%,-12.5vw);
                 color: rgb(0, 0, 0);
             }
             .domian{
                 transition-duration: 0.5s;
-                transform: translate(13.5vw,-12.5vw);
+                transform: translate(-50%,-12.5vw);
                 color: rgb(0, 0, 0);
             }
         }
         .description{
-            transform: translate(0,-9.5vw) ;
+            transform: translate(0,-10vw) ;
             transition-duration: 0.5s;
             color:rgb(61, 59, 59) ;
             font-size: small;
         }
         .socials{
             transition-duration: 0.5s;
-            transform: translate(15%,-5.2vw);
+            transform: translate(15%,-5.8vw);
             scale: 1.3;
         }
     }
@@ -235,10 +241,12 @@
             transform: translate(2vw);
             color: rgb(255, 255, 255);
             .name{
+                transform: translateY(-0.5vw);
                 font-size: 1rem;
                 transition-duration: 0.5s;
             }
             .domian{
+                transform: translateY(-1.5vw);
                 transition-duration: 0.5s;
                 font-size:0.7rem;
             }
@@ -264,23 +272,24 @@
             }
         
         }
-        .details{       
+        .details{   
+            transform: translateX(50%);    
             .name{
-                transform: translate(5.7vw,-12.5vw);
+                transform: translate(-50%,-12.5vw);
             }
             .domian{
-                transform: translate(13vw,-12.5vw);
+                transform: translate(-50%,-13.5vw);
             }
         }
         .description{
-            transform: translate(0,-9.5vw) ;
+            transform: translate(0,-12.5vw) ;
             transition-duration: 0.5s;
             color:rgb(61, 59, 59) ;
             font-size: small;
         }
         .socials{
             transition-duration: 0.5s;
-            transform: translate(15%,-7.2vw);
+            transform: translate(15%,-10vw);
             scale: 1.1;
             padding-right: 4vw;
             padding-left: 6vw;
@@ -291,16 +300,17 @@
 @media only screen and (max-width:590px){
     .teamCard:hover{
         .details{
+            transform: translateX(50%);
             .name{
-                transform: translate(4.99999vw,-12.5vw);
+                transform: translate(-50%,-13vw);
             }
             
         }
         .description{
-            transform: translate(0,-11vw) ;
+            transform: translate(0%,-12vw) ;
         }
         .socials{
-            transform: translate(15%,-11vw);
+            transform: translate(15%,-12.5vw);
             scale: 0.9;
             padding-right: 1vw;
         }
@@ -309,10 +319,10 @@
 @media only screen and (max-width:530px){
     .teamCard:hover{
         .description{
-            transform: translate(0,-11.5vw) ;
+            transform: translate(0,-12.5vw) ;
         }
         .socials{
-            transform: translate(15%,-14.2vw);
+            transform: translate(15%,-16vw);
             scale: 0.8;
             padding-right: 2vw;
         }
@@ -325,26 +335,28 @@
                 font-size: 0.85rem;
             }
             .domian{
+                transform: translateY(-2vw);
                 font-size: 0.7rem;
             }
         }
     }
     .teamCard:hover{
-        .details{      
+        .details{  
+            transform: translateX(50%);    
             .name{
                 
-                transform: translate(4.7vw,-12.5vw);
+                transform: translate(-50%,-12.5vw);
             }
             .domian{
-                transform: translate(12.4vw,-12.5vw);
+                transform: translate(-50%,-14.5vw);
             }
         }
         .description{
-            transform: translate(0,-12.5vw) ;
+            transform: translate(0,-14vw) ;
             font-size: x-small ;
         }
         .socials{
-            transform: translate(15%,-16.2vw);
+            transform: translate(15%,-18vw);
             scale: 0.8;
             padding-right: 1vw;
         }
@@ -357,6 +369,7 @@
                 font-size:0.61rem;
             }
             .domian{
+                transform: translateY(-3vw);
                 font-size:0.5rem;
             }
         }
@@ -371,21 +384,22 @@
     }
     .teamCard:hover{
 
-        .details{     
+        .details{ 
+                
             .name{
                 transform: smooth ;
-                transform: translate(6vw,-12.5vw);
+                transform: translate(-50%,-12.5vw);
             }
             .domian{
-                transform: translate(12.8vw,-12.5vw);
+                transform: translate(-50%,-15vw);
             }
         }
         .description{
-            transform: translate(0,-12.5vw) ;
+            transform: translate(0,-14vw) ;
             font-size: x-small ;
         }
         .socials{
-            transform: translate(15%,-22vw);
+            transform: translate(15%,-25.5vw);
             scale: 0.6;
             padding-right: 3vw;
             padding-left: 11vw;
@@ -396,9 +410,11 @@
     .teamCard{
         .details{
             .name{
+                transform: translate(0,-1vw) ;
                 font-size:0.51rem;
             }
             .domian{
+                transform: translate(0,-4.5vw) ;
                 font-size:0.4rem;
             }
         }
@@ -417,18 +433,18 @@
     .teamCard:hover{
         .details{      
             .name{               
-                transform: translate(6.6vw,-12.5vw);
+                transform: translate(-50%,-12.5vw);
             }
             .domian{
-                transform: translate(13vw,-12.5vw);
+                transform: translate(-50%,-16vw);
             }
         }
         .description{
-            transform: translate(0,-9.5vw) ;
+            transform: translate(0,-16vw) ;
             font-size: 0.5rem;
         }
         .socials{
-            transform: translate(15%,-15vw);
+            transform: translate(15%,-30vw);
             scale: 0.6;
             padding-right: 3vw;
             padding-left: 15vw;
@@ -438,11 +454,11 @@
 @media only screen and (max-width:360px){
     .teamCard:hover{
         .description{
-            transform: translate(0,-12.5vw) ;
+            transform: translate(0,-15.5vw) ;
             font-size: 0.5rem;
         }
         .socials{
-            transform: translate(15%,-27vw);
+            transform: translate(15%,-37vw);
             scale: 0.5;
             padding-right: 3vw;
             padding-left: 15vw;
@@ -454,8 +470,10 @@
         .details{
             .name{
                 font-size:0.51rem;
+                transform: translate(0,-2.5vw) ;
             }
             .domian{
+                transform: translate(0,-7vw) ;
                 font-size:0.4rem;
             }
         }
@@ -474,18 +492,18 @@
     .teamCard:hover{
         .details{ 
             .name{
-                transform: translate(5.3vw,-12.5vw);
+                transform: translate(-50%,-14vw);
             }
             .domian{
-                transform: translate(12.8vw,-12.5vw);
+                transform: translate(-50%,-19vw);
             }
         }
         .description{
-            transform: translate(0,-12.5vw) ;
+            transform: translate(0,-19vw) ;
             font-size: 0.5rem;
         }
         .socials{
-            transform: translate(15%,-30vw);
+            transform: translate(15%,-44vw);
             scale: 0.5;
             padding-right: 3vw;
             padding-left: 15vw;
