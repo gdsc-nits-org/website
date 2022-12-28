@@ -296,10 +296,25 @@
             }
             
         }
+        .description{
+            transform: translate(0,-11vw) ;
+        }
         .socials{
-            transform: translate(15%,-10.2vw);
+            transform: translate(15%,-11vw);
             scale: 0.9;
             padding-right: 1vw;
+        }
+    }
+}
+@media only screen and (max-width:530px){
+    .teamCard:hover{
+        .description{
+            transform: translate(0,-11.5vw) ;
+        }
+        .socials{
+            transform: translate(15%,-14.2vw);
+            scale: 0.8;
+            padding-right: 2vw;
         }
     }
 }
@@ -420,6 +435,20 @@
         }
     }
 }
+@media only screen and (max-width:360px){
+    .teamCard:hover{
+        .description{
+            transform: translate(0,-12.5vw) ;
+            font-size: 0.5rem;
+        }
+        .socials{
+            transform: translate(15%,-27vw);
+            scale: 0.5;
+            padding-right: 3vw;
+            padding-left: 15vw;
+        }
+    }
+}
 @media only screen and (max-width:330px){
     .teamCard{
         .details{
@@ -444,7 +473,6 @@
     }
     .teamCard:hover{
         .details{ 
-     
             .name{
                 transform: translate(5.3vw,-12.5vw);
             }
