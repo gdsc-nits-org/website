@@ -104,15 +104,15 @@
             }
         
         }
-        .details{        
+        .details{      
             .name{
                 transition-duration: 0.6s;
-                transform: translate(6.2vw,-8.5vw);
+                transform: translate(5.4vw,-8.5vw);
                 color: rgb(0, 0, 0);
             }
             .domian{
                 transition-duration: 0.6s;
-                transform: translate(10.5vw,-8.5vw);
+                transform: translate(10.9vw,-8.5vw);
                 color: rgb(0, 0, 0);
             }
         }
@@ -203,7 +203,7 @@
         .details{        
             .name{
                 transition-duration: 0.5s;
-                transform: translate(8vw,-12.5vw);
+                transform: translate(8.2vw,-12.5vw);
                 color: rgb(0, 0, 0);
             }
             .domian{
@@ -235,7 +235,7 @@
             transform: translate(2vw);
             color: rgb(255, 255, 255);
             .name{
-                font-size:1rem;
+                font-size: 1rem;
                 transition-duration: 0.5s;
             }
             .domian{
@@ -264,12 +264,12 @@
             }
         
         }
-        .details{        
+        .details{       
             .name{
-                transform: translate(6vw,-12.5vw);
+                transform: translate(5.7vw,-12.5vw);
             }
             .domian{
-                transform: translate(12.5vw,-12.5vw);
+                transform: translate(13vw,-12.5vw);
             }
         }
         .description{
@@ -290,6 +290,12 @@
 }
 @media only screen and (max-width:590px){
     .teamCard:hover{
+        .details{
+            .name{
+                transform: translate(4.99999vw,-12.5vw);
+            }
+            
+        }
         .socials{
             transform: translate(15%,-10.2vw);
             scale: 0.9;
@@ -309,13 +315,13 @@
         }
     }
     .teamCard:hover{
-        .details{       
+        .details{      
             .name{
                 
-                transform: translate(4.5vw,-12.5vw);
+                transform: translate(4.7vw,-12.5vw);
             }
             .domian{
-                transform: translate(10.8vw,-12.5vw);
+                transform: translate(12.4vw,-12.5vw);
             }
         }
         .description{
@@ -350,10 +356,10 @@
     }
     .teamCard:hover{
 
-        .details{       
+        .details{     
             .name{
                 transform: smooth ;
-                transform: translate(7.3vw,-12.5vw);
+                transform: translate(6vw,-12.5vw);
             }
             .domian{
                 transform: translate(12.8vw,-12.5vw);
@@ -394,13 +400,12 @@
         
     }
     .teamCard:hover{
-        .details{       
-            .name{
-                
-                transform: translate(7.9vw,-12.5vw);
+        .details{      
+            .name{               
+                transform: translate(6.6vw,-12.5vw);
             }
             .domian{
-                transform: translate(13.8vw,-12.5vw);
+                transform: translate(13vw,-12.5vw);
             }
         }
         .description{
@@ -438,10 +443,10 @@
         
     }
     .teamCard:hover{
-        .details{       
+        .details{ 
+     
             .name{
-                
-                transform: translate(6.5vw,-12.5vw);
+                transform: translate(5.3vw,-12.5vw);
             }
             .domian{
                 transform: translate(12.8vw,-12.5vw);
