@@ -10,10 +10,15 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
+    "@react-three/drei": "^9.40.0",
+    "@react-three/fiber": "^8.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-lottie": "^1.2.3",
-    "react-router-dom": "6"
+    "react-intersection-observer": "^9.4.0",
+    "react-router-dom": "6",
+    "three": "^0.146.0",
+    "react-icons": "^4.6.0",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
