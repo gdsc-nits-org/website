@@ -12,7 +12,6 @@ function Projects() {
       </header>
       <main className="projects-main">
         <ProjectCard />
-        <ProjectCard />
       </main>
     </div>
   );
