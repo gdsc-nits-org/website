@@ -1,14 +1,17 @@
 import "./Projectsshow.scss";
-// import React, { useState } from "react";
 // import { Link,useParams } from "react-router-dom";
-// import TempAPI from "../../components/ProjectsCard/tempAPI.json";
+// import TempAPI from "./tempAPI.json";
+// import React, { useState } from "react";
 // import Picture from "../../assets/images/projectsPlaceholder.png";
 // import Picture from "../../assets/images/projectsPlaceholder.png";
 
 const ProjectsShow = () => {
+  // const { id } = useParams();
   // const [cardInfo] = useState(TempAPI.msg);
   return (
     <>
+      {/* {cardInfo.filter((cardInfo) => cardInfo.id === id).map((cardInfo) => { */}
+
       <div className="projectshow-container">
         <div className="projectshow-banner">
           <img src="src/assets/images/bannerplaceolder.png" alt="banner" />
@@ -80,6 +83,7 @@ const ProjectsShow = () => {
           </div>
         </div>
       </div>
+      {/* })} */}
     </>
   );
 };
