@@ -7,7 +7,7 @@ import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import Team from "./pages/Team/Team";
 import Footer from "./components/Footer/Footer";
-
+import ProjectsShow from "./components/Projectsshow/Projectshow";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/team",
     element: <Team />,
+  },
+  {
+    path: "/projects/:projectID",
+    element: <ProjectsShow />,
   },
 ]);
 

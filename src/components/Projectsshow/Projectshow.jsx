@@ -1,24 +1,22 @@
 import "./Projectsshow.scss";
-// import { Link,useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 // import TempAPI from "./tempAPI.json";
-// import React, { useState } from "react";
-// import Picture from "../../assets/images/projectsPlaceholder.png";
-// import Picture from "../../assets/images/projectsPlaceholder.png";
+// import { useState } from "react";
 
 const ProjectsShow = () => {
-  // const { id } = useParams();
   // const [cardInfo] = useState(TempAPI.msg);
+  // const projectID = useParams();
+  // const thisProject = cardInfo.find((proj) => proj.id === projectID);
+  // const project = useState(thisProject);
   return (
     <>
-      {/* {cardInfo.filter((cardInfo) => cardInfo.id === id).map((cardInfo) => { */}
-
       <div className="projectshow-container">
         <div className="projectshow-banner">
           <img src="src/assets/images/bannerplaceolder.png" alt="banner" />
         </div>
         <div className="projectsshow-project-title">
           <div className="project-name">
-            <h3>ATTENDO APP</h3>
+            <h3>test</h3>
             <span className="project-status">ONGOING</span>
           </div>
           <div className="project-image">
