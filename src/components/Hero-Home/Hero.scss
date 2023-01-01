@@ -101,6 +101,18 @@
 .hero-img {
   width: 100%;
 }
+.gdsc-title-blue {
+  color: var(--gdsc-blue-1-100);
+}
+.gdsc-title-yellow {
+  color: var(--gdsc-yellow-1-100);
+}
+.gdsc-title-red {
+  color: var(--gdsc-red-1-100);
+}
+.gdsc-title-green {
+  color: var(--gdsc-green-1-100);
+}
 @media screen and (max-width: 1000px) {
   .home-hero {
     width: 100%;
