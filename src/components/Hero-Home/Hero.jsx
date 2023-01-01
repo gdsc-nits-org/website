@@ -17,7 +17,7 @@ const Model = () => {
     }
   });
 
-  const Model = useLoader(GLTFLoader, "../src/assets/model/gdsclogo4.gltf");
+  const Model = useLoader(GLTFLoader, "/gdsclogo4.gltf");
   return <primitive object={Model.scene} scale={scale} />;
 };
 // scale={1.4}
