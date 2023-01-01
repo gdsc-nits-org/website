@@ -18,7 +18,7 @@ const Model = () => {
   });
 
   const Model = useLoader(GLTFLoader, "/gdsclogo4.gltf");
-  return <primitive object={Model.scene} scale={scale} />;
+  return <primitive object={Model.scene} scale={scale} rotation={[0,0, -Math.PI*0.01]} />;
 };
 // scale={1.4}
 
