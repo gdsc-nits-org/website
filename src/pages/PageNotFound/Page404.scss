@@ -1,21 +1,21 @@
-#error404{
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    // position: absolute;
-    .error-enclosure{
-        margin: auto;
-        width: 200px;
-        .heading-404{
-            text-align: center;
-            color: var(--gdsc-blue-1-100);
-            // margin-top: -30px;
-        }
+#error404 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // position: absolute;
+  .error-enclosure {
+    margin: auto;
+    width: 200px;
+    .heading-404 {
+      text-align: center;
+      color: var(--gdsc-blue-1-100);
+      // margin-top: -30px;
     }
-    @media screen and (width>=500px){
-        .error-enclosure{
-            width: 300px;
-        }
+  }
+  @media screen and (width>=500px) {
+    .error-enclosure {
+      width: 300px;
     }
+  }
 }
