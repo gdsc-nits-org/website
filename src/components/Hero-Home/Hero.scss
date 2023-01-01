@@ -67,7 +67,7 @@
 
 .scroll-gif {
   position: absolute;
-  bottom: 10px;
+  top: 90vh;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -78,7 +78,7 @@
     top: 20%;
   }
 
-  60% {
+  70% {
     position: absolute;
     top: 60%;
   }
