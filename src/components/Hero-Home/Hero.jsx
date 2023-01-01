@@ -33,7 +33,12 @@ const Hero = () => {
         <div className="circle"></div>
       </a>
       <div className="text">
-        <div className="title gdsc">GDSC</div>
+        <div className="title gdsc">
+          <span style={{ color: "blue" }}>G</span>
+          <span style={{ color: "yellow" }}>D</span>
+          <span style={{ color: "red" }}>S</span>
+          <span style={{ color: "green" }}>C</span>
+        </div>
         <div className="title nits">NIT Silchar</div>
         <div className="twl">
           <div className="tw">Together we</div>
