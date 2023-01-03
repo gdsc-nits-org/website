@@ -64,10 +64,9 @@ function Timeline() {
             })}
           </div>
         </div>
-        <div className="arrow-container">
+        <div className="arrow-container" onClick={timelineScroll}>
           <div className="timeline-arrow">
             <img
-              onClick={timelineScroll}
               src={rightArrow}
               alt=""
               id="timeline-scroll-button"

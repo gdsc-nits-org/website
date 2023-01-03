@@ -55,6 +55,18 @@
       position: relative;
       @media screen and (max-width: 900px) {
         overflow: scroll;
+        &::-webkit-scrollbar {
+          width: 0px;
+          height: 2px;
+        }
+        &::-webkit-scrollbar-track {
+          background: none;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+          background: #c6c6c6;
+        }
       }
       .timeline-bar {
         height: 1rem;
