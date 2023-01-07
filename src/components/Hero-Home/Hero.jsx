@@ -30,6 +30,7 @@ const Hero = () => {
 
   return (
     <div className="home-hero">
+      <div className="cover"></div>
       <a className="scroll-gif" href="#gdsc">
         <img src={scroll} alt="" className="scroll-img" />
         <div className="circle"></div>
@@ -81,6 +82,7 @@ const Hero = () => {
             maxPolarAngle={Math.PI / 3}
             minPolarAngle={Math.PI / 3}
             enablePan={false}
+            touches={false}
           />
         </Canvas>
       </div>
