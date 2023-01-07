@@ -187,3 +187,9 @@
     }
   }
 }
+
+@media (orientation: portrait) and (max-width : 900px) {
+  .timeline-container{
+    min-height: 200px;
+  }
+}

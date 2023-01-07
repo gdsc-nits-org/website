@@ -116,16 +116,23 @@
 @media screen and (max-width: 1000px) {
   .home-hero {
     width: 100%;
-
+    height: auto;
     .scroll-gif {
       visibility: hidden;
     }
     .text {
       margin-left: 2rem;
-      margin-top: 7rem;
+      // margin-top: 7rem;
+      .gdsc{
+        font-family: Poppins;
+        font-size: 100px;
+        font-weight: 700;
+        text-align: left;
+        height: 110px;
+      }
       .gdsc span{
         font-family: Poppins;
-        font-size: 70px;
+        font-size: 100px;
         font-weight: 700;
         text-align: left;
         height: 80px;
