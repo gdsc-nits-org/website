@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --gdsc-font-1: "Poppins", sans-serif;
+
+  --gdsc-blue-1-100: #4885ed;
+  --gdsc-blue-2-100: #4285f4;
+
+  --gdsc-green-1-100: #3cba54;
+
+  --gdsc-red-1-100: #db3236;
+  --gdsc-red-2-100: #f0766c;
+
+  --gdsc-yellow-1-100: #f4c20d;
+
+  --gdsc-dark-1-100: #1d192b;
+  --gdsc-content-1-100: #313033;
+  --gdsc-grayish-1-100: #49454f;
+  --gdsc-line-1-100: #c5c5c5;
+  --gdsc-bg-1-100: #dbdbdb;
+  --gdsc-neutral-1-100: #605d62;
+
+  --android-bg-1-100: #3cba54;
+  --cloud-bg-1-100: #ff9900;
+  --flutter-bg-1-100: #4285f4;
+  --uiux-bg-1-100: #db3236;
+  --web-bg-1-100: #f4c20d;
+
+  --html-bg-1-100: #e34c26;
+  --html-bg-2-100: #f06529;
+  --html-fg-1-100: #ebebeb;
+
+  --css-bg-1-100: #264de4;
+  --css-bg-2-100: #2965f1;
+  --css-fg-1-100: #ebebeb;
+
+  --js-bg-1-100: #f0db4f;
+  --js-fg-1-100: #ebebeb;
+  --js-fg-2-100: #323330;
+
+  --react-bg-1-100: #88dded;
+  --react-bg-2-100: #7cc5d9;
+  --react-bg-3-100: #4c768d;
+  --react-bg-4-100: #1c2c4c;
+  --react-bg-5-100: #242443;
+  --react-fg-1-100: #b4b7be;
+
+  --node-bg-1-100: #68a063;
+  --node-bg-2-100: #3c873a;
+  --node-fg-1-100: #303030;
+
+  --vue-bg-1-100: #42b883;
+  --vue-fg-1-100: #35495e;
+
+  --svelte-bg-1-100: #ff3f01;
+  --svelte-fg-1-100: #fefffe;
+
+  --docker-bg-1-100: #0db7ed;
+  --docker-fg-1-100: #384d54;
+
+  --java-bg-1-100: #ed2025;
+  --java-bg-2-100: #0c8ac6;
+
+  --kotlin-bg-1-100: #e24462;
+  --kotlin-bg-1-100: #b125ea;
+  --kotlin-bg-1-100: #7f52ff;
+  --kotlin-fg-1-100: #000000;
+
+  --flutter-bg-1-100: #14c6fa;
+  --flutter-bg-2-100: #054c9f;
+  --flutter-bg-3-100: #05173d;
+  --flutter-fg-1-100: #757575;
+  --flutter-fg-2-100: #fefffe;
+
+  --aws-bg-1-100: #ff9900;
+  --aws-fg-1-100: #000000;
+
+  --sponsorcard-bg-1-100: #f8f8f8;
+
+  --navbar-height: 75.65px;
+
+  --intro-home-text-color: #49454f;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--gdsc-font-1);
+  @media screen and (max-width: 300px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 14px;
+  }
+}
