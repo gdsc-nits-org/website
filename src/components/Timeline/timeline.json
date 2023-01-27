@@ -1,0 +1,60 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Compose Camp",
+      "date": "September",
+      "color": "#3CBA54",
+      "src": "/images/composeCampThumbnail.webp"
+    },
+    {
+      "id": 2,
+      "name": "Intro to Git and Github",
+      "date": "October",
+      "color": "#1d192b",
+      "src": "/images/gitGithubIntroThumbnail.webp"
+    },
+    {
+      "id": 3,
+      "name": "Google Cloud Engineer Learning Path",
+      "date": "November",
+      "color": "#4885ED",
+      "src": "/images/celpThumbnail.webp"
+    },
+    {
+      "id": 4,
+      "name": "Kickstart to ReactJS",
+      "date": "November",
+      "color": "#7cc5d9",
+      "src": "/images/reactJsIntroThumbnail.webp"
+    },
+    {
+      "id": 5,
+      "name": "Flutter Bootcamp",
+      "date": "February",
+      "color": "#4885ED",
+      "src": "/images/flutter.svg"
+    },
+    {
+      "id": 6,
+      "name": "Prototype Planery",
+      "date": "February",
+      "color": "#DB3236",
+      "src": "/images/UX.svg"
+    },
+    {
+      "id": 7,
+      "name": "Tensorflow",
+      "date": "March",
+      "color": "#EC8E24",
+      "src": "/images/tensorflow.svg"
+    },
+    {
+      "id": 8,
+      "name": "Web Blitz",
+      "date": "March",
+      "color": "#F4C20D",
+      "src": "/images/timelineWeb.svg"
+    }
+  ]
+}

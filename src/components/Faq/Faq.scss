@@ -1,0 +1,93 @@
+.faq-main {
+  // min-height: 100vh;
+  margin: 3rem auto;
+
+  .faq-head {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    font-size: 2.3rem;
+    font-weight: bold;
+  }
+
+  .accordion-container {
+    max-width: 81.25rem;
+    margin: auto;
+    background-color: var(--gdsc-bg-1-100);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0;
+    @media (max-width: 1350px) {
+      margin: auto 1rem;
+    }
+
+    .accordion {
+      margin: 0;
+      padding: 0%;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+
+      .accordion-title {
+        display: flex;
+        justify-content: space-between;
+        color: var(--gdsc-grayish-1-100);
+        padding: 0 1rem 0 1rem;
+        border-bottom: 0.13rem solid var(--gdsc-line-1-100);
+        cursor: pointer;
+        @media (max-width: 350px) {
+          padding: 0 0.8rem;
+        }
+
+        p {
+          font-size: 1.25rem;
+          margin: 1.25rem 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          @media (max-width: 500px) {
+            font-size: 1rem;
+            margin: 1rem 0;
+          }
+        }
+
+        span {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          .faq-arrow {
+            transition: all 0.4s ease;
+            margin-left: 1.5rem;
+          }
+
+          .faq-arrow.active {
+            transform: rotate(180deg);
+          }
+        }
+      }
+
+      .accordion-content {
+        transition: all 0.3s ease;
+        height: 0;
+        overflow: hidden;
+
+        .accordion-content-inner {
+          padding: 1rem 1rem;
+          color: var(--gdsc-grayish-1-100);
+          font-size: 1.25rem;
+          border-bottom: 0.147rem solid var(--gdsc-line-1-100);
+          transition: all 0.4s ease;
+          @media (max-width: 500px) {
+            font-size: 1rem;
+          }
+        }
+      }
+      .accordion-content.active {
+        height: auto;
+      }
+    }
+  }
+}
