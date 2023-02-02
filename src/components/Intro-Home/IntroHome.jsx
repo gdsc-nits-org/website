@@ -53,7 +53,7 @@ const IntroHome = () => {
                 <div className="circle"></div>
               </div>
               <div className="heading">
-                Google Developer Student Clubs <br /> NIT SILCHAR
+                Google Developer Student Club <br /> NIT SILCHAR
               </div>
             </div>
             <p className="text">

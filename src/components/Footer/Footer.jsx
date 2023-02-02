@@ -132,11 +132,11 @@ function Footer() {
         <div className="footer-end">
           <div className="footer-end-left">
             <img src={logo} alt="GDSC NITS" />
-            <ul>Developer Student Club NIT Silchar</ul>
+            <ul>Google Developer Student Club NIT Silchar</ul>
           </div>
 
           <div className="footer-end-right">
-            <ul>Developer Student Club,NITS. All Rights Reserved</ul>
+            <ul>Google Developer Student Club,NITS. All Rights Reserved</ul>
           </div>
         </div>
       </div>
