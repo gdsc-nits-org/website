@@ -16,7 +16,7 @@ const ProjectsShow = () => {
         </div>
         <div className="projectsshow-project-title">
           <div className="project-name">
-            <h3>test</h3>
+            <h3>Mess Management</h3>
             <span className="project-status">ONGOING</span>
           </div>
           <div className="project-image">
@@ -69,15 +69,19 @@ const ProjectsShow = () => {
         <div className="projects-show-bottom">
           <div className="mentors">
             <h4>Mentors</h4>
-            <ul>Username</ul>
-            <ul>Username</ul>
-            <ul>Username</ul>
+            <div className="mentor-list">
+              <ul>Username</ul>
+              <ul>Username</ul>
+              <ul>Username</ul>
+            </div>
           </div>
           <div className="contributors">
             <h4>Contributors</h4>
-            <ul>Username</ul>
-            <ul>Username</ul>
-            <ul>Username</ul>
+            <div className="contributor-list">
+              <ul>Username</ul>
+              <ul>Username</ul>
+              <ul>Username</ul>
+            </div>
           </div>
         </div>
       </div>
