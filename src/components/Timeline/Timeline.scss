@@ -55,6 +55,18 @@
       position: relative;
       @media screen and (max-width: 900px) {
         overflow: scroll;
+        &::-webkit-scrollbar {
+          width: 0px;
+          height: 2px;
+        }
+        &::-webkit-scrollbar-track {
+          background: none;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+          background: #c6c6c6;
+        }
       }
       .timeline-bar {
         height: 1rem;
@@ -110,13 +122,14 @@
               }
               .timeline-event-logo {
                 width: auto;
-                height: 2.5vw;
+                height: 4.5vw;
                 @media screen and (max-width: 600px) {
                   width: auto;
-                  height: 1.5rem;
+                  height: 2rem;
                 }
               }
               .timeline-event-name {
+                font-size: 1rem;
                 color: #333333;
                 font-weight: 600;
                 @media screen and (max-width: 600px) {
@@ -172,5 +185,11 @@
         }
       }
     }
+  }
+}
+
+@media (orientation: portrait) and (max-width : 900px) {
+  .timeline-container{
+    min-height: 200px;
   }
 }

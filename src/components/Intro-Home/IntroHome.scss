@@ -9,6 +9,9 @@
       .intro-margins {
         margin: 15rem auto;
         width: 80%;
+        .text {
+          color: var(--intro-home-text-color);
+        }
         .heading {
           font-family: Poppins;
           font-size: 60px;

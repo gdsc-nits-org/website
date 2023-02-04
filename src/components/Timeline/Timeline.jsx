@@ -31,7 +31,7 @@ function Timeline() {
     }
   };
   return (
-    <div className="timeline-container">
+    <div id="timeLine" className="timeline-container">
       <div className="timeline-title">Timeline</div>
       <div className="timeline-content">
         <div className="logo-container">
@@ -64,10 +64,9 @@ function Timeline() {
             })}
           </div>
         </div>
-        <div className="arrow-container">
+        <div className="arrow-container" onClick={timelineScroll}>
           <div className="timeline-arrow">
             <img
-              onClick={timelineScroll}
               src={rightArrow}
               alt=""
               id="timeline-scroll-button"

@@ -38,7 +38,7 @@ const IntroHome = () => {
   }, []);
 
   return (
-    <div className="intro-home">
+    <div className="intro-home" id="introHome">
       <div className="contents">
         <div className="scroll">
           <div className="gdsc intro-margins" id="gdsc">
@@ -53,24 +53,26 @@ const IntroHome = () => {
                 <div className="circle"></div>
               </div>
               <div className="heading">
-                Google Developer Student Clubs <br /> NIT SILCHAR
+                Google Developer Student Club <br /> NIT SILCHAR
               </div>
             </div>
             <p className="text">
-              GDSC NIT Silchar is under Google Developer Students Club, which is a
-              worldwide developers community initiated by Google. Our GDSC prioritizes
-              solving real life problems that we as part of a society face in our daily
-              lives. Solving such problems brings opportunities for the budding developer
-              communities to showcase their talents and, imporve and gain new skillsets.
-              GDSC NIT Silchar is under Google Developer Students Club, which is a
-              worldwide developers community initiated by Google. Our GDSC prioritizes
-              solving real life problems that we as part of a society face in our daily
-              lives. Solving such problems brings opportunities for the budding developer
-              communities to showcase their talents and, imporve and gain new skillsets
+              Google Developer Student Club, NIT Silchar is one of the thousands of clubs
+              under Google Developer Student Clubs. Our GDSC focuses on solving real-life
+              problems in and around our society by developing meaningful products.
+              Solving such problems brings opportunities for the budding developer
+              communities to showcase their talents and, improve and gain new skillsets.
+              GDSC NITS is not bounded to NITS itself. Our main aim is to empower
+              developers around North-East India and also to have a national and
+              international presence. There are Web Developers, Android Developers, and
+              Designers who make up our GDSC. We organize workshops and competitions to
+              further spread the developer environment in general to the aspiring
+              developers around us. So let&apos;s DESIGN, DEVELOP and DEPLOY the best
+              ideas for the betterment of our society.
             </p>
           </div>
 
-          <div className="ui-ux intro-margins">
+          <div id="ui-ux" className="ui-ux intro-margins">
             <div className="title">
               <div className="logo">
                 <img src={ui} alt="" />
@@ -88,11 +90,10 @@ const IntroHome = () => {
               other hand, concentrates on the emotions of the user as they engage with the
               components, starting from landing till the end action of the user. The GDSC
               Nit Silchar looks forward to exposing new aspirants to the UI/UX area and
-              professionally training them to develop revolutionary innovation and
-              creativity to satisfy the expectations of the expanding design-centric
-              business. Prototype Planary Workshops are yearly held by GDSC NITS to get
-              people started on UI/UX designing and construct projects for practical
-              learning.
+              training them to develop revolutionary innovation and creativity to satisfy
+              the expectations of the expanding design-centric business. Prototype Planary
+              Workshops are yearly held by GDSC NITS to get people started on UI/UX
+              designing and construct projects for practical learning.
             </p>
           </div>
 
