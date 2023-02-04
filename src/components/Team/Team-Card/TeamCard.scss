@@ -5,6 +5,9 @@
     height: 30vw;
     width: 26vw;
     border-radius: 2%;
+    .git{
+        width: 1rem;
+    }
     .animation{
         transition-duration: 0.6s;
         height: 24.5vw;
@@ -65,7 +68,7 @@
             }
             .linkdin{
                 scale: 0.8;
-                padding: 0.5rem 0.6rem 0.0rem 0.6rem;
+                padding: 0.5rem 0.6rem 0.2rem 0.6rem;
                 margin: 0rem 0.4rem 0.6rem;
             }
             .facebook{
@@ -73,15 +76,14 @@
                 padding: 0.5rem 0.85rem 0rem 0.85rem;
                 margin: 0rem 0.4rem 0.5rem;
             }
-            .instagram{
-                scale: 0.84;
-                padding: 0.45rem 0.6rem 0.12rem 0.6rem;
-                margin: 0rem 0.4rem 0.6rem;
-            }
-            .twitter{
+            .github{
                 scale: 0.8;
-                padding: 0.5rem 0.5rem 0.2rem 0.55rem;
-                margin: 0rem 0.4rem 0.6rem;    
+                padding: 0.5rem 0.5rem 0.1rem 0.65rem;
+                margin: 0rem 0.4rem 0.6rem;
+                .git{
+                    width: 1rem;
+                }
+               
             }
         
     }

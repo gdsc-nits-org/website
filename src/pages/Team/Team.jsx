@@ -10,7 +10,7 @@ function data(value){
   return(
     <TeamCard
     key={value.key}
-    imgSrc={value.imgSrc}
+    ImageSrc={value.imageSrc}
     Name= {value.Name}
     Domain={value.Domain}
     Description={value.Description}
