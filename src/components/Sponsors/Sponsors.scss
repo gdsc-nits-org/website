@@ -1,0 +1,17 @@
+#sponsorsSection {
+  width: 100%;
+  display: block;
+
+  .sponsorsSectionTitle {
+    margin: 5rem auto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .sponsorContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./HomeVideos.scss";
-import tempVideos from "./TempVideos.json";
+import tempVideos from "./tempVideos.json";
 
 function HomeVideos() {
   const [videoData] = useState(tempVideos.video);
