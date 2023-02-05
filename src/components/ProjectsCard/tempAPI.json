@@ -3,7 +3,7 @@
   "msg": [
     {
       "id": "cb54a064-e657-4756-8caf-846124bdfff0",
-      "name": "khslaksjlk",
+      "name": "khslaksjlk app",
       "status": "COMPLETED",
       "tags": ["web"],
       "domains": [],
@@ -14,8 +14,8 @@
         "https://yt3.ggpht.com/eaWjnIwlHBd4np4XXvRKFKhLwfploFKLkKhwtz2lEHQp5DYmG1-XlXFeXiLnLUDbTLiriX4_ig=s176-c-k-c0x00ffffff-no-rj-mo"
       ],
       "technologies": [],
-      "mentors": ["HE","SHE","HER"],
-      "contributors": ["HE","SHE","HER"]
+      "mentors": ["HE", "SHE", "HER"],
+      "contributors": ["HE", "SHE", "HER"]
     },
     {
       "id": "003f6096-6403-4c70-8b9a-ae83205f8aaa",
@@ -42,24 +42,30 @@
       "mentors": [
         {
           "id": "bbba862d-dce7-4886-a374-80e902b03110",
-          "name": "he"        },
+          "name": "he"
+        },
         {
           "id": "bbba862d-dce7-4886-a374-80e902b03110",
-          "name": "he"        },
+          "name": "he"
+        },
         {
           "id": "bbba862d-dce7-4886-a374-80e902b03110",
-          "name": "he"        }
+          "name": "he"
+        }
       ],
       "contributors": [
         {
           "id": "bbba862d-dce7-4886-a374-80e902b03110",
-          "name": "he"        },
+          "name": "he"
+        },
         {
           "id": "bbba862d-dce7-4886-a374-80e902b03110",
-          "name": "he"        },
+          "name": "he"
+        },
         {
           "id": "bbba862d-dce7-4886-a374-80e902b03110",
-          "name": "he"        }
+          "name": "he"
+        }
       ]
     }
   ]
