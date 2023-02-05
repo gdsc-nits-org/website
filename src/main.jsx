@@ -6,16 +6,21 @@ import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import Team from "./pages/Team/Team";
 import Footer from "./components/Footer/Footer";
-import ProjectsShow from "./components/Projectsshow/Projectshow";
+import ProjectsShow from "./components/ProjectsCard/Projectshow";
 import Page404 from "./pages/PageNotFound/Page404";
-// import Navbar from './components/Navbar/Navbar'
+import Navbar from "./components/Navbar/Navbar";
 // import { Router } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    // element: <><Navbar/><Home /></>, // Putting the navbar in the pages
-    element: <Home />,
+    element: (
+      <>
+        <Navbar />
+        <Home />
+      </>
+    ), // Putting the navbar in the pages
+    // element: <Home />,
   },
   {
     path: "*",
