@@ -11,16 +11,13 @@ const ProjectsShow = () => {
   return (
     <>
       <div className="projectshow-container">
-        <div className="projectshow-banner">
-          <img src="src/assets/images/bannerplaceolder.png" alt="banner" />
-        </div>
         <div className="projectsshow-project-title">
           <div className="project-name">
             <h3>Mess Management</h3>
-            <span className="project-status">ONGOING</span>
+            <div className="project-status">ONGOING</div>
           </div>
           <div className="project-image">
-            <img src="src/assets/images/animnav.png" alt="logo" />
+            <img src="src/assets/images/projectsPlaceholder.png" alt="logo" />
           </div>
         </div>
         <div className="projectshow-project-description">
@@ -36,13 +33,23 @@ const ProjectsShow = () => {
             natus possimus repudiandae, quam ad doloribus earum consectetur officiis,
             tempore qui debitis perspiciatis! In, a sed! Quos quis vero eum voluptas
             laboriosam, rerum minima, blanditiis provident ex, aperiam sapiente explicabo
-            id molestiae. Perferendis deleniti exercitationem labore? m dolor sit, amet
-            consectetur adipisicing elit. Incidunt amet voluptatum autem facilis nobis
-            quas aspernatur soluta doloremque, voluptatem tenetur excepturi sint beatae
-            qui ex possimus dignissimos harum adipisci accusantium., consectetur
-            adipisicing elit. Minus aliquam tempore accusamus tenetur iste veritatis quia
-            molestiae ullam corrupti a, tempora blanditiis voluptatibus libero atque
-            quisquam obcaecati, perferendis iusto eos.
+            id molestiae. Perferendis deleniti exercitat Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Libero expedita enim, aliquid necessitatibus
+            pariatur dignissimos odit eveniet eaque a perspiciatis explicabo in
+            praesentium voluptate odio neque tempore maxime dicta? Praesentium tempora
+            suscipit iure deleniti reiciendis illo reprehenderit autem deserunt rem dicta
+            facere expedita, velit maiores quibusdam ab quos voluptates soluta ullam
+            tenetur! Non magnam repellat eius ratione expedita impedit, labore eaque
+            consequatur dolor harum modi quaerat illum repudiandae aliquid, eligendi,
+            corporis eveniet quas recusandae dignissimos sunt voluptatibus. Eius debitis
+            nam, natus voluptate, quas expedita et quo fugiat omnis, labore asperiores
+            numquam quasi sit dolores tempore? Minima, suscipit in! Ipsam, quidem? ionem
+            labore? m dolor sit, amet consectetur adipisicing elit. Incidunt amet
+            voluptatum autem facilis nobis quas aspernatur soluta doloremque, voluptatem
+            tenetur excepturi sint beatae qui ex possimus dignissimos harum adipisci
+            accusantium., consectetur adipisicing elit. Minus aliquam tempore accusamus
+            tenetur iste veritatis quia molestiae ullam corrupti a, tempora blanditiis
+            voluptatibus libero atque quisquam obcaecati, perferendis iusto eos.
           </p>
         </div>
         <div className="projectshow-techstack">
