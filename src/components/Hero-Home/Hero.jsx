@@ -17,8 +17,10 @@ const Model = () => {
     }
   });
 
-  const Model = useLoader(GLTFLoader, "../src/assets/model/gdsclogo4.gltf");
-  return <primitive object={Model.scene} scale={scale} />;
+  const Model = useLoader(GLTFLoader, "/gdsclogo4.gltf");
+  return (
+    <primitive object={Model.scene} scale={scale} rotation={[0, 0, -Math.PI * 0.01]} />
+  );
 };
 // scale={1.4}
 
@@ -28,12 +30,18 @@ const Hero = () => {
 
   return (
     <div className="home-hero">
+      <div className="cover"></div>
       <a className="scroll-gif" href="#gdsc">
         <img src={scroll} alt="" className="scroll-img" />
         <div className="circle"></div>
       </a>
       <div className="text">
-        <div className="title gdsc">GDSC</div>
+        <div className="title gdsc">
+          <span className="gdsc-title-blue">G</span>
+          <span className="gdsc-title-yellow">D</span>
+          <span className="gdsc-title-red">S</span>
+          <span className="gdsc-title-green">C</span>
+        </div>
         <div className="title nits">NIT Silchar</div>
         <div className="twl">
           <div className="tw">Together we</div>
@@ -74,6 +82,7 @@ const Hero = () => {
             maxPolarAngle={Math.PI / 3}
             minPolarAngle={Math.PI / 3}
             enablePan={false}
+            touches={false}
           />
         </Canvas>
       </div>

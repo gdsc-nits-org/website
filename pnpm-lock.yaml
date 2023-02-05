@@ -3,6 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@lottiefiles/lottie-interactivity': ^1.6.1
   '@lottiefiles/lottie-player': ^1.6.0
+  '@lottiefiles/react-lottie-player': ^3.5.0
   '@react-three/drei': ^9.40.0
   '@react-three/fiber': ^8.9.1
   '@types/react': ^18.0.17
@@ -32,6 +33,7 @@ specifiers:
 dependencies:
   '@lottiefiles/lottie-interactivity': 1.6.1
   '@lottiefiles/lottie-player': 1.6.0
+  '@lottiefiles/react-lottie-player': 3.5.0_react@18.2.0
   '@react-three/drei': 9.40.0_xwynmv5llzsuuouxruzymqw67e
   '@react-three/fiber': 8.9.1_mjlgqb43i6mvslmnwgzrdumoh4
   lottie-web: 5.9.6
@@ -472,6 +474,40 @@ packages:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
+
+  /@lit/reactive-element/1.4.2:
+    resolution: {integrity: sha512-VMOxsWh/QDwrxPsgkSQnuZ+8mfNy1OTjzzUdLBvvZtpahwPTHTeVZ51RZRqO4xfKVrR+btIPA8D01IL3xeG66w==}
+    dev: false
+
+  /@lottiefiles/lottie-interactivity/1.6.1:
+    resolution: {integrity: sha512-ZQE+1I5nqLPOWgsK0tEeG9RQDfBDBLu2WrWwz2c6+pOvgiYObRR2Z1+16suNStXkGbN5+vKYok8Bw7DZwffVRQ==}
+    dependencies:
+      core-js: 3.26.1
+    dev: false
+
+  /@lottiefiles/lottie-player/1.6.0:
+    resolution: {integrity: sha512-003iDtGHrPfB1zkxpK9ZrCtVH2zMe59mriM69UlZ7DpxiqupGEMSo/3qmZ5t7QCMuCfG0NKXFBq2tZPeWRQfrA==}
+    dependencies:
+      '@types/pako': 1.0.4
+      lit: 2.4.1
+      lottie-web: 5.9.6
+      pako: 2.1.0
+      resize-observer-polyfill: 1.5.1
+    dev: false
+
+  /@lottiefiles/react-lottie-player/3.5.0_react@18.2.0:
+    resolution: {integrity: sha512-RSlqcq9d204sqmG5ithFYQwxovLP96uj8yY+f2U8WPtdmv4zMvx1C4V4wv5nlcr2drSxvoyykM50YrVDpXjKwQ==}
+    peerDependencies:
+      react: 16 - 18
+    dependencies:
+      lottie-web: 5.10.1
+      react: 18.2.0
+    dev: false
+
+  /@microsoft/fast-element/1.11.0:
+    resolution: {integrity: sha512-VKJYMkS5zgzHHb66sY7AFpYv6IfFhXrjQcAyNgi2ivD65My1XOhtjfKez5ELcLFRJfgZNAxvI8kE69apXERTkw==}
+    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -2086,6 +2122,10 @@ packages:
     dependencies:
       '@microsoft/fast-element': 1.11.0
       lottie-web: 5.9.6
+    dev: false
+
+  /lottie-web/5.10.1:
+    resolution: {integrity: sha512-u17bVNf/vA3oK9Wkyb1Vpo83WUIEQwaT0GeEN0qcvaExizyJ/RjmcbjSDj0CnwQCtpGqTgYhqprCC7cTWuXMNw==}
     dev: false
 
   /lottie-web/5.9.6:

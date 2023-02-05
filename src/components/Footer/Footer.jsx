@@ -4,6 +4,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { ImFacebook } from "react-icons/im";
 import { FiInstagram } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa";
+import logo from "../../assets/images/logo.png";
 
 function Footer() {
   return (
@@ -130,12 +131,12 @@ function Footer() {
 
         <div className="footer-end">
           <div className="footer-end-left">
-            <img src="src/assets/images/logo.png" alt="GDSC NITS" />
-            <ul>Developer Student Club NIT Silchar</ul>
+            <img src={logo} alt="GDSC NITS" />
+            <ul>Google Developer Student Club NIT Silchar</ul>
           </div>
 
           <div className="footer-end-right">
-            <ul>Developer Student Club,NITS. All Rights Reserved</ul>
+            <ul>Google Developer Student Club,NITS. All Rights Reserved</ul>
           </div>
         </div>
       </div>
