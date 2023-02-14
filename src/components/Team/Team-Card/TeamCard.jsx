@@ -14,7 +14,8 @@ function TeamCard(props){
 return(  <div className="teamCard">
         <div className="animation">
         <div className="pic">
-            <img src={props.ImageSrc} alt=" " className="image" />
+            <img src={props.ImageSrc} alt=" " className="image"
+            loading="lazy" />
             {/* <img src={profileImage} alt=" " className="image" /> */}
         </div>
         </div>

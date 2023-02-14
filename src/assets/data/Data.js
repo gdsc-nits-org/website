@@ -1,11 +1,11 @@
 
-import profileImage from "../../../public/team_pics/AyushGupta.jpg"
+
 const TeamData=[
 
     {
         key : "1",
         Batch :"2024",
-        imageSrc : "../../../public/team_pics/AyushGupta.jpg",
+        imageSrc : "/team_pics/AyushGupta.jpg",
         Name : "Ayush Gupta",
         Domain : "Android" ,
         Description : "Android Moderator",
@@ -17,7 +17,7 @@ const TeamData=[
     {
         key : 2,
         Batch :"2024",
-        imageSrc : "../../../public/team_pics/VikasSuthar.jpg",
+        imageSrc : "/team_pics/VikasSuthar.jpg",
         Name : "Vikas Suthar",
         Domain : "Flutter" ,
         Description : "Flutter Moderator",
@@ -28,7 +28,7 @@ const TeamData=[
     }, {
         key : 3,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/NikitaRoy.jpg",
+        imageSrc : "/team_pics/NikitaRoy.jpg",
         Name : "Nikita Roy",
         Domain : "Flutter" ,
         Description : "Core Member",
@@ -40,7 +40,7 @@ const TeamData=[
     {
         id : 4,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/BijuBorah.jpeg",
+        imageSrc : "/team_pics/BijuBorah.jpeg",
         Name : "Biju Borah",
         Domain : "Flutter" ,
         Description : "Core Member",
@@ -52,7 +52,7 @@ const TeamData=[
     {
         id : 5,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/BhaskarWary.jpg",
+        imageSrc : "/team_pics/BhaskarWary.jpg",
         Name : "Bhaskar Wary",
         Domain : "UI/UX" ,
         Description : "UI/UX Moderator",
@@ -64,7 +64,7 @@ const TeamData=[
     {
         id : 6,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/ShibamDebnath.jpeg",
+        imageSrc : "/team_pics/ShibamDebnath.jpeg",
         Name : "Shibam Debnath",
         Domain : "UI/UX" ,
         Description : "Core Member",
@@ -76,9 +76,9 @@ const TeamData=[
     {
         id : 7,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/DiyaKarmakar.png",
+        imageSrc : "/team_pics/DiyaKarmakar.png",
         Name : "Diya Karmakar",
-        Domain : "Flutter" ,
+        Domain : "UI/UX" ,
         Description : "Core Member",
         Linkdin : "https://www.linkedin.com/in/diya-karmakar-5a4b14190/",
         Facebook : "##",
@@ -88,7 +88,7 @@ const TeamData=[
     {
         id : 8,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/SayahnneetaDutta.jpg",
+        imageSrc : "/team_pics/SayahnneetaDutta.jpg",
         Name : "Sayahnneeta Dutta",
         Domain : "Web" ,
         Description : "Core Member",
@@ -100,7 +100,7 @@ const TeamData=[
     {
         id : 9,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/PratikMajumdar.jpg",
+        imageSrc : "/team_pics/PratikMajumdar.jpg",
         Name : "Pratik Majumdar",
         Domain : "Web" ,
         Description : "Core Member",
@@ -112,7 +112,7 @@ const TeamData=[
     {
         id : 10,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/NetrakamalBarua.jpg",
+        imageSrc : "/team_pics/NetrakamalBarua.jpg",
         Name : "Netrakamal Barua",
         Domain : "Web" ,
         Description : "Web Moderator",
@@ -124,7 +124,7 @@ const TeamData=[
     {
         id : 11,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/JyotishkaBhattacharjee.jpeg",
+        imageSrc : "/team_pics/JyotishkaBhattacharjee.jpeg",
         Name : "Jyotishka Bhattacharjee",
         Domain : "Web" ,
         Description : "Core Member",
@@ -136,7 +136,7 @@ const TeamData=[
     {
         id : 12,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/AniruddhaDutta.jpg",
+        imageSrc : "/team_pics/AniruddhaDutta.jpg",
         Name : "Aniruddha Dutta",
         Domain : "Web" ,
         Description : "Lead",
@@ -148,7 +148,7 @@ const TeamData=[
     {
         id : 13,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/AdritaBuragohain.jpeg",
+        imageSrc : "/team_pics/AdritaBuragohain.jpeg",
         Name : "Adrita Buragohain",
         Domain : "Web" ,
         Description : "Core Member",
@@ -160,7 +160,7 @@ const TeamData=[
     {
         id : 14,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/SiddhartaShankarPaul.jpeg",
+        imageSrc : "/team_pics/SiddhartaShankarPaul.jpeg",
         Name : "Siddharta Shankar Paul",
         Domain : "Flutter" ,
         Description : "Core Member",
@@ -172,7 +172,7 @@ const TeamData=[
     {
         id : 15,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/VinayakDas.png",
+        imageSrc : "/team_pics/VinayakDas.png",
         Name : "Vinayak Das",
         Domain : "Flutter" ,
         Description : "Core Member",
@@ -184,7 +184,7 @@ const TeamData=[
     {
         id : 16,
         Batch : "2024",
-        imageSrc : "../../../public/team_pics/SauravPal.png",
+        imageSrc : "/team_pics/SauravPal.png",
         Name : "Saurav Pal",
         Domain : "Cloud and DevOps" ,
         Description : "Cloud Moderator",
@@ -195,8 +195,8 @@ const TeamData=[
     },
     {
         id : 17,
-        Batch : "2026",
-        imageSrc : "../../../public/team_pics/AdhirajDutta.jpeg",
+        Batch : "2025",
+        imageSrc : "/team_pics/AdhirajDutta.jpeg",
         Name : "Adhiraj Dutta",
         Domain : "Web" ,
         Description : "",
@@ -207,8 +207,8 @@ const TeamData=[
     },
     {
         id : 18,
-        Batch : "2026",
-        imageSrc : "../../../public/team_pics/AdityaKumar.jpg",
+        Batch : "2025",
+        imageSrc : "/team_pics/AdityaKumar.jpg",
         Name : "Aditya Kumar",
         Domain : "Web" ,
         Description : "",
@@ -219,8 +219,8 @@ const TeamData=[
     },
     {
         id : 19,
-        Batch : "2026",
-        imageSrc : "../../../public/team_pics/BaishaliDebKanunjna.jpeg",
+        Batch : "2025",
+        imageSrc : "/team_pics/BaishaliDebKanunjna.jpeg",
         Name : "Baishali Deb Kanunjna ",
         Domain : "Flutter" ,
         Description : "",
@@ -231,8 +231,8 @@ const TeamData=[
     },
     {
         id : 20,
-        Batch : "2024",
-        imageSrc : "../../../public/team_pics/JaydeepDas.jpg",
+        Batch : "2025",
+        imageSrc : "/team_pics/JaydeepDas.jpg",
         Name : "Jaydeep Prapanch Das",
         Domain : "Web" ,
         Description : "",
@@ -244,7 +244,7 @@ const TeamData=[
     {
         id : 21,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/JacinthMahanta.jpeg",
+        imageSrc : "/team_pics/JacinthMahanta.jpeg",
         Name : "Jacinth Mahanta ",
         Domain : "UI/UX" ,
         Description : "",
@@ -256,7 +256,7 @@ const TeamData=[
     {
         id : 22,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/VivekKumar.jpg",
+        imageSrc : "/team_pics/VivekKumar.jpg",
         Name : "Vivek Kumar",
         Domain : "Web" ,
         Description : "",
@@ -268,7 +268,7 @@ const TeamData=[
     {
         id : 23,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/ParthaPratimDeka.jpg",
+        imageSrc : "/team_pics/ParthaPratimDeka.jpg",
         Name : "Partha Pratim Deka",
         Domain : "Web" ,
         Description : "",
@@ -280,7 +280,7 @@ const TeamData=[
     {
         id : 24,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/DiptabhMedhi.png",
+        imageSrc : "/team_pics/DiptabhMedhi.png",
         Name : "Diptabh Medhi",
         Domain : "Android" ,
         Description : "",
@@ -292,7 +292,7 @@ const TeamData=[
     {
         id : 25,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/Pranjit.jpg",
+        imageSrc : "/team_pics/Pranjit.jpg",
         Name : "Pranjit Kakoti",
         Domain : "Web" ,
         Description : "",
@@ -304,7 +304,7 @@ const TeamData=[
     {
         id : 26,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/SameerZaidi.jpeg",
+        imageSrc : "/team_pics/SameerZaidi.jpeg",
         Name : "Sameer Zaidi",
         Domain : "Android" ,
         Description : "",
@@ -316,7 +316,7 @@ const TeamData=[
     {
         id : 27,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/Prateek.jpeg",
+        imageSrc : "/team_pics/Prateek.jpeg",
         Name : "Prateek Mogha",
         Domain : "Android" ,
         Description : "",
@@ -328,7 +328,7 @@ const TeamData=[
     {
         id : 28,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/RohanJha.jpg",
+        imageSrc : "/team_pics/RohanJha.jpg",
         Name : "Rohan Jha",
         Domain : "Web" ,
         Description : "",
@@ -340,7 +340,7 @@ const TeamData=[
     {
         id : 29,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/MaharnavDeka.jpg",
+        imageSrc : "/team_pics/MaharnavDeka.jpg",
         Name : "Maharnav Deka",
         Domain : "UI/UX" ,
         Description : "",
@@ -352,7 +352,7 @@ const TeamData=[
     {
         id : 30,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/ArpitSaikia.png",
+        imageSrc : "/team_pics/ArpitSaikia.png",
         Name : "Arpit Saikia",
         Domain : "Android" ,
         Description : "",
@@ -364,7 +364,7 @@ const TeamData=[
     {
         id : 31,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/AnkitUpadhaya.JPG",
+        imageSrc : "/team_pics/AnkitUpadhaya.JPG",
         Name : "Ankit Upadhaya",
         Domain : "Web" ,
         Description : "",
@@ -376,7 +376,7 @@ const TeamData=[
     {
         id : 32,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/AyushMalviya.jpg",
+        imageSrc : "/team_pics/AyushMalviya.jpg",
         Name : "Ayush Malviya",
         Domain : "Flutter" ,
         Description : "",
@@ -388,7 +388,7 @@ const TeamData=[
     {
         id : 33,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/SubhajitKarmakar.jpg",
+        imageSrc : "/team_pics/SubhajitKarmakar.jpg",
         Name : "Subhajit Karmakar ",
         Domain : "Flutter" ,
         Description : "",
@@ -400,7 +400,7 @@ const TeamData=[
     {
         id : 34,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/SandeepKherkatary.jpeg",
+        imageSrc : "/team_pics/SandeepKherkatary.jpeg",
         Name : "Sandeep Kherkatary",
         Domain : "Web" ,
         Description : "",
@@ -412,7 +412,7 @@ const TeamData=[
     {
         id : 35,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/SundoromDas.jpeg",
+        imageSrc : "/team_pics/SundoromDas.jpeg",
         Name : "Sundorom Das",
         Domain : "Flutter" ,
         Description : "",
@@ -424,7 +424,7 @@ const TeamData=[
     {
         id : 36,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/ShreyaDas.jpg",
+        imageSrc : "/team_pics/ShreyaDas.jpg",
         Name : "Shreya Das",
         Domain : "UI/UX" ,
         Description : "",
@@ -436,7 +436,7 @@ const TeamData=[
     {
         id : 37,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/DipanPatgiri.jpg",
+        imageSrc : "/team_pics/DipanPatgiri.jpg",
         Name : "Dipan Patgiri",
         Domain : "Android" ,
         Description : "",
@@ -448,7 +448,7 @@ const TeamData=[
     {
         id : 38,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/RajdristantGhose.jpg",
+        imageSrc : "/team_pics/RajdristantGhose.jpg",
         Name : "Rajdristant Ghose",
         Domain : "UI/UX" ,
         Description : "",
@@ -460,7 +460,7 @@ const TeamData=[
     {
         id : 39,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/AryadeepGogoi.jpeg",
+        imageSrc : "/team_pics/AryadeepGogoi.jpeg",
         Name : "Aryadeep Gogoi",
         Domain : "UI/UX" ,
         Description : "",
@@ -472,7 +472,7 @@ const TeamData=[
     {
         id : 40,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/ArnabKumarSingh.jpeg",
+        imageSrc : "/team_pics/ArnabKumarSingh.jpeg",
         Name : "Arnab Kumar Singh",
         Domain : "Web" ,
         Description : "",
@@ -484,7 +484,7 @@ const TeamData=[
     {
         id : 41,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/SomyaKasaudhan.jpg",
+        imageSrc : "/team_pics/SomyaKasaudhan.jpg",
         Name : "Somya Kasaudhan ",
         Domain : "UI/UX" ,
         Description : "",
@@ -496,7 +496,7 @@ const TeamData=[
     {
         id : 42,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/Priyabrat.jpeg",
+        imageSrc : "/team_pics/Priyabrat.jpeg",
         Name : "Priyabrat Duarah",
         Domain : "Flutter" ,
         Description : "",
@@ -508,7 +508,7 @@ const TeamData=[
     {
         id : 43,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/MasoomSahu.png",
+        imageSrc : "/team_pics/MasoomSahu.png",
         Name : "Masoom Sahu",
         Domain : "Web" ,
         Description : "",
@@ -520,7 +520,7 @@ const TeamData=[
     {
         id : 44,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/JUGYAKAMAL GOGOI.jpeg",
+        imageSrc : "/team_pics/JUGYAKAMAL GOGOI.jpeg",
         Name : "Jugya Kamal Gogoi",
         Domain : "Web" ,
         Description : "",
@@ -532,7 +532,7 @@ const TeamData=[
     {
         id : 45,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/AnkitRaj.jpeg",
+        imageSrc : "/team_pics/AnkitRaj.jpeg",
         Name : "Ankit Raj",
         Domain : "Web" ,
         Description : "",
@@ -544,7 +544,7 @@ const TeamData=[
     {
         id : 46,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/HrishitaPaul.jpg",
+        imageSrc : "/team_pics/HrishitaPaul.jpg",
         Name : "Hrishita Paul",
         Domain : "Web" ,
         Description : "",
@@ -556,7 +556,7 @@ const TeamData=[
     {
         id : 47,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/DeepSaikia.jpeg",
+        imageSrc : "/team_pics/DeepSaikia.jpeg",
         Name : "Deep Saikia",
         Domain : "Android" ,
         Description : "",
@@ -568,7 +568,7 @@ const TeamData=[
     {
         id : 48,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/NavneetRaj.JPG",
+        imageSrc : "/team_pics/NavneetRaj.JPG",
         Name : "Navneet Raj Karn",
         Domain : "Flutter" ,
         Description : "",
@@ -580,7 +580,7 @@ const TeamData=[
     {
         id : 49,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/RayyanShaikh.webp",
+        imageSrc : "/team_pics/RayyanShaikh.webp",
         Name : "Rayyan Shaikh",
         Domain : "Web" ,
         Description : "",
@@ -592,7 +592,7 @@ const TeamData=[
     {
         id : 50,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/BipangshuSaha.jpg",
+        imageSrc : "/team_pics/BipangshuSaha.jpg",
         Name : "Bipangshu Saha",
         Domain : "Web" ,
         Description : "",
@@ -604,7 +604,7 @@ const TeamData=[
     {
         id : 51,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/BibhasNaskar.jpg",
+        imageSrc : "/team_pics/BibhasNaskar.jpg",
         Name : "Bibhas Naskar",
         Domain : "Android" ,
         Description : "",
@@ -616,7 +616,7 @@ const TeamData=[
     {
         id : 52,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/TithiJha.jpg",
+        imageSrc : "/team_pics/TithiJha.jpg",
         Name : "Tithi Jha",
         Domain : "UI/UX" ,
         Description : "",
@@ -628,7 +628,7 @@ const TeamData=[
     {
         id : 53,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/BijayJiwrajka.jpg",
+        imageSrc : "/team_pics/BijayJiwrajka.jpg",
         Name : "Bijay Jiwrajka",
         Domain : "Web" ,
         Description : "",
@@ -640,7 +640,7 @@ const TeamData=[
     {
         id : 54,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/SumanDas.jpg",
+        imageSrc : "/team_pics/SumanDas.jpg",
         Name : "Suman Das",
         Domain : "Web" ,
         Description : "",
@@ -652,7 +652,7 @@ const TeamData=[
     {
         id : 55,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/Anubhav.jpg",
+        imageSrc : "/team_pics/Anubhav.jpg",
         Name : "Anubhav Chakraborty",
         Domain : "Web" ,
         Description : "",
@@ -664,7 +664,7 @@ const TeamData=[
     {
         id : 56,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/SulakshanaChetry.jpg",
+        imageSrc : "/team_pics/SulakshanaChetry.jpg",
         Name : "Sulakshana Chetry",
         Domain : "Web" ,
         Description : "",
@@ -676,7 +676,7 @@ const TeamData=[
     {
         id : 57,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/PragyaAnneshaBaruah.jpeg",
+        imageSrc : "/team_pics/PragyaAnneshaBaruah.jpeg",
         Name : "Pragya Annesha Baruah",
         Domain : "UI/UX" ,
         Description : "",
@@ -688,7 +688,7 @@ const TeamData=[
     {
         id : 58,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/RupsnigdhaKashyap.jpg",
+        imageSrc : "/team_pics/RupsnigdhaKashyap.jpg",
         Name : "Rupsnigdha Kashyap",
         Domain : "Web" ,
         Description : "",
@@ -700,7 +700,7 @@ const TeamData=[
     {
         id : 59,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/BhargaviNath.png",
+        imageSrc : "/team_pics/BhargaviNath.png",
         Name : "Bhargabi Nath",
         Domain : "Web" ,
         Description : "",
@@ -712,7 +712,7 @@ const TeamData=[
     {
         id : 60,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/HritikaRoy.jpg",
+        imageSrc : "/team_pics/HritikaRoy.jpg",
         Name : "Hritika Roy",
         Domain : "Android" ,
         Description : "",
@@ -724,7 +724,7 @@ const TeamData=[
     {
         id : 61,
         Batch : "2025",
-        imageSrc : "../../../public/team_pics/Rex.jpg",
+        imageSrc : "/team_pics/Rex.jpg",
         Name : "Hrishikesh Borah",
         Domain : "Web" ,
         Description : "",
