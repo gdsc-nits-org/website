@@ -26,6 +26,7 @@
     "react-lottie": "^1.2.3",
     "react-router-dom": "6",
     "react-typed": "^1.2.0",
+    "styled-components": "^5.3.6",
     "three": "^0.146.0"
   },
   "devDependencies": {
