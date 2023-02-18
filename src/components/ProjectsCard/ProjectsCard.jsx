@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./ProjectsCard.scss";
 import Picture from "../../assets/images/projectsPlaceholder.png";
 import TempAPI from "./tempAPI.json";
+import { Link } from "react-router-dom";
 
 function ProjectCard() {
   const [cardInfo] = useState(TempAPI.msg); //Linking the API
@@ -30,7 +31,9 @@ function ProjectCard() {
             </div>
             <p className="project-card-content">{cardInfo.description}</p>
             <div className="project-card-footer">
-              <div className="project-card-details">View Details</div>
+              <Link to={`/projects/${cardInfo.id}`}>
+                <div className="project-card-details">View Details</div>
+              </Link>
             </div>
           </div>
         );
