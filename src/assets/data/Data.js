@@ -22,7 +22,7 @@ const TeamData=[
         Domain : "Flutter" ,
         Description : "Flutter Moderator",
         Linkdin : "https://www.linkedin.com/in/vikas528",
-        Facebook : "https://www.facebook.com/profile.php?id=100017110333190",
+        Facebook : "https://www.facebook.com/vikas.makkar.357",
         Twitter : "https://github.com/vikas528",
 
     }, {
@@ -268,7 +268,7 @@ const TeamData=[
     {
         id : 23,
         Batch : "2025",
-        imageSrc : "/team_pics/ParthaPratimDeka.jpg",
+        imageSrc : "/team_pics/ParthapratimDeka.jpg",
         Name : "Partha Pratim Deka",
         Domain : "Web" ,
         Description : "",

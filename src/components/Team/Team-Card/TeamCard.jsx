@@ -30,19 +30,19 @@ return(  <div className="teamCard">
         <div className="description">{props.Description}</div>
         <div className="socials">
             <div className="linkdin socialIcon">
-                <a href = {props.Linkdin}>
+                <a href = {props.Linkdin} target="_blank">
                     <img src={lin} alt="" />
                 </a>
             </div>
             <div className="facebook socialIcon">
-                <Link to = {props.Facebook}>
+                <a href = {props.Facebook} target="_blank">
                     <img src={fb} alt="" />
-                </Link>
+                </a>
             </div>
             <div className="github socialIcon">
-                <Link to = {props.Twitter}>
+                <a href={props.Twitter } target="_blank">
                     <img className="git" src={github} alt="" />
-                </Link>
+                </a>
             </div>
         </div>
         
