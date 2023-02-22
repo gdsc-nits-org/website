@@ -51,6 +51,7 @@ let newFilteredMemberList = filteredMemberList.filter((member)=>{
   if(filterModuleValue==='Web'||
     filterModuleValue==='Android' ||
     filterModuleValue==='Flutter' ||
+    filterModuleValue==='Cloud' ||
     filterModuleValue==='UI/UX'){
     return member.Domain==`${filterModuleValue}`
   }
@@ -81,6 +82,7 @@ let OtherMemberList = newFilteredMemberList.filter((member)=>{
           option4="UI/UX"
           option3="Flutter"
           option5="Android"
+          option6="Cloud"
           filterModuleData={onModuleValueChanged} /> 
         <FilterModule
           className="filterByYear"
@@ -98,10 +100,10 @@ let OtherMemberList = newFilteredMemberList.filter((member)=>{
         <div className='grid'>
           {(CoreMemberList.map(data))}
         </div>
-        <div className="member-title">MEMBERS</div>
+          <div className="member-title">MEMBERS</div>
         <div className='grid'>
         {OtherMemberList.map(data)}
-        </div>
+        </div>        
       </>):(
       <>
       <div className='grid'>

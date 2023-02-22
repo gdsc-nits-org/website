@@ -186,7 +186,7 @@ const TeamData=[
         Batch : "2024",
         imageSrc : "/team_pics/SauravPal.png",
         Name : "Saurav Pal",
-        Domain : "Cloud and DevOps" ,
+        Domain : "Cloud" ,
         Description : "Cloud Moderator",
         Linkdin : "https://www.linkedin.com/in/resyfer",
         Facebook : "https://www.facebook.com/resyfer.dev",

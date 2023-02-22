@@ -32,6 +32,7 @@ function FilterModule(props){
                 <div className="value" value="Flutter" onClick={onModuleValueChanged}>{props.option3}</div>
                 <div className="value" value="UI/UX" onClick={onModuleValueChanged}>{props.option4}</div>
                 <div className="value" value="Android" onClick={onModuleValueChanged}>{props.option5}</div>
+                <div className="value" value="Cloud" onClick={onModuleValueChanged}>{props.option6}</div>
             </ul>}
         </div>
     )
