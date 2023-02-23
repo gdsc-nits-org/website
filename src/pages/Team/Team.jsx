@@ -8,7 +8,7 @@ import TeamData from "../../assets/data/Data";
 function data(value){
   return(
     <TeamCard
-    key={value.id}
+    key={value._id}
     ImageSrc={value.imageSrc}
     Name= {value.Name}
     Domain={value.Domain}
