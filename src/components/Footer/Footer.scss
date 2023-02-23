@@ -138,7 +138,7 @@
 
     .footer-middle-mob1 {
       display: flex;
-      justify-content: space-around;
+      // justify-content: space-around;
       align-items: stretch;
       width: 50%;
       @media (max-width: 750px) {
@@ -165,6 +165,14 @@
         height: 0;
         border-bottom: 0.2rem solid var(--gdsc-yellow-1-100);
       }
+    }
+
+    .footer-mid-about, .footer-mid-events, .footer-mid-project, .footer-mid-team{
+      margin: 0px auto;
+    }
+
+    .footer-mid-about{
+      margin-left: 0px;
     }
 
     .footer-mid-events {
