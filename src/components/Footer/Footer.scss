@@ -9,9 +9,11 @@
   max-width: 100rem;
   border-top: 0.062rem solid #c5c5c5;
   box-shadow: 0px -3px 5px #eaeaea;
+
   @media (max-width: 800px) {
     padding: 1.5rem 2.25rem;
   }
+
   @media (max-width: 670px) {
     padding: 1rem;
   }
@@ -26,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     @media (max-width: 600px) {
       flex-direction: column;
       gap: 1.5rem;
@@ -33,10 +36,12 @@
 
     .footer-top-left {
       width: 50%;
+
       @media (max-width: 600px) {
         min-width: 100%;
         align-items: baseline;
       }
+
       @media (max-width: 450px) {
         min-width: 100%;
       }
@@ -53,6 +58,7 @@
           margin: 0rem 0.4rem 0.6rem;
           transition: 0.4s;
         }
+
         .footer-social-links:hover {
           transform: scale(0.9);
           transition: 0.4s;
@@ -66,14 +72,17 @@
           color: #313033;
           margin-bottom: 1.2rem;
         }
+
         ul {
           font-size: 0.9rem;
         }
       }
+
       .footer-mail {
         ul {
           font-size: 0.9rem;
         }
+
         a {
           text-decoration: underline;
         }
@@ -86,17 +95,30 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
       @media (max-width: 600px) {
         min-width: 100%;
       }
+
       @media (max-width: 590px) {
         min-width: 100%;
         align-items: baseline;
       }
-      .support-us{
+
+      .support-us {
         margin-right: auto;
         margin-bottom: 1rem;
+
+        img {
+          transition: 0.25s;
+        }
       }
+
+      .support-us:hover img {
+        box-shadow: 2px 2px 7px #cecece;
+        border-radius: 10px;
+      }
+
       h2 {
         text-align: center;
         font-size: 1.8rem;
@@ -105,6 +127,7 @@
         height: 3.125rem;
         border: 0.125rem solid grey;
         border-radius: 0.313rem;
+        transition: 0.25s;
 
         @media (max-width: 920px) {
           padding: 0rem 2rem;
@@ -114,9 +137,16 @@
           font-weight: 800;
         }
       }
+
+      h2:hover {
+        box-shadow: 2px 2px 7px #cecece;
+        border-radius: 10px;
+      }
+
       ul {
         color: #49454f;
         margin-top: 0.5rem;
+
         @media (max-width: 900px) {
           font-size: 0.8rem;
         }
@@ -129,6 +159,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+
     @media (max-width: 750px) {
       flex-direction: column;
       align-items: center;
@@ -138,9 +169,10 @@
 
     .footer-middle-mob1 {
       display: flex;
-      justify-content: space-around;
+      // justify-content: space-around;
       align-items: stretch;
       width: 50%;
+
       @media (max-width: 750px) {
         width: 100%;
       }
@@ -155,6 +187,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
+
       @media (max-width: 750px) {
         width: 50%;
         font-size: 0.8rem;
@@ -167,10 +200,22 @@
       }
     }
 
+    .footer-mid-about,
+    .footer-mid-events,
+    .footer-mid-project,
+    .footer-mid-team {
+      margin: 0px auto;
+    }
+
+    .footer-mid-about {
+      margin-left: 0px;
+    }
+
     .footer-mid-events {
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
+
       @media (max-width: 750px) {
         width: 50%;
         font-size: 0.8rem;
@@ -187,6 +232,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
+
       @media (max-width: 750px) {
         width: 50%;
         align-items: baseline;
@@ -204,6 +250,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
+
       @media (max-width: 750px) {
         width: 50%;
         align-items: baseline;
@@ -223,6 +270,7 @@
     width: 100%;
     justify-content: space-between;
     margin-top: 1.8rem;
+
     @media (max-width: 750px) {
       display: flex;
       flex-direction: column;
@@ -236,25 +284,31 @@
 
       img {
         width: 3.3rem;
+
         @media (max-width: 350px) {
           width: 2.2rem;
         }
       }
+
       ul {
         color: #605d62;
         font-weight: 400;
+
         @media (max-width: 370px) {
           font-size: 0.8rem;
         }
       }
     }
+
     .footer-end-right {
       display: flex;
       justify-content: center;
       align-items: center;
+
       ul {
         font-size: 0.7rem;
         color: #605d62;
+
         @media (max-width: 370px) {
           font-size: 0.5rem;
         }
