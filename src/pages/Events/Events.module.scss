@@ -1,0 +1,142 @@
+.events {
+    margin: 6rem auto;
+    .heading {
+        text-align: center;
+        font-weight: 700;
+        font-size: 2.5rem;
+        margin: 2rem auto;
+    }
+
+    .uc_events_card {
+        width: 80%;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 15px;
+        display: flex;
+
+        .logo {
+            margin: auto 2rem;
+        }
+
+        .info {
+            padding: 2rem;
+            line-height: 40px;
+
+            .title {
+                font-size: 1.4rem;
+            }
+
+            .badges {
+                .subtitle {
+                    font-size: 1.3rem;
+                }
+
+                .badge {
+                    font-size: 0.8rem;
+                    padding: 2px 6px;
+                    display: inline;
+                    border-radius: 7px;
+                    background: #DBDBDB;
+                }
+            }
+
+            .desc {
+                font-size: 1.3rem;
+                color: #49454F;
+                line-height: 30px;
+            }
+
+            .more {
+                background: #4885ED;
+                border: none;
+                padding: 7px 12px;
+                border-radius: 10px;
+                margin-top: 1rem;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .past_events {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 7rem auto;
+
+        .past_events_heading {
+            font-weight: 400;
+            margin-right: 2rem;
+            font-size: 2rem;
+        }
+
+        #past_events {
+            padding: 4px 9px;
+            font-size: 1.1rem;
+            border: 2px solid #605D62;
+            border-radius: 4px;
+            text-align: left;
+            width: 170px;
+            color: #605D62;
+            background: transparent;
+        }
+    }
+
+    .cards {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+        .basis_buffer {
+            flex-basis: 25%;
+            margin: auto;
+
+            .card:hover{
+                box-shadow: 3px 3px 8px rgb(215, 215, 215);
+            }
+            
+            .card {
+                box-shadow: 2px 2px 5px rgb(230, 230, 230);
+                width: 300px;
+                margin: 2rem auto;
+                border: 1px solid #EEEEEE;
+                border-radius: 10px;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                cursor: pointer;
+                transition: 0.25s;
+
+                .card_img{
+                    width: 180px;
+                    margin: auto;
+                    margin-top: 2rem;
+                    border-radius: 50%;
+                }
+                .info{
+                    text-align: center;
+                    line-height: 1.2rem;
+                    padding: 1rem;
+                    .date{
+                        color: #61656A;
+                    }
+                    .title{
+                        margin: 0.5rem auto;
+                        font-size: 1.1rem;
+                    }
+                    .subtitle{
+                        color: #61656A;
+                        padding: 4px 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
