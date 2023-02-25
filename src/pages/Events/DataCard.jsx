@@ -9,7 +9,7 @@ const DataCard = ({info}) => {
   return (
     <div className={Styles.basis_buffer}>
     <div className={Styles.card}>
-      <img src={info.img} alt="" className={Styles.card_img} />
+      <img src={`/images/${info.img}.png`} alt="" className={Styles.card_img} />
       <div className={Styles.info}>
         <div className={Styles.date}>{info.date}</div>
         <div className={Styles.title}>{info.title}</div>

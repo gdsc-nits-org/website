@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.scss";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
-import Team from "./pages/Team/Team";
+import Events from "./pages/Events/Events";
 import Footer from "./components/Footer/Footer";
 import ProjectsShow from "./components/ProjectsCard/Projectshow";
 import Page404 from "./pages/PageNotFound/Page404";
@@ -33,7 +33,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/team",
-    element: <Team />,
+    element: <Events />,
   },
   {
     path: "/projects/:projectID",
