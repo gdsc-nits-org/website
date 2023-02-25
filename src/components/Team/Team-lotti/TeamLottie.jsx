@@ -1,5 +1,5 @@
 import React from "react";
-import "./TeamLotti.scss"
+import "./TeamLotti.scss";
 import animationData from "../../../assets/lottie/TeamLottie.json";
 
 import Lottie from "react-lottie";
@@ -9,10 +9,10 @@ function TeamLottie() {
     autoplay: true,
     animationData: animationData,
     rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  }
-  
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <div key="avatar_animation" className="animation">
       <Lottie
@@ -21,7 +21,7 @@ function TeamLottie() {
         key="avatar_animation_data"
       />
     </div>
-  )
+  );
 }
 
 export default TeamLottie;
