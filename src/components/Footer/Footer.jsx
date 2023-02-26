@@ -5,7 +5,7 @@ import { ImFacebook } from "react-icons/im";
 import { FiInstagram } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa";
 import logo from "../../assets/images/logo.png";
-import kofi from '../../assets/images/ko-fi.svg'
+import kofi from "../../assets/images/ko-fi.svg";
 
 function Footer() {
   return (
@@ -58,10 +58,12 @@ function Footer() {
           </div>
           <div className="footer-top-right">
             <div className="join-chapter">
-            <div className="support-us">
-              {/* <h3>Support Us</h3> */}
-              <a href="https://ko-fi.com/C0C1IO6WS" target='_blank' rel="noreferrer"><img src={kofi} alt="support us" /></a>
-            </div>
+              <div className="support-us">
+                {/* <h3>Support Us</h3> */}
+                <a href="https://ko-fi.com/C0C1IO6WS" target="_blank" rel="noreferrer">
+                  <img src={kofi} alt="support us" />
+                </a>
+              </div>
               <a
                 href="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
                 target="_blank"
