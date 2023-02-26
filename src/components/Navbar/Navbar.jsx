@@ -45,6 +45,11 @@ function Navbar() {
               Projects
             </Link>
           </li>
+          <li className="nav-button events">
+            <Link to="/events" className="nav-link">
+              Events
+            </Link>
+          </li>
           <li className="nav-button team">
             <Link to="/team" className="nav-link">
               Team

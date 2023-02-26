@@ -56,6 +56,9 @@
   background: var(--gdsc-red-1-100);
 }
 
+.events::after {
+  background: var(--gdsc-yellow-1-100);
+}
 .team::after {
   background: var(--gdsc-green-1-100);
 }
