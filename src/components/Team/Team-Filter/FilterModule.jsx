@@ -8,12 +8,12 @@ function FilterModule(props){
         if(viewDropDown===undefined){
             changeViewDropDown("1")
             rotate.push("show")
-            console.log(rotate)
+            
         }
         else{
             changeViewDropDown()
             rotate.push("hide")
-            console.log(rotate)
+            
         }
         
     }
@@ -29,8 +29,10 @@ function FilterModule(props){
             {viewDropDown &&<ul className="dropDownContent">
                 <div className="value" value="All" onClick={onModuleValueChanged} >{props.option1} </div>
                 <div className="value" value="Web" onClick={onModuleValueChanged} >{props.option2}</div>
-                <div className="value" value="App" onClick={onModuleValueChanged}>{props.option3}</div>
+                <div className="value" value="Flutter" onClick={onModuleValueChanged}>{props.option3}</div>
                 <div className="value" value="UI/UX" onClick={onModuleValueChanged}>{props.option4}</div>
+                <div className="value" value="Android" onClick={onModuleValueChanged}>{props.option5}</div>
+                <div className="value" value="Cloud" onClick={onModuleValueChanged}>{props.option6}</div>
             </ul>}
         </div>
     )

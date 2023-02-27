@@ -5,7 +5,7 @@ import { ImFacebook } from "react-icons/im";
 import { FiInstagram } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa";
 import logo from "../../assets/images/logo.png";
-import kofi from '../../assets/images/ko-fi.svg'
+import kofi from "../../assets/images/ko-fi.svg";
 
 function Footer() {
   return (

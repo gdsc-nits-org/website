@@ -1,14 +1,24 @@
 .teamHome{
     height: calc(100vh - var(--navbar-height));
 }
+.member-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
 .grid{
     margin-left: 4.5vw;
     margin-right: 4.5vw;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    row-gap: 2rem;
+    row-gap: 3rem;
     padding-top: 2rem;
     justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .filter{
@@ -33,6 +43,11 @@
         justify-content: space-evenly;
         
     }
+    .member-title {
+        font-weight: 600;
+        font-size: 2.4rem;
+        display: flex;
+    }
 
 }
 
@@ -52,6 +67,13 @@
     }
     .filterByYear{
         transform: translateX(14vw);
+    }
+    .member-title {
+        font-weight: 550;
+        font-size: 2rem;
+        display: flex;
+        padding-top:3%;
+        margin-bottom: -2%;
     }
 }
 @media only screen and (max-width:550px){
@@ -76,6 +98,12 @@
             font-size: 1rem;
             transform: translateX(3rem);
         }
+    }
+    .member-title {
+        font-weight: 500;
+        font-size: 1.6rem;
+        padding-top: 3%;
+        margin-bottom: -2%;
     }
 }
 @media only screen and (max-width:390px){
