@@ -10,7 +10,6 @@ const Events = () => {
     const [pastEvents, setPastEvents] = useState('2021')
 
     const umcomingEvents = data.data[0];
-    console.log(umcomingEvents);
 
     return (
         <div className={Styles.events}>
@@ -21,7 +20,7 @@ const Events = () => {
                     <div className={Styles.info}>
                         <div className={Styles.title}><b>{umcomingEvents.date}</b> - {umcomingEvents.title}</div>
                         <div className={Styles.badges}>
-                            <div className={Styles.subtitle}><b>{umcomingEvents.subtitle.slice(0, 30) + '...'}</b></div>
+                            <div className={Styles.subtitle}><b>{umcomingEvents.subtitle.slice(0,30)+`${umcomingEvents.subtitle.length>30?'...':''}`}</b></div>
                             <div className={Styles.badge}>{umcomingEvents.badge}</div>
                         </div>
                         {window.innerWidth > 800 ? <><div className={Styles.desc}>{umcomingEvents.desc}</div></> : ''}
