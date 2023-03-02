@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef} from "react";
 import "./Team.scss";
 import TeamHome from "../../components/Team/Team-Home/TeamHome.jsx";
 import TeamCard from "../../components/Team/Team-Card/TeamCard";
@@ -20,10 +20,17 @@ function data(value) {
     />
   );
 }
-function Team() {
+const Team=()=> {
   let [newMemeberList] = useState(TeamData);
   let [filterBatchValue, setBatchValue] = useState("All");
   let [filterModuleValue, setModuleValue] = useState("All");
+
+  const sortArray= (x, y)=>{
+    if (x.Name < y.Name) {return -1;}
+    if (x.Name > y.Name) {return 1;}
+    return 0;
+}
+  const DropDownRef=useRef()
 
   function onBatchValueSelected(event) {
     setBatchValue(event);
@@ -31,18 +38,17 @@ function Team() {
   function onModuleValueChanged(filterModule) {
     setModuleValue(filterModule);
   }
-  let filterCoreMember = true;
+  let filterByDomain = false;
+  let currentBatch = "2022-23"
   let filteredMemberList = newMemeberList.filter((member) => {
     if (
-      filterBatchValue === "2026" ||
-      filterBatchValue === "2025" ||
-      filterBatchValue === "2024"
+      filterBatchValue === "2022-23" ||
+      filterBatchValue === "2023-24" ||
+      filterBatchValue === "2024-25"
     ) {
-      filterCoreMember = false;
       return member.Batch == `${filterBatchValue}`;
     } else {
-      filterCoreMember = true;
-      return newMemeberList;
+      return {currentBatch};
     }
   });
 
@@ -54,25 +60,35 @@ function Team() {
       filterModuleValue === "Cloud" ||
       filterModuleValue === "UI/UX"
     ) {
+      filterByDomain = true;
       return member.Domain == `${filterModuleValue}`;
     } else {
       return filteredMemberList;
     }
   });
   let CoreMemberList = newFilteredMemberList.filter((member) => {
-    return member.Batch == 2024;
+    if(filterByDomain == true)
+      {return member.Description != ""}
+      else
+      { 
+        return member.Description != ""
+      }
   });
+  let GDSCLead = newFilteredMemberList.filter((member)=>{
+    return member.Description === "Lead"
+  }) 
 
   let OtherMemberList = newFilteredMemberList.filter((member) => {
-    return member.Batch == 2025;
+    return member.Description == ""
   });
 
   return (
-    <div>
+    <div onClick={()=>{DropDownRef.current.dropDown()}}>
       <TeamHome className="teamHome" />
       <div className="filter">
         <p className="sort">Sort By :</p>
         <FilterModule
+          ref={DropDownRef}
           className="filterByModule"
           title="Module"
           option1="All"
@@ -84,26 +100,32 @@ function Team() {
           filterModuleData={onModuleValueChanged}
         />
         <FilterModule
+          ref={DropDownRef}
           className="filterByYear"
-          title="Year"
-          option1="All"
-          option2="2024"
-          option3="2025"
-          option4="2026"
+          title={currentBatch}
+          option1="2022-23"
+          option2="2023-24"
+          option3="2024-25"
           filterModuleData={onBatchValueSelected}
         />
       </div>
 
-      {filterCoreMember ? (
+      {filterByDomain ? (
         <>
-          <div className="member-title">CORE MEMBERS</div>
-          <div className="grid">{CoreMemberList.map(data)}</div>
-          <div className="member-title">MEMBERS</div>
-          <div className="grid">{OtherMemberList.map(data)}</div>
-        </>
+        <div className="member-title">CORE MEMBERS</div>
+        <div className="grid">{CoreMemberList.map(data)}</div>
+        <div className="member-title">MEMBERS</div>
+        <div className="grid">{(OtherMemberList.sort(sortArray)).map(data)}</div>
+      </>
       ) : (
         <>
-          <div className="grid">{newFilteredMemberList.map(data)}</div>
+          <div className="member-title">LEAD</div>
+          <div className="grid">{GDSCLead.map(data)}</div>
+          <div className="member-title">CORE MEMBERS</div>
+          <div className="grid">{(CoreMemberList.filter((member) => {
+            return member.Description!="Lead"})).map(data)}</div>
+          <div className="member-title">MEMBERS</div>
+          <div className="grid">{(OtherMemberList.sort(sortArray)).map(data)}</div>
         </>
       )}
     </div>
