@@ -29,8 +29,9 @@ function Navbar() {
       <div
         className="backdrop"
         style={{
-          zIndex: `${hamburg === true && winWidth < 900 ? 200 : -100}`,
+          zIndex: `${hamburg === true && winWidth < 900 ? 200 : -6000}`,
           background: `${hamburg === false || winWidth > 900 ? "transparent" : "rgba(0, 0, 0, 0.492)"}`,
+          display: `${hamburg === false || winWidth > 900 ? "none" : "block"}`
         }}
       ></div>
       <div className="nav-list" style={{transform: `translateX(${hamburg === false && winWidth < 900?'25':'0'}rem)`}}>

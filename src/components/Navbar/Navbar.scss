@@ -2,25 +2,34 @@
   display: flex;
   box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.29);
   height: var(--navbar-height);
+  position: fixed;
+  width: 100vw;
+  z-index: 5000;
+  background: white;
+
   .logo {
     display: flex;
     margin-left: 1rem;
+
     a {
       margin: auto;
     }
   }
+
   @media (width>600px) {
     .logo {
       margin-left: 2rem;
     }
   }
-  .nav-list ul, .nav-list{
+
+  .nav-list ul,
+  .nav-list {
     display: flex;
     margin-left: auto;
     width: 40%;
     list-style: none;
 
-    .nav-ul{
+    .nav-ul {
       width: 100%;
     }
 
@@ -40,8 +49,9 @@
       }
     }
   }
-  @media (width<900px){
-    .nav-list{
+
+  @media (width<900px) {
+    .nav-list {
       position: fixed;
       width: 25rem;
       right: 0px;
@@ -49,12 +59,14 @@
       height: 100vh;
       z-index: 201;
       transition: 0.25s;
-      .nav-ul{
+
+      .nav-ul {
         flex-direction: column;
         display: flex;
         height: fit-content;
         margin: auto;
-        li{
+
+        li {
           margin: 2rem auto;
           z-index: 300;
         }
@@ -62,6 +74,7 @@
     }
   }
 }
+
 .nav-button::after {
   position: absolute;
   width: 0%;
@@ -84,6 +97,7 @@
 .events::after {
   background: var(--gdsc-yellow-1-100);
 }
+
 .team::after {
   background: var(--gdsc-green-1-100);
 }
@@ -101,6 +115,7 @@
   left: 0px;
   z-index: 200;
   transition: 0.25s;
+  display: none;
 }
 
 .hamburger {
@@ -108,6 +123,7 @@
   right: 30px;
   z-index: 202;
   display: flex;
+
   svg {
     cursor: pointer;
   }
