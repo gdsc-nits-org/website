@@ -6,7 +6,7 @@ const UpcomingEvents = ({umcomingEvents, Styles}) => {
 
   return (
     <>
-      <h2 className={Styles.heading}>UPCOMMING EVENTS</h2>
+      <h2 className={Styles.heading} id='upcoming'>UPCOMMING EVENTS</h2>
             <div className={Styles.uc_events_card}>
                 <div className={Styles.upper_info}>
                     <div className={Styles.logo}><img src={`/images/${umcomingEvents.img}.png`} alt="" /></div>

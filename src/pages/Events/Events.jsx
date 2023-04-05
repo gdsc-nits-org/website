@@ -17,7 +17,7 @@ const Events = () => {
             <UpcomingEvents umcomingEvents = {umcomingEvents_data} Styles={Styles} />
 
             <div className={Styles.past_events}>
-                <h2 className={Styles.past_events_heading}>Past Events</h2>
+                <h2 className={Styles.past_events_heading} id='previous'>Past Events</h2>
                 <div className={Styles.dropdown}>
                     <select name="past-events" id={Styles.past_events} onChange={(e)=>{setPastEvents(e.target.value)}} value={pastEvents}>
                         <option value="2021">2021</option>

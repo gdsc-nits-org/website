@@ -58,10 +58,10 @@ function Footer() {
           </div>
           <div className="footer-top-right">
             <div className="join-chapter">
-            <div className="support-us">
-              {/* <h3>Support Us</h3> */}
-              <a href="https://ko-fi.com/T6T3IAFKX" target='_blank' rel="noreferrer"><img src={kofi} alt="support us" /></a>
-            </div>
+              <div className="support-us">
+                {/* <h3>Support Us</h3> */}
+                <a href="https://ko-fi.com/T6T3IAFKX" target='_blank' rel="noreferrer"><img src={kofi} alt="support us" /></a>
+              </div>
               <a
                 href="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
                 target="_blank"
@@ -92,46 +92,34 @@ function Footer() {
             <div className="footer-mid-events">
               <ul>Events</ul>
               <div className="footer-line-g"></div>
-              <p>Coming Soon</p>
-              {/* <a href="" className="footer-events">
-                Featured Events
+              <a href="/events/#upcoming" className="footer-events">
+                Upcoming Events
               </a>
-              <a href="" className="footer-events">
-                Study jams
+              <a href="/events/#previous" className="footer-events">
+                Previous Events
               </a>
-              <a href="" className="footer-events">
-                Hands On Workshop
-              </a>
-              <a href="" className="footer-events">
-                Tech Talks
-              </a> */}
             </div>
           </div>
           <div className="footer-middle-mob1">
             <div className="footer-mid-project">
               <ul>Projects</ul>
               <div className="footer-line-b"></div>
-              <p>Coming Soon</p>
-              {/* <a href="" className="footer-project">
-                Attendo App
+              <a href="/projects/#1" className="footer-project">
+                Attendo
               </a>
-              <a href="" className="footer-project">
+              <a href="/projects/#2" className="footer-project">
                 Website
-              </a> */}
+              </a>
             </div>
             <div className="footer-mid-team">
               <ul>Team</ul>
               <div className="footer-line-r"></div>
-              <p>Coming Soon</p>
-              {/* <a href="" className="footer-teas">
-                Executive Board
+              <a href="/team/#core" className="footer-teas">
+                Core Members
               </a>
-              <a href="" className="footer-teas">
-                Departments
+              <a href="/team/#members" className="footer-teas">
+                Members
               </a>
-              <a href="" className="footer-teas">
-                Join Us
-              </a> */}
             </div>
           </div>
         </div>

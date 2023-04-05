@@ -9,9 +9,9 @@ function ProjectCard() {
 
   return (
     <>
-      {cardInfo.map((cardInfo) => {
+      {cardInfo.map((cardInfo,index) => {
         return (
-          <div className="project-card-container" key={cardInfo.id}>
+          <div className="project-card-container" key={cardInfo.id} id={index===0?'1':index===1?'2':''} >
             <div className="project-card-header">
               <div className="project-card-project-status-container">
                 <h2 className="project-card-project-name">{cardInfo.name}</h2>

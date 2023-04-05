@@ -22,21 +22,21 @@ function TeamCard(props) {
       </div>
       <div className="description">{props.Description}</div>
       <div className="socials">
-        <div className="linkdin socialIcon">
-          <a href={props.Linkdin} target="_blank" rel="noreferrer">
+        <a href={props.Linkdin} target="_blank" rel="noreferrer">
+          <div className="linkdin socialIcon">
             <img src={lin} alt="" />
-          </a>
-        </div>
-        <div className="facebook socialIcon">
-          <a href={props.Facebook} target="_blank" rel="noreferrer">
+          </div>
+        </a>
+        <a href={props.Facebook} target="_blank" rel="noreferrer">
+          <div className="facebook socialIcon">
             <img src={fb} alt="" />
-          </a>
-        </div>
-        <div className="github socialIcon">
-          <a href={props.Twitter} target="_blank" rel="noreferrer">
+          </div>
+        </a>
+        <a href={props.Twitter} target="_blank" rel="noreferrer">
+          <div className="github socialIcon">
             <img className="git" src={github} alt="" />
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   );

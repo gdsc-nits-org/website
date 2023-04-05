@@ -96,9 +96,9 @@ function Team() {
 
       {filterCoreMember ? (
         <>
-          <div className="member-title">CORE MEMBERS</div>
+          <div className="member-title" id="core">CORE MEMBERS</div>
           <div className="grid">{CoreMemberList.map(data)}</div>
-          <div className="member-title">MEMBERS</div>
+          <div className="member-title" id="members">MEMBERS</div>
           <div className="grid">{OtherMemberList.map(data)}</div>
         </>
       ) : (
