@@ -14,11 +14,15 @@
       margin-left: 2rem;
     }
   }
-  .nav-list {
+  .nav-list ul, .nav-list{
     display: flex;
     margin-left: auto;
     width: 40%;
     list-style: none;
+
+    .nav-ul{
+      width: 100%;
+    }
 
     .nav-button {
       display: inline-block;
@@ -33,6 +37,27 @@
         font-weight: 700;
         font-size: 1rem;
         color: #646464;
+      }
+    }
+  }
+  @media (width<900px){
+    .nav-list{
+      position: fixed;
+      width: 25rem;
+      right: 0px;
+      background: white;
+      height: 100vh;
+      z-index: 201;
+      transition: 0.25s;
+      .nav-ul{
+        flex-direction: column;
+        display: flex;
+        height: fit-content;
+        margin: auto;
+        li{
+          margin: 2rem auto;
+          z-index: 300;
+        }
       }
     }
   }
@@ -56,6 +81,9 @@
   background: var(--gdsc-red-1-100);
 }
 
+.events::after {
+  background: var(--gdsc-yellow-1-100);
+}
 .team::after {
   background: var(--gdsc-green-1-100);
 }
@@ -75,34 +103,6 @@
   transition: 0.25s;
 }
 
-.hamlist {
-  margin: auto;
-  text-align: center;
-  li {
-    list-style: none;
-    margin: 3rem auto;
-    font-size: 1.7rem;
-    width: fit-content;
-    text-decoration: none;
-    position: relative;
-    a {
-      text-decoration: none;
-      color: black !important;
-    }
-  }
-}
-
-.hamburg-sidebar {
-  height: 100vh;
-  position: fixed;
-  right: 0px;
-  background: white;
-  transform: translateX(100%);
-  width: 300px;
-  z-index: 201;
-  transition: 0.25s;
-  display: flex;
-}
 .hamburger {
   top: calc(var(--navbar-height) / 2);
   right: 30px;

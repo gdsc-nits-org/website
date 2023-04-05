@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 import ProjectsShow from "./components/ProjectsCard/Projectshow";
 import Page404 from "./pages/PageNotFound/Page404";
 import Navbar from "./components/Navbar/Navbar";
+import Events from "./pages/Events/Events";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/events" element={<Events />} />
         <Route path="/projects">
           <Route index element={<Projects />} />
           <Route path=":projectID" element={<ProjectsShow />} />
