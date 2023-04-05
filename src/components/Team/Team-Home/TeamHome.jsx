@@ -6,8 +6,6 @@ import TeamLottie from "../Team-lotti/TeamLottie";
 
 function TeamHome(){
         
-
-        
         return (
         <div className="teamHome">
             <div className="textContent">

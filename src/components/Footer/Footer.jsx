@@ -6,6 +6,7 @@ import { FiInstagram } from "react-icons/fi";
 import { FaTwitter } from "react-icons/fa";
 import logo from "../../assets/images/logo.png";
 import kofi from "../../assets/images/ko-fi.svg";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -18,57 +19,57 @@ function Footer() {
               <ul> Contact us through our social media accounts.</ul>
             </div>
             <div className="footer-links">
-              <a
-                href="https://www.linkedin.com/company/gdscnits/mycompany/"
+              <Link
+                to="https://www.linkedin.com/company/gdscnits/mycompany/"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
               >
                 <AiFillLinkedin className="footer-btn-1" size={24} />
-              </a>
-              <a
-                href="https://www.facebook.com/gdscnits/"
+              </Link> 
+              <Link
+                to="https://www.facebook.com/gdscnits/"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
               >
                 <ImFacebook className="footer-btn-2" size={24} />
-              </a>
-              <a
-                href="https://www.instagram.com/gdsc_nits/"
+              </Link> 
+              <Link
+                to="https://www.instagram.com/gdsc_nits/"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
               >
                 <FiInstagram className="footer-btn-3" size={24} />
-              </a>
-              <a
-                href="http://twitter.com/gdscnits"
+              </Link> 
+              <Link
+                to="http://twitter.com/gdscnits"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
               >
                 <FaTwitter className="footer-btn-4" size={24} />
-              </a>
+              </Link> 
             </div>
             <div className="footer-mail">
               <ul>or e-mail us at </ul>
-              <a href="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</a>
+              <Link to="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</Link> 
             </div>
           </div>
           <div className="footer-top-right">
             <div className="join-chapter">
-            <div className="support-us">
-              {/* <h3>Support Us</h3> */}
-              <a href="https://ko-fi.com/T6T3IAFKX" target='_blank' rel="noreferrer"><img src={kofi} alt="support us" /></a>
-            </div>
-              <a
-                href="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
+              <div className="support-us">
+                {/* <h3>Support Us</h3> */}
+                <Link to="https://ko-fi.com/T6T3IAFKX" target='_blank' rel="noreferrer"><img src={kofi} alt="support us" /></Link> 
+              </div>
+              <Link
+                to="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <h2>Join our chapter</h2>
-              </a>
+              </Link> 
               <ul>to stay updated with our events</ul>
             </div>
           </div>
@@ -79,59 +80,47 @@ function Footer() {
             <div className="footer-mid-about">
               <ul>About</ul>
               <ul className="footer-line-y"></ul>
-              <a href="/#introHome" className="footer-about">
+              <Link to="/#introHome" className="footer-about">
                 Vision
-              </a>
-              <a href="/#timeLine" className="footer-about">
+              </Link> 
+              <Link to="/#timeLine" className="footer-about">
                 Types of Events
-              </a>
-              <a href="/#ui-ux" className="footer-about">
+              </Link> 
+              <Link to="/#ui-ux" className="footer-about">
                 Google Technologies
-              </a>
+              </Link> 
             </div>
             <div className="footer-mid-events">
               <ul>Events</ul>
               <div className="footer-line-g"></div>
-              <p>Coming Soon</p>
-              {/* <a href="" className="footer-events">
-                Featured Events
-              </a>
-              <a href="" className="footer-events">
-                Study jams
-              </a>
-              <a href="" className="footer-events">
-                Hands On Workshop
-              </a>
-              <a href="" className="footer-events">
-                Tech Talks
-              </a> */}
+              <Link to="/events/#upcoming" className="footer-events">
+                Upcoming Events
+              </Link> 
+              <Link to="/events/#previous" className="footer-events">
+                Previous Events
+              </Link> 
             </div>
           </div>
           <div className="footer-middle-mob1">
             <div className="footer-mid-project">
               <ul>Projects</ul>
               <div className="footer-line-b"></div>
-              <p>Coming Soon</p>
-              {/* <a href="" className="footer-project">
-                Attendo App
-              </a>
-              <a href="" className="footer-project">
+              <Link to="/projects/#1" className="footer-project">
+                Attendo
+              </Link> 
+              <Link to="/projects/#2" className="footer-project">
                 Website
-              </a> */}
+              </Link> 
             </div>
             <div className="footer-mid-team">
               <ul>Team</ul>
               <div className="footer-line-r"></div>
-              <p>Coming Soon</p>
-              {/* <a href="" className="footer-teas">
-                Executive Board
-              </a>
-              <a href="" className="footer-teas">
-                Departments
-              </a>
-              <a href="" className="footer-teas">
-                Join Us
-              </a> */}
+              <Link to="/team/#core" className="footer-teas">
+                Core Members
+              </Link> 
+              <Link to="/team/#members" className="footer-teas">
+                Members
+              </Link> 
             </div>
           </div>
         </div>
