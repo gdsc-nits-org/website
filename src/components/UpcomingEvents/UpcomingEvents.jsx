@@ -9,7 +9,7 @@ const UpcomingEvents = ({umcomingEvents, Styles}) => {
       <h2 className={Styles.heading} id='upcoming'>UPCOMMING EVENTS</h2>
             <div className={Styles.uc_events_card}>
                 <div className={Styles.upper_info}>
-                    <div className={Styles.logo}><img src={`/images/${umcomingEvents.img}.png`} alt="" /></div>
+                    <div className={Styles.logo}><img src={umcomingEvents.logo} alt="" /></div>
                     <div className={Styles.info}>
                         <div className={Styles.title}><b>{umcomingEvents.date}</b> - {umcomingEvents.title}</div>
                         <div className={Styles.badges}>

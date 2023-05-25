@@ -165,11 +165,11 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-
+        
         .basis_buffer {
             flex-basis: 25%;
             margin: auto;
-
+            
             .card:hover{
                 box-shadow: 3px 3px 8px rgb(215, 215, 215);
             }
@@ -184,7 +184,10 @@
                 display: flex;
                 flex-direction: column;
                 cursor: pointer;
-               transition: 0.25s;
+                transition: 0.25s;
+                text-decoration: none;
+                color: black;
+
                @media (width < 500px){
                 width: 150px;
                }

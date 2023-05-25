@@ -185,4 +185,14 @@
       }
     }
   }
+  @media screen and (max-width: 450px) and (orientation: portrait) {
+    .projects-show-bottom{
+      display: flex;
+      flex-direction: column;
+      // div{
+      //   border: 1px solid var(--gdsc-bg-1-100);
+      // }
+    }
+    
+  }
 }
