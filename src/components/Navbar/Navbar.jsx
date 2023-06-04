@@ -6,17 +6,22 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCross } from "react-icons/im";
 import logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function Navbar() {
   const [winWidth, setWinWidth] = useState(window.innerWidth);
   const [hamburg, setHamburg] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     window.addEventListener("resize", () => {
       setWinWidth(window.innerWidth);
       console.log(hamburg);
     });
-  }, []);
+    
+    window.scrollTo(0, 0);
+    
+  }, [location]);
 
   return (
     <nav className="navbar">
@@ -37,27 +42,28 @@ function Navbar() {
       <div className="nav-list" style={{transform: `translateX(${hamburg === false && winWidth < 900?'25':'0'}rem)`}}>
         <ul className="nav-ul">
           <li className="nav-button home">
-            <Link to="/" className="nav-link">
+            <Link to="/" className="nav-link" onClick={()=>{setHamburg(false)}}>
               Home
             </Link>
           </li>
           <li className="nav-button projects">
-            <Link to="/projects" className="nav-link">
+            <Link to="/projects" className="nav-link" onClick={()=>{setHamburg(false)}}>
               Projects
             </Link>
           </li>
           <li className="nav-button events">
-            <Link to="/events" className="nav-link">
+            <Link to="/events" className="nav-link" onClick={()=>{setHamburg(false)}}>
               Events
             </Link>
           </li>
           <li className="nav-button team">
-            <Link to="/team" className="nav-link">
+            <Link to="/team" className="nav-link" onClick={()=>{setHamburg(false)}}>
               Team
             </Link>
           </li>
         </ul>
       </div>
+
 
       {winWidth < 900 ? (
         <div
@@ -71,11 +77,7 @@ function Navbar() {
             right: `${hamburg === true ? "30px" : ""}`,
           }}
           onClick={() => {
-            hamburg === false
-              ? setHamburg(true)
-              : hamburg === true
-                ? setHamburg(false)
-                : "";
+            hamburg === false? setHamburg(true): hamburg === true? setHamburg(false): "";
           }}
         >
           {hamburg === false ? <GiHamburgerMenu /> : <ImCross />}

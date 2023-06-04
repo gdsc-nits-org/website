@@ -1,0 +1,190 @@
+[
+    {
+        "title": "Sellr",
+        "Status": "Under Development",
+        "logo": "",
+        "description": [
+            "Sellr App is a platform that allows students to buy, rent, sell, or borrow accessories and materials at reasonable prices within the campus. It is a convenient way for students to exchange goods with each other."
+        ],
+        "techStack": [
+            "Java",
+            "Firebase"
+        ],
+        "mentors": [
+            "Ayush Gupta"
+        ],
+        "contributors": [],
+        "repoLink": ""
+    },
+    {
+        "title": "Attendo",
+        "Status": "Live",
+        "logo": "",
+        "description": [
+            "Manage your minimum attendance criteria (75%) with the help of Attendo. With a friendly UI, managing attendance is simple as it can be. Also get reminders for classes and never miss them. With Attendo, keep a check on your attendance status."
+        ],
+        "techStack": [
+            "Java",
+            "Firebase",
+            "SQLite",
+            "Retrofit"
+        ],
+        "mentors": [],
+        "contributors": [],
+        "repoLink": "https://github.com/getoxdev/attendo"
+    },
+    {
+        "title": "Code Share",
+        "Status": "Under Development",
+        "logo": "",
+        "description": [
+            "Sending codes over messengers removes the indentations and it is also difficult to identify keywords.Well here is a chat based website which enables users to share their code , snippets and functions as well with super ease."
+        ],
+        "techStack": [
+            "ReactJS",
+            "NodeJS",
+            "MongoDB",
+            "TypeScript"
+        ],
+        "mentors": [],
+        "contributors": [],
+        "repoLink": ""
+    },
+    {
+        "title": "NITS Result Portal",
+        "Status": "Live",
+        "logo": "",
+        "description": [
+            "Announcement of results becomes a hectic process.Finding your name in the pdf and checking each subject's marks is not an easy task. Well here is a result portal for the Institute where the provisional results of all the semesters of a user can be accessed with a well organized visual representation."
+        ],
+        "techStack": [
+            "ReactJS",
+            "NodeJS",
+            "MongoDB",
+            "ExpressJS"
+        ],
+        "mentors": [],
+        "contributors": [],
+        "repoLink": ""
+    },
+    {
+        "title": "Alumni Tracking",
+        "Status": "Under Development",
+        "logo": "",
+        "description": [
+            "Acts as an interaction bridge between Alumni and the present students of NIT Silchar. It is basically a multi-portal application consisting of the Admin and Alumni Section."
+        ],
+        "techStack": [
+            "HTML",
+            "CSS",
+            "JS",
+            "ExpressJS",
+            "NodeJS",
+            "MongoDB"
+        ],
+        "mentors": [],
+        "contributors": [],
+        "repoLink": ""
+    },
+    {
+        "title": "Medical Record Management",
+        "Status": "Under Development",
+        "logo": "",
+        "description": [
+            "A medical records management portal where users can upload and access their medical records."
+        ],
+        "techStack": [
+            "NodeJS",
+            "ExpressJS",
+            "MongoDB",
+            "HTML",
+            "CSS",
+            "JS"
+        ],
+        "mentors": [],
+        "contributors": [],
+        "repoLink": ""
+    },
+    {
+        "title": "Efficacy",
+        "Status": "Under Development",
+        "logo": "",
+        "description": [
+            "Efficacy is a club event management app that allows club coordinators to schedule their events without collisions with previously scheduled ones. Efficacy 2.0 is already in the works."
+        ],
+        "techStack": [
+            "Flutter",
+            "Firebase"
+        ],
+        "mentors": ["Biju Borah", "Soumya Ranjan Mohapatro"],
+        "contributors": [],
+        "repoLink": "https://github.com/NIT-Silchar-Org/efficacy-user"
+    },
+    {
+        "title": "Guidance Grid",
+        "Status": "Under Development",
+        "logo": "",
+        "description": [
+            "As the name speaks for itself, it is a platform that will enable you to seek assistance and guidance from your peers and seniors. It allows you to upvote, downvote, and bookmark the content of your choice and comes with a trending article section displaying posts based on public reception."
+        ],
+        "techStack": [
+            "ReactJS",
+            "SCSS",
+            "Vite",
+            "pnpm",
+            "git"
+        ],
+        "mentors": [
+            "Prateek Majumdar",
+            "Saurav Pal",
+            "Shibam Debnath"
+        ],
+        "contributors": [
+            "Adhiraj Dutta",
+            "Aditya Kumar",
+            "Aryadeep Gogoi",
+            "Bipangshu Saha",
+            "Jacinth Mahanta",
+            "Jaydeep Prapanch Das",
+            "Sandeep Kherkatary"
+        ],
+        "repoLink": "https://github.com/gdsc-nits-org/guidance-grid-client"
+    },
+    {
+        "title": "Mess Management",
+        "Status": "Under Development",
+        "logo": "",
+        "description": [
+            "One-stop solution to all your queries regarding the mess, the menu, the timings, and all. It will allow the users to interact with the mess remotely. A platform to manage the functioning of the hostel mess and ensure that the management is not messy."
+        ],
+        "techStack": [
+            "ReactJS",
+            "SCSS",
+            "Vite",
+            "pnpm",
+            "git"
+        ],
+        "mentors": ["Aniruddha Dutta", "Siddharta Shankar Paul", "Diya Karmakar"],
+        "contributors": [],
+        "repoLink": ""
+    },
+    {
+        "title": "Grafiny",
+        "Status": "Under Development",
+        "logo": "",
+        "description": [
+            "Grafiny allows you to share/view notes, assignments, lab works and other resources published by user. The resources can be upvoted/downvoted and also bookmarked."
+        ],
+        "techStack": [
+            "ReactJS",
+            "ExpressJS",
+            "SCSS",
+            "Vite",
+            "pnpm",
+            "git"
+        ],
+        "mentors": [],
+        "contributors": [],
+        "repoLink": "https://github.com/gdsc-nits-org/grafiny-client"
+    }
+]
