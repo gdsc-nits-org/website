@@ -10,13 +10,15 @@ import { useLocation } from "react-router-dom";
 
 function Navbar() {
   const [winWidth, setWinWidth] = useState(window.innerWidth);
+  const [winHeight, setWinHeight] = useState(window.innerHeight);
   const [hamburg, setHamburg] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
     window.addEventListener("resize", () => {
       setWinWidth(window.innerWidth);
-      console.log(hamburg);
+      setWinHeight(window.innerHeight);
+      // console.log(hamburg);
     });
     
     window.scrollTo(0, 0);

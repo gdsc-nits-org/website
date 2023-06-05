@@ -62,31 +62,47 @@
     scale: 1.3;
     .socialIcon {
       scale: 0.9;
-      display: inline-block;
+      display: flex;
       border-radius: 3.75rem;
       box-shadow: 0 0 0.188rem rgb(61, 59, 59);
       transition: 0.4s;
       width: 2.2rem;
+      margin-right: auto;
       height: 2.2rem;
+      @media screen and (max-width: 900px) and (orientation: portrait) {
+          width: 2rem;
+          margin-right: 0.5rem;
+          height: 2rem;
+          transform: translateY(0.6rem);
+        }
+        img{
+          scale: 1 !important;
+          margin: auto !important;
+        }
+      // @media screen and (max-width: 900px) and (orientation: portrait) {
+      //   img{
+      //     margin: auto;
+      //   }
+      // }
     }
-    .linkdin {
-      scale: 0.8;
-      padding: 0.5rem 0.6rem 0.2rem 0.6rem;
-      margin: 0rem 0.4rem 0.6rem;
-    }
-    .facebook {
-      scale: 0.79;
-      padding: 0.5rem 0.85rem 0rem 0.85rem;
-      margin: 0rem 0.4rem 0.5rem;
-    }
-    .github {
-      scale: 0.8;
-      padding: 0.5rem 0.5rem 0.1rem 0.65rem;
-      margin: 0rem 0.4rem 0.6rem;
-      .git {
-        width: 1rem;
-      }
-    }
+    // .linkdin {
+    //   scale: 0.8;
+    //   padding: 0.5rem 0.6rem 0.2rem 0.6rem;
+    //   margin: 0rem 0.4rem 0.6rem;
+    // }
+    // .facebook {
+    //   scale: 0.79;
+    //   padding: 0.5rem 0.85rem 0rem 0.85rem;
+    //   margin: 0rem 0.4rem 0.5rem;
+    // }
+    // .github {
+    //   scale: 0.8;
+    //   padding: 0.5rem 0.5rem 0.1rem 0.65rem;
+    //   margin: 0rem 0.4rem 0.6rem;
+    //   .git {
+    //     width: 1rem;
+    //   }
+    // }
   }
 }
 @media (min-width: 990px) {
@@ -113,6 +129,7 @@
       .name {
         transform: translate(-50%, -8.5vw);
         color: rgb(0, 0, 0);
+
       }
       .domian {
         transform: translate(-50%, -8.5vw);
@@ -171,7 +188,7 @@
       color: rgb(255, 255, 255);
       .name {
         transform: translate(0vw, 1vw);
-        font-size: 1.1rem;
+        font-size: 2.1rem;
         transition-duration: 0.5s;
       }
       .domian {
@@ -237,7 +254,7 @@
       color: rgb(255, 255, 255);
       .name {
         transform: translateY(-0.5vw);
-        font-size: 1rem;
+        font-size: 2rem;
         transition-duration: 0.5s;
       }
       .domian {
@@ -356,19 +373,20 @@
   .teamCard {
     .details {
       .name {
-        font-size: 0.61rem;
+        font-size: 0.75rem;
       }
       .domian {
         transform: translateY(-3vw);
-        font-size: 0.5rem;
+        font-size: 0.6rem;
       }
     }
     .socials {
       transition-duration: 0.5s, smooth;
-      transform: translate(15%, 2.2vw);
-      scale: 0.6;
-      padding-right: 3vw;
-      padding-left: 11vw;
+      // transform: translate(15%, 2.2vw);
+      scale: 0.3;
+      // padding-right: 3vw;
+      // padding-left: 11vw;
+      
     }
   }
   .teamCard:hover {
@@ -382,14 +400,16 @@
       }
     }
     .description {
-      transform: translate(0, -14vw);
+      transform: translate(0, -16vw);
       font-size: x-small;
     }
     .socials {
-      transform: translate(15%, -25.5vw);
-      scale: 0.6;
-      padding-right: 3vw;
-      padding-left: 11vw;
+      transform: translateY(5);
+      // transform: translate(15%, -25.5vw);
+      scale: 0.3;
+      // padding-right: 3vw;
+      // padding-left: 11vw;
+      // margin: auto;
     }
   }
 }
@@ -398,15 +418,15 @@
     .details {
       .name {
         transform: translate(0, -1vw);
-        font-size: 0.51rem;
+        font-size: 0.7rem;
       }
       .domian {
         transform: translate(0, -4.5vw);
-        font-size: 0.4rem;
+        font-size: 0.5rem;
       }
     }
     .description {
-      font-size: 0.2rem;
+      font-size: 0.3rem;
     }
     .socials {
       transition-duration: 0.5s;

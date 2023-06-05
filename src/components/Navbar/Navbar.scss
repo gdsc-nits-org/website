@@ -17,7 +17,7 @@
     }
   }
 
-  @media (width>600px) {
+  @media (width>900px) and (orientation: portrait) {
     .logo {
       margin-left: 2rem;
     }
