@@ -51,7 +51,10 @@
     }
   }
 
-  @media (width<900px) and (orientation: portrait) {
+}
+
+@media screen and (width<900px) and (orientation: portrait) {
+  .navbar {
     .nav-list {
       position: fixed;
       width: 25rem;

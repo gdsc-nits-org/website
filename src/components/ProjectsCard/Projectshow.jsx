@@ -2,6 +2,10 @@ import "./Projectsshow.scss";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import Projects from '/public/projects.json'
+import { FaHtml5, FaNodeJs, FaReact, FaTools } from "react-icons/fa";
+import { SiFirebase, SiFlutter, SiMongodb, SiPnpm, SiPrisma, SiSass, SiSqlite, SiTypescript, SiVite } from "react-icons/si";
+import { ImCss3 } from "react-icons/im";
+import { DiGit, DiJava, DiJavascript1 } from "react-icons/di";
 
 const ProjectsShow = () => {
   const { projectID } = useParams();
@@ -10,6 +14,31 @@ const ProjectsShow = () => {
       return i === parseInt(projectID);
     })
   );
+
+  const logos = {
+    "NodeJS": <FaNodeJs/>,
+    "MongoDB" : <SiMongodb/>,
+    "ExpressJS" : <FaNodeJs/>,
+    "ExpressJs" : <FaNodeJs/>,
+    "JS" : <DiJavascript1/>,
+    "HTML" : <FaHtml5/>,
+    "CSS" : <ImCss3/>,
+    "Java" : <DiJava/>,
+    "Firebase" : <SiFirebase/>,
+    "SQLite" : <SiSqlite/>,
+    "Retrofit" : <FaTools/>,
+    "ReactJS" : <FaReact/>,
+    "TypeScript" : <SiTypescript/>,
+    "git" : <DiGit/>,
+    "Git" : <DiGit/>,
+    "pnpm" : <SiPnpm/>,
+    "Vite" : <SiVite/>,
+    "SCSS" : <SiSass/>,
+    "Flutter" : <SiFlutter/>,
+    "Prisma" : <SiPrisma/>,
+  }
+
+
   return (
     <>
       <div className="projectshow-container">
@@ -38,8 +67,10 @@ const ProjectsShow = () => {
           <div className="projects-stacks">
             {cardInfo[0].techStack.map((tech, i) => {
               return (
-                <div key={i}>
-                  <img src={tech.iconUrl} alt="" />
+                <div className="tech" key={i}>
+                  {/* <img src={} alt="" /> */}
+                  {/* <div dangerouslySetInnerHTML={{__html:logos[tech]}}></div> */}
+                  <div className="techlogo">{logos[tech]}</div>
                   <p>{tech}</p>
                 </div>
               );

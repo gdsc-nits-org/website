@@ -1,8 +1,8 @@
 [
     {
         "title": "Sellr",
-        "Status": "Under Development",
-        "logo": "",
+        "Status": "Live",
+        "logo": "https://res.cloudinary.com/dhgfsshq4/image/upload/v1686045071/Logo_PNG_1080-removebg-preview_cifnuo.webp",
         "description": [
             "Sellr App is a platform that allows students to buy, rent, sell, or borrow accessories and materials at reasonable prices within the campus. It is a convenient way for students to exchange goods with each other."
         ],
@@ -11,15 +11,28 @@
             "Firebase"
         ],
         "mentors": [
-            "Ayush Gupta"
+            "Ayush Gupta",
+            "Bhaskar Wary"
         ],
-        "contributors": [],
-        "repoLink": ""
+        "contributors": [
+            "Navneet Raj Karn",
+            "Deep Saikia",
+            "Sameer Zaidi",
+            "Prateek Mogha",
+            "Arpit Saikia",
+            "Dipan Patgiri",
+            "Diptabh Medhi",
+            "Bibhas Naskar",
+            "Hritika Roy",
+            "Somya Kasaudhan",
+            "Shreya Das"
+        ],
+        "repoLink": "https://github.com/gdsc-nits-org/Sellr"
     },
     {
         "title": "Attendo",
         "Status": "Live",
-        "logo": "",
+        "logo": "https://lh3.googleusercontent.com/qQYJ2bSkhNQMiKBnc2oLf1KM0PXf8yeilACy-JZw5wCDUb1IqfGdqovH7FHdIoLSqzCkmsZkBaTwO2q5ZkE1HM_hPx1xqrLPunoD9Fo7Z2NU12gPIufK2bv4Voa5rFa32ZlAZ4G_lGT03EQ28UIZy5cEcA=s2048",
         "description": [
             "Manage your minimum attendance criteria (75%) with the help of Attendo. With a friendly UI, managing attendance is simple as it can be. Also get reminders for classes and never miss them. With Attendo, keep a check on your attendance status."
         ],
@@ -29,14 +42,20 @@
             "SQLite",
             "Retrofit"
         ],
-        "mentors": [],
-        "contributors": [],
+        "mentors": [
+            " Jyotimoy Kashyap"
+        ],
+        "contributors": [
+            "Sameer Zaidi",
+            "Navneet Raj Karn",
+            "Jugya Kamal Gogoi"
+        ],
         "repoLink": "https://github.com/getoxdev/attendo"
     },
     {
         "title": "Code Share",
         "Status": "Under Development",
-        "logo": "",
+        "logo": "https://res.cloudinary.com/dhgfsshq4/image/upload/v1686038397/Screenshot_2023-06-06_132807_qvvv5y.webp",
         "description": [
             "Sending codes over messengers removes the indentations and it is also difficult to identify keywords.Well here is a chat based website which enables users to share their code , snippets and functions as well with super ease."
         ],
@@ -53,7 +72,7 @@
     {
         "title": "NITS Result Portal",
         "Status": "Live",
-        "logo": "",
+        "logo": "https://lh5.googleusercontent.com/8aStWf9dyRY0iBJ4033-Ho1OsoWJ_c5bjc3qPXPLsO4aZCSa7vrOp7UUu979an9T1OrC7vRjf7ilVmQ_6cp8CyI_C_cLhv4ldoIHFE-eS3UwX3ZLIUNfCmcpQu4SR-EW6rBCZmHCapWwPNh99_ZU52XgeA=s2048",
         "description": [
             "Announcement of results becomes a hectic process.Finding your name in the pdf and checking each subject's marks is not an easy task. Well here is a result portal for the Institute where the provisional results of all the semesters of a user can be accessed with a well organized visual representation."
         ],
@@ -70,7 +89,7 @@
     {
         "title": "Alumni Tracking",
         "Status": "Under Development",
-        "logo": "",
+        "logo": "https://res.cloudinary.com/dhgfsshq4/image/upload/v1686046175/Screenshot_2023-06-06_153551_uazmtu.webp",
         "description": [
             "Acts as an interaction bridge between Alumni and the present students of NIT Silchar. It is basically a multi-portal application consisting of the Admin and Alumni Section."
         ],
@@ -89,7 +108,7 @@
     {
         "title": "Medical Record Management",
         "Status": "Under Development",
-        "logo": "",
+        "logo": "https://lh6.googleusercontent.com/qUKK41Z9By5h8miNE7PkWAByu8qOeIAMAgvRAaUkCBydZF-DpuKcEnpw7PCd39Qa6DMVroflRUjfCFaqEI3q5HdKyRgu9iz1XIrOQom0csUxrf42rwFlCioXGNlnR9dS_9HHOMfBLpSA19WF5LDtdOi5_w=s2048",
         "description": [
             "A medical records management portal where users can upload and access their medical records."
         ],
@@ -107,8 +126,8 @@
     },
     {
         "title": "Efficacy",
-        "Status": "Under Development",
-        "logo": "",
+        "Status": "Live",
+        "logo": "https://lh4.googleusercontent.com/hGlSXVX-MQb9zvbT61Vap3NHAvteqNTDzj4kPZxtF53OvGf7WdnewZwIJIMvs_J93k1BkwNbYCu9bW4NZCqnMQgVWSRqY2n3iAZbYhd7NscC9vp_DL4-Ddr6vAQJvAxu16dqyP_4moCMtqFh9GMq8jqzSg=s2048",
         "description": [
             "Efficacy is a club event management app that allows club coordinators to schedule their events without collisions with previously scheduled ones. Efficacy 2.0 is already in the works."
         ],
@@ -116,14 +135,51 @@
             "Flutter",
             "Firebase"
         ],
-        "mentors": ["Biju Borah", "Soumya Ranjan Mohapatro"],
-        "contributors": [],
+        "mentors": [
+            "Biju Borah",
+            "Soumya Ranjan Mohapatro"
+        ],
+        "contributors": ["Rajdristant Ghose", "Priyabrat Duarah"
+        ],
         "repoLink": "https://github.com/NIT-Silchar-Org/efficacy-user"
+    },
+    {
+        "title": "Grafiny",
+        "Status": "Under Development",
+        "logo": "https://lh3.googleusercontent.com/S35_V2t_lFN8r5lIBQqGqiz6hSYq_mhatB2LzVVpfcw_f5jMvjdo81LIQivx11cubNA1qsvjBGjuEuNdWgKNO6QteVyb5pbW6Iecp_dbLnQpna4JEjr3dp9Hl403_OFm45ltox05rf6TszUFeWO3yLyIwg=s2048",
+        "description": [
+            "Grafiny allows you to share/view notes, assignments, lab works and other resources published by user. The resources can be upvoted/downvoted and also bookmarked."
+        ],
+        "techStack": [
+            "ReactJS",
+            "SCSS",
+            "Vite",
+            "pnpm",
+            "Git",
+            "TypeScript",
+            "ExpressJs",
+            "MongoDB",
+            "Prisma"
+        ],
+        "mentors": [
+            "Prateek Majumdar",
+            "Saurav Pal"
+        ],
+        "contributors": [
+            "Anubhav",
+            "Bijay",
+            "Masoom",
+            "Hrishikesh",
+            "Rayyan",
+            "Pragya Annesha Baruah",
+            "Tithi Jha"
+        ],
+        "repoLink": "https://github.com/gdsc-nits-org/grafiny-client"
     },
     {
         "title": "Guidance Grid",
         "Status": "Under Development",
-        "logo": "",
+        "logo": "https://lh5.googleusercontent.com/Vz89U0FcMJFLVP3WXN_2V_bRfFnKRAt7HsyUENstvHoUJG7FQ8wW-D0OX902cksH_gsRfXk59pONxrDaFz4LRMOxYbxVIiVyojIHtyV4Pe4hjQw5npjzct834aSYe11cfbPshtRmbLr09pyQmvv_SqgxcQ=s2048",
         "description": [
             "As the name speaks for itself, it is a platform that will enable you to seek assistance and guidance from your peers and seniors. It allows you to upvote, downvote, and bookmark the content of your choice and comes with a trending article section displaying posts based on public reception."
         ],
@@ -153,7 +209,7 @@
     {
         "title": "Mess Management",
         "Status": "Under Development",
-        "logo": "",
+        "logo": "https://res.cloudinary.com/dhgfsshq4/image/upload/v1686047493/Screenshot_2023-06-06_160027_tm5whu.webp",
         "description": [
             "One-stop solution to all your queries regarding the mess, the menu, the timings, and all. It will allow the users to interact with the mess remotely. A platform to manage the functioning of the hostel mess and ensure that the management is not messy."
         ],
@@ -164,27 +220,17 @@
             "pnpm",
             "git"
         ],
-        "mentors": ["Aniruddha Dutta", "Siddharta Shankar Paul", "Diya Karmakar"],
-        "contributors": [],
+        "mentors": [
+            "Aniruddha Dutta",
+            "Siddharta Shankar Paul",
+            "Diya Karmakar"
+        ],
+        "contributors": [
+            "Arnab Kumar Singh",
+            "Maharnav Deka",
+            "Sulakshana Chetry",
+            "Hrishita Paul"
+        ],
         "repoLink": ""
-    },
-    {
-        "title": "Grafiny",
-        "Status": "Under Development",
-        "logo": "",
-        "description": [
-            "Grafiny allows you to share/view notes, assignments, lab works and other resources published by user. The resources can be upvoted/downvoted and also bookmarked."
-        ],
-        "techStack": [
-            "ReactJS",
-            "ExpressJS",
-            "SCSS",
-            "Vite",
-            "pnpm",
-            "git"
-        ],
-        "mentors": [],
-        "contributors": [],
-        "repoLink": "https://github.com/gdsc-nits-org/grafiny-client"
     }
 ]

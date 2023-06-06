@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Team.scss";
-import TeamHome from "../../components/Team/Team-Home/TeamHome.jsx";
+import TeamHome from "../../components/Hero-lottie/HeroLottie.jsx";
 import TeamCard from "../../components/Team/Team-Card/TeamCard";
 import FilterModule from "../../components/Team/Team-Filter/FilterModule";
 import TeamData from "../../assets/data/Data";
@@ -69,7 +69,7 @@ function Team() {
 
   return (
     <div>
-      <TeamHome className="teamHome" />
+      <TeamHome className="teamHome" page="team" />
       <div className="filter">
         <p className="sort">Sort By :</p>
         <FilterModule

@@ -1,12 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ProjectsCard.scss";
-import Picture from "../../assets/images/projectsPlaceholder.png";
-import TempAPI from "./tempAPI.json";
 import { Link } from "react-router-dom";
 import cardInfo from '/public/projects.json'
 
 function ProjectCard() {
-  // const [cardInfo] = useState(TempAPI.msg); //Linking the API
 
   return (
     <>
