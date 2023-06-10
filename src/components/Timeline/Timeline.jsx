@@ -1,10 +1,8 @@
 import React from "react";
-import { useState } from "react";
-
 import logo from "../../assets/images/logo.png";
 import rightArrow from "../../assets/images/rightArrow.svg";
 // import timeline from "./timeline.json";
-import timelineData from '/public/events.json'
+import timelineData from "/public/events.json";
 
 import "./Timeline.scss";
 
@@ -13,7 +11,20 @@ function Timeline() {
   let dist = 0;
   let isRev = false;
 
-  const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November','December'];
+  const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
 
   const timelineScroll = () => {
     if (
@@ -45,11 +56,11 @@ function Timeline() {
         </div>
         <div id="timeline-wrapper" className="timeline-wrapper">
           <div id="timeline-bar" className="timeline-bar">
-            {timelineData.map((timelineData, i) => {
+            {timelineData.map((timelineData) => {
               return (
                 <div
                   className="timeline-circle"
-                  key={i}
+                  key={timelineData}
                   style={{ backgroundColor: timelineData.theme }}
                   // style={{ backgroundColor: '#3CBA54' }}
                 >
@@ -61,7 +72,10 @@ function Timeline() {
                         className="timeline-event-logo"
                       />
                       <h3 className="timeline-event-name">{timelineData.title}</h3>
-                      <h4 className="timeline-event-date">{months[timelineData.time.split('-')[1]]} {timelineData.time.split('-')[0]}</h4>
+                      <h4 className="timeline-event-date">
+                        {months[timelineData.time.split("-")[1]]}{" "}
+                        {timelineData.time.split("-")[0]}
+                      </h4>
                     </div>
                   </div>
                 </div>

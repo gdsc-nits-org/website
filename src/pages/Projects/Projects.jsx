@@ -7,7 +7,7 @@ import HeroLottie from "../../components/Hero-lottie/HeroLottie";
 function Projects() {
   return (
     <div>
-    <HeroLottie page='projects'/>
+      <HeroLottie page="projects" />
       <main className="projects-main">
         <ProjectCard />
       </main>

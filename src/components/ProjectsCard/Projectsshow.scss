@@ -121,7 +121,7 @@
       flex-wrap: wrap;
       gap: 2rem;
       .tech {
-        .techlogo{
+        .techlogo {
           display: flex;
           font-size: 1.6rem;
           margin-right: 2rem;
@@ -193,13 +193,12 @@
     }
   }
   @media screen and (max-width: 450px) and (orientation: portrait) {
-    .projects-show-bottom{
+    .projects-show-bottom {
       display: flex;
       flex-direction: column;
       // div{
       //   border: 1px solid var(--gdsc-bg-1-100);
       // }
     }
-    
   }
 }

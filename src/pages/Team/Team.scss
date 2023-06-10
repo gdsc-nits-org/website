@@ -1,119 +1,114 @@
-.teamHome{
-    // height: calc(100vh - var(--navbar-height));
+.teamHome {
+  // height: calc(100vh - var(--navbar-height));
 }
 .member-title {
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-    font-size: 2.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2%;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2%;
 }
-.grid{
-    margin-left: 4.5vw;
-    margin-right: 4.5vw;
-    row-gap: 3rem;
-    padding-top: 2rem;
+.grid {
+  margin-left: 4.5vw;
+  margin-right: 4.5vw;
+  row-gap: 3rem;
+  padding-top: 2rem;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter {
+  display: flex;
+  gap: 8rem;
+  padding-left: 2rem;
+  transform: translateX(-3rem);
+  justify-content: flex-start;
+  .sort {
+    transform: translateX(6rem);
+  }
+}
+.filterByYear {
+  position: absolute;
+  transform: translateX(5rem);
+}
+@media only screen and (max-width: 990px) {
+  .grid {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    grid-template-columns: auto auto;
     justify-content: space-evenly;
+  }
+  .member-title {
+    font-weight: 600;
+    font-size: 2.4rem;
     display: flex;
-    flex-wrap: wrap;
-    
+  }
 }
-.filter{
+
+@media only screen and (max-width: 660px) {
+  .grid {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 5vw;
+  }
+  .filter {
     display: flex;
-    gap: 8rem;
-    padding-left: 2rem;
-    transform: translateX(-3rem);
-    justify-content: flex-start;
-    .sort{
-        transform: translateX(6rem);
+    gap: 18vw;
+    transform: translateX(-10vw);
+    .sort {
+      transform: translateX(12vw);
     }
+  }
+  .filterByYear {
+    transform: translateX(14vw);
+  }
+  .member-title {
+    font-weight: 550;
+    font-size: 2rem;
+    display: flex;
+    padding-top: 3%;
+    margin-bottom: -2%;
+  }
 }
-.filterByYear{
-    position: absolute;
-    transform: translateX(5rem);
+@media only screen and (max-width: 550px) {
+  .filter {
+    display: flex;
+    gap: 6rem;
+    transform: translateX(-2.9rem);
+    .sort {
+      font-size: 1.2rem;
+      transform: translateX(4.3rem);
+    }
+  }
 }
-@media only screen and (max-width:990px){
-    .grid{
-        margin-left: 5vw;
-        margin-right: 5vw;
-        grid-template-columns: auto auto;
-        justify-content: space-evenly;
-        
+@media only screen and (max-width: 430px) {
+  .filter {
+    display: flex;
+    gap: 4rem;
+    transform: translateX(-2.5rem);
+    .sort {
+      font-size: 1rem;
+      transform: translateX(3rem);
     }
-    .member-title {
-        font-weight: 600;
-        font-size: 2.4rem;
-        display: flex;
-    }
-
+  }
+  .member-title {
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding-top: 3%;
+    margin-bottom: -2%;
+  }
 }
-
-@media only screen and (max-width:660px){
-    .grid{
-        padding-left: 7vw;
-        padding-right: 7vw;
-        padding-top: 5vw;
+@media only screen and (max-width: 390px) {
+  .filter {
+    display: flex;
+    gap: 3rem;
+    transform: translateX(-2.5rem);
+    .sort {
+      font-size: 0.8rem;
+      transform: translateX(2rem);
     }
-    .filter{
-        display: flex;
-        gap:18vw;
-        transform: translateX(-10vw);
-        .sort{
-            transform: translateX(12vw);
-        }
-    }
-    .filterByYear{
-        transform: translateX(14vw);
-    }
-    .member-title {
-        font-weight: 550;
-        font-size: 2rem;
-        display: flex;
-        padding-top:3%;
-        margin-bottom: -2%;
-    }
-}
-@media only screen and (max-width:550px){
-
-    .filter{
-        display: flex;
-        gap:6rem;
-        transform: translateX(-2.9rem);
-        .sort{
-            font-size: 1.2rem;
-            transform: translateX(4.3rem);
-        }
-    }
-    
-}
-@media only screen and (max-width:430px){
-    .filter{
-        display: flex;
-        gap:4rem;
-        transform: translateX(-2.5rem);
-        .sort{
-            font-size: 1rem;
-            transform: translateX(3rem);
-        }
-    }
-    .member-title {
-        font-weight: 500;
-        font-size: 1.6rem;
-        padding-top: 3%;
-        margin-bottom: -2%;
-    }
-}
-@media only screen and (max-width:390px){
-    .filter{
-        display: flex;
-        gap:3rem;
-        transform: translateX(-2.5rem);
-        .sort{
-            font-size: 0.8rem;
-            transform: translateX(2rem);
-        }
-    }
+  }
 }

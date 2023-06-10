@@ -4,19 +4,18 @@
   right: 200px;
 }
 
-
-.lf-player-container{
+.lf-player-container {
   position: absolute;
   top: 0px;
   height: 100%;
-  div{
+  div {
     overflow: visible !important;
   }
-  svg{
-    width: 100%; 
-    height: 400px !important; 
-    transform: translate3d(0px, 0px, 0px); 
-    position: sticky; 
+  svg {
+    width: 100%;
+    height: 400px !important;
+    transform: translate3d(0px, 0px, 0px);
+    position: sticky;
     top: 30%;
   }
 }

@@ -1,4 +1,4 @@
-import React, { useState,useRef} from "react";
+import React, { useState, useRef } from "react";
 import "./Team.scss";
 import TeamHome from "../../components/Hero-lottie/HeroLottie.jsx";
 import TeamCard from "../../components/Team/Team-Card/TeamCard";
@@ -20,17 +20,21 @@ function data(value) {
     />
   );
 }
-const Team=()=> {
+const Team = () => {
   let [newMemeberList] = useState(TeamData);
   let [filterBatchValue, setBatchValue] = useState("All");
   let [filterModuleValue, setModuleValue] = useState("All");
 
-  const sortArray= (x, y)=>{
-    if (x.Name < y.Name) {return -1;}
-    if (x.Name > y.Name) {return 1;}
+  const sortArray = (x, y) => {
+    if (x.Name < y.Name) {
+      return -1;
+    }
+    if (x.Name > y.Name) {
+      return 1;
+    }
     return 0;
-}
-  const DropDownRef=useRef()
+  };
+  const DropDownRef = useRef();
 
   function onBatchValueSelected(event) {
     setBatchValue(event);
@@ -39,7 +43,7 @@ const Team=()=> {
     setModuleValue(filterModule);
   }
   let filterByDomain = false;
-  let currentBatch = "2022-23"
+  let currentBatch = "2022-23";
   let filteredMemberList = newMemeberList.filter((member) => {
     if (
       filterBatchValue === "2022-23" ||
@@ -48,7 +52,7 @@ const Team=()=> {
     ) {
       return member.Batch == `${filterBatchValue}`;
     } else {
-      return {currentBatch};
+      return { currentBatch };
     }
   });
 
@@ -67,24 +71,27 @@ const Team=()=> {
     }
   });
   let CoreMemberList = newFilteredMemberList.filter((member) => {
-    if(filterByDomain == true)
-      {return member.Description != ""}
-      else
-      { 
-        return member.Description != ""
-      }
+    if (filterByDomain == true) {
+      return member.Description != "";
+    } else {
+      return member.Description != "";
+    }
   });
-  let GDSCLead = newFilteredMemberList.filter((member)=>{
-    return member.Description === "Lead"
-  }) 
+  let GDSCLead = newFilteredMemberList.filter((member) => {
+    return member.Description === "Lead";
+  });
 
   let OtherMemberList = newFilteredMemberList.filter((member) => {
-    return member.Description == ""
+    return member.Description == "";
   });
 
   return (
-    <div onClick={()=>{DropDownRef.current.dropDown()}}>
-      <TeamHome className="teamHome" page="team"/>
+    <div
+      onClick={() => {
+        DropDownRef.current.dropDown();
+      }}
+    >
+      <TeamHome className="teamHome" page="team" />
       <div className="filter">
         <p className="sort">Sort By :</p>
         <FilterModule
@@ -112,24 +119,31 @@ const Team=()=> {
 
       {filterByDomain ? (
         <>
-        <div className="member-title" id="core">CORE MEMBERS</div>
-        <div className="grid">{CoreMemberList.map(data)}</div>
-        <div className="member-title" id="members">MEMBERS</div>
-        <div className="grid">{(OtherMemberList.sort(sortArray)).map(data)}</div>
-      </>
+          <div className="member-title" id="core">
+            CORE MEMBERS
+          </div>
+          <div className="grid">{CoreMemberList.map(data)}</div>
+          <div className="member-title" id="members">
+            MEMBERS
+          </div>
+          <div className="grid">{OtherMemberList.sort(sortArray).map(data)}</div>
+        </>
       ) : (
         <>
           <div className="member-title">LEAD</div>
           <div className="grid">{GDSCLead.map(data)}</div>
           <div className="member-title">CORE MEMBERS</div>
-          <div className="grid">{(CoreMemberList.filter((member) => {
-            return member.Description!="Lead"})).map(data)}</div>
+          <div className="grid">
+            {CoreMemberList.filter((member) => {
+              return member.Description != "Lead";
+            }).map(data)}
+          </div>
           <div className="member-title">MEMBERS</div>
-          <div className="grid">{(OtherMemberList.sort(sortArray)).map(data)}</div>
+          <div className="grid">{OtherMemberList.sort(sortArray).map(data)}</div>
         </>
       )}
     </div>
   );
-}
+};
 
 export default Team;

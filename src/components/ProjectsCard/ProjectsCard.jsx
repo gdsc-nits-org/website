@@ -1,23 +1,25 @@
 import React from "react";
 import "./ProjectsCard.scss";
 import { Link } from "react-router-dom";
-import cardInfo from '/public/projects.json'
+import cardInfo from "/public/projects.json";
 
 function ProjectCard() {
-
   return (
     <>
-      {cardInfo.map((cardInfo,index) => {
+      {cardInfo.map((cardInfo, index) => {
         return (
-          <div className="project-card-container" key={index} id={index===0?'1':index===1?'2':''} >
+          <div
+            className="project-card-container"
+            key={index}
+            id={index === 0 ? "1" : index === 1 ? "2" : ""}
+          >
             <div className="project-card-header">
               <div className="project-card-project-status-container">
                 <h2 className="project-card-project-name">{cardInfo.title}</h2>
                 <span
                   className="project-card-project-status"
                   style={{
-                    backgroundColor:
-                      cardInfo.Status === "Live" ? "#4a90e2" : "#3CBA54",
+                    backgroundColor: cardInfo.Status === "Live" ? "#4a90e2" : "#3CBA54",
                   }}
                 >
                   {cardInfo.Status}

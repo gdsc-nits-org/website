@@ -10,19 +10,17 @@ import { useLocation } from "react-router-dom";
 
 function Navbar() {
   const [winWidth, setWinWidth] = useState(window.innerWidth);
-  const [winHeight, setWinHeight] = useState(window.innerHeight);
+  // const [winHeight, setWinHeight] = useState(window.innerHeight); probable fix
   const [hamburg, setHamburg] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
     window.addEventListener("resize", () => {
       setWinWidth(window.innerWidth);
-      setWinHeight(window.innerHeight);
-      // console.log(hamburg);
+      // setWinHeight(window.innerHeight);
     });
-    
+
     window.scrollTo(0, 0);
-    
   }, [location]);
 
   return (
@@ -37,35 +35,65 @@ function Navbar() {
         className="backdrop"
         style={{
           zIndex: `${hamburg === true && winWidth < 900 ? 200 : -6000}`,
-          background: `${hamburg === false || winWidth > 900 ? "transparent" : "rgba(0, 0, 0, 0.492)"}`,
-          display: `${hamburg === false || winWidth > 900 ? "none" : "block"}`
+          background: `${
+            hamburg === false || winWidth > 900 ? "transparent" : "rgba(0, 0, 0, 0.492)"
+          }`,
+          display: `${hamburg === false || winWidth > 900 ? "none" : "block"}`,
         }}
       ></div>
-      <div className="nav-list" style={{transform: `translateX(${hamburg === false && winWidth < 900?'25':'0'}rem)`}}>
+      <div
+        className="nav-list"
+        style={{
+          transform: `translateX(${hamburg === false && winWidth < 900 ? "25" : "0"}rem)`,
+        }}
+      >
         <ul className="nav-ul">
           <li className="nav-button home">
-            <Link to="/" className="nav-link" onClick={()=>{setHamburg(false)}}>
+            <Link
+              to="/"
+              className="nav-link"
+              onClick={() => {
+                setHamburg(false);
+              }}
+            >
               Home
             </Link>
           </li>
           <li className="nav-button projects">
-            <Link to="/projects" className="nav-link" onClick={()=>{setHamburg(false)}}>
+            <Link
+              to="/projects"
+              className="nav-link"
+              onClick={() => {
+                setHamburg(false);
+              }}
+            >
               Projects
             </Link>
           </li>
           <li className="nav-button events">
-            <Link to="/events" className="nav-link" onClick={()=>{setHamburg(false)}}>
+            <Link
+              to="/events"
+              className="nav-link"
+              onClick={() => {
+                setHamburg(false);
+              }}
+            >
               Events
             </Link>
           </li>
           <li className="nav-button team">
-            <Link to="/team" className="nav-link" onClick={()=>{setHamburg(false)}}>
+            <Link
+              to="/team"
+              className="nav-link"
+              onClick={() => {
+                setHamburg(false);
+              }}
+            >
               Team
             </Link>
           </li>
         </ul>
       </div>
-
 
       {winWidth < 900 ? (
         <div
@@ -79,12 +107,18 @@ function Navbar() {
             right: `${hamburg === true ? "30px" : ""}`,
           }}
           onClick={() => {
-            hamburg === false? setHamburg(true): hamburg === true? setHamburg(false): "";
+            hamburg === false
+              ? setHamburg(true)
+              : hamburg === true
+              ? setHamburg(false)
+              : "";
           }}
         >
           {hamburg === false ? <GiHamburgerMenu /> : <ImCross />}
         </div>
-      ) : ''}
+      ) : (
+        ""
+      )}
     </nav>
   );
 }

@@ -26,7 +26,7 @@ function Footer() {
                 className="footer-social-links"
               >
                 <AiFillLinkedin className="footer-btn-1" size={24} />
-              </Link> 
+              </Link>
               <Link
                 to="https://www.facebook.com/gdscnits/"
                 target="_blank"
@@ -34,7 +34,7 @@ function Footer() {
                 className="footer-social-links"
               >
                 <ImFacebook className="footer-btn-2" size={24} />
-              </Link> 
+              </Link>
               <Link
                 to="https://www.instagram.com/gdsc_nits/"
                 target="_blank"
@@ -42,7 +42,7 @@ function Footer() {
                 className="footer-social-links"
               >
                 <FiInstagram className="footer-btn-3" size={24} />
-              </Link> 
+              </Link>
               <Link
                 to="http://twitter.com/gdscnits"
                 target="_blank"
@@ -50,18 +50,20 @@ function Footer() {
                 className="footer-social-links"
               >
                 <FaTwitter className="footer-btn-4" size={24} />
-              </Link> 
+              </Link>
             </div>
             <div className="footer-mail">
               <ul>or e-mail us at </ul>
-              <Link to="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</Link> 
+              <Link to="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</Link>
             </div>
           </div>
           <div className="footer-top-right">
             <div className="join-chapter">
               <div className="support-us">
                 {/* <h3>Support Us</h3> */}
-                <Link to="https://ko-fi.com/T6T3IAFKX" target='_blank' rel="noreferrer"><img src={kofi} alt="support us" /></Link> 
+                <Link to="https://ko-fi.com/T6T3IAFKX" target="_blank" rel="noreferrer">
+                  <img src={kofi} alt="support us" />
+                </Link>
               </div>
               <Link
                 to="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
@@ -69,7 +71,7 @@ function Footer() {
                 rel="noreferrer"
               >
                 <h2>Join our chapter</h2>
-              </Link> 
+              </Link>
               <ul>to stay updated with our events</ul>
             </div>
           </div>
@@ -82,23 +84,23 @@ function Footer() {
               <ul className="footer-line-y"></ul>
               <Link to="/#introHome" className="footer-about">
                 Vision
-              </Link> 
+              </Link>
               <Link to="/#timeLine" className="footer-about">
                 Types of Events
-              </Link> 
+              </Link>
               <Link to="/#ui-ux" className="footer-about">
                 Google Technologies
-              </Link> 
+              </Link>
             </div>
             <div className="footer-mid-events">
               <ul>Events</ul>
               <div className="footer-line-g"></div>
               <Link to="/events/#upcoming" className="footer-events">
                 Upcoming Events
-              </Link> 
+              </Link>
               <Link to="/events/#previous" className="footer-events">
                 Previous Events
-              </Link> 
+              </Link>
             </div>
           </div>
           <div className="footer-middle-mob1">
@@ -107,20 +109,20 @@ function Footer() {
               <div className="footer-line-b"></div>
               <Link to="/projects/#1" className="footer-project">
                 Attendo
-              </Link> 
+              </Link>
               <Link to="/projects/#2" className="footer-project">
                 Website
-              </Link> 
+              </Link>
             </div>
             <div className="footer-mid-team">
               <ul>Team</ul>
               <div className="footer-line-r"></div>
               <Link to="/team/#core" className="footer-teas">
                 Core Members
-              </Link> 
+              </Link>
               <Link to="/team/#members" className="footer-teas">
                 Members
-              </Link> 
+              </Link>
             </div>
           </div>
         </div>

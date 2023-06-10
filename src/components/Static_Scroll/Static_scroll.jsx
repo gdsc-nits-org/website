@@ -4,7 +4,7 @@ import "@lottiefiles/lottie-player";
 import { useEffect } from "react";
 import { useRef } from "react";
 import "./Static_scroll.scss";
-import {Player} from '@lottiefiles/react-lottie-player'
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const Static_scroll = () => {
   const myRef = useRef(null);
@@ -67,7 +67,7 @@ const Static_scroll = () => {
   // })
 
   return (
-    <div id="static_scroll" style={{ height: "100%", position: 'relative' }}>
+    <div id="static_scroll" style={{ height: "100%", position: "relative" }}>
       <lottie-player
         ref={myRef} // 2. set the reference for the player
         id="firstLottie"
@@ -75,18 +75,20 @@ const Static_scroll = () => {
         mode="normal"
         //   src="https://assets5.lottiefiles.com/packages/lf20_D3Jkbk4bHd.json"
         src="/static_scroll-BG.json"
-        style={{ width: "500px", position:'sticky' }}
+        style={{ width: "500px", position: "sticky" }}
       ></lottie-player>
       <Player
-            ref={myRef2} // set the ref to your class instance
-            autoplay={true}
-            loop={true}
-            controls={true}
-            // src="https://assets3.lottiefiles.com/packages/lf20_XZ3pkn.json"
-            src="/static_scroll-FG.json"
-            style={{ height: '100%', width: '500px'}}
-        ></Player>
-        <div className="shadow-enclosure"><div className="shadow"></div></div>
+        ref={myRef2} // set the ref to your class instance
+        autoplay={true}
+        loop={true}
+        controls={true}
+        // src="https://assets3.lottiefiles.com/packages/lf20_XZ3pkn.json"
+        src="/static_scroll-FG.json"
+        style={{ height: "100%", width: "500px" }}
+      ></Player>
+      <div className="shadow-enclosure">
+        <div className="shadow"></div>
+      </div>
       {/* <lottie-player
         ref={myRef} // 2. set the reference for the player
         id="secondLottie"

@@ -20,8 +20,6 @@
       overflow: hidden;
       .image {
         transition-duration: 0.5s;
-        // height: 35vw;
-        // width: 26vw;
         min-height: 100%;
         width: 100%;
         border-radius: 2%;
@@ -31,8 +29,20 @@
   }
   .details {
     transition: transform 0.6s;
-    transform: translateX(1rem);
+    transform: translateX(0rem);
     color: aliceblue;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8016456582633054) 0%,
+      rgba(0, 0, 0, 0.7008053221288515) 25%,
+      rgba(0, 0, 0, 0.6027661064425771) 50%,
+      rgba(0, 0, 0, 0.3982843137254902) 76%,
+      rgba(0, 0, 0, 0.09576330532212884) 97%
+    );
+    padding-left: 1rem;
+    height: 5.5rem;
+
     .name {
       display: inline-block;
       transition: transform 0.6s;
@@ -70,15 +80,15 @@
       margin-right: auto;
       height: 2.2rem;
       @media screen and (max-width: 900px) and (orientation: portrait) {
-          width: 2rem;
-          margin-right: 0.5rem;
-          height: 2rem;
-          transform: translateY(0.6rem);
-        }
-        img{
-          scale: 1 !important;
-          margin: auto !important;
-        }
+        width: 2rem;
+        margin-right: 0.5rem;
+        height: 2rem;
+        transform: translateY(0.6rem);
+      }
+      img {
+        scale: 1 !important;
+        margin: auto !important;
+      }
       // @media screen and (max-width: 900px) and (orientation: portrait) {
       //   img{
       //     margin: auto;
@@ -118,18 +128,16 @@
         height: 11vw;
         border-radius: 50%;
         overflow: hidden;
-        // .image{
-        //     width: 11.2vw;
-        //     height: 15vw;
-        // }
       }
     }
     .details {
+      background: rgb(0, 0, 0);
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+      padding-left: 0rem;
       transform: translate(50%);
       .name {
         transform: translate(-50%, -8.5vw);
         color: rgb(0, 0, 0);
-
       }
       .domian {
         transform: translate(-50%, -8.5vw);
@@ -176,11 +184,6 @@
         display: block;
         height: 42vw;
         width: 34vw;
-        // .image{
-        //     transition-duration: 0.6s;
-        //     height: 48vw;
-        //     width: 34vw;
-        //     }
       }
     }
     .details {
@@ -212,13 +215,11 @@
         height: 14vw;
         border-radius: 100%;
         overflow: hidden;
-        // .image{
-        //     width: 15vw;
-        //     height: 18vw;
-        // }
       }
     }
     .details {
+      background: rgb(0, 0, 0);
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
       transform: translate(50%);
       .name {
         transition-duration: 0.5s;
@@ -386,7 +387,6 @@
       scale: 0.3;
       // padding-right: 3vw;
       // padding-left: 11vw;
-      
     }
   }
   .teamCard:hover {
