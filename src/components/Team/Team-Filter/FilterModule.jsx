@@ -1,6 +1,6 @@
-import React, {useState} from "react"
+import React, {useState,forwardRef,useImperativeHandle} from "react"
 import './Filter.scss'
-function FilterModule(props){
+const FilterModule= forwardRef((props,ref) => {
     const[viewDropDown , changeViewDropDown]=useState()
     const [filterValue , setFilterValue]=useState(props.title)
     let rotate = ["triangle"]
@@ -17,6 +17,14 @@ function FilterModule(props){
         }
         
     }
+    useImperativeHandle(ref,()=>({
+        dropDown(){if(viewDropDown==="1"){
+            changeViewDropDown()
+        }
+        else{
+            return 0
+        }}
+    }))
     const onModuleValueChanged=(event)=>{
         changeViewDropDown()
         setFilterValue(event.target.textContent)
@@ -37,7 +45,7 @@ function FilterModule(props){
         </div>
     )
 
-}
+})
 
-
+FilterModule.displayName="FilterModule"
 export default FilterModule
