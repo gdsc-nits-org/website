@@ -24,29 +24,32 @@ function Navbar() {
   }, [location]);
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar ${hamburg?'hamburg':''}`}>
       <div className="logo">
         <Link to="/">
           <img src={logo} alt="" />
         </Link>
       </div>
-      <img className="nav-img" src="" alt="" />
+      <div className="backdrop"></div>
+      {winWidth < 900? <div className="hamburg-icon" onClick={()=>{setHamburg(hamburg?false:true)}}>{!hamburg?<GiHamburgerMenu/>:<ImCross/>}</div>:''}
+      {/* <img className="nav-img" src="" alt="" />
       <div
         className="backdrop"
-        style={{
-          zIndex: `${hamburg === true && winWidth < 900 ? 200 : -6000}`,
-          background: `${
-            hamburg === false || winWidth > 900 ? "transparent" : "rgba(0, 0, 0, 0.492)"
-          }`,
-          display: `${hamburg === false || winWidth > 900 ? "none" : "block"}`,
-        }}
+        // style={{
+        //   zIndex: `${hamburg === true && winWidth < 900 ? 200 : -6000}`,
+        //   background: `${
+        //     hamburg === false || winWidth > 900 ? "transparent" : "rgba(0, 0, 0, 0.492)"
+        //   }`,
+        //   display: `${hamburg === false || winWidth > 900 ? "none" : "block"}`,
+        // }}
       ></div>
       <div
         className="nav-list"
         style={{
           transform: `translateX(${hamburg === false && winWidth < 900 ? "25" : "0"}rem)`,
         }}
-      >
+      > */}
+      <div className="nav-ul-enclose">
         <ul className="nav-ul">
           <li className="nav-button home">
             <Link
@@ -94,8 +97,8 @@ function Navbar() {
           </li>
         </ul>
       </div>
-
-      {winWidth < 900 ? (
+{/* 
+      {winWidth < 900 && window.innerHeight/window.innerWidth > 1 ? (
         <div
           className="hamburger"
           style={{
@@ -118,7 +121,7 @@ function Navbar() {
         </div>
       ) : (
         ""
-      )}
+      )} */}
     </nav>
   );
 }
