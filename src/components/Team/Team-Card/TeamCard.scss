@@ -518,3 +518,10 @@
 .teamCard .animation .pic .image .description .details .name .domian .socials {
   transition: all ease;
 }
+
+
+@media screen and (max-width:1000px){
+  .teamCard{
+    pointer-events: none;
+  }
+}

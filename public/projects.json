@@ -113,7 +113,7 @@
       "MongoDB",
       "Prisma"
     ],
-    "mentors": ["pratik majumdar", "Saurav Pal", "Diya Karmakar"],
+    "mentors": ["Pratik majumdar", "Saurav Pal", "Diya Karmakar"],
     "contributors": [
       "Anubhav",
       "Bijay",
@@ -133,7 +133,7 @@
       "As the name speaks for itself, it is a platform that will enable you to seek assistance and guidance from your peers and seniors. It allows you to upvote, downvote, and bookmark the content of your choice and comes with a trending article section displaying posts based on public reception."
     ],
     "techStack": ["ReactJS", "SCSS", "Vite", "pnpm", "git"],
-    "mentors": ["pratik majumdar", "Saurav Pal", "Shibam Debnath"],
+    "mentors": ["Pratik majumdar", "Saurav Pal", "Shibam Debnath"],
     "contributors": [
       "Adhiraj Dutta",
       "Aditya Kumar",
