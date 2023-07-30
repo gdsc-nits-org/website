@@ -1,0 +1,68 @@
+.compHome {
+  display: flex;
+  overflow: hidden;
+  @media screen and (min-width: 990px) {
+    min-height: 80vh;
+  }
+}
+.lottie {
+  transform: translate(10rem, -1rem);
+  display: flex;
+  .animation {
+    margin: auto;
+  }
+}
+.textContent {
+  font-family: Poppins;
+  font-size: 7vw;
+  font-weight: 700;
+  transform: translate(7vw, 10vw);
+  height: 15rem;
+  color: #313033;
+}
+@media only screen and (max-width: 990px) {
+  .compHome {
+    height: 55vw;
+  }
+  .textContent {
+    font-size: 6.8vw;
+    font-weight: 600;
+    transform: translate(2rem, 18vw);
+  }
+  .lottie {
+    transform: translateX(2rem);
+  }
+}
+@media only screen and (max-width: 660px) {
+  .compHome {
+    height: 55vw;
+  }
+  .textContent {
+    font-size: 7vw;
+    font-weight: 600;
+    transform: translate(2rem, 18vw);
+  }
+  .lottie {
+    transform: translateX(1.8rem);
+  }
+}
+@media only screen and (max-width: 390px) {
+  .textContent {
+    font-size: 6vw;
+    font-weight: 700;
+    transform: translate(1.6rem, 23vw);
+  }
+  .lottie {
+    transform: translateX(2rem);
+  }
+}
+@media only screen and (max-width: 330px) {
+  .textContent {
+    font-size: 6vw;
+    font-weight: 700;
+    transform: translate(1.6rem, 23vw);
+  }
+  .lottie {
+    transform: translateX(1.5rem);
+  }
+}

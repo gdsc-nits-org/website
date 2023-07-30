@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "img": "ar",
+      "date": "Nov 12, 2021",
+      "title": "Speaker Session / Tech Talk - Virtual",
+      "subtitle": "Info Session on Spark AR",
+      "badge": "AR/VR",
+      "desc": "Augmented Reality is the future. Using Ar effects to increase the reach and engage fans, customers, clients is the new normal for top global artists, brans and companies. In collaboration with GDSC, Reskill x Spark AR will conduct an info sesson on Spark AR on 12th Nov, Friday, 6:30PM Speaker - Kshitiz Saini, ASsociate Developer, Reskill technoogies."
+    },
+    {
+      "img": "info-session",
+      "date": "Sep 28, 2021",
+      "title": "Info Session: Virtual",
+      "subtitle": "Info Session : 30 Days of Google Cloud National Institute of Technology(NIT) - Silchar",
+      "badge": "AR/VR",
+      "desc": "Augmented Reality is the future. Using Ar effects to increase the reach and engage fans, customers, clients is the new normal for top global artists, brans and companies. In collaboration with GDSC, Reskill x Spark AR will conduct an info sesson on Spark AR on 12th Nov, Friday, 6:30PM Speaker - Kshitiz Saini, ASsociate Developer, Reskill technoogies."
+    },
+    {
+      "img": "investment-for-students",
+      "date": "Sep 26, 2021",
+      "title": "Speaker Session / Tech Talk - Virtual",
+      "subtitle": "Investment for Studens national Institute of Technology(NIT) - Silchar",
+      "badge": "AR/VR",
+      "desc": "Augmented Reality is the future. Using Ar effects to increase the reach and engage fans, customers, clients is the new normal for top global artists, brans and companies. In collaboration with GDSC, Reskill x Spark AR will conduct an info sesson on Spark AR on 12th Nov, Friday, 6:30PM Speaker - Kshitiz Saini, ASsociate Developer, Reskill technoogies."
+    },
+    {
+      "img": "30-days-of-cloud",
+      "date": "Sep 26, 2021",
+      "title": "Hands-on Workshop - Virtual",
+      "subtitle": "30 days of Google Cloud National Institute of Technology(NIT) - Silchar",
+      "badge": "AR/VR",
+      "desc": "Augmented Reality is the future. Using Ar effects to increase the reach and engage fans, customers, clients is the new normal for top global artists, brans and companies. In collaboration with GDSC, Reskill x Spark AR will conduct an info sesson on Spark AR on 12th Nov, Friday, 6:30PM Speaker - Kshitiz Saini, ASsociate Developer, Reskill technoogies."
+    },
+    {
+      "img": "intro-to-cloud",
+      "date": "Sep 11, 2021",
+      "title": "Hands-on Workshop - Virtual",
+      "subtitle": "Intro to Cloud National Institute of Technology(NIT) - Silchar",
+      "badge": "AR/VR",
+      "desc": "Augmented Reality is the future. Using Ar effects to increase the reach and engage fans, customers, clients is the new normal for top global artists, brans and companies. In collaboration with GDSC, Reskill x Spark AR will conduct an info sesson on Spark AR on 12th Nov, Friday, 6:30PM Speaker - Kshitiz Saini, ASsociate Developer, Reskill technoogies."
+    }
+  ]
+}

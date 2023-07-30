@@ -1,0 +1,72 @@
+[
+  {
+    "title": "GDSC Explore 2023 Info Session",
+    "subtitle": "Info Session",
+    "time": "2023-4-6",
+    "theme": "#000000",
+    "tags": ["Explore", "Info Session"],
+    "desc": "GDSC Explore was created in 2021 by multiple NorthEastern GDSCs in order to give new and ambitious developers the chance to show off their skills in the intensely competitive and exciting industry of development. Explore gives tech enthusiasts from various backgrounds a place to connect and learn about one another's perspectives on technology. Explore's intent has always been to establish a setting in which various seminars, speaker sessions, and tech presentations could emphasise the development culture of NorthEastern India. ",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/20230224_115142.webp",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-gdsc-explore-2023-info-session/"
+  },
+  {
+    "title": "Web Blitz 3.0",
+    "subtitle": "Workshop / Study Group",
+    "time": "2023-3-27",
+    "theme": "#feb801",
+    "tags": ["web blitz", "web development"],
+    "desc": "Web Blitz is a comprehensive program organized by GDSC NITS to help students, especially beginners, learn the ins and outs of web development. If anyone is interested in exploring this field, then Web Blitz is the perfect place to start!",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Web%20Blitz%203.0%20logo.webp",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-web-blitz-30/"
+  },
+  {
+    "title": "Flutter Forward Extended",
+    "subtitle": "Workshop / Study Group",
+    "time": "2023-3-7",
+    "theme": "#c7dbfb",
+    "tags": ["Flutter"],
+    "desc": "Flutter is a popular mobile app development framework that has taken the app development industry by storm. It offers a fast and efficient way to create beautiful and highly functional mobile applications for both Android and iOS platforms. On the second day of the Flutter Forward Extended, we are going to organize a workshop where we will teach participants about the basics of Flutter and how to create a simple note-taking app using Flutter.",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/flutter%20v2%20day%202.jpg",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-flutter-forward-extended-nit-silchar-day-2/"
+  },
+  {
+    "title": "Design Sprint",
+    "subtitle": "Workshop / Study Group",
+    "time": "2023-2-27",
+    "theme": "#0249b3",
+    "tags": ["Design Sprint"],
+    "desc": "The workshop will guide you through the process of creating compelling motion graphics using Lotte Files. The event will include interactive sessions and hands-on exercises where participants will learn how to conceptualize, storyboard, and animate their ideas. During the workshop, participants will explore different motion design techniques, including keyframe animation, typography animation, and character animation.",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Design%20Sprint%20Workshop%20Template_hreVRLI.webp",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-design-sprint/"
+  },
+  {
+    "title": "$ make --learn",
+    "subtitle": "Info Session",
+    "time": "2023-2-12",
+    "theme": "#000000",
+    "tags": ["Info Session", "make --learn"],
+    "desc": "Greetings fellow developers! Ever tried to install a program and saw that you had to build it from the source code using something like `make && sudo make install`? Ever wondered what `make` is? Or what it does? Well, join us in this session to get an idea about what make does, how it does it, and what can be done with it!",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/ReactJs%20Thumbnail_KrATrjr.webp",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-make-learn/"
+  },
+  {
+    "title": "Prototype Plenary 3.0",
+    "subtitle": "Workshop / Study Group",
+    "time": "2023-2-9",
+    "tags": ["UI/UX"],
+    "theme": "#ae97d1",
+    "desc": "Get ready to ignite your UI/UX journey with Prototype Plenary 3.0 Workshop! Organized by GDSC NIT Silchar, this workshop is the perfect opportunity for young enthusiasts to kickstart their career in design, from 9th to 11th.",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Prototype%20planary.webp",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-prototype-plenary-30/"
+  },
+  {
+    "title": "Switch to Backend",
+    "subtitle": "Workshop / Study Group",
+    "time": "2023-2-4",
+    "theme": "#f1d5f3",
+    "tags": ["Web", "Backend"],
+    "desc": "This session will provide attendees with hands-on experience and in-depth knowledge of using Node.js as a runtime environment and Express.js as a web framework to build scalable and fast backend systems. Additionally, attendees will learn about Passport.js, a popular authentication middleware for Node.js, and how to use Prisma ORM to handle database operations in a type-safe and efficient manner.",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/NATRAAJ%20%2824%29.webp",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-switch-to-backend-1/"
+  }
+]

@@ -1,0 +1,29 @@
+.projects-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - var(--navbar-height));
+  .projects-title {
+    padding-left: 6.75rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6rem;
+    @media screen and (max-width: 900px) {
+      padding-left: 2rem;
+      font-size: 4rem;
+    }
+  }
+}
+.projects-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6.75rem;
+  padding: 6.75rem;
+
+  @media screen and (max-width: 900px) {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+}

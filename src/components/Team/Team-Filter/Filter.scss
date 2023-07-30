@@ -1,0 +1,115 @@
+.filter {
+  .dropDown {
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    height: 1.4rem;
+    width: 8rem;
+    padding-left: 0.3rem;
+    border-width: 0.1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    position: absolute;
+    background-color: #fffbfb;
+  }
+  .triangle {
+    width: 0rem;
+    height: 0rem;
+    border-left: 0.4rem solid transparent;
+    border-right: 0.4rem solid transparent;
+    border-top: 0.4rem solid rgb(0, 0, 0);
+    position: absolute;
+    transform: translate(6.7rem, 0.6rem);
+  }
+  .show {
+    rotate: 180deg;
+    height: 20rem;
+  }
+
+  .dropDownContent {
+    position: absolute;
+    transform: translateY(1.6rem);
+    display: flex;
+    flex-direction: column;
+  }
+}
+.value {
+  cursor: pointer;
+  height: 1.3rem;
+  font-size: 0.9rem;
+  width: 8rem;
+  padding-left: 0.3rem;
+  background-color: #faf2f2;
+}
+@media only screen and (max-width: 990px) {
+  .filter {
+    .dropDown {
+      width: 7rem;
+    }
+    .triangle {
+      transform: translate(5.6rem, 0.6rem);
+    }
+    .value {
+      width: 7rem;
+    }
+  }
+}
+@media only screen and (max-width: 660px) {
+  .filter {
+    .dropDown {
+      font-size: 3vw;
+      width: 20vw;
+      height: 4.5vw;
+    }
+    .triangle {
+      transform: translate(17vw, 1.7vw);
+    }
+    .value {
+      width: 20vw;
+    }
+    .triangle {
+      border-left: 0.3rem solid transparent;
+      border-right: 0.3rem solid transparent;
+      border-top: 0.3rem solid rgb(0, 0, 0);
+    }
+  }
+}
+@media only screen and (max-width: 430px) {
+  .filter {
+    .dropDown {
+      font-size: 0.7rem;
+      width: 4.4rem;
+      height: 1.2rem;
+    }
+    .triangle {
+      transform: translate(3.4rem, 0.4rem);
+    }
+    .dropDownContent {
+      transform: translateY(1.2rem);
+    }
+    .value {
+      font-size: 0.7rem;
+      width: 4.4rem;
+      height: 1.2rem;
+    }
+  }
+}
+@media only screen and (max-width: 390px) {
+  .filter {
+    .dropDown {
+      font-size: 0.7rem;
+      width: 4.4rem;
+      height: 1.2rem;
+    }
+    .triangle {
+      transform: translate(3.4rem, 0.4rem);
+    }
+    .dropDownContent {
+      transform: translateY(1.2rem);
+    }
+    .value {
+      font-size: 0.7rem;
+      width: 4.4rem;
+      height: 1.2rem;
+    }
+  }
+}

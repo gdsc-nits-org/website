@@ -89,10 +89,22 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--gdsc-font-1);
+}
+
+html {
   @media screen and (max-width: 300px) {
     font-size: 12px;
   }
   @media screen and (max-width: 600px) {
     font-size: 14px;
   }
+}
+
+#root {
+  margin-top: var(--navbar-height);
+}
+
+h1,
+h2 {
+  color: var(--gdsc-content-1-100);
 }

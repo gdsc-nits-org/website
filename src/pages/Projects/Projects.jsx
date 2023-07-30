@@ -1,8 +1,18 @@
 import React from "react";
+
+import ProjectCard from "../../components/ProjectsCard/ProjectsCard";
 import "./Projects.scss";
+import HeroLottie from "../../components/Hero-lottie/HeroLottie";
 
 function Projects() {
-  return <h1>This is the Projects page</h1>;
+  return (
+    <div>
+      <HeroLottie page="projects" />
+      <main className="projects-main">
+        <ProjectCard />
+      </main>
+    </div>
+  );
 }
 
 export default Projects;
