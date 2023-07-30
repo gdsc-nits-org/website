@@ -1,9 +1,9 @@
 import React from "react";
-import "./TeamLotti.scss";
-import animationData from "../../../assets/lottie/TeamLottie.json";
-
 import Lottie from "react-lottie";
-function TeamLottie() {
+import "./ProjectLottie.scss";
+import animationData from "./roadmap.json";
+
+const ProjectLottie = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
@@ -12,7 +12,6 @@ function TeamLottie() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-
   return (
     <div key="avatar_animation" className="animation">
       <Lottie
@@ -22,6 +21,6 @@ function TeamLottie() {
       />
     </div>
   );
-}
+};
 
-export default TeamLottie;
+export default ProjectLottie;

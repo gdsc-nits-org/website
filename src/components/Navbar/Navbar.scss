@@ -1,131 +1,290 @@
-.navbar {
+// .navbar {
+//   display: flex;
+//   box-shadow: 0px -1px 9px rgba(0, 0, 0, 0.29);
+//   height: var(--navbar-height);
+//   position: fixed;
+//   width: 100vw;
+//   z-index: 5000;
+//   background: white;
+//   top: 0px;
+
+//   .logo {
+//     display: flex;
+//     margin-left: 1rem;
+
+//     a {
+//       margin: auto;
+//     }
+//   }
+
+//   @media (width>900px) and (orientation: portrait) {
+//     .logo {
+//       margin-left: 2rem;
+//     }
+//   }
+
+//   .nav-list ul,
+//   .nav-list {
+//     display: flex;
+//     margin-left: auto;
+//     width: 40%;
+//     list-style: none;
+
+//     .nav-ul {
+//       width: 100%;
+//     }
+
+//     .nav-button {
+//       display: inline-block;
+//       // margin: 2rem;
+//       margin: auto;
+//       position: relative;
+
+//       .nav-link {
+//         // margin: 5vw;
+//         position: relative;
+//         text-decoration: none;
+//         font-weight: 700;
+//         font-size: 1rem;
+//         color: #646464;
+//       }
+//     }
+//   }
+// }
+
+// @media screen and (width<900px) and (orientation: portrait) {
+//   .navbar {
+//     .nav-list {
+//       position: fixed;
+//       width: 25rem;
+//       right: 0px;
+//       background: white;
+//       height: 100vh;
+//       z-index: 201;
+//       transition: 0.25s;
+
+//       .nav-ul {
+//         flex-direction: column;
+//         display: flex;
+//         height: fit-content;
+//         margin: auto;
+
+//         li {
+//           margin: 2rem auto;
+//           z-index: 300;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// .nav-button::after {
+//   position: absolute;
+//   width: 0%;
+//   height: 5px;
+//   content: "";
+//   left: 0px;
+//   bottom: -5px;
+//   border-radius: 5px;
+//   transition: 0.35s;
+// }
+
+// .home::after {
+//   background: var(--gdsc-blue-1-100);
+// }
+
+// .projects::after {
+//   background: var(--gdsc-red-1-100);
+// }
+
+// .events::after {
+//   background: var(--gdsc-yellow-1-100);
+// }
+
+// .team::after {
+//   background: var(--gdsc-green-1-100);
+// }
+
+// .nav-button:hover::after {
+//   width: 100%;
+// }
+
+// .backdrop {
+//   width: 100%;
+//   height: 100%;
+//   background: rgba(0, 0, 0, 0.492);
+//   position: fixed;
+//   top: 0px;
+//   left: 0px;
+//   z-index: 200;
+//   transition: 0.25s;
+//   display: none;
+// }
+
+// .hamburger {
+//   top: calc(var(--navbar-height) / 2);
+//   right: 30px;
+//   z-index: 202;
+//   display: flex;
+
+//   svg {
+//     cursor: pointer;
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
   display: flex;
-  box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.29);
-  height: var(--navbar-height);
   position: fixed;
-  width: 100vw;
-  z-index: 5000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  box-shadow: 0.1rem 0.1rem 0.3rem rgb(193, 193, 193);
+  align-items: center;
+  height: var(--navbar-height);
+  z-index: 2000;
   background: white;
-  top: 0px;
-
-  .logo {
+  
+  .hamburg-icon{
+    font-size: 1.6rem; 
     display: flex;
-    margin-left: 1rem;
-
-    a {
-      margin: auto;
-    }
-  }
-
-  @media (width>600px) {
-    .logo {
-      margin-left: 2rem;
-    }
-  }
-
-  .nav-list ul,
-  .nav-list {
-    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left: auto;
-    width: 40%;
+    margin-right: 2rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 2003;
+  }
+  // .backdrop{
+    //   width: 100%;
+    //   height: 100vh;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   z-index: -2001;
+    // }
+    
+    .nav-ul-enclose{
+      margin-left: auto;
+  }
+  
+  .nav-ul{
+    display: flex;
     list-style: none;
-
-    .nav-ul {
-      width: 100%;
-    }
+    margin-left: auto;
 
     .nav-button {
-      display: inline-block;
-      // margin: 2rem;
-      margin: auto;
+      margin: 0rem 1.7rem;
+      padding: 1rem;
+      font-weight: 700;
+      display: flex;
       position: relative;
-
-      .nav-link {
-        // margin: 5vw;
-        position: relative;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 1rem;
-        color: #646464;
-      }
-    }
-  }
-
-  @media (width<900px) {
-    .nav-list {
-      position: fixed;
-      width: 25rem;
-      right: 0px;
-      background: white;
-      height: 100vh;
-      z-index: 201;
-      transition: 0.25s;
-
-      .nav-ul {
-        flex-direction: column;
-        display: flex;
-        height: fit-content;
+      
+      a{
         margin: auto;
+        color: #646464;
+        text-decoration: none;
+      }
+      
+    }
 
-        li {
-          margin: 2rem auto;
-          z-index: 300;
-        }
+    .nav-button::after{
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 0.4rem;
+      bottom: 0.6rem;
+      left: 15%;
+      transform: translateX(0%);
+      border-radius: 5px;
+      transition: 0.5s;
+      transition-timing-function: cubic-bezier(.61,.37,.49,1.26);
+    }
+    
+    .nav-button:hover::after{
+      width: 70%;
+    }
+
+    .home::after {
+      background: var(--gdsc-blue-1-100);
+    }
+    
+    .projects::after {
+      background: var(--gdsc-red-1-100);
+    }
+    
+    .events::after {
+      background: var(--gdsc-yellow-1-100);
+    }
+
+    .team::after {
+      background: var(--gdsc-green-1-100);
+    }
+    
+
+  }
+  
+  @media screen and (max-width: 900px){
+    .backdrop{
+      background-color: rgba(112, 112, 112, 0.221);
+      z-index: 2001;
+      width: 0%;
+      position: fixed;
+      height: 100vh;
+      left: 0;
+      top: 0;
+      opacity: 0;
+    }
+
+    
+    .nav-ul-enclose{
+      position: fixed;
+      height: 100vh;
+      right: 0px;
+      top: 0px;
+      width: 25rem;
+      z-index: 2002;
+      background: white;
+      display: flex;
+      transform: translateX(25rem);
+      transition: 0.25s;
+      
+      .nav-ul{
+        flex-direction: column;
+        width: max-content;
+        position: relative;
+        margin: auto;
       }
     }
+    
+    
   }
+
 }
 
-.nav-button::after {
-  position: absolute;
-  width: 0%;
-  height: 5px;
-  content: "";
-  left: 0px;
-  bottom: -5px;
-  border-radius: 5px;
-  transition: 0.35s;
-}
-
-.home::after {
-  background: var(--gdsc-blue-1-100);
-}
-
-.projects::after {
-  background: var(--gdsc-red-1-100);
-}
-
-.events::after {
-  background: var(--gdsc-yellow-1-100);
-}
-
-.team::after {
-  background: var(--gdsc-green-1-100);
-}
-
-.nav-button:hover::after {
-  width: 100%;
-}
-
-.backdrop {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.492);
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 200;
-  transition: 0.25s;
-  display: none;
-}
-
-.hamburger {
-  top: calc(var(--navbar-height) / 2);
-  right: 30px;
-  z-index: 202;
-  display: flex;
-
-  svg {
-    cursor: pointer;
+.hamburg{
+  .backdrop{
+    opacity: 1;
+    width: 100%;
+  }
+  .nav-ul-enclose{
+    transform: translateX(0rem);
   }
 }

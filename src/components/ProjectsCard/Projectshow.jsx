@@ -1,32 +1,70 @@
 import "./Projectsshow.scss";
 import { useParams } from "react-router-dom";
-import TempAPI from "./tempAPI.json";
 import { useState } from "react";
+import Projects from "/public/projects.json";
+import { FaHtml5, FaNodeJs, FaReact, FaTools } from "react-icons/fa";
+import {
+  SiFirebase,
+  SiFlutter,
+  SiMongodb,
+  SiPnpm,
+  SiPrisma,
+  SiSass,
+  SiSqlite,
+  SiTypescript,
+  SiVite,
+} from "react-icons/si";
+import { ImCss3 } from "react-icons/im";
+import { DiGit, DiJava, DiJavascript1 } from "react-icons/di";
 
 const ProjectsShow = () => {
   const { projectID } = useParams();
   const [cardInfo] = useState(
-    TempAPI.msg.filter((e) => {
-      return e.id == projectID;
+    Projects.filter((e, i) => {
+      return i === parseInt(projectID);
     })
   );
+
+  const logos = {
+    NodeJS: <FaNodeJs />,
+    MongoDB: <SiMongodb />,
+    ExpressJS: <FaNodeJs />,
+    ExpressJs: <FaNodeJs />,
+    JS: <DiJavascript1 />,
+    HTML: <FaHtml5 />,
+    CSS: <ImCss3 />,
+    Java: <DiJava />,
+    Firebase: <SiFirebase />,
+    SQLite: <SiSqlite />,
+    Retrofit: <FaTools />,
+    ReactJS: <FaReact />,
+    TypeScript: <SiTypescript />,
+    git: <DiGit />,
+    Git: <DiGit />,
+    pnpm: <SiPnpm />,
+    Vite: <SiVite />,
+    SCSS: <SiSass />,
+    Flutter: <SiFlutter />,
+    Prisma: <SiPrisma />,
+  };
+
   return (
     <>
       <div className="projectshow-container">
         <div className="projectsshow-project-title">
           <div className="project-name">
-            <h3>{cardInfo[0].name}</h3>
+            <h3>{cardInfo[0].title}</h3>
             <div
               className="project-status"
               style={{
-                backgroundColor: cardInfo.status === "COMPLETED" ? "#4a90e2" : "#3CBA54",
+                backgroundColor: cardInfo.Status === "Live" ? "#4a90e2" : "#3CBA54",
               }}
             >
-              {cardInfo[0].status}
+              {cardInfo[0].Status}
             </div>
           </div>
           <div className="project-image">
-            <img src={cardInfo[0].logoImageUrl} alt="logo" />
+            <img src={cardInfo[0].logo} alt="logo" />
           </div>
         </div>
         <div className="projectshow-project-description">
@@ -36,11 +74,13 @@ const ProjectsShow = () => {
         <div className="projectshow-techstack">
           <h4>Tech Stack</h4>
           <div className="projects-stacks">
-            {cardInfo[0].technologies.map((tech) => {
+            {cardInfo[0].techStack.map((tech) => {
               return (
-                <div key={tech.id}>
-                  <img src={tech.iconUrl} alt="" />
-                  <p>{tech.name}</p>
+                <div className="tech" key={tech}>
+                  {/* <img src={} alt="" /> */}
+                  {/* <div dangerouslySetInnerHTML={{__html:logos[tech]}}></div> */}
+                  <div className="techlogo">{logos[tech]}</div>
+                  <p>{tech}</p>
                 </div>
               );
             })}
@@ -51,7 +91,7 @@ const ProjectsShow = () => {
             <h4>Mentors</h4>
             <div className="mentor-list">
               {cardInfo[0].mentors.map((ment) => {
-                return <ul key={ment.id}>{ment.name}</ul>;
+                return <ul key={ment}>{ment}</ul>;
               })}
             </div>
           </div>
@@ -59,7 +99,7 @@ const ProjectsShow = () => {
             <h4>Contributors</h4>
             <div className="contributor-list">
               {cardInfo[0].contributors.map((cont) => {
-                return <ul key={cont.id}>{cont.name}</ul>;
+                return <ul key={cont}>{cont}</ul>;
               })}
             </div>
           </div>
