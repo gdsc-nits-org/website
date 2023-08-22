@@ -19,59 +19,68 @@ function Footer() {
               <ul> Contact us through our social media accounts.</ul>
             </div>
             <div className="footer-links">
-              <Link
-                to="https://www.linkedin.com/company/gdscnits/mycompany/"
+              <a
+                href="https://www.linkedin.com/company/gdscnits/mycompany/"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
+                title="LinkedIn"
               >
                 <AiFillLinkedin className="footer-btn-1" size={24} />
-              </Link>
-              <Link
-                to="https://www.facebook.com/gdscnits/"
+              </a>
+              <a
+                href="https://www.facebook.com/gdscnits/"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
+                title="Facebook"
               >
                 <ImFacebook className="footer-btn-2" size={24} />
-              </Link>
-              <Link
-                to="https://www.instagram.com/gdsc_nits/"
+              </a>
+              <a
+                href="https://www.instagram.com/gdsc_nits/"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
+                title="Instagram"
               >
                 <FiInstagram className="footer-btn-3" size={24} />
-              </Link>
-              <Link
-                to="http://twitter.com/gdscnits"
+              </a>
+              <a
+                href="http://twitter.com/gdscnits"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
+                title="Twitter"
               >
                 <FaTwitter className="footer-btn-4" size={24} />
-              </Link>
+              </a>
             </div>
             <div className="footer-mail">
               <ul>or e-mail us at </ul>
-              <Link to="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</Link>
+              <a href="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</a>
             </div>
           </div>
           <div className="footer-top-right">
             <div className="join-chapter">
               <div className="support-us">
                 {/* <h3>Support Us</h3> */}
-                <Link to="https://ko-fi.com/T6T3IAFKX" target="_blank" rel="noreferrer">
+                <a
+                  href="https://ko-fi.com/T6T3IAFKX"
+                  target="_blank"
+                  rel="noreferrer"
+                  title="Ko-fi"
+                >
                   <img src={kofi} alt="support us" />
-                </Link>
+                </a>
               </div>
-              <Link
-                to="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
+              <a
+                href="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <h2>Join our chapter</h2>
-              </Link>
+              </a>
               <ul>to stay updated with our events</ul>
             </div>
           </div>
@@ -134,7 +143,7 @@ function Footer() {
           </div>
 
           <div className="footer-end-right">
-            <ul>Google Developer Student Club,NITS. All Rights Reserved</ul>
+            <ul>Google Developer Student Club, NITS. All Rights Reserved</ul>
           </div>
         </div>
       </div>
