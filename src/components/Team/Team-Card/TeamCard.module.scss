@@ -20,7 +20,7 @@
   box-shadow: -4px -4px 12px 0px #f2f2f240;
   box-shadow: 4px 4px 12px 0px #4f4f4f33;
   overflow: hidden;
-  transition: all 350ms ease;
+  transition: all 350ms ease-in-out;
   // margin-bottom: 20px;
 }
 
@@ -35,7 +35,7 @@
   width: 100%;
   height: 20rem;
   top: 0px;
-  transition: all 350ms ease;
+  transition: all 350ms ease-in-out;
   vertical-align: middle;
   object-fit: cover;
 }
@@ -61,18 +61,14 @@
 }
 
 .core_mem_text {
-  // display: flex;
   justify-content: center;
   align-items: center;
   display: none;
-  // visibility: hidden;
-  transition: all 350ms ease;
+  transition: all 350ms ease-in-out;
 }
 
 .core_mem:hover .core_mem_text {
-  // visibility: visible;
   display: flex;
-  // border-radius: nullpx;
   font-size: 0.975rem;
   font-weight: 500;
   // line-height: 1.2rem;
@@ -87,8 +83,7 @@
 }
 
 .social_media_core {
-  // visibility: hidden;
-  transition: all 350ms ease;
+  transition: all 350ms ease-in-out;
   display: none;
   justify-content: center;
   align-items: center;
@@ -97,11 +92,12 @@
 }
 
 .socialicon {
-  scale: 1.5;
+  scale: 1.625;
 }
 
 .socialicon:hover {
-  scale: 2;
+  transition: transform 350ms ease-in-out;
+  transform: scale(1.5);
 }
 
 .core_mem:hover .social_media_core {
