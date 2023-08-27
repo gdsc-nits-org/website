@@ -1,45 +1,56 @@
-import React from "react";
-import "./TeamCard.scss";
+import styles from "./TeamCard.module.scss";
 import fb from "../../../assets/images/fb.svg";
 import lin from "../../../assets/images/linkedin.svg";
 import github from "../../../assets/images/github.svg";
 
-function TeamCard(props) {
+const TeamCard = (props) => {
+  const displayID = props.Description === "" ? "none" : "block";
   return (
-    <div className="teamCard">
-      <div className="animation">
-        <div className="pic">
-          <img src={props.ImageSrc} alt=" " className="image" loading="lazy" />
+    <div
+      className={styles.core_mem}
+      style={{ height: displayID === "none" ? "24rem" : "26rem" }}
+      key={props._id}
+    >
+      <div className={styles.body}>
+        <div className={styles.core_images}>
+          <img src={props.ImageSrc} alt="member avatar" loading="lazy" />
         </div>
-      </div>
-      <div className="details">
-        <div>
-          <div className="name">{props.Name}</div>
+        <div className={styles.details}>
+          <h3 className={styles.core_title}>{props.Name}</h3>
+          <p className={styles.core_description} style={{ display: displayID }}>
+            {props.Description}
+          </p>
         </div>
-        <div>
-          <div className="domian">{props.Domain}</div>
+        <p className={styles.core_mem_text}>{props.Domain}</p>
+        <div className={styles.social_media_core}>
+          <a
+            href={props.Linkdin}
+            className={styles.SocialLogoCore}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={lin} alt="LinkedIn icon" className={styles.socialicon} />
+          </a>
+          <a
+            href={props.Facebook}
+            className={styles.SocialLogoCore}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={fb} alt="Facebook icon" className={styles.socialicon} />
+          </a>
+          <a
+            href={props.Twitter}
+            className={styles.SocialLogoCore}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={github} alt="Github icon" className={styles.socialicon} />
+          </a>
         </div>
-      </div>
-      <div className="description">{props.Description}</div>
-      <div className="socials">
-        <a href={props.Linkdin} target="_blank" rel="noreferrer">
-          <div className="linkdin socialIcon">
-            <img src={lin} alt="" />
-          </div>
-        </a>
-        <a href={props.Facebook} target="_blank" rel="noreferrer">
-          <div className="facebook socialIcon">
-            <img src={fb} alt="" />
-          </div>
-        </a>
-        <a href={props.Twitter} target="_blank" rel="noreferrer">
-          <div className="github socialIcon">
-            <img className="git" src={github} alt="" />
-          </div>
-        </a>
       </div>
     </div>
   );
-}
+};
 
 export default TeamCard;
