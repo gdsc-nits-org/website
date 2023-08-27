@@ -1,8 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import Styles from "./Events.module.scss";
 import data from "/public/events.json";
 import DataCard from "./DataCard";
-import { useState } from "react";
 import UpcomingEvents from "../../components/UpcomingEvents/UpcomingEvents";
 
 const Events = () => {
@@ -33,15 +32,14 @@ const Events = () => {
       </div>
 
       <div className={Styles.cards}>
-        {data.map((info) => {
-          var dates = info.time.split("-");
-          var date = new Date(dates[0], dates[1] - 1, dates[2]);
+        {data.map((info, idx) => {
+          const date = new Date(info.time);
           if (new Date() - date > 0) {
             if (info.time.slice(0, 4) === pastEvents) {
-              return <DataCard key={info} info={info} />;
+              return <DataCard key={idx} info={info} />;
             }
           } else {
-            <UpcomingEvents umcomingEvents={info} Styles={Styles} />;
+            <UpcomingEvents key={idx} umcomingEvents={info} Styles={Styles} />;
           }
         })}
       </div>
