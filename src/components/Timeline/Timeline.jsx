@@ -56,11 +56,11 @@ function Timeline() {
         </div>
         <div id="timeline-wrapper" className="timeline-wrapper">
           <div id="timeline-bar" className="timeline-bar">
-            {timelineData.map((timelineData) => {
+            {timelineData.map((timelineData, idx) => {
               return (
                 <div
                   className="timeline-circle"
-                  key={timelineData}
+                  key={idx}
                   style={{ backgroundColor: timelineData.theme }}
                   // style={{ backgroundColor: '#3CBA54' }}
                 >

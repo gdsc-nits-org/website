@@ -13,10 +13,10 @@ function data(value) {
       Name={value.Name}
       Domain={value.Domain}
       Description={value.Description}
+      Website={value.Website}
       Linkdin={value.Linkdin}
       Facebook={value.Facebook}
-      Instagram={value.Instagram}
-      Twitter={value.Twitter}
+      Github={value.Github}
     />
   );
 }
@@ -111,8 +111,8 @@ const Team = () => {
           className="filterByYear"
           title={currentBatch}
           option1="2022-23"
-          option2="2023-24"
-          option3="2024-25"
+          // option2="2023-24"
+          // option3="2024-25"
           filterModuleData={onBatchValueSelected}
         />
       </div>

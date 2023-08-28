@@ -1,5 +1,4 @@
 import React from "react";
-// import Styles from './UpcomingEvents.module.scss'
 import { Link } from "react-router-dom";
 
 const UpcomingEvents = ({ umcomingEvents, Styles }) => {

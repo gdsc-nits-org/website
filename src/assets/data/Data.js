@@ -8,7 +8,7 @@ const TeamData = [
     Description: "Lead",
     Linkdin: "https://www.linkedin.com/in/aniruddha-dutta-naz/",
     Facebook: "https://www.facebook.com/aniruddha.dutta.naz/",
-    Twitter: "https://github.com/username-naz",
+    Github: "https://github.com/username-naz",
   },
   {
     _id: 2,
@@ -19,7 +19,7 @@ const TeamData = [
     Description: "UI/UX Moderator",
     Linkdin: "https://www.linkedin.com/in/bhaskar-wary-50586a1b3",
     Facebook: "https://www.facebook.com/bhaskar.wary.100",
-    Twitter: "https://github.com/Bhaskar100-hub",
+    Github: "https://github.com/Bhaskar100-hub",
   },
   {
     _id: 3,
@@ -30,7 +30,7 @@ const TeamData = [
     Description: "Web Moderator",
     Linkdin: "https://www.linkedin.com/in/netrakamal-barua-377485219/",
     Facebook: "https://www.facebook.com/netrakamal.barua/",
-    Twitter: "https://github.com/JOSU9435",
+    Github: "https://github.com/JOSU9435",
   },
   {
     _id: 4,
@@ -41,7 +41,7 @@ const TeamData = [
     Description: "Android Moderator",
     Linkdin: "https://www.linkedin.com/in/ayush-gupta-47a430201/",
     Facebook: "#",
-    Twitter: "https://github.com/baishalidebk13",
+    Github: "https://github.com/baishalidebk13",
   },
   {
     _id: 5,
@@ -52,7 +52,7 @@ const TeamData = [
     Description: "Flutter Moderator",
     Linkdin: "https://www.linkedin.com/in/vikas528",
     Facebook: "https://www.facebook.com/vikas.makkar.357",
-    Twitter: "https://github.com/vikas528",
+    Github: "https://github.com/vikas528",
   },
   {
     _id: 6,
@@ -63,7 +63,7 @@ const TeamData = [
     Description: "Cloud Moderator",
     Linkdin: "https://www.linkedin.com/in/resyfer",
     Facebook: "https://www.facebook.com/resyfer.dev",
-    Twitter: "https://github.com/resyfer",
+    Github: "https://github.com/resyfer",
   },
   {
     _id: 8,
@@ -74,7 +74,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/biju-borah-1bb78620a",
     Facebook: "#",
-    Twitter: "https://github.com/biju-borah",
+    Github: "https://github.com/biju-borah",
   },
   {
     _id: 12,
@@ -85,7 +85,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/codadept",
     Facebook: "https://www.facebook.com/itspratikmaj/",
-    Twitter: "https://github.com/codadept",
+    Github: "https://github.com/codadept",
   },
   {
     _id: 15,
@@ -96,7 +96,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/siddharta-paul-99a0891bb",
     Facebook: "https://www.facebook.com/siddharta.paul.71",
-    Twitter: "https://github.com/Siddharta-paul",
+    Github: "https://github.com/Siddharta-paul",
   },
   {
     _id: 13,
@@ -107,7 +107,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/jyotishka-b-32995712b/",
     Facebook: "https://www.facebook.com/people/Jyotishka-Bhattacharjee/100005647038947/",
-    Twitter: "https://github.com/jyotishka747",
+    Github: "https://github.com/jyotishka747",
   },
   {
     _id: 14,
@@ -118,7 +118,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/adrita-buragohain-460080219/",
     Facebook: "https://www.facebook.com/adrita.buragohain.7",
-    Twitter: "https://github.com/Adrita2002",
+    Github: "https://github.com/Adrita2002",
   },
   {
     _id: 7,
@@ -129,7 +129,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/nikita-roy-615220192",
     Facebook: "https://www.facebook.com/profile.php?id=100017110333190",
-    Twitter: "https://github.com/NikitaRoy22",
+    Github: "https://github.com/NikitaRoy22",
   },
   {
     _id: 9,
@@ -140,7 +140,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/shibam-debnath-25b235206/",
     Facebook: "https://www.facebook.com/ind.iconic",
-    Twitter: "https://github.com/shibam-debnath",
+    Github: "https://github.com/shibam-debnath",
   },
   {
     _id: 10,
@@ -151,7 +151,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/diya-karmakar-5a4b14190/",
     Facebook: "##",
-    Twitter: "https://github.com/diyakarmakar779",
+    Github: "https://github.com/diyakarmakar779",
   },
   {
     _id: 11,
@@ -162,7 +162,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/mwlite/in/sayahnneeta-dutta-2b4525187",
     Facebook: "https://m.facebook.com/100004857528784/",
-    Twitter: "https://github.com/Sayahnneeta",
+    Github: "https://github.com/Sayahnneeta",
   },
   {
     _id: 16,
@@ -173,7 +173,7 @@ const TeamData = [
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/phenyloder",
     Facebook: "https://www.facebook.com/phenyloder",
-    Twitter: "https://github.com/phenyloder",
+    Github: "https://github.com/phenyloder",
   },
   {
     _id: 17,
@@ -182,9 +182,10 @@ const TeamData = [
     Name: "Adhiraj Dutta",
     Domain: "Web",
     Description: "",
-    Linkdin: "https://www.linkedin.com/in/adhiraj-dutta-bytehead",
+    Website: "https://byt3h3ad.github.io/",
+    Linkdin: "https://www.linkedin.com/in/byt3h3ad",
     Facebook: "https://www.facebook.com/byte.head.12",
-    Twitter: "https://github.com/byt3h3ad",
+    Github: "https://github.com/byt3h3ad",
   },
   {
     _id: 18,
@@ -195,7 +196,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://github.com/31adityakumar",
     Facebook: "https://www.facebook.com/profile.php?id=100071791456601",
-    Twitter: "https://github.com/31adityakumar",
+    Github: "https://github.com/31adityakumar",
   },
   {
     _id: 19,
@@ -206,7 +207,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/baishali-deb-kanunjna-658bba21a",
     Facebook: "https://www.facebook.com/baishalidebkanunjna1293",
-    Twitter: "https://github.com/baishalidebk13",
+    Github: "https://github.com/baishalidebk13",
   },
   {
     _id: 20,
@@ -217,7 +218,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/jaydeep-das-021625206/",
     Facebook: "https://www.facebook.com/profile.php?id=100076497327860",
-    Twitter: "https://github.com/JDeepD",
+    Github: "https://github.com/JDeepD",
   },
   {
     _id: 21,
@@ -228,7 +229,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/jacinth-mahanta-63b279229/",
     Facebook: "https://www.facebook.com/jacinth.mahanta",
-    Twitter: "https://github.com/Jacinth-Mahanta",
+    Github: "https://github.com/Jacinth-Mahanta",
   },
   {
     _id: 22,
@@ -239,7 +240,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/vivek-kumar-21223922a",
     Facebook: "https://www.facebook.com/profile.php?id=100075924322738",
-    Twitter: "https://github.com/Vivek-68",
+    Github: "https://github.com/Vivek-68",
   },
   {
     _id: 23,
@@ -250,7 +251,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/partha-pratim-deka-46a406203/",
     Facebook: "https://www.facebook.com/profile.php?id=100076429322657",
-    Twitter: "https://github.com/parthaxntn",
+    Github: "https://github.com/parthaxntn",
   },
   {
     _id: 24,
@@ -261,7 +262,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/diptabh-medhi-4836a8229/",
     Facebook: "https://www.facebook.com/profile.php?id=100076196678788",
-    Twitter: "https://github.com/diptabhm",
+    Github: "https://github.com/diptabhm",
   },
   {
     _id: 25,
@@ -272,7 +273,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/pranjit-kakoti-493028229/",
     Facebook: "https://www.facebook.com/profile.php?id=100076014226513",
-    Twitter: "https://github.com/flip360pranjit",
+    Github: "https://github.com/flip360pranjit",
   },
   {
     _id: 26,
@@ -283,7 +284,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/sameer-zaidi-541261226/",
     Facebook: "https://www.facebook.com/SyedSameerZaidi123/",
-    Twitter: "https://github.com/Interstellar07",
+    Github: "https://github.com/Interstellar07",
   },
   {
     _id: 27,
@@ -294,7 +295,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/prateek-mogha-5b44b9229/",
     Facebook: "https://www.facebook.com/profile.php?id=100009794079455",
-    Twitter: "https://github.com/Shadow-of-sundered-star",
+    Github: "https://github.com/Shadow-of-sundered-star",
   },
   {
     _id: 28,
@@ -305,7 +306,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/rohan-jha-ab635322b/",
     Facebook: "https://www.facebook.com/profile.php?id=100010061770737",
-    Twitter: "https://github.com/Rohan-108",
+    Github: "https://github.com/Rohan-108",
   },
   {
     _id: 29,
@@ -316,7 +317,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/maharnav-deka-06742815a/",
     Facebook: "https://www.facebook.com/profile.php?id=100076295825121",
-    Twitter: "https://github.com/Maharnav",
+    Github: "https://github.com/Maharnav",
   },
   {
     _id: 30,
@@ -327,7 +328,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/arpit-saikia-b82093241",
     Facebook: "https://www.facebook.com/profile.php?id=100076062140725",
-    Twitter: "https://github.com/AS-Saikia",
+    Github: "https://github.com/AS-Saikia",
   },
   {
     _id: 31,
@@ -338,7 +339,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/ankit-upadhaya07/",
     Facebook: "https://www.facebook.com/profile.php?id=100004528696175",
-    Twitter: "https://github.com/ankit07an/ankit07an",
+    Github: "https://github.com/ankit07an/ankit07an",
   },
   {
     _id: 32,
@@ -349,7 +350,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/ayush-malviya-2baa99227",
     Facebook: "https://www.facebook.com/profile.php?id=100076313942761",
-    Twitter: "http://github.com/AyuAnchor",
+    Github: "http://github.com/AyuAnchor",
   },
   {
     _id: 33,
@@ -360,7 +361,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://github.com/subhajit735",
     Facebook: "https://www.facebook.com/profile.php?id=100075736137a804",
-    Twitter: "https://github.com/subhajit735",
+    Github: "https://github.com/subhajit735",
   },
   {
     _id: 34,
@@ -371,7 +372,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/sandeep-kherkatary-36018223a/",
     Facebook: "https://www.facebook.com/kherkatarySan/",
-    Twitter: "https://github.com/kherkatary",
+    Github: "https://github.com/kherkatary",
   },
   {
     _id: 35,
@@ -382,7 +383,7 @@ const TeamData = [
     Description: "",
     Linkdin: "http://linkedin.com/in/sundorom-das-a9378a227",
     Facebook: "https://www.facebook.com/sundorom.das.9",
-    Twitter: "https://github.com/sundoromdas11",
+    Github: "https://github.com/sundoromdas11",
   },
   {
     _id: 36,
@@ -393,7 +394,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/feed/",
     Facebook: "https://www.facebook.com/profile.php?id=100014422471346",
-    Twitter: "https://github.com/Shreyadas03",
+    Github: "https://github.com/Shreyadas03",
   },
   {
     _id: 37,
@@ -404,7 +405,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/dipan-patgiri-a04473148/",
     Facebook: "https://www.facebook.com/Dipan017/",
-    Twitter: "https://github.com/Dipan-17",
+    Github: "https://github.com/Dipan-17",
   },
   {
     _id: 38,
@@ -415,7 +416,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/rajdristant-ghose-286061231",
     Facebook: "https://www.facebook.com/profile.php?id=100076066695970",
-    Twitter: "https://github.com/Raj217",
+    Github: "https://github.com/Raj217",
   },
   {
     _id: 39,
@@ -426,7 +427,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/mwlite/in/aryadeep-gogoi-696609236",
     Facebook: "https://www.facebook.com/profile.php?id=100076109862434",
-    Twitter: "https://github.com/Alsi-Aryadeep31",
+    Github: "https://github.com/Alsi-Aryadeep31",
   },
   {
     _id: 40,
@@ -437,7 +438,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/mwlite/in/aryadeep-gogoi-696609236",
     Facebook: "https://www.facebook.com/arnab.kumar.33449",
-    Twitter: "https://github.com/Arnab-K-S",
+    Github: "https://github.com/Arnab-K-S",
   },
   {
     _id: 41,
@@ -448,7 +449,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/somya-kasaudhan-365133229/",
     Facebook: "https://www.facebook.com/profile.php?id=100076107792266",
-    Twitter: "https://github.com/somyakasaudhan02",
+    Github: "https://github.com/somyakasaudhan02",
   },
   {
     _id: 42,
@@ -459,7 +460,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/priyabrat-duarah-6a6132221/",
     Facebook: "https://www.facebook.com/profile.php?id=100076231446828",
-    Twitter: "https://github.com/Prybrt06",
+    Github: "https://github.com/Prybrt06",
   },
   {
     _id: 43,
@@ -470,7 +471,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/masoom-sahu-09a469230",
     Facebook: "https://www.facebook.com/profile.php?id=100065692891679",
-    Twitter: "https://github.com/smasoom",
+    Github: "https://github.com/smasoom",
   },
   {
     _id: 44,
@@ -481,7 +482,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/jugya-kamal-gogoi-5ab594229/",
     Facebook: "https://www.facebook.com/zhang.jike.311/",
-    Twitter: "https://github.com/Jugya07",
+    Github: "https://github.com/Jugya07",
   },
   {
     _id: 45,
@@ -492,7 +493,7 @@ const TeamData = [
     Description: "",
     Linkdin: "http://www.linkedin.com/in/ankitraj900",
     Facebook: "https://www.facebook.com/profile.php?id=100067302155229",
-    Twitter: "https://github.com/ankitrajlogin",
+    Github: "https://github.com/ankitrajlogin",
   },
   {
     _id: 46,
@@ -503,7 +504,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/hrishita-paul-80212217b",
     Facebook: "https://www.facebook.com/profile.php?id=100008204263502",
-    Twitter: "https://github.com/Hrishita-Paul",
+    Github: "https://github.com/Hrishita-Paul",
   },
   {
     _id: 47,
@@ -514,7 +515,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/deep-saikia",
     Facebook: "https://www.facebook.com/deep.saikia.102977/",
-    Twitter: "https://github.com/saikiaDeep",
+    Github: "https://github.com/saikiaDeep",
   },
   {
     _id: 48,
@@ -525,7 +526,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/navneet-raj-08a720228/",
     Facebook: "https://www.facebook.com/profile.php?id=100080411300265",
-    Twitter: "https://github.com/navneet098",
+    Github: "https://github.com/navneet098",
   },
   {
     _id: 49,
@@ -536,7 +537,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/rayyan-shaikh-a51581129/",
     Facebook: "https://www.facebook.com/rayyan.shaikh.71868",
-    Twitter: "https://github.com/XRegiGigaSX",
+    Github: "https://github.com/XRegiGigaSX",
   },
   {
     _id: 50,
@@ -547,7 +548,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/bipangshu-saha-2aab9b228/",
     Facebook: "https://www.facebook.com/ronny.kumar.7186896",
-    Twitter: "https://github.com/BIPS8812",
+    Github: "https://github.com/BIPS8812",
   },
   {
     _id: 51,
@@ -558,7 +559,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/bibhas-naskar-6596aa22b",
     Facebook: "https://www.facebook.com/profile.php?id=100076159796676",
-    Twitter: "https://github.com/Bibhas-programmed",
+    Github: "https://github.com/Bibhas-programmed",
   },
   {
     _id: 52,
@@ -569,7 +570,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/tithi-jha-3b43b5229",
     Facebook: "https://www.facebook.com/tithi.jha.142",
-    Twitter: "https://github.com/Tithiii",
+    Github: "https://github.com/Tithiii",
   },
   {
     _id: 53,
@@ -580,7 +581,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/bijay-jiwrajka-6b308a225",
     Facebook: "https://www.facebook.com/bijay.jiwrajka.1",
-    Twitter: "https://github.com/bj-jiwrajka",
+    Github: "https://github.com/bj-jiwrajka",
   },
   {
     _id: 54,
@@ -591,7 +592,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/suman-das-8976791b1",
     Facebook: "https://www.facebook.com/profile.php?id=100077527175521",
-    Twitter: "https://github.com/NoOne-Cares",
+    Github: "https://github.com/NoOne-Cares",
   },
   {
     _id: 55,
@@ -602,7 +603,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/anubhav-chakraborty-44b042222",
     Facebook: "https://www.facebook.com/anubhav.chakraborty.775",
-    Twitter: "https://github.com/AnubhavChakrabortynits",
+    Github: "https://github.com/AnubhavChakrabortynits",
   },
   {
     _id: 56,
@@ -613,7 +614,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/sulakshanachetry/",
     Facebook: "https://www.facebook.com/profile.php?id=100075904432321",
-    Twitter: "https://github.com/sulakshanachetry",
+    Github: "https://github.com/sulakshanachetry",
   },
   {
     _id: 57,
@@ -624,7 +625,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/pragya-annesha-baruah-34a043229",
     Facebook: "https://www.facebook.com/profile.php?id=100075204826742",
-    Twitter: "https://github.com/Prag03",
+    Github: "https://github.com/Prag03",
   },
   {
     _id: 58,
@@ -635,7 +636,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/rupsnigdha-kashyap-1342101a8/",
     Facebook: "https://www.facebook.com/rupsnigdha.kashyap/",
-    Twitter: "https://github.com/Rupsnigdha",
+    Github: "https://github.com/Rupsnigdha",
   },
   {
     _id: 59,
@@ -646,7 +647,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/bhargavi-nath-9a8a81223",
     Facebook: "https://www.facebook.com/bhargavi.nath",
-    Twitter: "https://github.com/22bhargavi",
+    Github: "https://github.com/22bhargavi",
   },
   {
     _id: 60,
@@ -657,7 +658,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/hritika-roy-56696923b",
     Facebook: "https://m.facebook.com/100070065316811/",
-    Twitter: "https://github.com/hritika1404/AndCodes",
+    Github: "https://github.com/hritika1404/AndCodes",
   },
   {
     _id: 61,
@@ -668,7 +669,7 @@ const TeamData = [
     Description: "",
     Linkdin: "https://www.linkedin.com/in/hrishikeshborah",
     Facebook: "https://www.facebook.com/profile.php?id=100067302155229",
-    Twitter: "https://www.github.com/HrishB16",
+    Github: "https://www.github.com/HrishB16",
   },
 ];
 
