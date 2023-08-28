@@ -24,14 +24,25 @@ function Navbar() {
   }, [location]);
 
   return (
-    <nav className={`navbar ${hamburg?'hamburg':''}`}>
+    <nav className={`navbar ${hamburg ? "hamburg" : ""}`}>
       <div className="logo">
         <Link to="/">
           <img src={logo} alt="" />
         </Link>
       </div>
       <div className="backdrop"></div>
-      {winWidth < 900? <div className="hamburg-icon" onClick={()=>{setHamburg(hamburg?false:true)}}>{!hamburg?<GiHamburgerMenu/>:<ImCross/>}</div>:''}
+      {winWidth < 900 ? (
+        <div
+          className="hamburg-icon"
+          onClick={() => {
+            setHamburg(hamburg ? false : true);
+          }}
+        >
+          {!hamburg ? <GiHamburgerMenu /> : <ImCross />}
+        </div>
+      ) : (
+        ""
+      )}
       {/* <img className="nav-img" src="" alt="" />
       <div
         className="backdrop"
@@ -97,7 +108,7 @@ function Navbar() {
           </li>
         </ul>
       </div>
-{/* 
+      {/* 
       {winWidth < 900 && window.innerHeight/window.innerWidth > 1 ? (
         <div
           className="hamburger"

@@ -132,23 +132,7 @@
 //   }
 // }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.navbar{
+.navbar {
   display: flex;
   position: fixed;
   top: 0;
@@ -160,9 +144,9 @@
   height: var(--navbar-height);
   z-index: 2000;
   background: white;
-  
-  .hamburg-icon{
-    font-size: 1.6rem; 
+
+  .hamburg-icon {
+    font-size: 1.6rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,19 +157,19 @@
     z-index: 2003;
   }
   // .backdrop{
-    //   width: 100%;
-    //   height: 100vh;
-    //   position: absolute;
-    //   top: 0;
-    //   left: 0;
-    //   z-index: -2001;
-    // }
-    
-    .nav-ul-enclose{
-      margin-left: auto;
+  //   width: 100%;
+  //   height: 100vh;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   z-index: -2001;
+  // }
+
+  .nav-ul-enclose {
+    margin-left: auto;
   }
-  
-  .nav-ul{
+
+  .nav-ul {
     display: flex;
     list-style: none;
     margin-left: auto;
@@ -196,16 +180,15 @@
       font-weight: 700;
       display: flex;
       position: relative;
-      
-      a{
+
+      a {
         margin: auto;
         color: #646464;
         text-decoration: none;
       }
-      
     }
 
-    .nav-button::after{
+    .nav-button::after {
       content: "";
       position: absolute;
       width: 0%;
@@ -215,21 +198,21 @@
       transform: translateX(0%);
       border-radius: 5px;
       transition: 0.5s;
-      transition-timing-function: cubic-bezier(.61,.37,.49,1.26);
+      transition-timing-function: cubic-bezier(0.61, 0.37, 0.49, 1.26);
     }
-    
-    .nav-button:hover::after{
+
+    .nav-button:hover::after {
       width: 70%;
     }
 
     .home::after {
       background: var(--gdsc-blue-1-100);
     }
-    
+
     .projects::after {
       background: var(--gdsc-red-1-100);
     }
-    
+
     .events::after {
       background: var(--gdsc-yellow-1-100);
     }
@@ -237,12 +220,10 @@
     .team::after {
       background: var(--gdsc-green-1-100);
     }
-    
-
   }
-  
-  @media screen and (max-width: 900px){
-    .backdrop{
+
+  @media screen and (max-width: 900px) {
+    .backdrop {
       background-color: rgba(112, 112, 112, 0.221);
       z-index: 2001;
       width: 0%;
@@ -253,8 +234,7 @@
       opacity: 0;
     }
 
-    
-    .nav-ul-enclose{
+    .nav-ul-enclose {
       position: fixed;
       height: 100vh;
       right: 0px;
@@ -265,26 +245,23 @@
       display: flex;
       transform: translateX(25rem);
       transition: 0.25s;
-      
-      .nav-ul{
+
+      .nav-ul {
         flex-direction: column;
         width: max-content;
         position: relative;
         margin: auto;
       }
     }
-    
-    
   }
-
 }
 
-.hamburg{
-  .backdrop{
+.hamburg {
+  .backdrop {
     opacity: 1;
     width: 100%;
   }
-  .nav-ul-enclose{
+  .nav-ul-enclose {
     transform: translateX(0rem);
   }
 }
