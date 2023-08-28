@@ -1,7 +1,5 @@
 import styles from "./TeamCard.module.scss";
-import fb from "../../../assets/images/fb.svg";
-import lin from "../../../assets/images/linkedin.svg";
-import github from "../../../assets/images/github.svg";
+import { FaGlobe, FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
 
 const TeamCard = (props) => {
   const displayID = props.Description === "" ? "none" : "block";
@@ -23,13 +21,23 @@ const TeamCard = (props) => {
         </div>
         <p className={styles.core_mem_text}>{props.Domain}</p>
         <div className={styles.social_media_core}>
+          {props.Website && (
+            <a
+              href={props.Website}
+              className={styles.SocialLogoCore}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGlobe className={styles.socialicon} />
+            </a>
+          )}
           <a
             href={props.Linkdin}
             className={styles.SocialLogoCore}
             target="_blank"
             rel="noreferrer"
           >
-            <img src={lin} alt="LinkedIn icon" className={styles.socialicon} />
+            <FaLinkedin className={styles.socialicon} />
           </a>
           <a
             href={props.Facebook}
@@ -37,15 +45,15 @@ const TeamCard = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={fb} alt="Facebook icon" className={styles.socialicon} />
+            <FaFacebook className={styles.socialicon} />
           </a>
           <a
-            href={props.Twitter}
+            href={props.Github}
             className={styles.SocialLogoCore}
             target="_blank"
             rel="noreferrer"
           >
-            <img src={github} alt="Github icon" className={styles.socialicon} />
+            <FaGithub className={styles.socialicon} />
           </a>
         </div>
       </div>

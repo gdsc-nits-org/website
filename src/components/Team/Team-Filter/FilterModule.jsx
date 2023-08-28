@@ -35,24 +35,24 @@ const FilterModule = forwardRef((props, ref) => {
       <div className={rotate.join(" ")}></div>
       {viewDropDown && (
         <ul className="dropDownContent">
-          <div className="value" value="All" onClick={onModuleValueChanged}>
-            {props.option1}{" "}
-          </div>
-          <div className="value" value="Web" onClick={onModuleValueChanged}>
+          {props.option1 && <div className="value" value={props.option1} onClick={onModuleValueChanged}>
+            {props.option1}
+          </div>}
+          {props.option2 && <div className="value" value={props.option2} onClick={onModuleValueChanged}>
             {props.option2}
-          </div>
-          <div className="value" value="Flutter" onClick={onModuleValueChanged}>
+          </div>}
+          {props.option3 && <div className="value" value={props.option3} onClick={onModuleValueChanged}>
             {props.option3}
-          </div>
-          <div className="value" value="UI/UX" onClick={onModuleValueChanged}>
+          </div>}
+          {props.option4 && <div className="value" value={props.option4} onClick={onModuleValueChanged}>
             {props.option4}
-          </div>
-          <div className="value" value="Android" onClick={onModuleValueChanged}>
+          </div>}
+          {props.option5 && <div className="value" value={props?.option5} onClick={onModuleValueChanged}>
             {props.option5}
-          </div>
-          <div className="value" value="Cloud" onClick={onModuleValueChanged}>
+          </div>}
+          {props.option6 && <div className="value" value={props?.option6} onClick={onModuleValueChanged}>
             {props.option6}
-          </div>
+          </div>}
         </ul>
       )}
     </div>
