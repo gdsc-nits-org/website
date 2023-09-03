@@ -11,17 +11,14 @@
   background-color: white;
   height: 26rem;
   width: 20rem;
-  left: 1.25rem;
-  top: 1.25rem;
   border-radius: 8px;
-  gap: 1rem;
   border: 0.5px solid #9a9494;
   box-sizing: border-box;
   box-shadow: -4px -4px 12px 0px #f2f2f240;
   box-shadow: 4px 4px 12px 0px #4f4f4f33;
   overflow: hidden;
   transition: all 350ms ease-in-out;
-  // margin-bottom: 20px;
+  margin: 0 min(0.5rem, 2vw);
 }
 
 .core_images {

@@ -31,30 +31,36 @@ const TeamCard = (props) => {
               <FaGlobe className={styles.socialicon} />
             </a>
           )}
-          <a
-            href={props.Linkdin}
-            className={styles.SocialLogoCore}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaLinkedin className={styles.socialicon} />
-          </a>
-          <a
-            href={props.Facebook}
-            className={styles.SocialLogoCore}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaFacebook className={styles.socialicon} />
-          </a>
-          <a
-            href={props.Github}
-            className={styles.SocialLogoCore}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <FaGithub className={styles.socialicon} />
-          </a>
+          {props.Linkdin && (
+            <a
+              href={props.Linkdin}
+              className={styles.SocialLogoCore}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaLinkedin className={styles.socialicon} />
+            </a>
+          )}
+          {props.Facebook && (
+            <a
+              href={props.Facebook}
+              className={styles.SocialLogoCore}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaFacebook className={styles.socialicon} />
+            </a>
+          )}
+          {props.Github && (
+            <a
+              href={props.Github}
+              className={styles.SocialLogoCore}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub className={styles.socialicon} />
+            </a>
+          )}
         </div>
       </div>
     </div>
