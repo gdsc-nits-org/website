@@ -50,7 +50,7 @@ const Team = () => {
     filterBatchValue === "2023-24" ||
     filterBatchValue === "2024-25"
       ? member.Batch == `${filterBatchValue}`
-      : { currentBatch }
+      : currentBatch
   );
 
   let newFilteredMemberList = filteredMemberList.filter((member) => {
@@ -63,9 +63,7 @@ const Team = () => {
     ) {
       filterByDomain = true;
       return member.Domain == `${filterModuleValue}`;
-    } else {
-      return filteredMemberList;
-    }
+    } else return filteredMemberList;
   });
 
   let CoreMemberList = newFilteredMemberList.filter((member) => member.Description != "");
@@ -125,9 +123,7 @@ const Team = () => {
           <div className="grid">{GDSCLead.map(data)}</div>
           <div className="member-title">CORE MEMBERS</div>
           <div className="grid">
-            {CoreMemberList.filter((member) => {
-              return member.Description != "Lead";
-            }).map(data)}
+            {CoreMemberList.filter((member) => member.Description != "Lead").map(data)}
           </div>
           <div className="member-title">MEMBERS</div>
           <div className="grid">{OtherMemberList.sort(sortArray).map(data)}</div>
