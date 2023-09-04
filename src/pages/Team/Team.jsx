@@ -44,17 +44,14 @@ const Team = () => {
   }
   let filterByDomain = false;
   let currentBatch = "2022-23";
-  let filteredMemberList = newMemeberList.filter((member) => {
-    if (
-      filterBatchValue === "2022-23" ||
-      filterBatchValue === "2023-24" ||
-      filterBatchValue === "2024-25"
-    ) {
-      return member.Batch == `${filterBatchValue}`;
-    } else {
-      return { currentBatch };
-    }
-  });
+
+  let filteredMemberList = newMemeberList.filter((member) =>
+    filterBatchValue === "2022-23" ||
+    filterBatchValue === "2023-24" ||
+    filterBatchValue === "2024-25"
+      ? member.Batch == `${filterBatchValue}`
+      : { currentBatch }
+  );
 
   let newFilteredMemberList = filteredMemberList.filter((member) => {
     if (
@@ -70,20 +67,14 @@ const Team = () => {
       return filteredMemberList;
     }
   });
-  let CoreMemberList = newFilteredMemberList.filter((member) => {
-    if (filterByDomain == true) {
-      return member.Description != "";
-    } else {
-      return member.Description != "";
-    }
-  });
-  let GDSCLead = newFilteredMemberList.filter((member) => {
-    return member.Description === "Lead";
-  });
 
-  let OtherMemberList = newFilteredMemberList.filter((member) => {
-    return member.Description == "";
-  });
+  let CoreMemberList = newFilteredMemberList.filter((member) => member.Description != "");
+
+  let GDSCLead = newFilteredMemberList.filter((member) => member.Description === "Lead");
+
+  let OtherMemberList = newFilteredMemberList.filter(
+    (member) => member.Description == ""
+  );
 
   return (
     <div
@@ -111,7 +102,7 @@ const Team = () => {
           className="filterByYear"
           title={currentBatch}
           option1="2022-23"
-          // option2="2023-24"
+          option2="2023-24"
           // option3="2024-25"
           filterModuleData={onBatchValueSelected}
         />
