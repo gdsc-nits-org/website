@@ -99,7 +99,6 @@ const Team = () => {
           ref={DropDownRef}
           className="filterByYear"
           title={currentBatch}
-          option1="2022-23"
           option2="2023-24"
           // option3="2024-25"
           filterModuleData={onBatchValueSelected}
