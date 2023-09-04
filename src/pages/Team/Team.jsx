@@ -43,12 +43,10 @@ const Team = () => {
     setModuleValue(filterModule);
   }
   let filterByDomain = false;
-  let currentBatch = "2022-23";
+  let currentBatch = "2023-24";
 
   let filteredMemberList = newMemeberList.filter((member) =>
-    filterBatchValue === "2022-23" ||
-    filterBatchValue === "2023-24" ||
-    filterBatchValue === "2024-25"
+    filterBatchValue === "2023-24" || filterBatchValue === "2024-25"
       ? member.Batch == `${filterBatchValue}`
       : currentBatch
   );
