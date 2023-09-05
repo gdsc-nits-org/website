@@ -4,6 +4,7 @@ import TeamHome from "../../components/Hero-lottie/HeroLottie.jsx";
 import TeamCard from "../../components/Team/Team-Card/TeamCard";
 import FilterModule from "../../components/Team/Team-Filter/FilterModule";
 import TeamData from "../../assets/data/Data";
+import ScrollToSection from "../../components/ScrollToSection/ScrollToSection";
 
 function data(value) {
   return (
@@ -21,6 +22,7 @@ function data(value) {
   );
 }
 const Team = () => {
+  ScrollToSection();
   let currentBatch = "2023-24";
   let [newMemeberList] = useState(TeamData);
   let [filterBatchValue, setBatchValue] = useState(currentBatch);
@@ -125,13 +127,17 @@ const Team = () => {
         <>
           <div className="member-title">LEAD</div>
           <div className="grid">{GDSCLead.map(data)}</div>
-          <div className="member-title">CORE MEMBERS</div>
+          <div className="member-title" id="core">
+            CORE MEMBERS
+          </div>
           <div className="grid">
             {sortedCoreMemberList
               .filter((member) => member.Description != "Lead")
               .map(data)}
           </div>
-          <div className="member-title">MEMBERS</div>
+          <div className="member-title" id="members">
+            MEMBERS
+          </div>
           <div className="grid">{OtherMemberList.sort(sortArray).map(data)}</div>
         </>
       )}
