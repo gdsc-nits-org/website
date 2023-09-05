@@ -376,7 +376,7 @@ const TeamData = [
   },
   {
     _id: 34,
-    Name: "ARUNAV BORTHAKUR",
+    Name: "Arunav Borthakur",
     Batch: "2023-24",
     Domain: "Flutter",
     imageSrc:
@@ -558,7 +558,7 @@ const TeamData = [
   },
   {
     _id: 49,
-    Name: "Gracie G Rabha",
+    Name: "Gracie G. Rabha",
     Batch: "2023-24",
     Domain: "UI/UX",
     imageSrc:
@@ -576,7 +576,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827561/GDSC%20images/Kaustav_-_ME_026_Kaustav_zagcuv.jpg",
     Facebook: "",
-    Linkdin: "",
+    Linkdin: "https://www.linkedin.com/in/kaustav-dev-429123248",
     Github: "https://github.com/Kaustav769",
     Description: "",
   },
@@ -673,7 +673,7 @@ const TeamData = [
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827576/GDSC%20images/Zinal_Potphode_-_CSE_108_Zinal_Vijay_Potphode_cwwcwk.jpg",
     Facebook: "https://www.facebook.com/profile.php?id=100089288271108&mibextid=ZbWKwL",
     Linkdin: "https://www.linkedin.com/in/zinal-potphode-0484b8262",
-    Twitter: "",
+    Github: "https://github.com/ZinalPotphode",
     Description: "",
   },
   {
@@ -771,7 +771,7 @@ const TeamData = [
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827566/GDSC%20images/Oliviya_Khakhlari_-_EE_005_OLIVIYA_KHAKHLALRI_pcdbej.jpg",
     Facebook: "https://www.facebook.com/profile.php?id=100076892904983",
     Linkdin: "https://www.linkedin.com/in/oliviya-khakhlari-3b2122257",
-    Twitter: "",
+    Github: "https://github.com/Oliviya-Khakhlari",
     Description: "",
   },
   {
@@ -819,7 +819,7 @@ const TeamData = [
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827560/GDSC%20images/jagatjyoti_-_ECE_052_JAGATJYOTI_DEB_syfvzf.jpg",
     Facebook: "https://www.facebook.com/profile.php?id=100084536361943",
     Linkdin: "https://www.linkedin.com/in/jagatjyoti-deb-0a57bb223/",
-    Twitter: "",
+    Github: "https://github.com/jagat-01",
     Description: "",
   },
   {
@@ -868,7 +868,7 @@ const TeamData = [
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827571/GDSC%20images/Satya_Upadhyaya_-_CSE_104_Satya_spyytk.jpg",
     Facebook: "https://www.facebook.com/profile.php?id=100087722513003&mibextid=ZbWKwL",
     Linkdin: "https://www.linkedin.com/in/satya-p-upadhyaya-b81315258",
-    Twitter: "https://twitter.com/SUpdyay?t=FVRYLD3EkidGeIchceQNjQ&s=09",
+    Github: "",
     Description: "",
   },
   {
@@ -892,6 +892,7 @@ const TeamData = [
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827548/GDSC%20images/20230211_221147_-_BEDIKA_KUMARI_tgezby.jpg",
     Facebook: "https://www.facebook.com/profile.php?id=100087943404722",
     Linkdin: "https://www.linkedin.com/in/bedika-kumari",
+    Github: "https://github.com/Hub-101",
     Description: "",
   },
   {
@@ -940,6 +941,7 @@ const TeamData = [
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827572/GDSC%20images/Screenshot_2023-09-03-14-37-52-456_com.whatsapp_-_Anjali_Patel_jtsx3v.jpg",
     Facebook: "https://www.facebook.com/profile.php?id=100059415156775&mibextid=9R9pXO",
     Linkdin: "https://www.linkedin.com/in/anjali-patel-6b9156257",
+    Github: "https://github.com/Anjali-2215",
     Description: "",
   },
   {
