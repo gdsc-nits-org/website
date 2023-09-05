@@ -976,7 +976,7 @@ const TeamData = [
     _id: 28,
     Batch: "2023-24",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827571/GDSC%20images/Samarjit_Roy_-_EIE_043_Samarjit_Roy_zhcflk.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/o5qanisnluqchonxweg1",
     Name: "Samarjit Roy",
     Domain: "UI/UX",
     Facebook: "https://www.facebook.com/profile.php?id=100087733476599&mibextid=9R9pXO",
@@ -1149,7 +1149,7 @@ const TeamData = [
     Batch: "2023-24",
     Domain: "UI/UX",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827550/GDSC%20images/Arpit_-_EE_095_ARPIT_zcpfw3.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/zqdgu0quh06mii9xxigg",
     Facebook: "https://www.facebook.com/profile.php?id=100069356987625&mibextid=ZbWKwL",
     Linkdin: "https://www.linkedin.com/in/arpit1618",
     Github: "https://github.com/ARgod7",
@@ -1221,7 +1221,7 @@ const TeamData = [
     Batch: "2023-24",
     Domain: "Web",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827565/GDSC%20images/PPRD_photo_-_CSE_130_PRAGYAPRABIR_fcbf0d.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/te5eqppgsvymvmeztyce",
     Facebook: "https://www.facebook.com/profile.php?id=100087773418633",
     Linkdin:
       "https://www.linkedin.com/in/pragya-prabir-ranjan-deka-bb03781b3/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3B947be755-74ff-4f9f-8dfd-6bc19787ef94",
@@ -1246,7 +1246,7 @@ const TeamData = [
     Batch: "2023-24",
     Domain: "UI/UX",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827561/GDSC%20images/Kaustav_-_ME_026_Kaustav_zagcuv.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/ds8e3ch89sbdhrhvu15r",
     Facebook: "",
     Linkdin: "https://www.linkedin.com/in/kaustav-dev-429123248",
     Github: "https://github.com/Kaustav769",
@@ -1258,7 +1258,7 @@ const TeamData = [
     Batch: "2023-24",
     Domain: "Cloud",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827564/GDSC%20images/Niraj_Kumar_-_Niraj_kumar_oy4mzq.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/icnzfotp5ga4tcgk7kfu",
     Facebook: "https://www.facebook.com/profile.php?id=100013260459936&mibextid=nW3QTL",
     Linkdin: "https://www.linkedin.com/in/niraj-kumar-a896ba256",
     Github: "https://github.com/Niraj7667",
@@ -1476,7 +1476,7 @@ const TeamData = [
     Batch: "2023-24",
     Domain: "Flutter",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827567/GDSC%20images/pragati_-_CSE_117_Pragati_t76nn1.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/mpduiisaapnuvvymindp",
     Facebook: "",
     Linkdin: "https://www.linkedin.com/in/pragati-kalwar-786b09257",
     Github: "https://github.com/pragatikalwar",
@@ -1549,7 +1549,7 @@ const TeamData = [
     Batch: "2023-24",
     Domain: "Android",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827557/GDSC%20images/DevMehrotra_-_Dev_Mehrotra_fdghmm.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/bib0efu86gorwxpc0env",
     Facebook: "Dev Mehrotra",
     Linkdin: "https://www.linkedin.com/in/dev-mehrotra-3026601b",
     Github: "https://github.com/devmeh19",
