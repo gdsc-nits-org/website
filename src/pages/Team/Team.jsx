@@ -78,8 +78,6 @@ const Team = () => {
     return mods.concat(notMod);
   })();
 
-  console.log(sortedCoreMemberList);
-
   return (
     <div
       onClick={() => {
