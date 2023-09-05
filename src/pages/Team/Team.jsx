@@ -28,7 +28,11 @@ const Team = () => {
   let [filterBatchValue, setBatchValue] = useState(currentBatch);
   let [filterModuleValue, setModuleValue] = useState("All");
 
-  const sortArray = (x, y) => (x.Name < y.Name ? -1 : 1);
+  // const sortArray = (x, y) => (x.Name < y.Name ? -1 : 1);
+  const sortArray = (x, y) => {
+      const collator = new Intl.Collator("en", { sensitivity: "base"});
+      return collator.compare(x.Name, y.Name);
+  }
 
   const DropDownRef = useRef();
 
