@@ -1540,7 +1540,7 @@ const TeamData = [
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827571/GDSC%20images/Satya_Upadhyaya_-_CSE_104_Satya_spyytk.jpg",
     Facebook: "https://www.facebook.com/profile.php?id=100087722513003&mibextid=ZbWKwL",
     Linkdin: "https://www.linkedin.com/in/satya-p-upadhyaya-b81315258",
-    Github: "",
+    Github: "https://github.com/satyaaa111",
     Description: "",
   },
   {
