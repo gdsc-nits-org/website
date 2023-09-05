@@ -26,15 +26,8 @@ const Team = () => {
   let [filterBatchValue, setBatchValue] = useState(currentBatch);
   let [filterModuleValue, setModuleValue] = useState("All");
 
-  const sortArray = (x, y) => {
-    if (x.Name < y.Name) {
-      return -1;
-    }
-    if (x.Name > y.Name) {
-      return 1;
-    }
-    return 0;
-  };
+  const sortArray = (x, y) => (x.Name < y.Name ? -1 : 1);
+
   const DropDownRef = useRef();
 
   function onBatchValueSelected(event) {
@@ -67,12 +60,25 @@ const Team = () => {
   });
 
   let CoreMemberList = newFilteredMemberList.filter((member) => member.Description != "");
-
   let GDSCLead = newFilteredMemberList.filter((member) => member.Description === "Lead");
 
   let OtherMemberList = newFilteredMemberList.filter(
     (member) => member.Description == ""
   );
+
+  const sortedCoreMemberList = (() => {
+    const mods = CoreMemberList.filter(
+      (member) => member.Description.split(" ")[1] == "Moderator"
+    );
+    const notMod = CoreMemberList.filter(
+      (member) => member.Description.split(" ")[1] != "Moderator"
+    );
+    notMod.sort(sortArray);
+    mods.sort(sortArray);
+    return mods.concat(notMod);
+  })();
+
+  console.log(sortedCoreMemberList);
 
   return (
     <div
@@ -111,7 +117,7 @@ const Team = () => {
           <div className="member-title" id="core">
             CORE MEMBERS
           </div>
-          <div className="grid">{CoreMemberList.map(data)}</div>
+          <div className="grid">{sortedCoreMemberList.map(data)}</div>
           <div className="member-title" id="members">
             MEMBERS
           </div>
@@ -123,7 +129,9 @@ const Team = () => {
           <div className="grid">{GDSCLead.map(data)}</div>
           <div className="member-title">CORE MEMBERS</div>
           <div className="grid">
-            {CoreMemberList.filter((member) => member.Description != "Lead").map(data)}
+            {sortedCoreMemberList
+              .filter((member) => member.Description != "Lead")
+              .map(data)}
           </div>
           <div className="member-title">MEMBERS</div>
           <div className="grid">{OtherMemberList.sort(sortArray).map(data)}</div>
