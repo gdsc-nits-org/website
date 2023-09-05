@@ -21,8 +21,9 @@ function data(value) {
   );
 }
 const Team = () => {
+  let currentBatch = "2023-24";
   let [newMemeberList] = useState(TeamData);
-  let [filterBatchValue, setBatchValue] = useState("All");
+  let [filterBatchValue, setBatchValue] = useState(currentBatch);
   let [filterModuleValue, setModuleValue] = useState("All");
 
   const sortArray = (x, y) => {
@@ -43,10 +44,11 @@ const Team = () => {
     setModuleValue(filterModule);
   }
   let filterByDomain = false;
-  let currentBatch = "2023-24";
 
   let filteredMemberList = newMemeberList.filter((member) =>
-    filterBatchValue === "2023-24" || filterBatchValue === "2024-25"
+    filterBatchValue === "2022-23" ||
+    filterBatchValue === "2023-24" ||
+    filterBatchValue === "2024-25"
       ? member.Batch == `${filterBatchValue}`
       : currentBatch
   );
@@ -97,6 +99,7 @@ const Team = () => {
           ref={DropDownRef}
           className="filterByYear"
           title={currentBatch}
+          option1="2022-23"
           option2="2023-24"
           // option3="2024-25"
           filterModuleData={onBatchValueSelected}
