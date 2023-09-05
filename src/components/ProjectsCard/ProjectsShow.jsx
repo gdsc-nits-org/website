@@ -77,14 +77,29 @@ const ProjectsShow = () => {
         <div className="projectsshow-project-title">
           <div className="project-name">
             <h3>{cardInfo.title}</h3>
-            <div
-              className="project-status"
-              style={{
-                backgroundColor: cardInfo.Status === "Live" ? "#4a90e2" : "#3CBA54",
-              }}
-            >
-              {cardInfo.Status}
-            </div>
+            {cardInfo.link ? (
+              <a
+                href={cardInfo.link}
+                className="project-status"
+                style={{
+                  backgroundColor: "#4a90e2",
+                }}
+                title={cardInfo.title}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {cardInfo.Status}
+              </a>
+            ) : (
+              <span
+                className="project-status"
+                style={{
+                  backgroundColor: cardInfo.Status === "Live" ? "#4a90e2" : "#3CBA54",
+                }}
+              >
+                {cardInfo.Status}
+              </span>
+            )}
           </div>
           <div className="project-image">
             <img src={cardInfo.logo} alt="logo" />

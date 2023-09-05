@@ -49,6 +49,10 @@
       font-size: 0.75rem;
       align-self: flex-start;
       color: #ffffff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   }
 
