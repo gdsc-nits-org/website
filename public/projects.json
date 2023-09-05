@@ -6,7 +6,7 @@
     "description": [
       "Sellr App is a platform that allows students to buy, rent, sell, or borrow accessories and materials at reasonable prices within the campus. It is a convenient way for students to exchange goods with each other."
     ],
-    "techStack": ["Java", "Firebase"],
+    "techStack": ["Kotlin", "Firebase"],
     "mentors": ["Ayush Gupta", "Bhaskar Wary"],
     "contributors": [
       "Navneet Raj Karn",
@@ -31,7 +31,7 @@
       "Manage your minimum attendance criteria (75%) with the help of Attendo. With a friendly UI, managing attendance is simple as it can be. Also get reminders for classes and never miss them. With Attendo, keep a check on your attendance status."
     ],
     "techStack": ["Java", "Firebase", "SQLite", "Retrofit"],
-    "mentors": [" Jyotimoy Kashyap"],
+    "mentors": ["Rishiraj Paul Chowdhury", "Jyotimoy Kashyap"],
     "contributors": ["Sameer Zaidi", "Navneet Raj Karn", "Jugya Kamal Gogoi"],
     "repoLink": "https://github.com/getoxdev/attendo"
   },
@@ -92,7 +92,7 @@
     ],
     "techStack": ["Flutter", "Firebase"],
     "mentors": ["Biju Borah", "Soumya Ranjan Mohapatro"],
-    "contributors": ["Rajdristant Ghose", "Priyabrat Duarah"],
+    "contributors": ["Rajdristant Ghose", "Priyabrat Duarah", "Sameer Zaidi"],
     "repoLink": "https://github.com/NIT-Silchar-Org/efficacy-user"
   },
   {
@@ -107,13 +107,13 @@
       "SCSS",
       "Vite",
       "pnpm",
-      "Git",
+      "git",
       "TypeScript",
       "ExpressJs",
       "MongoDB",
       "Prisma"
     ],
-    "mentors": ["Pratik majumdar", "Saurav Pal", "Diya Karmakar"],
+    "mentors": ["Pratik Majumdar", "Saurav Pal", "Diya Karmakar"],
     "contributors": [
       "Anubhav",
       "Bijay",
@@ -133,7 +133,7 @@
       "As the name speaks for itself, it is a platform that will enable you to seek assistance and guidance from your peers and seniors. It allows you to upvote, downvote, and bookmark the content of your choice and comes with a trending article section displaying posts based on public reception."
     ],
     "techStack": ["ReactJS", "SCSS", "Vite", "pnpm", "git"],
-    "mentors": ["Pratik majumdar", "Saurav Pal", "Shibam Debnath"],
+    "mentors": ["Pratik Majumdar", "Saurav Pal", "Shibam Debnath"],
     "contributors": [
       "Adhiraj Dutta",
       "Aditya Kumar",

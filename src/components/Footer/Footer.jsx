@@ -3,7 +3,7 @@ import "./Footer.scss";
 import { AiFillLinkedin } from "react-icons/ai";
 import { ImFacebook } from "react-icons/im";
 import { FiInstagram } from "react-icons/fi";
-import { FaTwitter } from "react-icons/fa";
+import { FaTwitter, FaReddit } from "react-icons/fa";
 import logo from "../../assets/images/logo.png";
 import kofi from "../../assets/images/ko-fi.svg";
 import { Link } from "react-router-dom";
@@ -54,6 +54,15 @@ function Footer() {
                 title="Twitter"
               >
                 <FaTwitter className="footer-btn-4" size={24} />
+              </a>
+              <a
+                href="https://www.reddit.com/r/gdscnits/"
+                target="_blank"
+                rel="noreferrer"
+                className="footer-social-links"
+                title="Reddit"
+              >
+                <FaReddit className="footer-btn-5" size={24} />
               </a>
             </div>
             <div className="footer-mail">

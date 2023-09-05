@@ -11,7 +11,6 @@ function ProjectCard() {
           <div
             className="project-card-container"
             key={index}
-            id={index === 0 ? "1" : index === 1 ? "2" : ""}
           >
             <div className="project-card-header">
               <div className="project-card-project-status-container">
