@@ -1506,7 +1506,6 @@ const TeamData = [
     Github: "https://github.com/parthiv002",
     Description: "",
   },
-
   {
     _id: 72,
     Name: "Darshan Barkataki",
