@@ -1,4 +1,4 @@
-import "./Projectsshow.scss";
+import "./ProjectsShow.scss";
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Projects from "/public/projects.json";
@@ -37,7 +37,6 @@ const ProjectsShow = () => {
     ReactJS: <FaReact />,
     TypeScript: <SiTypescript />,
     git: <DiGit />,
-    Git: <DiGit />,
     pnpm: <SiPnpm />,
     Vite: <SiVite />,
     SCSS: <SiSass />,
@@ -45,7 +44,6 @@ const ProjectsShow = () => {
     Prisma: <SiPrisma />,
   };
 
-  // console.log(typeof(projectID))
   useEffect(() => {
     try {
       const projectIdInt = parseInt(projectID);
@@ -100,8 +98,6 @@ const ProjectsShow = () => {
             {cardInfo.techStack.map((tech) => {
               return (
                 <div className="tech" key={tech}>
-                  {/* <img src={} alt="" /> */}
-                  {/* <div dangerouslySetInnerHTML={{__html:logos[tech]}}></div> */}
                   <div className="techlogo">{logos[tech]}</div>
                   <p>{tech}</p>
                 </div>
