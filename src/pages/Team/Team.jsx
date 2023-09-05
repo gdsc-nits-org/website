@@ -21,19 +21,13 @@ function data(value) {
   );
 }
 const Team = () => {
+  let currentBatch = "2023-24";
   let [newMemeberList] = useState(TeamData);
-  let [filterBatchValue, setBatchValue] = useState("All");
+  let [filterBatchValue, setBatchValue] = useState(currentBatch);
   let [filterModuleValue, setModuleValue] = useState("All");
 
-  const sortArray = (x, y) => {
-    if (x.Name < y.Name) {
-      return -1;
-    }
-    if (x.Name > y.Name) {
-      return 1;
-    }
-    return 0;
-  };
+  const sortArray = (x, y) => (x.Name < y.Name ? -1 : 1);
+
   const DropDownRef = useRef();
 
   function onBatchValueSelected(event) {
@@ -43,18 +37,14 @@ const Team = () => {
     setModuleValue(filterModule);
   }
   let filterByDomain = false;
-  let currentBatch = "2022-23";
-  let filteredMemberList = newMemeberList.filter((member) => {
-    if (
-      filterBatchValue === "2022-23" ||
-      filterBatchValue === "2023-24" ||
-      filterBatchValue === "2024-25"
-    ) {
-      return member.Batch == `${filterBatchValue}`;
-    } else {
-      return { currentBatch };
-    }
-  });
+
+  let filteredMemberList = newMemeberList.filter((member) =>
+    filterBatchValue === "2022-23" ||
+    filterBatchValue === "2023-24" ||
+    filterBatchValue === "2024-25"
+      ? member.Batch == `${filterBatchValue}`
+      : currentBatch
+  );
 
   let newFilteredMemberList = filteredMemberList.filter((member) => {
     if (
@@ -66,24 +56,27 @@ const Team = () => {
     ) {
       filterByDomain = true;
       return member.Domain == `${filterModuleValue}`;
-    } else {
-      return filteredMemberList;
-    }
-  });
-  let CoreMemberList = newFilteredMemberList.filter((member) => {
-    if (filterByDomain == true) {
-      return member.Description != "";
-    } else {
-      return member.Description != "";
-    }
-  });
-  let GDSCLead = newFilteredMemberList.filter((member) => {
-    return member.Description === "Lead";
+    } else return filteredMemberList;
   });
 
-  let OtherMemberList = newFilteredMemberList.filter((member) => {
-    return member.Description == "";
-  });
+  let CoreMemberList = newFilteredMemberList.filter((member) => member.Description != "");
+  let GDSCLead = newFilteredMemberList.filter((member) => member.Description === "Lead");
+
+  let OtherMemberList = newFilteredMemberList.filter(
+    (member) => member.Description == ""
+  );
+
+  const sortedCoreMemberList = (() => {
+    const mods = CoreMemberList.filter(
+      (member) => member.Description.split(" ")[1] == "Moderator"
+    );
+    const notMod = CoreMemberList.filter(
+      (member) => member.Description.split(" ")[1] != "Moderator"
+    );
+    notMod.sort(sortArray);
+    mods.sort(sortArray);
+    return mods.concat(notMod);
+  })();
 
   return (
     <div
@@ -111,7 +104,7 @@ const Team = () => {
           className="filterByYear"
           title={currentBatch}
           option1="2022-23"
-          // option2="2023-24"
+          option2="2023-24"
           // option3="2024-25"
           filterModuleData={onBatchValueSelected}
         />
@@ -122,7 +115,7 @@ const Team = () => {
           <div className="member-title" id="core">
             CORE MEMBERS
           </div>
-          <div className="grid">{CoreMemberList.map(data)}</div>
+          <div className="grid">{sortedCoreMemberList.map(data)}</div>
           <div className="member-title" id="members">
             MEMBERS
           </div>
@@ -134,9 +127,9 @@ const Team = () => {
           <div className="grid">{GDSCLead.map(data)}</div>
           <div className="member-title">CORE MEMBERS</div>
           <div className="grid">
-            {CoreMemberList.filter((member) => {
-              return member.Description != "Lead";
-            }).map(data)}
+            {sortedCoreMemberList
+              .filter((member) => member.Description != "Lead")
+              .map(data)}
           </div>
           <div className="member-title">MEMBERS</div>
           <div className="grid">{OtherMemberList.sort(sortArray).map(data)}</div>
