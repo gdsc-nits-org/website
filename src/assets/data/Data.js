@@ -1603,7 +1603,6 @@ const TeamData = [
     Github: "https://github.com/arindom-s",
     Description: "",
   },
-
   {
     _id: 80,
     Name: "Anjali Patel",
