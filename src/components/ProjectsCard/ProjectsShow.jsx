@@ -6,6 +6,7 @@ import { FaHtml5, FaNodeJs, FaReact, FaTools } from "react-icons/fa";
 import {
   SiFirebase,
   SiFlutter,
+  SiKotlin,
   SiMongodb,
   SiPnpm,
   SiPrisma,
@@ -42,6 +43,7 @@ const ProjectsShow = () => {
     SCSS: <SiSass />,
     Flutter: <SiFlutter />,
     Prisma: <SiPrisma />,
+    Kotlin: <SiKotlin />,
   };
 
   useEffect(() => {
