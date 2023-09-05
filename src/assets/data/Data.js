@@ -1100,7 +1100,7 @@ const TeamData = [
     Batch: "2023-24",
     Domain: "Android",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827549/GDSC%20images/Ankit_-_EI_014_ANKIT_KUMAR_BARNWAL_k4htcv.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/cv2qenyihqktamqy6ynz",
     Facebook: "https://www.facebook.com/profile.php?id=100010729830424",
     Linkdin: "https://www.linkedin.com/in/ankit-kumar-barnwal-138a5a257",
     Github: "https://github.com/ankitkug2022",
