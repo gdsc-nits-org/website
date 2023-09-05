@@ -8,8 +8,10 @@ import Timeline from "../../components/Timeline/Timeline";
 import HomeVideos from "../../components/HomeVideos/HomeVideos";
 import Faqs from "../../components/Faq/Faq";
 import Sponsors from "../../components/Sponsors/Sponsors";
+import ScrollToSection from "../../components/ScrollToSection/ScrollToSection";
 
 function Home() {
+  ScrollToSection();
   return (
     <>
       <Hero />
