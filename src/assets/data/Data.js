@@ -1599,7 +1599,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827548/GDSC%20images/Arindomsarmah.jpg_-_Arindom_flqufw.jpg",
     Facebook: "",
-    Linkdin: "",
+    Linkdin: "https://www.linkedin.com/in/arindom-sarmah-324076255",
     Github: "https://github.com/arindom-s",
     Description: "",
   },
