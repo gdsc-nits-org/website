@@ -2,7 +2,8 @@ const TeamData = [
   {
     _id: 1,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AniruddhaDutta.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/AniruddhaDutta_ipghak.jpg",
     Name: "Aniruddha Dutta",
     Domain: "Web",
     Description: "Lead",
@@ -13,7 +14,8 @@ const TeamData = [
   {
     _id: 2,
     Batch: "2022-23",
-    imageSrc: "/team_pics/BhaskarWary.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017423/gdsc%20seniors/team_pics/BhaskarWary_wu7xhl.jpg",
     Name: "Bhaskar Wary",
     Domain: "UI/UX",
     Description: "UI/UX Moderator",
@@ -24,7 +26,8 @@ const TeamData = [
   {
     _id: 3,
     Batch: "2022-23",
-    imageSrc: "/team_pics/NETRAKAMALBARUA.JPG",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017425/gdsc%20seniors/team_pics/NETRAKAMALBARUA2_pvxqbe.jpg",
     Name: "Netrakamal Barua",
     Domain: "Web",
     Description: "Web Moderator",
@@ -35,18 +38,20 @@ const TeamData = [
   {
     _id: 4,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AyushGupta.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017425/gdsc%20seniors/team_pics/AyushGupta_pigzhg.jpg",
     Name: "Ayush Gupta",
     Domain: "Android",
     Description: "Android Moderator",
     Linkdin: "https://www.linkedin.com/in/ayush-gupta-47a430201/",
     Facebook: "#",
-    Github: "https://github.com/baishalidebk13",
+    Github: "",
   },
   {
     _id: 5,
     Batch: "2022-23",
-    imageSrc: "/team_pics/VikasSuthar.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017423/gdsc%20seniors/team_pics/VikasSuthar_tp7hxk.jpg",
     Name: "Vikas Suthar",
     Domain: "Flutter",
     Description: "Flutter Moderator",
@@ -57,7 +62,8 @@ const TeamData = [
   {
     _id: 6,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SauravPal.png",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017408/gdsc%20seniors/team_pics/SauravPal_avhxsb.png",
     Name: "Saurav Pal",
     Domain: "Cloud",
     Description: "Cloud Moderator",
@@ -68,18 +74,20 @@ const TeamData = [
   {
     _id: 8,
     Batch: "2022-23",
-    imageSrc: "/team_pics/BijuBorah(1).jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/tmfhmgmvttpoti47nbov",
     Name: "Biju Borah",
     Domain: "Flutter",
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/biju-borah-1bb78620a",
-    Facebook: "#",
+    Facebook: "",
     Github: "https://github.com/biju-borah",
   },
   {
     _id: 12,
     Batch: "2022-23",
-    imageSrc: "/team_pics/PratikMajumdar.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017403/gdsc%20seniors/team_pics/PratikMajumdar_cyfsbt.jpg",
     Name: "Pratik Majumdar",
     Domain: "Web",
     Description: "Core Member",
@@ -90,7 +98,8 @@ const TeamData = [
   {
     _id: 15,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SiddhartaShankarPaul.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017415/gdsc%20seniors/team_pics/SiddhartaShankarPaul_tiwief.jpg",
     Name: "Siddharta Shankar Paul",
     Domain: "Web",
     Description: "Core Member",
@@ -101,7 +110,8 @@ const TeamData = [
   {
     _id: 13,
     Batch: "2022-23",
-    imageSrc: "/team_pics/JyotishkaBhattacharjee.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017420/gdsc%20seniors/team_pics/JyotishkaBhattacharjee_d9m7mi.jpg",
     Name: "Jyotishka Bhattacharjee",
     Domain: "Web",
     Description: "Core Member",
@@ -112,7 +122,8 @@ const TeamData = [
   {
     _id: 14,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AdritaBuragohain.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017420/gdsc%20seniors/team_pics/AdritaBuragohain_sisjxo.jpg",
     Name: "Adrita Buragohain",
     Domain: "Web",
     Description: "Core Member",
@@ -123,7 +134,8 @@ const TeamData = [
   {
     _id: 7,
     Batch: "2022-23",
-    imageSrc: "/team_pics/NikitaRoy.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017428/gdsc%20seniors/team_pics/NikitaRoy_hdulbv.jpg",
     Name: "Nikita Roy",
     Domain: "Flutter",
     Description: "Core Member",
@@ -134,7 +146,8 @@ const TeamData = [
   {
     _id: 9,
     Batch: "2022-23",
-    imageSrc: "/team_pics/ShibamDebnath.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017415/gdsc%20seniors/team_pics/ShibamDebnath_anqxop.jpg",
     Name: "Shibam Debnath",
     Domain: "UI/UX",
     Description: "Core Member",
@@ -145,7 +158,8 @@ const TeamData = [
   {
     _id: 10,
     Batch: "2022-23",
-    imageSrc: "/team_pics/DiyaKarmakar.png",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017413/gdsc%20seniors/team_pics/DiyaKarmakar_cf3bnv.png",
     Name: "Diya Karmakar",
     Domain: "UI/UX",
     Description: "Core Member",
@@ -156,7 +170,8 @@ const TeamData = [
   {
     _id: 11,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SayahnneetaDutta.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017418/gdsc%20seniors/team_pics/SayahnneetaDutta_d7nhh7.jpg",
     Name: "Sayahnneeta Dutta",
     Domain: "Web",
     Description: "Core Member",
@@ -167,7 +182,8 @@ const TeamData = [
   {
     _id: 16,
     Batch: "2022-23",
-    imageSrc: "/team_pics/VinayakDas.png",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017419/gdsc%20seniors/team_pics/VinayakDas_kvgtuk.png",
     Name: "Vinayak Das",
     Domain: "Web",
     Description: "Core Member",
@@ -178,7 +194,8 @@ const TeamData = [
   {
     _id: 17,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AdhirajDutta.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/AdhirajDutta_oe0c3l.jpg",
     Name: "Adhiraj Dutta",
     Domain: "Web",
     Description: "",
@@ -190,7 +207,8 @@ const TeamData = [
   {
     _id: 18,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AdityaKumar.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017427/gdsc%20seniors/team_pics/AdityaKumar_bma13f.jpg",
     Name: "Aditya Kumar",
     Domain: "Web",
     Description: "",
@@ -201,7 +219,8 @@ const TeamData = [
   {
     _id: 19,
     Batch: "2022-23",
-    imageSrc: "/team_pics/BaishaliDebKanunjna.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017426/gdsc%20seniors/team_pics/BaishaliDebKanunjna_cwygni.jpg",
     Name: "Baishali Deb Kanunjna ",
     Domain: "Flutter",
     Description: "",
@@ -212,7 +231,8 @@ const TeamData = [
   {
     _id: 20,
     Batch: "2022-23",
-    imageSrc: "/team_pics/JaydeepDas.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017404/gdsc%20seniors/team_pics/JaydeepDas_mveixa.jpg",
     Name: "Jaydeep Prapanch Das",
     Domain: "Web",
     Description: "",
@@ -223,7 +243,8 @@ const TeamData = [
   {
     _id: 21,
     Batch: "2022-23",
-    imageSrc: "/team_pics/JacinthMahanta.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017421/gdsc%20seniors/team_pics/JacinthMahanta_keahkh.jpg",
     Name: "Jacinth Mahanta ",
     Domain: "UI/UX",
     Description: "",
@@ -234,7 +255,8 @@ const TeamData = [
   {
     _id: 22,
     Batch: "2022-23",
-    imageSrc: "/team_pics/VivekKumar.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017419/gdsc%20seniors/team_pics/VivekKumar_jhyx3u.jpg",
     Name: "Vivek Kumar",
     Domain: "Web",
     Description: "",
@@ -245,7 +267,8 @@ const TeamData = [
   {
     _id: 23,
     Batch: "2022-23",
-    imageSrc: "/team_pics/ParthapratimDeka.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017421/gdsc%20seniors/team_pics/ParthapratimDeka_ad18y0.jpg",
     Name: "Partha Pratim Deka",
     Domain: "Web",
     Description: "",
@@ -256,7 +279,8 @@ const TeamData = [
   {
     _id: 24,
     Batch: "2022-23",
-    imageSrc: "/team_pics/DiptabhMedhi.png",
+    imageSrc:
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/aea49odnpcotc0skhczi",
     Name: "Diptabh Medhi",
     Domain: "Android",
     Description: "",
@@ -267,7 +291,8 @@ const TeamData = [
   {
     _id: 25,
     Batch: "2022-23",
-    imageSrc: "/team_pics/Pranjit.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017425/gdsc%20seniors/team_pics/Pranjit_dzkupq.jpg",
     Name: "Pranjit Kakoti",
     Domain: "Web",
     Description: "",
@@ -278,7 +303,8 @@ const TeamData = [
   {
     _id: 26,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SameerZaidi.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017406/gdsc%20seniors/team_pics/SameerZaidi_vn7kem.jpg",
     Name: "Sameer Zaidi",
     Domain: "Android",
     Description: "",
@@ -289,7 +315,8 @@ const TeamData = [
   {
     _id: 27,
     Batch: "2022-23",
-    imageSrc: "/team_pics/Prateek.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017412/gdsc%20seniors/team_pics/Prateek_duqa80.jpg",
     Name: "Prateek Mogha",
     Domain: "Android",
     Description: "",
@@ -300,7 +327,8 @@ const TeamData = [
   {
     _id: 28,
     Batch: "2022-23",
-    imageSrc: "/team_pics/RohanJha.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017429/gdsc%20seniors/team_pics/RohanJha_xhcmxg.jpg",
     Name: "Rohan Jha",
     Domain: "Web",
     Description: "",
@@ -311,7 +339,8 @@ const TeamData = [
   {
     _id: 29,
     Batch: "2022-23",
-    imageSrc: "/team_pics/MaharnavDeka.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/borqvtizs9ah2jh92x9s",
     Name: "Maharnav Deka",
     Domain: "UI/UX",
     Description: "",
@@ -322,7 +351,8 @@ const TeamData = [
   {
     _id: 30,
     Batch: "2022-23",
-    imageSrc: "/team_pics/ArpitSaikia.png",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017413/gdsc%20seniors/team_pics/ArpitSaikia_i4ysan.png",
     Name: "Arpit Saikia",
     Domain: "Android",
     Description: "",
@@ -333,7 +363,8 @@ const TeamData = [
   {
     _id: 31,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AnkitUpadhaya.JPG",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017402/gdsc%20seniors/team_pics/AnkitUpadhaya_qlmolf.jpg",
     Name: "Ankit Upadhaya",
     Domain: "Web",
     Description: "",
@@ -344,7 +375,8 @@ const TeamData = [
   {
     _id: 32,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AyushMalviya.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017406/gdsc%20seniors/team_pics/AyushMalviya_hodgmw.jpg",
     Name: "Ayush Malviya",
     Domain: "Flutter",
     Description: "",
@@ -355,7 +387,8 @@ const TeamData = [
   {
     _id: 33,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SubhajitKarmakar1.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017424/gdsc%20seniors/team_pics/SubhajitKarmakar1_w2zyjb.jpg",
     Name: "Subhajit Karmakar ",
     Domain: "Flutter",
     Description: "",
@@ -366,7 +399,8 @@ const TeamData = [
   {
     _id: 34,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SandeepKherkatary.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017420/gdsc%20seniors/team_pics/SandeepKherkatary_batdqp.jpg",
     Name: "Sandeep Kherkatary",
     Domain: "Web",
     Description: "",
@@ -377,7 +411,8 @@ const TeamData = [
   {
     _id: 35,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SundoromDas.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017428/gdsc%20seniors/team_pics/SundoromDas_b1kw2f.jpg",
     Name: "Sundorom Das",
     Domain: "Flutter",
     Description: "",
@@ -388,7 +423,8 @@ const TeamData = [
   {
     _id: 36,
     Batch: "2022-23",
-    imageSrc: "/team_pics/ShreyaDas.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017413/gdsc%20seniors/team_pics/ShreyaDas_w58v8t.jpg",
     Name: "Shreya Das",
     Domain: "UI/UX",
     Description: "",
@@ -399,7 +435,8 @@ const TeamData = [
   {
     _id: 37,
     Batch: "2022-23",
-    imageSrc: "/team_pics/DipanPatgiri.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017427/gdsc%20seniors/team_pics/DipanPatgiri_ttu2pg.jpg",
     Name: "Dipan Patgiri",
     Domain: "Android",
     Description: "",
@@ -410,7 +447,8 @@ const TeamData = [
   {
     _id: 38,
     Batch: "2022-23",
-    imageSrc: "/team_pics/RajdristantGhose.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017409/gdsc%20seniors/team_pics/RajdristantGhose_hsyvsa.jpg",
     Name: "Rajdristant Ghose",
     Domain: "UI/UX",
     Description: "",
@@ -421,7 +459,8 @@ const TeamData = [
   {
     _id: 39,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AryadeepGogoi.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017405/gdsc%20seniors/team_pics/AryadeepGogoi_egwiry.jpg",
     Name: "Aryadeep Gogoi",
     Domain: "UI/UX",
     Description: "",
@@ -432,18 +471,20 @@ const TeamData = [
   {
     _id: 40,
     Batch: "2022-23",
-    imageSrc: "/team_pics/ArnabKumarSingh.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017415/gdsc%20seniors/team_pics/ArnabKumarSingh_qrlxbe.jpg",
     Name: "Arnab Kumar Singh",
     Domain: "Web",
     Description: "",
-    Linkdin: "https://www.linkedin.com/mwlite/in/aryadeep-gogoi-696609236",
+    Linkdin: "https://www.linkedin.com/in/arnab-kumar-singh-405862240",
     Facebook: "https://www.facebook.com/arnab.kumar.33449",
     Github: "https://github.com/Arnab-K-S",
   },
   {
     _id: 41,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SomyaKasaudhan.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017425/gdsc%20seniors/team_pics/SomyaKasaudhan_bsgqzh.jpg",
     Name: "Somya Kasaudhan ",
     Domain: "UI/UX",
     Description: "",
@@ -454,7 +495,8 @@ const TeamData = [
   {
     _id: 42,
     Batch: "2022-23",
-    imageSrc: "/team_pics/Priyabrat1.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017411/gdsc%20seniors/team_pics/Priyabrat1_sl2zwb.jpg",
     Name: "Priyabrat Duarah",
     Domain: "Flutter",
     Description: "",
@@ -465,7 +507,8 @@ const TeamData = [
   {
     _id: 43,
     Batch: "2022-23",
-    imageSrc: "/team_pics/MasoomSahu.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017411/gdsc%20seniors/team_pics/MasoomSahu_mbehj7.jpg",
     Name: "Masoom Sahu",
     Domain: "Web",
     Description: "",
@@ -476,7 +519,8 @@ const TeamData = [
   {
     _id: 44,
     Batch: "2022-23",
-    imageSrc: "/team_pics/JUGYAKAMAL GOGOI.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/JUGYAKAMAL_GOGOI_i95s6r.jpg",
     Name: "Jugya Kamal Gogoi",
     Domain: "Web",
     Description: "",
@@ -487,7 +531,8 @@ const TeamData = [
   {
     _id: 45,
     Batch: "2022-23",
-    imageSrc: "/team_pics/AnkitRaj.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017410/gdsc%20seniors/team_pics/AnkitRaj_hdeqo4.jpg",
     Name: "Ankit Raj",
     Domain: "Web",
     Description: "",
@@ -498,7 +543,8 @@ const TeamData = [
   {
     _id: 46,
     Batch: "2022-23",
-    imageSrc: "/team_pics/HrishitaPaul.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017402/gdsc%20seniors/team_pics/HrishitaPaul_ltuppj.jpg",
     Name: "Hrishita Paul",
     Domain: "Web",
     Description: "",
@@ -509,7 +555,8 @@ const TeamData = [
   {
     _id: 47,
     Batch: "2022-23",
-    imageSrc: "/team_pics/DeepSaikia.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017408/gdsc%20seniors/team_pics/DeepSaikia_cxakuh.jpg",
     Name: "Deep Saikia",
     Domain: "Android",
     Description: "",
@@ -520,7 +567,8 @@ const TeamData = [
   {
     _id: 48,
     Batch: "2022-23",
-    imageSrc: "/team_pics/NavneetRaj.JPG",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/NavneetRaj_tipbjc.jpg",
     Name: "Navneet Raj Karn",
     Domain: "Android",
     Description: "",
@@ -531,7 +579,8 @@ const TeamData = [
   {
     _id: 49,
     Batch: "2022-23",
-    imageSrc: "/team_pics/RayyanShaikh.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017426/gdsc%20seniors/team_pics/RayyanShaikh_ctq8sk.webp",
     Name: "Rayyan Shaikh",
     Domain: "Web",
     Description: "",
@@ -542,7 +591,8 @@ const TeamData = [
   {
     _id: 50,
     Batch: "2022-23",
-    imageSrc: "/team_pics/BipangshuSaha.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017405/gdsc%20seniors/team_pics/BipangshuSaha_m623ag.jpg",
     Name: "Bipangshu Saha",
     Domain: "Web",
     Description: "",
@@ -553,7 +603,8 @@ const TeamData = [
   {
     _id: 51,
     Batch: "2022-23",
-    imageSrc: "/team_pics/BibhasNaskar.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017419/gdsc%20seniors/team_pics/BibhasNaskar_judl68.jpg",
     Name: "Bibhas Naskar",
     Domain: "Android",
     Description: "",
@@ -564,7 +615,8 @@ const TeamData = [
   {
     _id: 52,
     Batch: "2022-23",
-    imageSrc: "/team_pics/TithiJha.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017418/gdsc%20seniors/team_pics/TithiJha_ljq98g.jpg",
     Name: "Tithi Jha",
     Domain: "UI/UX",
     Description: "",
@@ -575,7 +627,8 @@ const TeamData = [
   {
     _id: 53,
     Batch: "2022-23",
-    imageSrc: "/team_pics/BijayJiwrajka.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017404/gdsc%20seniors/team_pics/BijayJiwrajka_ub2aww.jpg",
     Name: "Bijay Jiwrajka",
     Domain: "Web",
     Description: "",
@@ -586,7 +639,8 @@ const TeamData = [
   {
     _id: 54,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SumanDas.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017426/gdsc%20seniors/team_pics/SumanDas_idllbe.jpg",
     Name: "Suman Das",
     Domain: "Web",
     Description: "",
@@ -597,7 +651,8 @@ const TeamData = [
   {
     _id: 55,
     Batch: "2022-23",
-    imageSrc: "/team_pics/Anubhav.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017402/gdsc%20seniors/team_pics/Anubhav_tvj6em.jpg",
     Name: "Anubhav Chakraborty",
     Domain: "Web",
     Description: "",
@@ -608,7 +663,8 @@ const TeamData = [
   {
     _id: 56,
     Batch: "2022-23",
-    imageSrc: "/team_pics/SulakshanaChetry.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017421/gdsc%20seniors/team_pics/SulakshanaChetry_e4xpcz.jpg",
     Name: "Sulakshana Chetry",
     Domain: "Web",
     Description: "",
@@ -619,7 +675,8 @@ const TeamData = [
   {
     _id: 57,
     Batch: "2022-23",
-    imageSrc: "/team_pics/PragyaAnneshaBaruah.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017406/gdsc%20seniors/team_pics/PragyaAnneshaBaruah_prisql.jpg",
     Name: "Pragya Annesha Baruah",
     Domain: "UI/UX",
     Description: "",
@@ -630,7 +687,8 @@ const TeamData = [
   {
     _id: 58,
     Batch: "2022-23",
-    imageSrc: "/team_pics/RupsnigdhaKashyap.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017411/gdsc%20seniors/team_pics/RupsnigdhaKashyap_bsptrc.jpg",
     Name: "Rupsnigdha Kashyap",
     Domain: "Web",
     Description: "",
@@ -641,8 +699,9 @@ const TeamData = [
   {
     _id: 59,
     Batch: "2022-23",
-    imageSrc: "/team_pics/BhargaviNath.png",
-    Name: "Bhargabi Nath",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017409/gdsc%20seniors/team_pics/BhargaviNath_ctesnw.png",
+    Name: "Bhargavi Nath",
     Domain: "Web",
     Description: "",
     Linkdin: "https://www.linkedin.com/in/bhargavi-nath-9a8a81223",
@@ -652,7 +711,8 @@ const TeamData = [
   {
     _id: 60,
     Batch: "2022-23",
-    imageSrc: "/team_pics/HritikaRoy.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017418/gdsc%20seniors/team_pics/HritikaRoy_mofvn9.jpg",
     Name: "Hritika Roy",
     Domain: "Android",
     Description: "",
@@ -663,7 +723,8 @@ const TeamData = [
   {
     _id: 61,
     Batch: "2022-23",
-    imageSrc: "/team_pics/Rex.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017409/gdsc%20seniors/team_pics/RajdristantGhose_hsyvsa.jpg",
     Name: "Hrishikesh Borah",
     Domain: "Web",
     Description: "",
@@ -674,7 +735,8 @@ const TeamData = [
   {
     _id: 1,
     Batch: "2023-24",
-    imageSrc: "/team_pics/ParthapratimDeka.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017421/gdsc%20seniors/team_pics/ParthapratimDeka_ad18y0.jpg",
     Name: "Partha Pratim Deka",
     Domain: "Web",
     Description: "Lead",
@@ -685,7 +747,8 @@ const TeamData = [
   {
     _id: 2,
     Batch: "2023-24",
-    imageSrc: "/team_pics/PragyaAnneshaBaruah.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017406/gdsc%20seniors/team_pics/PragyaAnneshaBaruah_prisql.jpg",
     Name: "Pragya Annesha Baruah",
     Domain: "UI/UX",
     Description: "UI/UX Moderator",
@@ -696,7 +759,8 @@ const TeamData = [
   {
     _id: 3,
     Batch: "2023-24",
-    imageSrc: "/team_pics/AdhirajDutta.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/AdhirajDutta_oe0c3l.jpg",
     Name: "Adhiraj Dutta",
     Domain: "Web",
     Description: "Web Moderator",
@@ -708,7 +772,8 @@ const TeamData = [
   {
     _id: 4,
     Batch: "2023-24",
-    imageSrc: "/team_pics/NavneetRaj.JPG",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017407/gdsc%20seniors/team_pics/NavneetRaj_tipbjc.jpg",
     Name: "Navneet Raj Karn",
     Domain: "Android",
     Description: "Android Moderator",
@@ -719,7 +784,8 @@ const TeamData = [
   {
     _id: 5,
     Batch: "2023-24",
-    imageSrc: "/team_pics/RajdristantGhose.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017409/gdsc%20seniors/team_pics/RajdristantGhose_hsyvsa.jpg",
     Name: "Rajdristant Ghose",
     Domain: "Flutter",
     Description: "Flutter Moderator",
@@ -730,7 +796,8 @@ const TeamData = [
   {
     _id: 6,
     Batch: "2023-24",
-    imageSrc: "/team_pics/JaydeepDas.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017404/gdsc%20seniors/team_pics/JaydeepDas_mveixa.jpg",
     Name: "Jaydeep Prapanch Das",
     Domain: "Cloud",
     Description: "Cloud Moderator",
@@ -741,7 +808,8 @@ const TeamData = [
   {
     _id: 7,
     Batch: "2023-24",
-    imageSrc: "/team_pics/AdityaKumar.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017427/gdsc%20seniors/team_pics/AdityaKumar_bma13f.jpg",
     Name: "Aditya Kumar",
     Domain: "Web",
     Description: "Core Member",
@@ -752,7 +820,8 @@ const TeamData = [
   {
     _id: 8,
     Batch: "2023-24",
-    imageSrc: "/team_pics/JacinthMahanta.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017421/gdsc%20seniors/team_pics/JacinthMahanta_keahkh.jpg",
     Name: "Jacinth Mahanta ",
     Domain: "UI/UX",
     Description: "Core Member",
@@ -763,7 +832,8 @@ const TeamData = [
   {
     _id: 9,
     Batch: "2023-24",
-    imageSrc: "/team_pics/DiptabhMedhi.png",
+    imageSrc:
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/aea49odnpcotc0skhczi",
     Name: "Diptabh Medhi",
     Domain: "Android",
     Description: "Core Member",
@@ -774,7 +844,8 @@ const TeamData = [
   {
     _id: 10,
     Batch: "2023-24",
-    imageSrc: "/team_pics/SameerZaidi.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017406/gdsc%20seniors/team_pics/SameerZaidi_vn7kem.jpg",
     Name: "Sameer Zaidi",
     Domain: "Android",
     Description: "Core Member",
@@ -785,7 +856,8 @@ const TeamData = [
   {
     _id: 11,
     Batch: "2023-24",
-    imageSrc: "/team_pics/MaharnavDeka.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/borqvtizs9ah2jh92x9s",
     Name: "Maharnav Deka",
     Domain: "UI/UX",
     Description: "Core Member",
@@ -796,7 +868,8 @@ const TeamData = [
   {
     _id: 12,
     Batch: "2023-24",
-    imageSrc: "/team_pics/SubhajitKarmakar1.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017424/gdsc%20seniors/team_pics/SubhajitKarmakar1_w2zyjb.jpg",
     Name: "Subhajit Karmakar ",
     Domain: "Flutter",
     Description: "Core Member",
@@ -807,7 +880,8 @@ const TeamData = [
   {
     _id: 13,
     Batch: "2023-24",
-    imageSrc: "/team_pics/SandeepKherkatary.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017420/gdsc%20seniors/team_pics/SandeepKherkatary_batdqp.jpg",
     Name: "Sandeep Kherkatary",
     Domain: "Web",
     Description: "Core Member",
@@ -818,18 +892,20 @@ const TeamData = [
   {
     _id: 14,
     Batch: "2023-24",
-    imageSrc: "/team_pics/ArnabKumarSingh.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017415/gdsc%20seniors/team_pics/ArnabKumarSingh_qrlxbe.jpg",
     Name: "Arnab Kumar Singh",
     Domain: "Web",
     Description: "Core Member",
-    Linkdin: "https://www.linkedin.com/mwlite/in/aryadeep-gogoi-696609236",
+    Linkdin: "https://www.linkedin.com/in/arnab-kumar-singh-405862240",
     Facebook: "https://www.facebook.com/arnab.kumar.33449",
     Github: "https://github.com/Arnab-K-S",
   },
   {
     _id: 15,
     Batch: "2023-24",
-    imageSrc: "/team_pics/Priyabrat1.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017411/gdsc%20seniors/team_pics/Priyabrat1_sl2zwb.jpg",
     Name: "Priyabrat Duarah",
     Domain: "Flutter",
     Description: "Core Member",
@@ -840,7 +916,8 @@ const TeamData = [
   {
     _id: 16,
     Batch: "2023-24",
-    imageSrc: "/team_pics/MasoomSahu.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017411/gdsc%20seniors/team_pics/MasoomSahu_mbehj7.jpg",
     Name: "Masoom Sahu",
     Domain: "Web",
     Description: "Core Member",
@@ -851,7 +928,8 @@ const TeamData = [
   {
     _id: 17,
     Batch: "2023-24",
-    imageSrc: "/team_pics/HrishitaPaul.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017402/gdsc%20seniors/team_pics/HrishitaPaul_ltuppj.jpg",
     Name: "Hrishita Paul",
     Domain: "Web",
     Description: "Core Member",
@@ -862,7 +940,8 @@ const TeamData = [
   {
     _id: 18,
     Batch: "2023-24",
-    imageSrc: "/team_pics/DeepSaikia.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017408/gdsc%20seniors/team_pics/DeepSaikia_cxakuh.jpg",
     Name: "Deep Saikia",
     Domain: "Android",
     Description: "Core Member",
@@ -873,7 +952,8 @@ const TeamData = [
   {
     _id: 19,
     Batch: "2023-24",
-    imageSrc: "/team_pics/TithiJha.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017418/gdsc%20seniors/team_pics/TithiJha_ljq98g.jpg",
     Name: "Tithi Jha",
     Domain: "UI/UX",
     Description: "Core Member",
@@ -884,7 +964,8 @@ const TeamData = [
   {
     _id: 20,
     Batch: "2023-24",
-    imageSrc: "/team_pics/BijayJiwrajka.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017404/gdsc%20seniors/team_pics/BijayJiwrajka_ub2aww.jpg",
     Name: "Bijay Jiwrajka",
     Domain: "Web",
     Description: "Core Member",
@@ -895,7 +976,8 @@ const TeamData = [
   {
     _id: 21,
     Batch: "2023-24",
-    imageSrc: "/team_pics/SumanDas.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017426/gdsc%20seniors/team_pics/SumanDas_idllbe.jpg",
     Name: "Suman Das",
     Domain: "Web",
     Description: "Core Member",
@@ -906,7 +988,8 @@ const TeamData = [
   {
     _id: 22,
     Batch: "2023-24",
-    imageSrc: "/team_pics/Anubhav.jpg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017402/gdsc%20seniors/team_pics/Anubhav_tvj6em.jpg",
     Name: "Anubhav Chakraborty",
     Domain: "Web",
     Description: "Core Member",
@@ -917,7 +1000,8 @@ const TeamData = [
   {
     _id: 23,
     Batch: "2023-24",
-    imageSrc: "/team_pics/JUGYAKAMAL GOGOI.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/JUGYAKAMAL_GOGOI_i95s6r.jpg",
     Name: "Jugya Kamal Gogoi",
     Domain: "Web",
     Description: "Core Member",
@@ -928,7 +1012,8 @@ const TeamData = [
   {
     _id: 24,
     Batch: "2023-24",
-    imageSrc: "/team_pics/Prateek.jpeg",
+    imageSrc:
+      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017412/gdsc%20seniors/team_pics/Prateek_duqa80.jpg",
     Name: "Prateek Mogha",
     Domain: "Android",
     Description: "Core Member",
