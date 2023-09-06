@@ -5,6 +5,7 @@
     height: 1.4rem;
     width: 8rem;
     padding-left: 0.3rem;
+    padding-bottom: 1.5rem;
     border-width: 0.1rem;
     border-radius: 0.2rem;
     cursor: pointer;
@@ -33,13 +34,19 @@
   }
 }
 .value {
+  border: 1px solid black;
   cursor: pointer;
   height: 1.3rem;
   font-size: 0.9rem;
   width: 8rem;
   padding-left: 0.3rem;
+  padding-bottom: 1.5rem;
   background-color: #faf2f2;
 }
+.value:hover {
+  background-color: transparent;
+}
+
 @media only screen and (max-width: 990px) {
   .filter {
     .dropDown {
