@@ -1081,7 +1081,6 @@ const TeamData = [
     Facebook: "https://www.facebook.com/jahanavi.mour",
     Github: "https://github.com/jahanavi08",
   },
-
   {
     _id: 30,
     Batch: "2023-24",
