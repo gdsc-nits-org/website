@@ -27,7 +27,7 @@ const TeamData = [
     _id: 3,
     Batch: "2022-23",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017425/gdsc%20seniors/team_pics/NETRAKAMALBARUA2_pvxqbe.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/txuhy5k5i75qaccksrtq",
     Name: "Netrakamal Barua",
     Domain: "Web",
     Description: "Web Moderator",
@@ -724,7 +724,7 @@ const TeamData = [
     _id: 61,
     Batch: "2022-23",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017409/gdsc%20seniors/team_pics/RajdristantGhose_hsyvsa.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/ok4ysalc2zdbvtpjcha5",
     Name: "Hrishikesh Borah",
     Domain: "Web",
     Description: "",
