@@ -2,11 +2,12 @@
   {
     "title": "Sellr",
     "Status": "Live",
+    "link": "https://play.google.com/store/apps/details?id=com.gdsc.sellr",
     "logo": "https://res.cloudinary.com/dhgfsshq4/image/upload/v1686045071/Logo_PNG_1080-removebg-preview_cifnuo.webp",
     "description": [
       "Sellr App is a platform that allows students to buy, rent, sell, or borrow accessories and materials at reasonable prices within the campus. It is a convenient way for students to exchange goods with each other."
     ],
-    "techStack": ["Java", "Firebase"],
+    "techStack": ["Kotlin", "Firebase"],
     "mentors": ["Ayush Gupta", "Bhaskar Wary"],
     "contributors": [
       "Navneet Raj Karn",
@@ -26,12 +27,13 @@
   {
     "title": "Attendo",
     "Status": "Live",
+    "link": "https://play.google.com/store/apps/details?id=com.attendo",
     "logo": "https://lh3.googleusercontent.com/qQYJ2bSkhNQMiKBnc2oLf1KM0PXf8yeilACy-JZw5wCDUb1IqfGdqovH7FHdIoLSqzCkmsZkBaTwO2q5ZkE1HM_hPx1xqrLPunoD9Fo7Z2NU12gPIufK2bv4Voa5rFa32ZlAZ4G_lGT03EQ28UIZy5cEcA=s2048",
     "description": [
       "Manage your minimum attendance criteria (75%) with the help of Attendo. With a friendly UI, managing attendance is simple as it can be. Also get reminders for classes and never miss them. With Attendo, keep a check on your attendance status."
     ],
     "techStack": ["Java", "Firebase", "SQLite", "Retrofit"],
-    "mentors": [" Jyotimoy Kashyap"],
+    "mentors": ["Rishiraj Paul Chowdhury", "Jyotimoy Kashyap"],
     "contributors": ["Sameer Zaidi", "Navneet Raj Karn", "Jugya Kamal Gogoi"],
     "repoLink": "https://github.com/getoxdev/attendo"
   },
@@ -86,13 +88,14 @@
   {
     "title": "Efficacy",
     "Status": "Live",
+    "link": "https://play.google.com/store/apps/details?id=com.efficacyuserv2.app",
     "logo": "https://lh4.googleusercontent.com/hGlSXVX-MQb9zvbT61Vap3NHAvteqNTDzj4kPZxtF53OvGf7WdnewZwIJIMvs_J93k1BkwNbYCu9bW4NZCqnMQgVWSRqY2n3iAZbYhd7NscC9vp_DL4-Ddr6vAQJvAxu16dqyP_4moCMtqFh9GMq8jqzSg=s2048",
     "description": [
       "Efficacy is a club event management app that allows club coordinators to schedule their events without collisions with previously scheduled ones. Efficacy 2.0 is already in the works."
     ],
     "techStack": ["Flutter", "Firebase"],
     "mentors": ["Biju Borah", "Soumya Ranjan Mohapatro"],
-    "contributors": ["Rajdristant Ghose", "Priyabrat Duarah"],
+    "contributors": ["Rajdristant Ghose", "Priyabrat Duarah", "Sameer Zaidi"],
     "repoLink": "https://github.com/NIT-Silchar-Org/efficacy-user"
   },
   {
@@ -107,13 +110,13 @@
       "SCSS",
       "Vite",
       "pnpm",
-      "Git",
+      "git",
       "TypeScript",
       "ExpressJs",
       "MongoDB",
       "Prisma"
     ],
-    "mentors": ["Pratik majumdar", "Saurav Pal", "Diya Karmakar"],
+    "mentors": ["Pratik Majumdar", "Saurav Pal", "Diya Karmakar"],
     "contributors": [
       "Anubhav",
       "Bijay",
@@ -133,7 +136,7 @@
       "As the name speaks for itself, it is a platform that will enable you to seek assistance and guidance from your peers and seniors. It allows you to upvote, downvote, and bookmark the content of your choice and comes with a trending article section displaying posts based on public reception."
     ],
     "techStack": ["ReactJS", "SCSS", "Vite", "pnpm", "git"],
-    "mentors": ["Pratik majumdar", "Saurav Pal", "Shibam Debnath"],
+    "mentors": ["Pratik Majumdar", "Saurav Pal", "Shibam Debnath"],
     "contributors": [
       "Adhiraj Dutta",
       "Aditya Kumar",
