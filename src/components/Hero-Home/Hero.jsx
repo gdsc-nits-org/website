@@ -33,10 +33,18 @@ const Model = () => {
 const Hero = () => {
   const [typedColor, setTypedColor] = useState("var(--gdsc-red-1-100)");
 
+  const scrollDown = () => {
+    const section = document.querySelector("#gdsc");
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "center",
+    });
+  };
+
   return (
     <div className="home-hero">
       <div className="cover"></div>
-      <a className="scroll-gif" href="#gdsc">
+      <a className="scroll-gif" onClick={scrollDown}>
         <img src={scroll} alt="" className="scroll-img" />
         <div className="circle"></div>
       </a>

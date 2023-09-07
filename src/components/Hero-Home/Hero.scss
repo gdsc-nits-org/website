@@ -11,10 +11,10 @@
     background: black;
     position: absolute;
     top: 20%;
-    left: 50%;
+    left: 37%;
     transform: translateX(-50%);
     transition: 0.5s;
-    animation: animscroll 1s reverse infinite;
+    animation: animscroll 2s infinite;
     border-radius: 50%;
   }
   .text {
@@ -76,13 +76,18 @@
 
 @keyframes animscroll {
   0% {
-    position: absolute;
-    top: 20%;
+    transform: translate(0, 0);
+    opacity: 0;
   }
-
-  70% {
-    position: absolute;
-    top: 60%;
+  40% {
+    opacity: 1;
+  }
+  80% {
+    transform: translate(0, 20px);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
   }
 }
 
