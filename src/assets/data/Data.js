@@ -448,7 +448,7 @@ const TeamData = [
     _id: 38,
     Batch: "2022-23",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017409/gdsc%20seniors/team_pics/RajdristantGhose_hsyvsa.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/mcfcv4jhmuj9b5nshz9b",
     Name: "Rajdristant Ghose",
     Domain: "UI/UX",
     Description: "",
@@ -785,7 +785,7 @@ const TeamData = [
     _id: 5,
     Batch: "2023-24",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017409/gdsc%20seniors/team_pics/RajdristantGhose_hsyvsa.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/mcfcv4jhmuj9b5nshz9b",
     Name: "Rajdristant Ghose",
     Domain: "Flutter",
     Description: "Flutter Moderator",
@@ -1126,8 +1126,8 @@ const TeamData = [
     Domain: "Android",
     imageSrc:
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827552/GDSC%20images/Bishal_Paul_Biswas_-_Bishal_Paul_Biswas_zz8l0r.jpg",
-    Linkdin: "www.linkedin.com/in/bishal-paul-biswas-592341257",
-    Facebook: "",
+    Linkdin: "https://www.linkedin.com/in/bishal-paul-biswas-592341257",
+    Facebook: "https://www.facebook.com/profile.php?id=100087658158317",
     Github: "https://github.com/bishalpb2004",
   },
   {
@@ -1245,7 +1245,7 @@ const TeamData = [
     Batch: "2023-24",
     Domain: "Web",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827564/GDSC%20images/Nayana_-_EE_034_NAYANA_BHUYAN_l3wjbg.jpg",
+      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/hlrqtzybxymt50ibm9wh",
     Facebook: "https://www.facebook.com/profile.php?id=100087846884111&mibextid=ZbWKwL",
     Linkdin: "https://www.linkedin.com/in/nayana-bhuyan-479b52257",
     Github: "https://github.com/Nayana-Bhuyan",
@@ -1585,7 +1585,7 @@ const TeamData = [
     Domain: "Android",
     imageSrc:
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827565/GDSC%20images/Parthiv_-_ECE_015_Parthiv_Kumar_Das_ygh31k.jpg",
-    Facebook: "",
+    Facebook: "https://www.facebook.com/profile.php?id=100087913660839&mibextid=2JQ9oc",
     Linkdin: "https://www.linkedin.com/in/parthiv-kumar-das-9b5b87257",
     Github: "https://github.com/parthiv002",
     Description: "",
@@ -1633,7 +1633,7 @@ const TeamData = [
     Domain: "Android",
     imageSrc:
       "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/bib0efu86gorwxpc0env",
-    Facebook: "Dev Mehrotra",
+    Facebook: "",
     Linkdin: "https://www.linkedin.com/in/dev-mehrotra-3026601b",
     Github: "https://github.com/devmeh19",
     Description: "",
