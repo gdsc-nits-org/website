@@ -6,7 +6,7 @@ import { useEffect } from "react";
 const InfoGraphic = () => {
   const members_fixed = 1528;
   const events_fixed = 50;
-  const organizers_fixed = 84;
+  const organizers_fixed = 82;
   const projects_fixed = 10;
 
   const { ref, inView } = useInView({
