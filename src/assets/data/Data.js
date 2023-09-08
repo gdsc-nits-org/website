@@ -1003,7 +1003,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/JUGYAKAMAL_GOGOI_i95s6r.jpg",
     Name: "Jugya Kamal Gogoi",
-    Domain: "Web",
+    Domain: "Cloud",
     Description: "Core Member",
     Linkdin: "https://www.linkedin.com/in/jugya-kamal-gogoi-5ab594229/",
     Facebook: "https://www.facebook.com/zhang.jike.311/",
