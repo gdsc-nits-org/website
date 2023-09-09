@@ -125,11 +125,14 @@ function Footer() {
             <div className="footer-mid-project">
               <ul>Projects</ul>
               <div className="footer-line-b"></div>
-              <Link to="/projects/#1" className="footer-project">
+              <Link to="/projects/1" className="footer-project">
                 Attendo
               </Link>
-              <Link to="/projects/#2" className="footer-project">
-                Website
+              <Link to="/projects/0" className="footer-project">
+                Sellr
+              </Link>
+              <Link to="/projects/6" className="footer-project">
+                Efficacy
               </Link>
             </div>
             <div className="footer-mid-team">
