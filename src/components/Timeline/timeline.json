@@ -1,60 +1,58 @@
 {
   "events": [
     {
-      "id": 1,
-      "name": "Compose Camp",
-      "date": "September",
-      "color": "#3CBA54",
-      "src": "/images/composeCampThumbnail.webp"
-    },
-    {
-      "id": 2,
-      "name": "Intro to Git and Github",
-      "date": "October",
-      "color": "#1d192b",
-      "src": "/images/gitGithubIntroThumbnail.webp"
-    },
-    {
-      "id": 3,
       "name": "Google Cloud Engineer Learning Path",
-      "date": "November",
+      "date": "November 2022",
       "color": "#4885ED",
       "src": "/images/celpThumbnail.webp"
     },
     {
-      "id": 4,
       "name": "Kickstart to ReactJS",
-      "date": "November",
+      "date": "November 2022",
       "color": "#7cc5d9",
       "src": "/images/reactJsIntroThumbnail.webp"
     },
     {
-      "id": 5,
-      "name": "Flutter Bootcamp",
-      "date": "February",
+      "name": "Prototype Planery",
+      "date": "February 2023",
+      "color": "#DB3236",
+      "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Prototype%20planary.png"
+    },
+    {
+      "name": "$ make --learn",
+      "date": "February 2023",
+      "color": "#EC8E24",
+      "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/ReactJs%20Thumbnail_KrATrjr.png"
+    },
+    {
+      "name": "Flutter Forward",
+      "date": "March 2023",
       "color": "#4885ED",
       "src": "/images/flutter.svg"
     },
     {
-      "id": 6,
-      "name": "Prototype Planery",
-      "date": "February",
-      "color": "#DB3236",
-      "src": "/images/UX.svg"
-    },
-    {
-      "id": 7,
-      "name": "Tensorflow",
-      "date": "March",
-      "color": "#EC8E24",
-      "src": "/images/tensorflow.svg"
-    },
-    {
-      "id": 8,
-      "name": "Web Blitz",
-      "date": "March",
+      "name": "Web Blitz 3.0",
+      "date": "March 2023",
       "color": "#F4C20D",
       "src": "/images/timelineWeb.svg"
+    },
+    {
+      "name": "Kickstart to ReactJS 2.0",
+      "date": "September 2023",
+      "color": "#7cc5d9",
+      "src": "/images/reactJsIntroThumbnail.webp"
+    },
+    {
+      "name": "Intro to Git and Github",
+      "date": "September 2023",
+      "color": "#1d192b",
+      "src": "/images/gitGithubIntroThumbnail.webp"
+    },
+    {
+      "name": "Adnroid Study Jam",
+      "date": "October 2023",
+      "color": "#3CBA54",
+      "src": "/images/composeCampThumbnail.webp"
     }
   ]
 }

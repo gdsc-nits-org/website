@@ -62,7 +62,6 @@ const Hero = () => {
             <Typed
               strings={["Build", "Solve", "Transcend", "Learn"]}
               typeSpeed={40}
-              // onComplete={Color:}
               backSpeed={50}
               loop
               preStringTyped={(i) => {
@@ -76,7 +75,6 @@ const Hero = () => {
                   ? setTypedColor("var(--gdsc-red-1-100)")
                   : "";
               }}
-              // preStringTyped={(i)=>{i===1}}
             />
           </div>
         </div>
@@ -99,7 +97,6 @@ const Hero = () => {
           />
         </Canvas>
       </div>
-      {/* <div className="hero-img"></div> */}
     </div>
   );
 };

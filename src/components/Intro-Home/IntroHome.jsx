@@ -9,8 +9,8 @@ import ui from "../../assets/images/ux-circle.png";
 import flutter from "../../assets/images/flutter-circle.png";
 import kotlin from "../../assets/images/kotlin-circle.png";
 import cloud from "../../assets/images/cloud-circle.png";
-
 import Static_scroll from "../Static_Scroll/Static_scroll";
+
 const IntroHome = () => {
   const gdscLogoRef = useRef();
 
@@ -52,9 +52,7 @@ const IntroHome = () => {
                 ></lottie-player>
                 <div className="circle"></div>
               </div>
-              <div className="heading">
-                Google Developer Student Club <br /> NIT SILCHAR
-              </div>
+              <div className="heading">Google Developer Student Club, NIT SILCHAR</div>
             </div>
             <p className="text">
               Google Developer Student Club, NIT Silchar is one of the thousands of clubs
