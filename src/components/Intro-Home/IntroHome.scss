@@ -13,6 +13,9 @@
           font-size: 1.25rem;
           line-height: 1.975rem;
           letter-spacing: 0em;
+          @media screen and (width < 1000px) {
+            text-align: justify;
+          }
         }
         .heading {
           font-family: Poppins;
