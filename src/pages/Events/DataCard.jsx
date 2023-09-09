@@ -1,7 +1,6 @@
 import React from "react";
 import Styles from "./Events.module.scss";
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
 
 const DataCard = ({ info }) => {
   const req_date = new Date(info.time);
@@ -22,7 +21,6 @@ const DataCard = ({ info }) => {
 
   return (
     <div className={Styles.basis_buffer}>
-      {/* <a href={info.link} target="_blank" rel="noreferrer" className={Styles.card}> */}
       <div className={Styles.card}>
         <div className={Styles.flip_card}>
           <div className={Styles.flip_card_front}>
@@ -44,13 +42,12 @@ const DataCard = ({ info }) => {
               <div className={Styles.subtitle}>
                 {info.desc.slice(0, 100) + `${info.desc.length > 100 ? "..." : ""}`}
               </div>
-              <Link to={info.link}>
+              <a href={info.link}>
                 <button className={Styles.button}>Read More</button>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
-        {/* </a> */}
       </div>
     </div>
   );
