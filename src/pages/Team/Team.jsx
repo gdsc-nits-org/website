@@ -73,15 +73,18 @@ const Team = () => {
   );
 
   const sortedCoreMemberList = (() => {
+    const lead = CoreMemberList.filter(
+      (member) => member.Description == "Lead"
+    );
     const mods = CoreMemberList.filter(
       (member) => member.Description.split(" ")[1] == "Moderator"
     );
     const notMod = CoreMemberList.filter(
-      (member) => member.Description.split(" ")[1] != "Moderator"
+      (member) => member.Description === "Core Member"
     );
     notMod.sort(sortArray);
     mods.sort(sortArray);
-    return mods.concat(notMod);
+    return lead.concat(mods.concat(notMod));
   })();
 
   return (
