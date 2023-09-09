@@ -204,10 +204,6 @@
         font-size: 1.5rem;
       }
 
-      .flip_card_back {
-        background-color: black;
-      }
-
       .flip_card:hover .flip_card_front,
       .flip_card:hover .flip_card_back {
         -webkit-transition: -webkit-transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -240,11 +236,16 @@
         border-radius: 6px;
       }
 
+      .flip_card_front::after {
+        opacity: 1;
+      }
+
       .flip_card_back {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
+        background-color: black;
       }
 
       .flip_card_inner {
