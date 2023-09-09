@@ -21,19 +21,19 @@
     display: flex;
     flex-direction: column;
     margin-left: 6rem;
-    margin-top: 4rem;
+    margin-top: -0.5rem;
     .gdsc {
       font-family: Poppins;
-      font-size: 178px;
+      font-size: 8rem;
+      line-height: 10rem;
       font-weight: 700;
-      text-align: left;
-      height: 200px;
+      margin-top: 3rem;
     }
     .nits {
       font-family: Poppins;
-      font-size: 91px;
+      font-size: 4rem;
+      line-height: 5rem;
       font-weight: 700;
-      text-align: left;
       color: var(--gdsc-content-1-100);
     }
     .twl {
@@ -42,17 +42,17 @@
       margin: 2rem 0px;
       .tw {
         font-family: Poppins;
-        font-size: 46px;
+        font-size: 2.75rem;
         font-weight: 500;
-        line-height: 69px;
+        line-height: 3.75rem;
         letter-spacing: 0em;
         // text-align: center;
       }
       .learn {
         font-family: Poppins;
-        font-size: 75px;
+        font-size: 4rem;
         font-weight: 700;
-        line-height: 112px;
+        line-height: 5rem;
         letter-spacing: 0em;
         text-align: left;
         // color: #3d86f6;
@@ -63,15 +63,17 @@
     position: absolute;
     width: 50%;
     left: 50%;
+    bottom: 3rem;
     height: 100%;
   }
 }
 
 .scroll-gif {
   position: absolute;
-  top: 90vh;
+  top: calc(90vh - var(--navbar-height));
   left: 50%;
   transform: translateX(-50%);
+  cursor: pointer;
 }
 
 @keyframes animscroll {

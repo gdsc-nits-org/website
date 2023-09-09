@@ -1,8 +1,8 @@
 import React from "react";
 import logo from "../../assets/images/logo.png";
 import rightArrow from "../../assets/images/rightArrow.svg";
-// import timeline from "./timeline.json";
-import timelineData from "/public/events.json";
+import timelineData from "./timeline.json";
+// import timelineData from "/public/events.json";
 
 import "./Timeline.scss";
 
@@ -10,21 +10,6 @@ function Timeline() {
   // const [timelineData] = useState(timeline.events);
   let dist = 0;
   let isRev = false;
-
-  const months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December",
-  ];
 
   const timelineScroll = () => {
     if (
@@ -56,26 +41,18 @@ function Timeline() {
         </div>
         <div id="timeline-wrapper" className="timeline-wrapper">
           <div id="timeline-bar" className="timeline-bar">
-            {timelineData.map((timelineData, idx) => {
+            {timelineData.events.map((d, idx) => {
               return (
                 <div
                   className="timeline-circle"
                   key={idx}
-                  style={{ backgroundColor: timelineData.theme }}
-                  // style={{ backgroundColor: '#3CBA54' }}
+                  style={{ backgroundColor: d.color }}
                 >
                   <div className="timeline-stick">
                     <div className="timeline-event-content">
-                      <img
-                        src={timelineData.logo}
-                        alt=""
-                        className="timeline-event-logo"
-                      />
-                      <h3 className="timeline-event-name">{timelineData.title}</h3>
-                      <h4 className="timeline-event-date">
-                        {months[timelineData.time.split("-")[1]]}{" "}
-                        {timelineData.time.split("-")[0]}
-                      </h4>
+                      <img src={d.src} alt="" className="timeline-event-logo" />
+                      <h3 className="timeline-event-name">{d.name}</h3>
+                      <h4 className="timeline-event-date">{d.date}</h4>
                     </div>
                   </div>
                 </div>
