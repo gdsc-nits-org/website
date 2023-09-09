@@ -21,21 +21,34 @@ const DataCard = ({ info }) => {
 
   return (
     <div className={Styles.basis_buffer}>
-      <a href={info.link} target="_blank" rel="noreferrer" className={Styles.card}>
-        <img src={info.logo} alt="" className={Styles.card_img} />
-        <div className={Styles.info}>
-          <div className={Styles.date}>{`${month[req_date.getUTCMonth()].slice(
-            0,
-            3
-          )} ${req_date.getUTCDate()}, ${req_date.getFullYear()}`}</div>
-          <div className={Styles.title}>
-            {info.title.slice(0, 30) + `${info.title.length > 30 ? "..." : ""}`}
+      <div className={Styles.card}>
+        <div className={Styles.flip_card}>
+          <div className={Styles.flip_card_front}>
+            <div className={Styles.flip_card_inner}>
+              <img src={info.logo} alt="" className={Styles.card_img} />
+              <div className={Styles.info}>
+                <div className={Styles.date}>{`${month[req_date.getUTCMonth()].slice(
+                  0,
+                  3
+                )} ${req_date.getUTCDate()}, ${req_date.getFullYear()}`}</div>
+                <div className={Styles.title}>
+                  {info.title.slice(0, 30) + `${info.title.length > 30 ? "..." : ""}`}
+                </div>
+              </div>
+            </div>
           </div>
-          <div className={Styles.subtitle}>
-            {info.desc.slice(0, 80) + `${info.desc.length > 80 ? "..." : ""}`}
+          <div className={Styles.flip_card_back}>
+            <div className={Styles.flip_card_inner}>
+              <div className={Styles.subtitle}>
+                {info.desc.slice(0, 100) + `${info.desc.length > 100 ? "..." : ""}`}
+              </div>
+              <a href={info.link}>
+                <button className={Styles.button}>Read More</button>
+              </a>
+            </div>
           </div>
         </div>
-      </a>
+      </div>
     </div>
   );
 };
