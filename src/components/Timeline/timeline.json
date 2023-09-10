@@ -1,36 +1,6 @@
 {
   "events": [
     {
-      "name": "Google Cloud Engineer Learning Path",
-      "date": "November 2022",
-      "color": "#4885ED",
-      "src": "/images/celpThumbnail.webp"
-    },
-    {
-      "name": "Kickstart to ReactJS",
-      "date": "November 2022",
-      "color": "#7cc5d9",
-      "src": "/images/reactJsIntroThumbnail.webp"
-    },
-    {
-      "name": "Prototype Planery",
-      "date": "February 2023",
-      "color": "#DB3236",
-      "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Prototype%20planary.png"
-    },
-    {
-      "name": "$ make --learn",
-      "date": "February 2023",
-      "color": "#EC8E24",
-      "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/ReactJs%20Thumbnail_KrATrjr.png"
-    },
-    {
-      "name": "Flutter Forward",
-      "date": "March 2023",
-      "color": "#4885ED",
-      "src": "/images/flutter.svg"
-    },
-    {
       "name": "Web Blitz 3.0",
       "date": "March 2023",
       "color": "#F4C20D",
@@ -53,6 +23,36 @@
       "date": "October 2023",
       "color": "#3CBA54",
       "src": "/images/composeCampThumbnail.webp"
+    },
+    {
+      "name": "Cloud Study Jam",
+      "date": "November 2023",
+      "color": "#4885ED",
+      "src": "/images/celpThumbnail.webp"
+    },
+    {
+      "name": "Typing with TypeScipt",
+      "date": "November 2023",
+      "color": "#7cc5d9",
+      "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/event_banners/gdev-eccosystems-bevy-chapters-thumbnail_NP7kmba.png"
+    },
+    {
+      "name": "Prototype Planery",
+      "date": "January 2024",
+      "color": "#DB3236",
+      "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Prototype%20planary.png"
+    },
+    {
+      "name": "Switch to Backend 2.0",
+      "date": "February 2024",
+      "color": "#EC8E24",
+      "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/NATRAAJ%20%2824%29.webp"
+    },
+    {
+      "name": "Flutter Forward",
+      "date": "March 2024",
+      "color": "#4885ED",
+      "src": "/images/flutter.svg"
     }
   ]
 }
