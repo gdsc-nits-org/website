@@ -1,0 +1,78 @@
+.container {
+  height: 27rem;
+  width: 20rem;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  border: 0.5px solid #9a9494;
+  border-radius: 8px;
+  box-sizing: border-box;
+  box-shadow: -4px -4px 12px 0px #f2f2f240;
+  box-shadow: 4px 4px 12px 0px #4f4f4f33;
+  overflow: hidden;
+  transition: all 300ms ease-in-out;
+  .image {
+    object-fit: cover;
+    img {
+      height: 20rem;
+      aspect-ratio: 1;
+      transition: all 300ms ease-in-out;
+      object-fit: cover;
+      vertical-align: middle;
+    }
+  }
+  .data {
+    .name {
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+    .designation {
+      font-weight: 500;
+    }
+    .department {
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  }
+  .links {
+    transition: all 300ms ease-in-out;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2.75rem;
+    .logo {
+      position: relative;
+      align-items: center;
+      .socialicon {
+        scale: 1.625;
+        color: #232323 !important;
+        &:hover {
+          transition: transform 300ms ease-in-out;
+          transform: scale(1.5);
+        }
+      }
+    }
+  }
+}
+
+.container:hover {
+  transition: all 300ms ease-in-out;
+  img {
+    height: 16rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin-top: 1rem;
+  }
+  .data {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .links {
+    transition: all 300ms ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+}

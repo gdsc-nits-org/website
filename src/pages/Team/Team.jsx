@@ -1,8 +1,10 @@
 import React, { useState, useRef } from "react";
 import "./Team.scss";
 import TeamHome from "../../components/Hero-lottie/HeroLottie.jsx";
+import FacultyTeamCard from "../../components/Team/FacultyTeamCard/FacultyTeamCard";
 import TeamCard from "../../components/Team/Team-Card/TeamCard";
 import FilterModule from "../../components/Team/Team-Filter/FilterModule";
+import Faculty from "../../assets/data/Faculty";
 import TeamData from "../../assets/data/Data";
 import ScrollToSection from "../../components/ScrollToSection/ScrollToSection";
 
@@ -21,6 +23,7 @@ function data(value) {
     />
   );
 }
+
 const Team = () => {
   ScrollToSection();
   let currentBatch = "2023-24";
@@ -30,9 +33,9 @@ const Team = () => {
 
   // const sortArray = (x, y) => (x.Name < y.Name ? -1 : 1);
   const sortArray = (x, y) => {
-      const collator = new Intl.Collator("en", { sensitivity: "base"});
-      return collator.compare(x.Name, y.Name);
-  }
+    const collator = new Intl.Collator("en", { sensitivity: "base" });
+    return collator.compare(x.Name, y.Name);
+  };
 
   const DropDownRef = useRef();
 
@@ -43,6 +46,14 @@ const Team = () => {
     setModuleValue(filterModule);
   }
   let filterByDomain = false;
+
+  const FacultyAdvisor = Faculty.filter((m) =>
+    filterBatchValue === "2022-23" ||
+    filterBatchValue === "2023-24" ||
+    filterBatchValue === "2024-25"
+      ? m.batch.includes(filterBatchValue)
+      : currentBatch
+  );
 
   let filteredMemberList = newMemeberList.filter((member) =>
     filterBatchValue === "2022-23" ||
@@ -73,9 +84,7 @@ const Team = () => {
   );
 
   const sortedCoreMemberList = (() => {
-    const lead = CoreMemberList.filter(
-      (member) => member.Description == "Lead"
-    );
+    const lead = CoreMemberList.filter((member) => member.Description == "Lead");
     const mods = CoreMemberList.filter(
       (member) => member.Description.split(" ")[1] == "Moderator"
     );
@@ -117,6 +126,14 @@ const Team = () => {
           // option3="2024-25"
           filterModuleData={onBatchValueSelected}
         />
+      </div>
+      <div className="member-title" id="core">
+        Faculty Advisor
+      </div>
+      <div className="grid">
+        {FacultyAdvisor.map((d, i) => (
+          <FacultyTeamCard {...d} key={i} />
+        ))}
       </div>
 
       {filterByDomain ? (
