@@ -2,7 +2,7 @@ const Faculty = [
   {
     name: "Dr. Malaya Dutta Baruah",
     batch: ["2022-23", "2023-24"],
-    img: "/public/images/malaya.webp",
+    img: "/images/malaya.webp",
     designation: "Assistant Professor",
     department: "Computer Science & Engineering",
     website: "http://cs.nits.ac.in/malaya/",
