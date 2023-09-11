@@ -9,25 +9,13 @@ import TeamData from "../../assets/data/Data";
 import ScrollToSection from "../../components/ScrollToSection/ScrollToSection";
 
 function data(value) {
-  return (
-    <TeamCard
-      key={value._id}
-      ImageSrc={value.imageSrc}
-      Name={value.Name}
-      Domain={value.Domain}
-      Description={value.Description}
-      Website={value.Website}
-      Linkdin={value.Linkdin}
-      Facebook={value.Facebook}
-      Github={value.Github}
-    />
-  );
+  return <TeamCard {...value} key={value._id} />;
 }
 
 const Team = () => {
   ScrollToSection();
   let currentBatch = "2023-24";
-  let [newMemeberList] = useState(TeamData);
+  let [newMemberList] = useState(TeamData);
   let [filterBatchValue, setBatchValue] = useState(currentBatch);
   let [filterModuleValue, setModuleValue] = useState("All");
 
@@ -55,7 +43,7 @@ const Team = () => {
       : currentBatch
   );
 
-  let filteredMemberList = newMemeberList.filter((member) =>
+  let filteredMemberList = newMemberList.filter((member) =>
     filterBatchValue === "2022-23" ||
     filterBatchValue === "2023-24" ||
     filterBatchValue === "2024-25"
@@ -131,8 +119,8 @@ const Team = () => {
         Faculty Advisor
       </div>
       <div className="grid">
-        {FacultyAdvisor.map((d, i) => (
-          <FacultyTeamCard {...d} key={i} />
+        {FacultyAdvisor.map((d) => (
+          <FacultyTeamCard {...d} key={d._id} />
         ))}
       </div>
 
