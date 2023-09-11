@@ -13,11 +13,10 @@ const TeamCard = (props) => {
     <div
       className={styles.core_mem}
       style={{ height: displayID === "none" ? "24rem" : "26rem" }}
-      key={props._id}
     >
       <div className={styles.body}>
         <div className={styles.core_images}>
-          <img src={props.ImageSrc} alt="member avatar" loading="lazy" />
+          <img src={props.imageSrc} alt="member avatar" loading="lazy" />
         </div>
         <div className={styles.details}>
           <h3 className={styles.core_title}>{props.Name}</h3>

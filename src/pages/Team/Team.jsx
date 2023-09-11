@@ -9,20 +9,7 @@ import TeamData from "../../assets/data/Data";
 import ScrollToSection from "../../components/ScrollToSection/ScrollToSection";
 
 function data(value) {
-  return (
-    <TeamCard
-      key={value._id}
-      ImageSrc={value.imageSrc}
-      Name={value.Name}
-      Domain={value.Domain}
-      Description={value.Description}
-      Website={value.Website}
-      Linkdin={value.Linkdin}
-      Facebook={value.Facebook}
-      Github={value.Github}
-      Behance={value.Behance}
-    />
-  );
+  return <TeamCard {...value} key={value._id} />;
 }
 
 const Team = () => {
