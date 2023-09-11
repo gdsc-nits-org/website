@@ -5,7 +5,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/AniruddhaDutta_ipghak.jpg",
     Name: "Aniruddha Dutta",
-    Domain: "GDSC, NIT Silchar",
+    Domain: "Web",
     Description: "Lead",
     Linkdin: "https://www.linkedin.com/in/aniruddha-dutta-naz/",
     Facebook: "https://www.facebook.com/aniruddha.dutta.naz/",
@@ -270,7 +270,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017421/gdsc%20seniors/team_pics/ParthapratimDeka_ad18y0.jpg",
     Name: "Partha Pratim Deka",
-    Domain: "GDSC, NIT Silchar",
+    Domain: "Web",
     Description: "",
     Linkdin: "https://www.linkedin.com/in/partha-pratim-deka-46a406203/",
     Facebook: "https://www.facebook.com/profile.php?id=100076429322657",
