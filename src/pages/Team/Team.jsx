@@ -20,6 +20,7 @@ function data(value) {
       Linkdin={value.Linkdin}
       Facebook={value.Facebook}
       Github={value.Github}
+      Behance={value.Behance}
     />
   );
 }
@@ -27,7 +28,7 @@ function data(value) {
 const Team = () => {
   ScrollToSection();
   let currentBatch = "2023-24";
-  let [newMemeberList] = useState(TeamData);
+  let [newMemberList] = useState(TeamData);
   let [filterBatchValue, setBatchValue] = useState(currentBatch);
   let [filterModuleValue, setModuleValue] = useState("All");
 
@@ -55,7 +56,7 @@ const Team = () => {
       : currentBatch
   );
 
-  let filteredMemberList = newMemeberList.filter((member) =>
+  let filteredMemberList = newMemberList.filter((member) =>
     filterBatchValue === "2022-23" ||
     filterBatchValue === "2023-24" ||
     filterBatchValue === "2024-25"
@@ -131,8 +132,8 @@ const Team = () => {
         Faculty Advisor
       </div>
       <div className="grid">
-        {FacultyAdvisor.map((d, i) => (
-          <FacultyTeamCard {...d} key={i} />
+        {FacultyAdvisor.map((d) => (
+          <FacultyTeamCard {...d} key={d._id} />
         ))}
       </div>
 

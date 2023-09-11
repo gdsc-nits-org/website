@@ -1,5 +1,11 @@
 import styles from "./TeamCard.module.scss";
-import { FaGlobe, FaLinkedin, FaFacebook, FaGithub } from "react-icons/fa";
+import {
+  FaGlobe,
+  FaLinkedin,
+  FaFacebook,
+  FaGithub,
+  FaBehanceSquare,
+} from "react-icons/fa";
 
 const TeamCard = (props) => {
   const displayID = props.Description === "" ? "none" : "block";
@@ -59,6 +65,16 @@ const TeamCard = (props) => {
               rel="noreferrer"
             >
               <FaGithub className={styles.socialicon} />
+            </a>
+          )}
+          {props.Behance && (
+            <a
+              href={props.Behance}
+              className={styles.SocialLogoCore}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaBehanceSquare className={styles.socialicon} />
             </a>
           )}
         </div>

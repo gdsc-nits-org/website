@@ -1,5 +1,6 @@
 const Faculty = [
   {
+    _id: 1,
     name: "Dr. Malaya Dutta Baruah",
     batch: ["2022-23", "2023-24"],
     img: "/images/malaya.webp",
@@ -10,6 +11,7 @@ const Faculty = [
     mail: "malayaduttaborah@cse.nits.ac.in",
   },
   {
+    _id: 2,
     name: "Dr. Wasim Arif",
     batch: ["2021-22"],
     img: "http://ec.nits.ac.in/wp-content/uploads/2022/02/252856543_10228065030078886_3525247611489912406_n.jpg",
