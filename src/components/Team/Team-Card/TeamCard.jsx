@@ -36,9 +36,9 @@ const TeamCard = (props) => {
               <FaGlobe className={styles.socialicon} />
             </a>
           )}
-          {props.Linkdin && (
+          {props.Linkedin && (
             <a
-              href={props.Linkdin}
+              href={props.Linkedin}
               className={styles.SocialLogoCore}
               target="_blank"
               rel="noreferrer"
