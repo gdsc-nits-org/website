@@ -15,8 +15,6 @@ Google Developer Student Clubs (GDSC) NIT Silchar is a student-led community tha
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript, ReactJS
-- **Backend:** Node.js, Express.js 
-- **Database:** MongoDB 
 - **Version Control:** Git, GitHub
 - **Tools Used For UI/UX:** Figma, Lottiefiles, Adobe After-Effects
 
