@@ -6,6 +6,9 @@ Welcome to the GDSC NIT Silchar's official website repository! This website serv
 
 Google Developer Student Clubs (GDSC) NIT Silchar is a student-led community that aims to inspire and guide developers, innovators, and problem-solvers. We organize workshops, hackathons, and tech talks to enhance technical skills and foster innovation. Our main aim is to empower developers around North-East India and also to have a national and international presence.
 
+### Our Motto
+Together We - Learn, Build, Solve, Transcend
+
 ## Features
 
 - **Event Information:** Stay updated with our upcoming events and workshops.
@@ -26,9 +29,9 @@ To get a local copy of the project up and running, follow these simple steps:
    - git clone https://github.com/gdsc-nits-org/website.git
 2. Navigate to the project directory and install dependencies:
    - cd website
-   - npm install
+   - pnpm install
 3. Start the development server:
-   - npm start
+   - pnpm run dev
 
 4. Access the website at `http://localhost:3000` in your web browser.
 
