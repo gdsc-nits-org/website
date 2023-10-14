@@ -36,6 +36,7 @@ const Team = () => {
   let filterByDomain = false;
 
   const FacultyAdvisor = Faculty.filter((m) =>
+    filterBatchValue === "2021-22" ||
     filterBatchValue === "2022-23" ||
     filterBatchValue === "2023-24" ||
     filterBatchValue === "2024-25"
