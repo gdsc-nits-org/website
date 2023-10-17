@@ -3,7 +3,7 @@ import "./Filter.scss";
 const FilterModule = forwardRef((props, ref) => {
   const [viewDropDown, changeViewDropDown] = useState();
   const [filterValue, setFilterValue] = useState(props.title);
-  let rotate = ["triangle"];
+  const rotate = ["triangle"];
   const showDropDown = () => {
     if (viewDropDown === undefined) {
       changeViewDropDown("1");
