@@ -37,17 +37,17 @@ const Team = () => {
   let filterByDomain = false;
 
   const FacultyAdvisor = Faculty.filter((m) =>
+    filterBatchValue === "2021-22" ||
     filterBatchValue === "2022-23" ||
-    filterBatchValue === "2023-24" ||
-    filterBatchValue === "2024-25"
+    filterBatchValue === "2023-24"
       ? m.batch.includes(filterBatchValue)
       : currentBatch
   );
 
   const filteredMemberList = newMemberList.filter((member) =>
+    filterBatchValue === "2021-22" ||
     filterBatchValue === "2022-23" ||
-    filterBatchValue === "2023-24" ||
-    filterBatchValue === "2024-25"
+    filterBatchValue === "2023-24"
       ? member.Batch == `${filterBatchValue}`
       : currentBatch
   );
@@ -112,9 +112,9 @@ const Team = () => {
           ref={DropDownRef}
           className="filterByYear"
           title={currentBatch}
-          option1="2022-23"
-          option2="2023-24"
-          // option3="2024-25"
+          option1="2021-22"
+          option2="2022-23"
+          option3="2023-24"
           filterModuleData={onBatchValueSelected}
         />
       </div>
