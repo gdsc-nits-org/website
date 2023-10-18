@@ -14,7 +14,7 @@ const Faculty = [
     _id: 2,
     name: "Dr. Wasim Arif",
     batch: ["2021-22"],
-    img: "http://ec.nits.ac.in/wp-content/uploads/2022/02/252856543_10228065030078886_3525247611489912406_n.jpg",
+    img: "/images/wasim.webp",
     designation: "Associate Professor",
     department: "Electronics & Communication Engineering",
     website: "http://ec.nits.ac.in/arif/",
