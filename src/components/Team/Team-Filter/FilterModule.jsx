@@ -1,38 +1,20 @@
-import React, { useState, forwardRef, useImperativeHandle } from "react";
+import React, { useState } from "react";
 import "./Filter.scss";
-const FilterModule = forwardRef((props, ref) => {
-  const [viewDropDown, changeViewDropDown] = useState();
-  const [filterValue, setFilterValue] = useState(props.title);
-  const rotate = ["triangle"];
-  const showDropDown = () => {
-    if (viewDropDown === undefined) {
-      changeViewDropDown("1");
-      rotate.push("show");
-    } else {
-      changeViewDropDown();
-      rotate.push("hide");
-    }
-  };
-  useImperativeHandle(ref, () => ({
-    dropDown() {
-      if (viewDropDown === "1") {
-        changeViewDropDown();
-      } else {
-        return 0;
-      }
-    },
-  }));
+const FilterModule = (props) => {
+  const [viewDropDown, setViewDropDown] = useState(false);
+  const [filterValue, setFilterValue] = useState(props.default);
+  const showDropdown = () => setViewDropDown(!viewDropDown);
   const onModuleValueChanged = (event) => {
-    changeViewDropDown();
+    setViewDropDown(!viewDropDown);
     setFilterValue(event.target.textContent);
     props.filterModuleData(event.target.textContent);
   };
   return (
     <div className="filter">
-      <div className="dropDown" onClick={showDropDown}>
+      <div className="dropDown" onClick={showDropdown}>
         {filterValue}
       </div>
-      <div className={rotate.join(" ")}></div>
+      <div className="triangle" onClick={showDropdown}></div>
       {viewDropDown && (
         <ul className="dropDownContent">
           {props.option1 && (
@@ -69,7 +51,7 @@ const FilterModule = forwardRef((props, ref) => {
       )}
     </div>
   );
-});
+};
 
 FilterModule.displayName = "FilterModule";
 export default FilterModule;
