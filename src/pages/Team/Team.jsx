@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import "./Team.scss";
 import TeamHome from "../../components/Hero-lottie/HeroLottie.jsx";
 import FacultyTeamCard from "../../components/Team/FacultyTeamCard/FacultyTeamCard";
@@ -25,7 +25,7 @@ const Team = () => {
     return collator.compare(x.Name, y.Name);
   };
 
-  const DropDownRef = useRef();
+  // const DropDownRef = useRef();
 
   function onBatchValueSelected(event) {
     setBatchValue(event);
@@ -89,15 +89,15 @@ const Team = () => {
 
   return (
     <div
-      onClick={() => {
-        DropDownRef.current.dropDown();
-      }}
+    // onClick={() => {
+    //   DropDownRef.current.dropDown();
+    // }}
     >
       <TeamHome className="teamHome" page="team" />
       <div className="filter">
         <p className="sort">Sort By :</p>
         <FilterModule
-          ref={DropDownRef}
+          // ref={DropDownRef}
           className="filterByModule"
           title="Module"
           option1="All"
@@ -109,7 +109,7 @@ const Team = () => {
           filterModuleData={onModuleValueChanged}
         />
         <FilterModule
-          ref={DropDownRef}
+          // ref={DropDownRef}
           className="filterByYear"
           title={currentBatch}
           option1="2021-22"
