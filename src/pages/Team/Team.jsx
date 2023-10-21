@@ -1,11 +1,11 @@
-import React, { useState, useRef, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import "./Team.scss";
+import Faculty from "../../assets/data/Faculty";
+import TeamData from "../../assets/data/Data";
 import TeamHome from "../../components/Hero-lottie/HeroLottie.jsx";
 import FacultyTeamCard from "../../components/Team/FacultyTeamCard/FacultyTeamCard";
 import TeamCard from "../../components/Team/Team-Card/TeamCard";
 import FilterModule from "../../components/Team/Team-Filter/FilterModule";
-import Faculty from "../../assets/data/Faculty";
-import TeamData from "../../assets/data/Data";
 import ScrollToSection from "../../components/ScrollToSection/ScrollToSection";
 
 const MemberDetails = (d) => {
@@ -24,8 +24,6 @@ const Team = () => {
     const collator = new Intl.Collator("en", { sensitivity: "base" });
     return collator.compare(x.Name, y.Name);
   };
-
-  const DropDownRef = useRef();
 
   function onBatchValueSelected(event) {
     setBatchValue(event);
@@ -90,23 +88,18 @@ const Team = () => {
 
   const MemberList = useMemo(
     () =>
-      newFilteredMemberList.filter((member) => member.Description == "").sort(sortArray),
+      newFilteredMemberList.filter((member) => member.Description === "").sort(sortArray),
     [newFilteredMemberList]
   );
 
   return (
-    <div
-      onClick={() => {
-        DropDownRef.current.dropDown();
-      }}
-    >
+    <div>
       <TeamHome className="teamHome" page="team" />
       <div className="filter">
         <p className="sort">Sort By :</p>
         <FilterModule
-          ref={DropDownRef}
           className="filterByModule"
-          title="Module"
+          default="All"
           option1="All"
           option2="Web"
           option4="UI/UX"
@@ -116,9 +109,8 @@ const Team = () => {
           filterModuleData={onModuleValueChanged}
         />
         <FilterModule
-          ref={DropDownRef}
           className="filterByYear"
-          title={currentBatch}
+          default={currentBatch}
           option1="2021-22"
           option2="2022-23"
           option3="2023-24"

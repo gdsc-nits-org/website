@@ -1215,7 +1215,6 @@ const TeamData = [
     Description: "",
     imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625116/GDSC%20Members/jh3j6dfooeusct25z0ae.webp",
     Linkedin: "https://www.linkedin.com/in/aman-singh-967897214",
-    Facebook: "https://m.facebook.com/profile.php?ref=bookmarks",
     Github: "https://github.com/UniMan420",
     Domain: "Flutter",
   },
@@ -1562,8 +1561,8 @@ const TeamData = [
     Domain: "Android",
     Description: "Android Moderator",
     Linkedin: "https://www.linkedin.com/in/ayush-gupta-47a430201/",
-    Facebook: "#",
-    Github: "",
+    Facebook: "https://www.facebook.com/profile.php?id=100058445922286",
+    Github: "https://github.com/Ayush-123456",
   },
   {
     _id: 135,
