@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import "./Team.scss";
+import Faculty from "../../assets/data/Faculty";
+import TeamData from "../../assets/data/Data";
 import TeamHome from "../../components/Hero-lottie/HeroLottie.jsx";
 import FacultyTeamCard from "../../components/Team/FacultyTeamCard/FacultyTeamCard";
 import TeamCard from "../../components/Team/Team-Card/TeamCard";
 import FilterModule from "../../components/Team/Team-Filter/FilterModule";
-import Faculty from "../../assets/data/Faculty";
-import TeamData from "../../assets/data/Data";
 import ScrollToSection from "../../components/ScrollToSection/ScrollToSection";
 
-function data(value) {
-  return <TeamCard {...value} key={value._id} />;
-}
+const MemberDetails = (d) => {
+  return <TeamCard {...d} key={d._id} />;
+};
 
 const Team = () => {
   ScrollToSection();
@@ -34,46 +34,47 @@ const Team = () => {
 
   let filterByDomain = false;
 
-  const FacultyAdvisor = Faculty.filter((m) =>
-    filterBatchValue === "2021-22" ||
-    filterBatchValue === "2022-23" ||
-    filterBatchValue === "2023-24"
-      ? m.batch.includes(filterBatchValue)
-      : currentBatch
+  const FacultyAdvisor = useMemo(
+    () =>
+      Faculty.filter((m) =>
+        filterBatchValue ? m.batch.includes(filterBatchValue) : currentBatch
+      ),
+    [filterBatchValue]
   );
 
-  const filteredMemberList = newMemberList.filter((member) =>
-    filterBatchValue === "2021-22" ||
-    filterBatchValue === "2022-23" ||
-    filterBatchValue === "2023-24"
-      ? member.Batch == `${filterBatchValue}`
-      : currentBatch
+  const filteredMemberList = useMemo(
+    () =>
+      newMemberList.filter((member) =>
+        filterBatchValue ? member.Batch === `${filterBatchValue}` : currentBatch
+      ),
+    [filterBatchValue]
   );
 
-  const GDSCLead = filteredMemberList.filter((member) => member.Description === "Lead");
-
-  const newFilteredMemberList = filteredMemberList.filter((member) => {
-    if (
-      filterModuleValue === "Web" ||
-      filterModuleValue === "Android" ||
-      filterModuleValue === "Flutter" ||
-      filterModuleValue === "Cloud" ||
-      filterModuleValue === "UI/UX"
-    ) {
-      filterByDomain = true;
-      return member.Domain == `${filterModuleValue}`;
-    } else return filteredMemberList;
-  });
-
-  const CoreMemberList = newFilteredMemberList.filter(
-    (member) => member.Description !== "" || member.Description !== "Lead"
+  const GDSCLead = useMemo(
+    () => filteredMemberList.filter((member) => member.Description === "Lead"),
+    [filteredMemberList]
   );
 
-  const OtherMemberList = newFilteredMemberList
-    .filter((member) => member.Description == "")
-    .sort(sortArray);
+  const newFilteredMemberList = useMemo(
+    () =>
+      filteredMemberList.filter((member) => {
+        if (filterModuleValue !== "All") {
+          filterByDomain = true;
+          return member.Domain == `${filterModuleValue}`;
+        } else return filteredMemberList;
+      }),
+    [filterModuleValue, filteredMemberList]
+  );
 
-  const sortedCoreMemberList = (() => {
+  const CoreMemberList = useMemo(
+    () =>
+      newFilteredMemberList.filter(
+        (member) => member.Description !== "" || member.Description !== "Lead"
+      ),
+    [newFilteredMemberList]
+  );
+
+  const sortedCoreMemberList = useMemo(() => {
     const mods = CoreMemberList.filter(
       (member) => member.Description.split(" ")[1] === "Moderator"
     );
@@ -83,7 +84,13 @@ const Team = () => {
     notMod.sort(sortArray);
     mods.sort(sortArray);
     return mods.concat(notMod);
-  })();
+  }, [CoreMemberList]);
+
+  const MemberList = useMemo(
+    () =>
+      newFilteredMemberList.filter((member) => member.Description === "").sort(sortArray),
+    [newFilteredMemberList]
+  );
 
   return (
     <div>
@@ -120,29 +127,29 @@ const Team = () => {
       </div>
 
       <div className="member-title">LEAD</div>
-      <div className="grid">{GDSCLead.map(data)}</div>
+      <div className="grid">{GDSCLead.map(MemberDetails)}</div>
 
       {filterByDomain ? (
         <>
           <div className="member-title" id="core">
             CORE MEMBERS
           </div>
-          <div className="grid">{sortedCoreMemberList.map(data)}</div>
+          <div className="grid">{sortedCoreMemberList.map(MemberDetails)}</div>
           <div className="member-title" id="members">
             MEMBERS
           </div>
-          <div className="grid">{OtherMemberList.map(data)}</div>
+          <div className="grid">{MemberList.map(MemberDetails)}</div>
         </>
       ) : (
         <>
           <div className="member-title" id="core">
             CORE MEMBERS
           </div>
-          <div className="grid">{sortedCoreMemberList.map(data)}</div>
+          <div className="grid">{sortedCoreMemberList.map(MemberDetails)}</div>
           <div className="member-title" id="members">
             MEMBERS
           </div>
-          <div className="grid">{OtherMemberList.map(data)}</div>
+          <div className="grid">{MemberList.map(MemberDetails)}</div>
         </>
       )}
     </div>
