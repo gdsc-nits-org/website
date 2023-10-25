@@ -2,7 +2,7 @@ const Faculty = [
   {
     _id: 1,
     name: "Dr. Malaya Dutta Baruah",
-    batch: ["2022-23", "2023-24"],
+    batch: ["2021-22", "2022-23", "2023-24"],
     img: "/images/malaya.webp",
     designation: "Assistant Professor",
     department: "Computer Science & Engineering",
@@ -13,7 +13,7 @@ const Faculty = [
   {
     _id: 2,
     name: "Dr. Wasim Arif",
-    batch: ["2021-22"],
+    batch: ["2020-21"],
     img: "/images/wasim.webp",
     designation: "Associate Professor",
     department: "Electronics & Communication Engineering",
