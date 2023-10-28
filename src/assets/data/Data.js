@@ -1287,7 +1287,7 @@ const TeamData = [
   {
     _id: 110,
     Name: "Biju Borah",
-    Batch: "2022-23",
+    Batch: "2021-22",
     Description: "",
     imageSrc: "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/tmfhmgmvttpoti47nbov",
     Linkedin: "https://www.linkedin.com/in/biju-borah-1bb78620a/",
