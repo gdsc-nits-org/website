@@ -11,7 +11,6 @@ const Faqs = () => {
       return setSelected(null);
     }
     setSelected(i);
-    setTimeout(() => setSelected(null), 200);
   };
 
   useEffect(() => {

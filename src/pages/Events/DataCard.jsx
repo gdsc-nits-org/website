@@ -42,8 +42,7 @@ const DataCard = ({ info }) => {
               <div className={Styles.subtitle}>
                 {info.desc.slice(0, 100) + `${info.desc.length > 100 ? "..." : ""}`}
               </div>
-              {/* <a href={info.link}> */}
-              <a href="events-info">
+              <a href={info.link}>
                 <button className={Styles.button}>Read More</button>
               </a>
             </div>

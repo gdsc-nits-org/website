@@ -22,7 +22,7 @@ const Sponsors = () => {
       id: 3,
       logo: reskillXsparkLogo,
       title: "Reskill & SparkAR",
-      link: "https://sparkar.reskilll.com/",
+      link: "https://reskilll.com/",
     },
   ];
 

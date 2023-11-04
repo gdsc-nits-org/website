@@ -8,27 +8,27 @@ import "./Timeline.scss";
 
 function Timeline() {
   // const [timelineData] = useState(timeline.events);
-  // let dist = 0;
-  // let isRev = false;
+  let dist = 0;
+  let isRev = false;
 
   const timelineScroll = () => {
-    // if (
-    //   dist <= document.getElementById("timeline-wrapper").clientWidth &&
-    //   isRev == false
-    // ) {
-    //   document.getElementById("timeline-wrapper").scrollLeft += window.innerWidth / 3;
-    //   dist += window.innerWidth / 3;
-    //   if (dist >= document.getElementById("timeline-wrapper").clientWidth) {
-    //     document.getElementById("timeline-scroll-button").style.transform =
-    //       "rotate(180deg)";
-    //     isRev = true;
-    //   }
-    // } else if (isRev == true) {
-    //   document.getElementById("timeline-wrapper").scrollLeft = 0;
-    //   dist = 0;
-    //   document.getElementById("timeline-scroll-button").style.transform = "rotate(0deg)";
-    //   isRev = false;
-    // }
+    if (
+      dist <= document.getElementById("timeline-wrapper").clientWidth &&
+      isRev == false
+    ) {
+      document.getElementById("timeline-wrapper").scrollLeft += window.innerWidth / 3;
+      dist += window.innerWidth / 3;
+      if (dist >= document.getElementById("timeline-wrapper").clientWidth) {
+        document.getElementById("timeline-scroll-button").style.transform =
+          "rotate(180deg)";
+        isRev = true;
+      }
+    } else if (isRev == true) {
+      document.getElementById("timeline-wrapper").scrollLeft = 0;
+      dist = 0;
+      document.getElementById("timeline-scroll-button").style.transform = "rotate(0deg)";
+      isRev = false;
+    }
   };
   return (
     <div id="timeLine" className="timeline-container">
