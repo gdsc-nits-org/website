@@ -10,7 +10,7 @@ import ProjectsShow from "./components/ProjectsCard/ProjectsShow";
 import Page404 from "./pages/PageNotFound/Page404";
 import Navbar from "./components/Navbar/Navbar";
 import Events from "./pages/Events/Events";
-import Blog from './components/Blog';
+import Blog from "./components/Blog";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
