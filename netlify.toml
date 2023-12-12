@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/blog"
+  to = "https://gdscnits.hashnode.dev"
+  status = 302
+  force = true
