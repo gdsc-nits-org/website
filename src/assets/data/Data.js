@@ -993,8 +993,7 @@ const TeamData = [
     Name: "Jyotimoy Kashyap",
     Batch: "2021-22",
     Description: "Lead",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694700621/GDSC%20Members/amnznuzexedc4yf4vk6a.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694700621/GDSC%20Members/amnznuzexedc4yf4vk6a.webp",
     Facebook: "https://www.facebook.com/jyotimoy.kashyap.33",
     Github: "https://github.com/JyotimoyKashyap",
     Linkedin: "https://www.linkedin.com/in/jyotimoy-kashyap-62a792190/",
@@ -1005,8 +1004,7 @@ const TeamData = [
     Name: "Aditya Agarwal",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625114/GDSC%20Members/tnx7vq0io3bugklb11sk.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625114/GDSC%20Members/tnx7vq0io3bugklb11sk.webp",
     Facebook: "https://www.facebook.com/profile.php?id=100009177385701",
     Github: "https://github.com/aditya2712",
     Linkedin: "https://www.linkedin.com/in/aditya-agarwal-1b26301a0/",
@@ -1017,8 +1015,7 @@ const TeamData = [
     Name: "Gaurav Das",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1697394931/gdsc%20seniors/team_pics/gaurav-das_colaec.webp",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1697394931/gdsc%20seniors/team_pics/gaurav-das_colaec.webp",
     Facebook: "https://www.facebook.com/gaurav.das.338211",
     Github: "https://github.com/gauravdas014",
     Linkedin: "https://www.linkedin.com/in/gauravdas014/",
@@ -1029,8 +1026,7 @@ const TeamData = [
     Name: "Shivam Kumar",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703342/g2/c6yle6tdyyjkytrc8x48.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703342/g2/c6yle6tdyyjkytrc8x48.webp",
     Facebook: "https://www.facebook.com/shiva.om.92754/",
     Github: "https://github.com/shivaom02",
     Linkedin: "https://www.linkedin.com/in/shivam-kumar-892b491b3",
@@ -1041,8 +1037,7 @@ const TeamData = [
     Name: "Anusha Hazarika",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625116/GDSC%20Members/vz7iwwqs6x5tsktvzvkw.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625116/GDSC%20Members/vz7iwwqs6x5tsktvzvkw.webp",
     Facebook: "https://www.facebook.com/Anusha.Hazarika.1/",
     Github: "https://github.com/AnushaHazarika",
     Linkedin: "https://www.linkedin.com/in/anusha-h-7264bab4/",
@@ -1053,8 +1048,7 @@ const TeamData = [
     Name: "Nishi Sekhani",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702341/g2/lylj5rdkcpggojftulvp.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702341/g2/lylj5rdkcpggojftulvp.webp",
     Facebook: "https://www.facebook.com/nishi.sekhani/",
     Github: "https://github.com/nishisekhani",
     Linkedin: "https://www.linkedin.com/in/nishi-sekhani-544a7a1b2/",
@@ -1065,8 +1059,7 @@ const TeamData = [
     Name: "Debojyoti Das",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625123/GDSC%20Members/rdruepu8hjmu13zfk0wl.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625123/GDSC%20Members/rdruepu8hjmu13zfk0wl.webp",
     Facebook: "https://www.facebook.com/debojyoti.das.52206/",
     Github: "https://github.com/Debojyoti1915001",
     Linkedin: "https://www.linkedin.com/in/debojyoti-das-84b72719a/",
@@ -1077,8 +1070,7 @@ const TeamData = [
     Name: "Sujata Baroi",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703560/g2/xli6he7pgdmys1l81bbt.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703560/g2/xli6he7pgdmys1l81bbt.webp",
     Facebook: "https://www.facebook.com/sujata.baroi.3",
     Github: "https://github.com/Sujata-Baroi",
     Linkedin: "https://www.linkedin.com/in/sujata-baroi-8788a6162",
@@ -1089,8 +1081,7 @@ const TeamData = [
     Name: "Dhritiraj Borah",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694699980/GDSC%20Members/u8eztnc7lkkn8ajgabo5.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694699980/GDSC%20Members/u8eztnc7lkkn8ajgabo5.webp",
     Facebook: "https://www.facebook.com/dhriti.borah.52/",
     Github: "https://github.com/phantomcoder11",
     Linkedin: "https://www.linkedin.com/in/dhritiraj-borah-a0073b192",
@@ -1101,8 +1092,7 @@ const TeamData = [
     Name: "Shristi Sarma",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703345/g2/qjojqpapop9owhywpwjz.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703345/g2/qjojqpapop9owhywpwjz.webp",
     Facebook: "https://www.facebook.com/ria.sarma.733",
     Github: "https://github.com/sarma923",
     Linkedin: "https://www.linkedin.com/in/shristi-sarma-69619713a",
@@ -1113,8 +1103,7 @@ const TeamData = [
     Name: "Sanchayita Purkayastha",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703060/g2/tn4gxrdatv7aqdaefryl.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703060/g2/tn4gxrdatv7aqdaefryl.webp",
     Facebook: "https://www.facebook.com/sanchayita.purkayastha/",
     Github: "https://github.com/sanchayitapurkayastha",
     Linkedin: "https://www.linkedin.com/in/sanchayita-purkayastha-68b62b1a0/",
@@ -1125,8 +1114,7 @@ const TeamData = [
     Name: "Apoorv Aadarsh",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625118/GDSC%20Members/c6q21jnbjqvn5skbbrtp.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625118/GDSC%20Members/c6q21jnbjqvn5skbbrtp.webp",
     Facebook: "https://www.facebook.com/apoorv.aadarsh",
     Github: "https://github.com/apoorvaadarsh",
     Linkedin: "https://www.linkedin.com/in/apoorv-aadarsh-56a5731b5/",
@@ -1137,8 +1125,7 @@ const TeamData = [
     Name: "Soumya Ranjan Mohapatra",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703464/g2/rkv93mjxvwmyud0ulmfu.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703464/g2/rkv93mjxvwmyud0ulmfu.webp",
     Facebook: "https://www.facebook.com/soumyaranjan.mohapatro.3",
     Github: "https://github.com/SoumyaCMC",
     Linkedin: "https://www.linkedin.com/in/soumya-ranjan-mohapatro-47644b1a0",
@@ -1149,8 +1136,7 @@ const TeamData = [
     Name: "Shashwat Priyadarshy",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703256/g2/metxz2lpqndbyvqo5667.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703256/g2/metxz2lpqndbyvqo5667.webp",
     Facebook: "https://www.facebook.com/shashwat.priyadarshy.3/",
     Github: "https://github.com/reverope/",
     Linkedin: "https://www.linkedin.com/in/shashwatpriyadarshy/",
@@ -1161,8 +1147,7 @@ const TeamData = [
     Name: "Diganta Pawan Dixit",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625122/GDSC%20Members/sgiwzpo1jb0duvu213br.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625122/GDSC%20Members/sgiwzpo1jb0duvu213br.webp",
     Facebook: "https://www.facebook.com/profile.php?id=100008474986315",
     Github: "https://github.com/DigantDixit",
     Linkedin: "https://www.linkedin.com/in/digant-pawan-dixit-8528b8199",
@@ -1173,8 +1158,7 @@ const TeamData = [
     Name: "Nihar Jyoti Basistha",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702298/g2/ekzllkexbsvpqoxkun03.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702298/g2/ekzllkexbsvpqoxkun03.webp",
     Facebook: "https://www.facebook.com/nihar.basisth.7",
     Github: "https://github.com/nightfury874",
     Linkedin: "https://www.linkedin.com/in/nihar-basisth-121b2319b",
@@ -1185,8 +1169,7 @@ const TeamData = [
     Name: "Sharmistha Das",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703258/g2/lllyyubl5q3duvvh0yv3.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703258/g2/lllyyubl5q3duvvh0yv3.webp",
     Facebook: "https://www.facebook.com/smiriti.das.798",
     Github: "https://github.com/sharmistha412",
     Linkedin: "https://www.linkedin.com/in/sharmistha-das-1626311a0",
@@ -1197,8 +1180,7 @@ const TeamData = [
     Name: "Arkadeep Kashyap",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625119/GDSC%20Members/kjl0syberxle5xhgvlqi.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625119/GDSC%20Members/kjl0syberxle5xhgvlqi.webp",
     Facebook: "https://www.facebook.com/arko.kashyap",
     Github: "https://github.com/kashyaparka",
     Linkedin: "https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7",
@@ -1209,8 +1191,7 @@ const TeamData = [
     Name: "Milind Barman",
     Batch: "2021-22",
     Description: "Core Member",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694701862/g2/qybxlreuep55yc4tns1w.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694701862/g2/qybxlreuep55yc4tns1w.webp",
     Facebook: "https://m.facebook.com/milind.barman.7",
     Github: "https://github.com/milibar30",
     Linkedin: "https://www.linkedin.com/mwlite/in/milind-barnan-729958166",
@@ -1221,8 +1202,7 @@ const TeamData = [
     Name: "Adrita Buragohain",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017420/gdsc%20seniors/team_pics/AdritaBuragohain_sisjxo.jpg",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017420/gdsc%20seniors/team_pics/AdritaBuragohain_sisjxo.jpg",
     Linkedin: "https://www.linkedin.com/in/adrita-buragohain-460080219",
     Facebook: "https://www.facebook.com/adrita.buragohain.7",
     Github: "https://github.com/Adrita2002",
@@ -1233,8 +1213,7 @@ const TeamData = [
     Name: "Aman Singh",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625116/GDSC%20Members/jh3j6dfooeusct25z0ae.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625116/GDSC%20Members/jh3j6dfooeusct25z0ae.webp",
     Linkedin: "https://www.linkedin.com/in/aman-singh-967897214",
     Github: "https://github.com/UniMan420",
     Domain: "Flutter",
@@ -1244,8 +1223,7 @@ const TeamData = [
     Name: "Aniruddha Dutta",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/AniruddhaDutta_ipghak.jpg",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017416/gdsc%20seniors/team_pics/AniruddhaDutta_ipghak.jpg",
     Linkedin: "https://www.linkedin.com/in/aniruddha-dutta-naz/",
     Facebook: "https://www.facebook.com/aniruddha.dutta.naz/",
     Github: "https://github.com/username-naz",
@@ -1256,8 +1234,7 @@ const TeamData = [
     Name: "Anurag Pathak",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625117/GDSC%20Members/c6ky2djgvkbuoknk38bn.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625117/GDSC%20Members/c6ky2djgvkbuoknk38bn.webp",
     Linkedin: "http://linkedin.com/in/anuragthepathak",
     Facebook: "http://facebook.com/realAnuragPathak",
     Github: "http://github.com/AnuragThePathak",
@@ -1268,8 +1245,7 @@ const TeamData = [
     Name: "Astha Das",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625119/GDSC%20Members/o1veujgtd0ubmie9udp5.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625119/GDSC%20Members/o1veujgtd0ubmie9udp5.webp",
     Linkedin: "https://www.linkedin.com/in/astha-das-658415222",
     Facebook: "https://www.facebook.com/astha.das.712161",
     Github: "https://github.com/Astha-12o",
@@ -1280,8 +1256,7 @@ const TeamData = [
     Name: "Ayush Gupta",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017425/gdsc%20seniors/team_pics/AyushGupta_pigzhg.jpg",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017425/gdsc%20seniors/team_pics/AyushGupta_pigzhg.jpg",
     Linkedin: "https://www.linkedin.com/in/gupta--ayush/",
     Facebook: "https://www.facebook.com/profile.php?id=100058445922286",
     Github: "https://github.com/Ayush-123456",
@@ -1292,8 +1267,7 @@ const TeamData = [
     Name: "Ayushman Paul",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694625119/GDSC%20Members/xz5elslunqcppbjnl47v.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694625119/GDSC%20Members/xz5elslunqcppbjnl47v.webp",
     Linkedin: "https://www.linkedin.com/in/ayushman-paul-82123b1b3/",
     Facebook: "https://www.facebook.com/profile.php?id=100021481925647",
     Github: "https://github.com/ayushman007",
@@ -1304,8 +1278,7 @@ const TeamData = [
     Name: "Bhaskar Wary",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017423/gdsc%20seniors/team_pics/BhaskarWary_wu7xhl.jpg",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017423/gdsc%20seniors/team_pics/BhaskarWary_wu7xhl.jpg",
     Linkedin: "https://www.linkedin.com/in/bhaskar-wary-50586a1b3/",
     Facebook: "https://www.facebook.com/bhaskar.wary.100",
     Github: "https://github.com/Bhaskar100-hub",
@@ -1316,8 +1289,7 @@ const TeamData = [
     Name: "Biju Borah",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/tmfhmgmvttpoti47nbov",
+    imageSrc: "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/tmfhmgmvttpoti47nbov",
     Linkedin: "https://www.linkedin.com/in/biju-borah-1bb78620a/",
     Facebook: "https://www.facebook.com/biju.borah.77582",
     Github: "https://github.com/biju-borah",
@@ -1328,8 +1300,7 @@ const TeamData = [
     Name: "Diya Karmakar",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017413/gdsc%20seniors/team_pics/DiyaKarmakar_cf3bnv.png",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017413/gdsc%20seniors/team_pics/DiyaKarmakar_cf3bnv.png",
     Linkedin: "https://www.linkedin.com/in/diya-karmakar-5a4b14190/",
     Facebook: "https://www.facebook.com/diya.karmakar.37625/",
     Github: "https://github.com/diyakarmakar779",
@@ -1340,8 +1311,7 @@ const TeamData = [
     Name: "Eisha Halder",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1697274912/gdsc%20seniors/team_pics/eisha_halder_1_ddibo8.webp",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1697274912/gdsc%20seniors/team_pics/eisha_halder_1_ddibo8.webp",
     Linkedin: "https://www.linkedin.com/in/eisha-halder-a42367200",
     Facebook: "https://www.facebook.com/eisha.halder.16",
     Github: "https://github.com/EishaH",
@@ -1352,8 +1322,7 @@ const TeamData = [
     Name: "Jyotishka Bhattacharjee",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017420/gdsc%20seniors/team_pics/JyotishkaBhattacharjee_d9m7mi.jpg",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017420/gdsc%20seniors/team_pics/JyotishkaBhattacharjee_d9m7mi.jpg",
     Linkedin: "https://www.linkedin.com/in/jyotishka-b-32995712b/",
     Facebook: "https://www.facebook.com/profile.php?id=100005647038947",
     Github: "https://github.com/jyotishka747",
@@ -1364,8 +1333,7 @@ const TeamData = [
     Name: "Manash Borah",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694701687/g2/w1sqikacvozyeo0198b4.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694701687/g2/w1sqikacvozyeo0198b4.webp",
     Linkedin: "https://www.linkedin.com/in/manashborah/",
     Facebook: "https://www.facebook.com/anurag.chakrawarti.3/",
     Github: "https://github.com/ManashX",
@@ -1376,8 +1344,7 @@ const TeamData = [
     Name: "Neha Pramanik",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702231/g2/qeqjdropvfs2efsrmadk.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702231/g2/qeqjdropvfs2efsrmadk.webp",
     Linkedin: "https://www.linkedin.com/in/neha-pramanik-808919202",
     Facebook: "https://www.facebook.com/profile.php?id=100011385968596",
     Github: "https://github.com/NehaPramanik/",
@@ -1388,8 +1355,7 @@ const TeamData = [
     Name: "Netrakamal Barua",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702230/g2/gbijbukcdqztp4aeinpc.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702230/g2/gbijbukcdqztp4aeinpc.webp",
     Linkedin: "https://www.linkedin.com/in/netrakamal-barua-377485219/",
     Facebook: "https://www.facebook.com/netrakamal.barua/",
     Github: "https://github.com/JOSU9435",
@@ -1400,8 +1366,7 @@ const TeamData = [
     Name: "Nikita Roy",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702296/g2/yqhejukl38akwqr0wwhm.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702296/g2/yqhejukl38akwqr0wwhm.webp",
     Linkedin: "https://www.linkedin.com/in/nikita-roy-615220192",
     Facebook: "https://www.facebook.com/profile.php?id=100017110333190",
     Github: "https://github.com/NikitaRoy22",
@@ -1412,8 +1377,7 @@ const TeamData = [
     Name: "Olindam Sarma",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702353/g2/fxpz7wcielw2unqdiygr.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702353/g2/fxpz7wcielw2unqdiygr.webp",
     Linkedin: "https://www.linkedin.com/in/olindam-sarma-477ab620b",
     Facebook: "https://www.facebook.com/olindam.sarma",
     Github: "https://github.com/Olindam20",
@@ -1424,8 +1388,7 @@ const TeamData = [
     Name: "Partha Pratim Bhuyan",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702583/g2/vsasbzmvnx4ohte090ec.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702583/g2/vsasbzmvnx4ohte090ec.webp",
     Linkedin: "https://www.linkedin.com/in/parthapratim-bhuyan-138925204/",
     Facebook: "https://www.facebook.com/parthapratim.bhuyan.77",
     Github: "https://github.com/Novice1414",
@@ -1436,8 +1399,7 @@ const TeamData = [
     Name: "Prakhar Saxena",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702636/g2/ynlolbpzo9praozykdle.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702636/g2/ynlolbpzo9praozykdle.webp",
     Linkedin: "https://www.linkedin.com/in/prakhar-saxena-a6a599201",
     Facebook: "https://m.facebook.com/100057333236767/",
     Github: "https://github.com/SkyWalkerPS",
@@ -1448,8 +1410,7 @@ const TeamData = [
     Name: "Pratik Majumdar",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702684/g2/srivhcjckkfyae9ypump.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702684/g2/srivhcjckkfyae9ypump.webp",
     Linkedin: "https://www.linkedin.com/in/codadept/",
     Facebook: "https://www.facebook.com/itspratikmaj",
     Github: "https://www.github.com/codadept",
@@ -1460,8 +1421,7 @@ const TeamData = [
     Name: "Raktim Bhuyan",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694702841/g2/mv6xag19fldiyshfnefq.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694702841/g2/mv6xag19fldiyshfnefq.webp",
     Linkedin: "https://www.linkedin.com/in/raktim-bhuyan-337299211",
     Facebook: "https://www.facebook.com/raktim.bhuyan.756",
     Github: "https://github.com/Raktim-Bhuyan",
@@ -1472,8 +1432,7 @@ const TeamData = [
     Name: "Ritam Nath",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703010/g2/nobh9cn03cahoykixj2c.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703010/g2/nobh9cn03cahoykixj2c.webp",
     Linkedin: "https://www.linkedin.com/in/ritam-nath-01780b201/",
     Facebook: "https://www.facebook.com/ritam.nath.735",
     Github: "https://github.com/Ritam02-cyber",
@@ -1484,8 +1443,7 @@ const TeamData = [
     Name: "Saurav Pal",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703148/g2/sdxa6nda33fp5mhib3nb.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703148/g2/sdxa6nda33fp5mhib3nb.webp",
     Linkedin: "https://www.linkedin.com/in/resyfer/",
     Facebook: "https://www.facebook.com/resyfer.dev/",
     Github: "https://github.com/resyfer",
@@ -1496,8 +1454,7 @@ const TeamData = [
     Name: "Sayahnneeta Dutta",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703152/g2/lv4sqrvrtatvvjcft3kk.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703152/g2/lv4sqrvrtatvvjcft3kk.webp",
     Linkedin: "https://www.linkedin.com/mwlite/in/sayahnneeta-dutta-2b4525187",
     Facebook: "https://m.facebook.com/100004857528784/",
     Github: "https://github.com/Sayahnneeta",
@@ -1508,8 +1465,7 @@ const TeamData = [
     Name: "Shayan Debroy",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703307/g2/pflfs1qhezeq1ry9jou9.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703307/g2/pflfs1qhezeq1ry9jou9.webp",
     Linkedin: "https://www.linkedin.com/in/shayan-debroy/",
     Facebook: "https://www.facebook.com/shayan.debroy.90",
     Github: "https://github.com/shayan-cyber",
@@ -1520,8 +1476,7 @@ const TeamData = [
     Name: "Shibam Debnath",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703309/g2/j1mkvt0ubnouvn3ha035.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703309/g2/j1mkvt0ubnouvn3ha035.webp",
     Linkedin: "https://www.linkedin.com/mwlite/in/shibam-debnath-25b235206",
     Facebook: "https://www.facebook.com/ind.iconic",
     Github: "https://github.com/shibam-debnath",
@@ -1532,8 +1487,7 @@ const TeamData = [
     Name: "Siddharta Shankar Paul",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017415/gdsc%20seniors/team_pics/SiddhartaShankarPaul_tiwief.jpg",
+    imageSrc: "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017415/gdsc%20seniors/team_pics/SiddhartaShankarPaul_tiwief.jpg",
     Linkedin: "https://www.linkedin.com/in/siddharta-paul-99a0891bb",
     Facebook: "https://www.facebook.com/siddharta.paul.71",
     Github: "https://github.com/Siddharta-paul",
@@ -1544,8 +1498,7 @@ const TeamData = [
     Name: "Vikas Suthar",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703690/g2/uz1mxibvgi13x8vlxcqw.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703690/g2/uz1mxibvgi13x8vlxcqw.webp",
     Linkedin: "https://www.linkedin.com/in/vikas-suthar-bb4678200",
     Facebook: "https://www.facebook.com/vikas.makkar.357",
     Github: "https://github.com/vikas528",
@@ -1556,8 +1509,7 @@ const TeamData = [
     Name: "Vinayak Das",
     Batch: "2021-22",
     Description: "",
-    imageSrc:
-      "https://res.cloudinary.com/draptrzrc/image/upload/v1694703727/g2/zpdmzkpktdvigstoevid.webp",
+    imageSrc: "https://res.cloudinary.com/draptrzrc/image/upload/v1694703727/g2/zpdmzkpktdvigstoevid.webp",
     Linkedin: "https://www.linkedin.com/in/phenyloder/",
     Facebook: "https://www.facebook.com/phenyloder",
     Github: "https://github.com/phenyloder",
