@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const UpcomingEvents = ({ umcomingEvents, Styles }) => {
+const UpcomingEvents = ({ upcomingEvents, Styles }) => {
   return (
     <>
       <h2 className={Styles.heading} id="upcoming">
@@ -10,24 +10,24 @@ const UpcomingEvents = ({ umcomingEvents, Styles }) => {
       <div className={Styles.uc_events_card}>
         <div className={Styles.upper_info}>
           <div className={Styles.logo}>
-            <img src={umcomingEvents.logo} alt="" />
+            <img src={upcomingEvents.logo} alt="" />
           </div>
           <div className={Styles.info}>
             <div className={Styles.title}>
-              <b>{umcomingEvents.date}</b> - {umcomingEvents.title}
+              <b>{upcomingEvents.date}</b> - {upcomingEvents.title}
             </div>
             <div className={Styles.badges}>
               <div className={Styles.subtitle}>
                 <b>
-                  {umcomingEvents.subtitle.slice(0, 30) +
-                    `${umcomingEvents.subtitle.length > 30 ? "..." : ""}`}
+                  {upcomingEvents.subtitle.slice(0, 30) +
+                    `${upcomingEvents.subtitle.length > 30 ? "..." : ""}`}
                 </b>
               </div>
-              <div className={Styles.badge}>{umcomingEvents.badge}</div>
+              <div className={Styles.badge}>{upcomingEvents.badge}</div>
             </div>
             {window.innerWidth > 800 ? (
               <>
-                <div className={Styles.desc}>{umcomingEvents.desc}</div>
+                <div className={Styles.desc}>{upcomingEvents.desc}</div>
               </>
             ) : (
               ""
@@ -39,7 +39,7 @@ const UpcomingEvents = ({ umcomingEvents, Styles }) => {
         </div>
         {window.innerWidth < 800 ? (
           <>
-            <div className={Styles.desc_mobile}>{umcomingEvents.desc}</div>
+            <div className={Styles.desc_mobile}>{upcomingEvents.desc}</div>
           </>
         ) : (
           ""

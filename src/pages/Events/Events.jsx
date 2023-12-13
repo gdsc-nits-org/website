@@ -2,18 +2,23 @@ import React, { useState } from "react";
 import Styles from "./Events.module.scss";
 import data from "/public/events.json";
 import DataCard from "./DataCard";
-import UpcomingEvents from "../../components/UpcomingEvents/UpcomingEvents";
 
 const Events = () => {
   const [pastEvents, setPastEvents] = useState("2023");
 
-  // const umcomingEvents_data = data.data[0];
+  const checkUpcoming = (info, idx) => {
+    if (new Date() - new Date(info.date) > 0) {
+      return <DataCard key={idx} info={info} upcoming={false} />;
+    } else {
+      return <DataCard key={idx} info={info} upcoming={true} />;
+    }
+  };
 
   return (
     <div className={Styles.events}>
       <div className={Styles.past_events}>
         <h2 className={Styles.past_events_heading} id="previous">
-          Past Events
+          Filter by Year
         </h2>
         <div className={Styles.dropdown}>
           <select
@@ -24,20 +29,21 @@ const Events = () => {
             }}
             value={pastEvents}
           >
+            <option value="All">All</option>
             <option value="2023">2023</option>
+            <option value="2024">2024</option>
           </select>
         </div>
       </div>
 
       <div className={Styles.cards}>
         {data.map((info, idx) => {
-          const date = new Date(info.time);
-          if (new Date() - date > 0) {
-            if (info.time.slice(0, 4) === pastEvents) {
-              return <DataCard key={idx} info={info} />;
-            }
+          if (pastEvents == "All") {
+            return checkUpcoming(info, idx);
           } else {
-            <UpcomingEvents key={idx} umcomingEvents={info} Styles={Styles} />;
+            if (info.date.slice(0, 4) === pastEvents) {
+              return checkUpcoming(info, idx);
+            }
           }
         })}
       </div>

@@ -2,8 +2,8 @@ import React from "react";
 import Styles from "./Events.module.scss";
 import PropTypes from "prop-types";
 
-const DataCard = ({ info }) => {
-  const req_date = new Date(info.time);
+const DataCard = ({ info, upcoming }) => {
+  const req_date = new Date(info.date);
   const month = [
     "January",
     "February",
@@ -24,13 +24,19 @@ const DataCard = ({ info }) => {
       <div className={Styles.card}>
         <div className={Styles.flip_card}>
           <div className={Styles.flip_card_front}>
-            <div className={Styles.flip_card_inner}>
+            <div
+              className={Styles.flip_card_inner}
+              style={upcoming ? { paddingTop: "3rem" } : null}
+            >
               <img src={info.logo} alt="" className={Styles.card_img} />
               <div className={Styles.info}>
-                <div className={Styles.date}>{`${month[req_date.getUTCMonth()].slice(
-                  0,
-                  3
-                )} ${req_date.getUTCDate()}, ${req_date.getFullYear()}`}</div>
+                <div className={Styles.date}>
+                  {upcoming
+                    ? info.upcoming
+                    : `${month[req_date.getUTCMonth()].slice(0, 3)}
+                  ${req_date.getUTCDate()}, ${req_date.getFullYear()}`}
+                </div>
+                {upcoming && <div className={Styles.upcoming}>(Upcoming)</div>}
                 <div className={Styles.title}>
                   {info.title.slice(0, 30) + `${info.title.length > 30 ? "..." : ""}`}
                 </div>

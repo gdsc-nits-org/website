@@ -1,18 +1,96 @@
 [
   {
+    "title": "Kickstart to ReactJS 3.0",
+    "date": "2024-04-30",
+    "upcoming": "April 2024",
+    "desc": "Learning ReactJS, the most popular framework for building reactive and modern websites, is imperative for every front-end developer. Join us as we dive deep into the React ecosystem.",
+    "logo": "/images/reactJsIntroThumbnail.webp"
+  },
+  {
+    "title": "GDSC Explore",
+    "date": "2024-03-30",
+    "upcoming": "March 2024",
+    "desc": "GDSC Explore was created in 2021 by multiple NorthEastern GDSCs in order to give new and ambitious developers the chance to show off their skills in the intensely competitive and exciting industry of development. Explore gives tech enthusiasts from various backgrounds a place to connect and learn about one another's perspectives on technology. Explore's intent has always been to establish a setting in which various seminars, speaker sessions, and tech presentations could emphasise the development culture of NorthEastern India.",
+    "logo": "/images/explore.svg"
+  },
+  {
+    "title": "Switch to Backend 2.0",
+    "date": "2024-03-30",
+    "upcoming": "March 2024",
+    "desc": "This session will provide attendees with hands-on experience and in-depth knowledge of using Node.js as a runtime environment and Express.js as a web framework to build scalable and fast backend systems. Additionally, attendees will learn about Passport.js, a popular authentication middleware for Node.js, and how to use Prisma ORM to handle database operations in a type-safe and efficient manner.",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/NATRAAJ%20%2824%29.webp"
+  },
+  {
+    "title": "Flutter Forward Extended",
+    "date": "2024-03-30",
+    "upcoming": "March 2024",
+    "desc": "Flutter is a popular mobile app development framework that has taken the app development industry by storm. It offers a fast and efficient way to create beautiful and highly functional mobile applications for both Android and iOS platforms. On the second day of the Flutter Forward Extended, we are going to organize a workshop where we will teach participants about the basics of Flutter and how to create a simple note-taking app using Flutter.",
+    "logo": "/images/flutter.svg"
+  },
+  {
+    "title": "Prototype Plenary 4.0",
+    "date": "2024-02-28",
+    "upcoming": "February 2024",
+    "desc": "Get ready to ignite your UI/UX journey with Prototype Plenary 4.0 Workshop! Organized by GDSC NIT Silchar, this workshop is the perfect opportunity for young enthusiasts to kickstart their career in design.",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Prototype%20planary.png"
+  },
+  {
+    "title": "Web Blitz 4.0",
+    "date": "2024-02-28",
+    "upcoming": "February 2024",
+    "desc": "Web Blitz is a comprehensive program organized by GDSC NITS to help students, especially beginners, learn the ins and outs of web development. If anyone is interested in exploring this field, then Web Blitz is the perfect place to start!",
+    "logo": "/images/timelineWeb.svg"
+  },
+  {
+    "title": "Android Compose Camp",
+    "date": "2024-01-30",
+    "upcoming": "January 2024",
+    "desc": "Hundreds of thousands of developers all around the world build Android apps using Jetpack Compose, Android’s modern UI toolkit, alongside peers at Compose Camp. Learn more about the program and take our free courses to learn Jetpack Compose yourself.",
+    "logo": "/images/composeCampThumbnail.webp"
+  },
+  {
+    "title": "Switch to Svelte",
+    "date": "2023-12-30",
+    "upcoming": "December 2023",
+    "desc": "Svelte, the most loved framework in the JavaScript ecosystem in recent years, has rapidly gained popularity for it's speed, simplicity and a vastly unique modus operandi as opposed to React or Vue.",
+    "logo": "/images/SvelteIcon2.svg",
+    "link": ""
+  },
+  {
+    "title": "Google Solution Challenge",
+    "date": "2023-12-09",
+    "desc": "The mission of the Solution Challenge is to solve for one or more of the United Nations' 17 Sustainable Development Goals using Google technology.",
+    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/event_banners/gdev-eccosystems-bevy-chapters-thumbnail_NP7kmba.png",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-info-session-google-solution-challenge24/"
+  },
+  {
+    "title": "Intro to Git and Github",
+    "date": "2023-10-12",
+    "desc": "Git is arguably the most important tool for developers and having a good understanding of the version control system is absolutely crucial. This session is aimed at providing beginners a comprehensive introduction to Git and Github.",
+    "logo": "/images/gitGithubIntroThumbnail.webp",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-intro-to-git-and-github-2023/"
+  },
+  {
+    "title": "Google Cloud Study Jam",
+    "date": "2023-9-24",
+    "desc": "Cloud Study Jams bring together developers to learn about Google Cloud technologies through study party events. Join us in learning about DevOps and win awesome swags!",
+    "logo": "/images/celpThumbnail.webp",
+    "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-google-cloud-study-jams-gdsc-nits/"
+  },
+  {
     "title": "GDSC Explore 2023 Info Session",
     "subtitle": "Info Session",
-    "time": "2023-4-6",
+    "date": "2023-4-6",
     "theme": "#000000",
     "tags": ["Explore", "Info Session"],
-    "desc": "GDSC Explore was created in 2021 by multiple NorthEastern GDSCs in order to give new and ambitious developers the chance to show off their skills in the intensely competitive and exciting industry of development. Explore gives tech enthusiasts from various backgrounds a place to connect and learn about one another's perspectives on technology. Explore's intent has always been to establish a setting in which various seminars, speaker sessions, and tech presentations could emphasise the development culture of NorthEastern India. ",
-    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/20230224_115142.webp",
+    "desc": "GDSC Explore was created in 2021 by multiple NorthEastern GDSCs in order to give new and ambitious developers the chance to show off their skills in the intensely competitive and exciting industry of development. Explore gives tech enthusiasts from various backgrounds a place to connect and learn about one another's perspectives on technology. Explore's intent has always been to establish a setting in which various seminars, speaker sessions, and tech presentations could emphasise the development culture of NorthEastern India.",
+    "logo": "/images/explore.svg",
     "link": "https://gdsc.community.dev/events/details/developer-student-clubs-national-institute-of-technology-nit-silchar-presents-gdsc-explore-2023-info-session/"
   },
   {
     "title": "Web Blitz 3.0",
     "subtitle": "Workshop / Study Group",
-    "time": "2023-3-27",
+    "date": "2023-3-27",
     "theme": "#feb801",
     "tags": ["web blitz", "web development"],
     "desc": "Web Blitz is a comprehensive program organized by GDSC NITS to help students, especially beginners, learn the ins and outs of web development. If anyone is interested in exploring this field, then Web Blitz is the perfect place to start!",
@@ -22,7 +100,7 @@
   {
     "title": "Flutter Forward Extended",
     "subtitle": "Workshop / Study Group",
-    "time": "2023-3-7",
+    "date": "2023-3-7",
     "theme": "#c7dbfb",
     "tags": ["Flutter"],
     "desc": "Flutter is a popular mobile app development framework that has taken the app development industry by storm. It offers a fast and efficient way to create beautiful and highly functional mobile applications for both Android and iOS platforms. On the second day of the Flutter Forward Extended, we are going to organize a workshop where we will teach participants about the basics of Flutter and how to create a simple note-taking app using Flutter.",
@@ -32,7 +110,7 @@
   {
     "title": "Design Sprint",
     "subtitle": "Workshop / Study Group",
-    "time": "2023-2-27",
+    "date": "2023-2-27",
     "theme": "#0249b3",
     "tags": ["Design Sprint"],
     "desc": "The workshop will guide you through the process of creating compelling motion graphics using Lotte Files. The event will include interactive sessions and hands-on exercises where participants will learn how to conceptualize, storyboard, and animate their ideas. During the workshop, participants will explore different motion design techniques, including keyframe animation, typography animation, and character animation.",
@@ -42,7 +120,7 @@
   {
     "title": "$ make --learn",
     "subtitle": "Info Session",
-    "time": "2023-2-12",
+    "date": "2023-2-12",
     "theme": "#000000",
     "tags": ["Info Session", "make --learn"],
     "desc": "Greetings fellow developers! Ever tried to install a program and saw that you had to build it from the source code using something like `make && sudo make install`? Ever wondered what `make` is? Or what it does? Well, join us in this session to get an idea about what make does, how it does it, and what can be done with it!",
@@ -52,7 +130,7 @@
   {
     "title": "Prototype Plenary 3.0",
     "subtitle": "Workshop / Study Group",
-    "time": "2023-2-9",
+    "date": "2023-2-9",
     "tags": ["UI/UX"],
     "theme": "#ae97d1",
     "desc": "Get ready to ignite your UI/UX journey with Prototype Plenary 3.0 Workshop! Organized by GDSC NIT Silchar, this workshop is the perfect opportunity for young enthusiasts to kickstart their career in design, from 9th to 11th.",
@@ -62,7 +140,7 @@
   {
     "title": "Switch to Backend",
     "subtitle": "Workshop / Study Group",
-    "time": "2023-2-4",
+    "date": "2023-2-4",
     "theme": "#f1d5f3",
     "tags": ["Web", "Backend"],
     "desc": "This session will provide attendees with hands-on experience and in-depth knowledge of using Node.js as a runtime environment and Express.js as a web framework to build scalable and fast backend systems. Additionally, attendees will learn about Passport.js, a popular authentication middleware for Node.js, and how to use Prisma ORM to handle database operations in a type-safe and efficient manner.",

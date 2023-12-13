@@ -1,58 +1,70 @@
 {
   "events": [
     {
-      "name": "Web Blitz 3.0",
-      "date": "March 2023",
-      "color": "#F4C20D",
-      "src": "/images/timelineWeb.svg"
-    },
-    {
-      "name": "Kickstart to ReactJS 2.0",
+      "name": "Google Cloud Study Jam",
       "date": "September 2023",
-      "color": "#7cc5d9",
-      "src": "/images/reactJsIntroThumbnail.webp"
-    },
-    {
-      "name": "Intro to Git and Github",
-      "date": "September 2023",
-      "color": "#1d192b",
-      "src": "/images/gitGithubIntroThumbnail.webp"
-    },
-    {
-      "name": "Android Study Jam",
-      "date": "October 2023",
-      "color": "#3CBA54",
-      "src": "/images/composeCampThumbnail.webp"
-    },
-    {
-      "name": "Cloud Study Jam",
-      "date": "November 2023",
       "color": "#4885ED",
       "src": "/images/celpThumbnail.webp"
     },
     {
-      "name": "Typing with TypeScipt",
-      "date": "November 2023",
+      "name": "Intro to Git and Github",
+      "date": "October 2023",
+      "color": "#1d192b",
+      "src": "/images/gitGithubIntroThumbnail.webp"
+    },
+    {
+      "name": "Google Solution Challenge",
+      "date": "December 2023",
       "color": "#7cc5d9",
       "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/event_banners/gdev-eccosystems-bevy-chapters-thumbnail_NP7kmba.png"
     },
     {
-      "name": "Prototype Planery",
+      "name": "Switch to Svelte",
+      "date": "December 2023",
+      "color": "#DB3236",
+      "src": "/images/SvelteIcon2.svg"
+    },
+    {
+      "name": "Android Compose Camp",
       "date": "January 2024",
+      "color": "#DB3236",
+      "src": "/images/composeCampThumbnail.webp"
+    },
+    {
+      "name": "Web Blitz 4.0",
+      "date": "February 2024",
+      "color": "#DB3236",
+      "src": "/images/timelineWeb.svg"
+    },
+    {
+      "name": "Prototype Plenary 4.0",
+      "date": "February 2024",
       "color": "#DB3236",
       "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/Prototype%20planary.png"
     },
     {
+      "name": "Flutter Forward Extended",
+      "date": "March 2024",
+      "color": "#4885ED",
+      "src": "/images/flutter.svg"
+    },
+    {
       "name": "Switch to Backend 2.0",
-      "date": "February 2024",
+      "date": "March 2024",
       "color": "#EC8E24",
       "src": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_center,h_175,q_auto:good,w_175/v1/gcs/platform-data-dsc/events/NATRAAJ%20%2824%29.webp"
     },
     {
-      "name": "Flutter Forward",
+      "name": "GDSC Explore",
       "date": "March 2024",
-      "color": "#4885ED",
-      "src": "/images/flutter.svg"
+      "color": "#EC8E24",
+      "src": "/images/explore.svg"
+    },
+    {
+      "name": "Kickstart to ReactJS 3.0",
+      "date": "April 2024",
+      "color": "#EC8E24",
+      "src": "/images/reactJsIntroThumbnail.webp"
     }
   ]
 }
