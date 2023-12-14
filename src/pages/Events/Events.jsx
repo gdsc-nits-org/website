@@ -5,12 +5,24 @@ import DataCard from "./DataCard";
 
 const Events = () => {
   const [pastEvents, setPastEvents] = useState("2023");
+  const dataReversed = Array.from(data).reverse();
+  const [month, year] = [new Date().getMonth(), new Date().getFullYear()];
 
   const checkUpcoming = (info, idx) => {
     if (new Date() - new Date(info.date) > 0) {
       return <DataCard key={idx} info={info} upcoming={false} />;
     } else {
       return <DataCard key={idx} info={info} upcoming={true} />;
+    }
+  };
+
+  const dataCallback = (info, idx) => {
+    if (pastEvents == "All") {
+      return checkUpcoming(info, idx);
+    } else {
+      if (info.date.slice(0, 4) === pastEvents) {
+        return checkUpcoming(info, idx);
+      }
     }
   };
 
@@ -37,15 +49,11 @@ const Events = () => {
       </div>
 
       <div className={Styles.cards}>
-        {data.map((info, idx) => {
-          if (pastEvents == "All") {
-            return checkUpcoming(info, idx);
-          } else {
-            if (info.date.slice(0, 4) === pastEvents) {
-              return checkUpcoming(info, idx);
-            }
-          }
-        })}
+        {pastEvents == "All"
+          ? data.map((info, idx) => checkUpcoming(info, idx))
+          : month > 5 && year == pastEvents
+          ? data.map(dataCallback)
+          : dataReversed.map(dataCallback)}
       </div>
     </div>
   );
