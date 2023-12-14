@@ -220,6 +220,10 @@
     .team::after {
       background: var(--gdsc-green-1-100);
     }
+
+    .blog::after {
+      background: violet;
+    }
   }
 
   @media screen and (max-width: 900px) {

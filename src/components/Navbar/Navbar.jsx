@@ -106,6 +106,22 @@ function Navbar() {
               Team
             </Link>
           </li>
+          <li className="nav-button blog">
+            {/* <a
+              href="https://gdscnits.hashnode.dev"
+              target="_blank"
+              rel="noreferrer"
+              className="nav-link"
+              onClick={() => {
+                setHamburg(false);
+              }}
+            >
+              Blog
+            </a> */}
+            <Link to="/blog" target="_blank">
+              Blog
+            </Link>
+          </li>
         </ul>
       </div>
       {/* 
