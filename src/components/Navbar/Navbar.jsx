@@ -107,7 +107,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-button blog">
-            <a
+            {/* <a
               href="https://gdscnits.hashnode.dev"
               target="_blank"
               rel="noreferrer"
@@ -117,7 +117,10 @@ function Navbar() {
               }}
             >
               Blog
-            </a>
+            </a> */}
+            <Link to="/blog" target="_blank">
+              Blog
+            </Link>
           </li>
         </ul>
       </div>
