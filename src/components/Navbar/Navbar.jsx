@@ -109,6 +109,8 @@ function Navbar() {
           <li className="nav-button blog">
             <a
               href="https://gdscnits.hashnode.dev"
+              target="_blank"
+              rel="noreferrer"
               className="nav-link"
               onClick={() => {
                 setHamburg(false);

@@ -18,7 +18,7 @@ const Events = () => {
     <div className={Styles.events}>
       <div className={Styles.past_events}>
         <h2 className={Styles.past_events_heading} id="previous">
-          Filter by Year
+          Filter by year
         </h2>
         <div className={Styles.dropdown}>
           <select

@@ -47,7 +47,7 @@
     }
     .timeline-wrapper {
       scroll-behavior: smooth;
-      width: 70vw;
+      width: 73vw;
       overflow-x: hidden;
       min-height: 40rem;
       display: flex;
@@ -69,6 +69,7 @@
         }
       }
       .timeline-bar {
+        margin-left: 1rem;
         height: 1rem;
         background: #c6c6c6;
         border-radius: 0rem 2rem 2rem 0rem;
