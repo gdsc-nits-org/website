@@ -62,17 +62,6 @@ function Navbar() {
       > */}
       <div className="nav-ul-enclose">
         <ul className="nav-ul">
-          <li className="nav-button home">
-            <Link
-              to="/"
-              className="nav-link"
-              onClick={() => {
-                setHamburg(false);
-              }}
-            >
-              Home
-            </Link>
-          </li>
           <li className="nav-button projects">
             <Link
               to="/projects"
