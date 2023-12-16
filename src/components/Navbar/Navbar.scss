@@ -205,10 +205,6 @@
       width: 70%;
     }
 
-    .home::after {
-      background: var(--gdsc-blue-1-100);
-    }
-
     .projects::after {
       background: var(--gdsc-red-1-100);
     }
@@ -222,7 +218,7 @@
     }
 
     .blog::after {
-      background: violet;
+      background: var(--gdsc-blue-1-100);
     }
   }
 
