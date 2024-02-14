@@ -64,7 +64,7 @@ const TeamData = [
     _id: 6,
     Batch: "2023-24",
     imageSrc:
-      "https://res.cloudinary.com/dhry5xscm/image/upload/v1694017404/gdsc%20seniors/team_pics/JaydeepDas_mveixa.jpg",
+      "https://res.cloudinary.com/dedlyz6hn/image/upload/v1707886133/JDeep-D.jpg",
     Name: "Jaydeep Prapanch Das",
     Domain: "Cloud",
     Description: "Cloud Moderator",
