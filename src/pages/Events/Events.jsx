@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Styles from "./Events.module.scss";
-import data from "/public/events.json";
+import data from "/src/assets/events.json";
 import DataCard from "./DataCard";
 
 const Events = () => {

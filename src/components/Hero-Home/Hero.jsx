@@ -5,7 +5,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader, Canvas } from "@react-three/fiber";
 import { ContactShadows, OrbitControls } from "@react-three/drei";
 import { Suspense, useEffect, useState } from "react";
-import { Typed } from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const Model = () => {
   let [scale, setScale] = useState(1.4);
@@ -59,7 +59,7 @@ const Hero = () => {
         <div className="twl">
           <div className="tw">Together we</div>
           <div className="learn" style={{ color: typedColor }}>
-            <Typed
+            <ReactTyped
               strings={["Build", "Solve", "Transcend", "Learn"]}
               typeSpeed={40}
               backSpeed={50}
