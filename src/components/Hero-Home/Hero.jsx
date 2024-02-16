@@ -5,7 +5,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { useLoader, Canvas } from "@react-three/fiber";
 import { ContactShadows, OrbitControls } from "@react-three/drei";
 import { Suspense, useEffect, useState } from "react";
-import Typed from "react-typed";
+import { Typed } from "react-typed";
 
 const Model = () => {
   let [scale, setScale] = useState(1.4);
@@ -68,12 +68,12 @@ const Hero = () => {
                 i === 1
                   ? setTypedColor("var(--gdsc-yellow-1-100)")
                   : i === 2
-                  ? setTypedColor("var(--gdsc-green-1-100)")
-                  : i === 3
-                  ? setTypedColor("var(--gdsc-blue-1-100)")
-                  : i === 0
-                  ? setTypedColor("var(--gdsc-red-1-100)")
-                  : "";
+                    ? setTypedColor("var(--gdsc-green-1-100)")
+                    : i === 3
+                      ? setTypedColor("var(--gdsc-blue-1-100)")
+                      : i === 0
+                        ? setTypedColor("var(--gdsc-red-1-100)")
+                        : "";
               }}
             />
           </div>

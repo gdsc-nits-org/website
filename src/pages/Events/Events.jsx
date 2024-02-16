@@ -52,8 +52,8 @@ const Events = () => {
         {pastEvents == "All"
           ? data.map((info, idx) => checkUpcoming(info, idx))
           : month > 5 && year == pastEvents
-          ? data.map(dataCallback)
-          : dataReversed.map(dataCallback)}
+            ? data.map(dataCallback)
+            : dataReversed.map(dataCallback)}
       </div>
     </div>
   );
