@@ -17,19 +17,18 @@ const Model = () => {
     }
   });
 
-  // const Model = useLoader(GLTFLoader, "/gdsclogo4.gltf");
   const Model = useLoader(GLTFLoader, "/gdsc.gltf");
   return (
-    // <primitive object={Model.scene} scale={scale} rotation={[0, 0, -Math.PI * 0.01]} />
     <>
-      <pointLight color="#ddd" position={[0, 20, 10]} intensity={1} />
+      <ambientLight color="#ddd" position={[0.6, 0, -0.6]} intensity={1} scale={100} />
+      <pointLight color="#ddd" position={[-0.7, 0, -0.7]} intensity={1} scale={100} />
       <primitive object={Model.scene} scale={scale} rotation={[0, -Math.PI * 0.5, 0]} />
+      <ambientLight color="#ddd" position={[0, 0, 0]} />
+      <pointLight color="#ddd" position={[0, 2, -2]} scale={100} intensity={5} />
     </>
   );
 };
-// scale={1.4}
 
-// });
 const Hero = () => {
   const [typedColor, setTypedColor] = useState("var(--gdsc-red-1-100)");
 
