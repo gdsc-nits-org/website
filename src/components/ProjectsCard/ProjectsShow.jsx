@@ -1,7 +1,7 @@
 import "./ProjectsShow.scss";
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Projects from "/public/projects.json";
+import Projects from "/src/assets/projects.json";
 import { FaHtml5, FaNodeJs, FaReact, FaTools } from "react-icons/fa";
 import {
   SiFirebase,

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectsCard.scss";
 import { Link } from "react-router-dom";
-import cardInfo from "/public/projects.json";
+import cardInfo from "/src/assets/projects.json";
 
 function ProjectCard() {
   return (

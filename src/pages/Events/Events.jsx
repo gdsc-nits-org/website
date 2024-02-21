@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Styles from "./Events.module.scss";
-import data from "/public/events.json";
+import data from "/src/assets/events.json";
 import DataCard from "./DataCard";
 
 const Events = () => {
@@ -52,8 +52,8 @@ const Events = () => {
         {pastEvents == "All"
           ? data.map((info, idx) => checkUpcoming(info, idx))
           : month > 5 && year == pastEvents
-          ? data.map(dataCallback)
-          : dataReversed.map(dataCallback)}
+            ? data.map(dataCallback)
+            : dataReversed.map(dataCallback)}
       </div>
     </div>
   );
