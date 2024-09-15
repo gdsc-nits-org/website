@@ -21,6 +21,17 @@ const Faculty = [
     linkedin: "https://in.linkedin.com/in/wasim-arif-78879b102",
     mail: "arif@ece.nits.ac.in",
   },
+  {
+    _id: 3,
+    name: "Dr. Pantha Kanti Nath",
+    batch: ["2024-25"],
+    img: "/images/pantha.webp",
+    designation: "Associate Professor",
+    department: "Computer Science & Engineering",
+    website: "http://cs.nits.ac.in/pknath/",
+    linkedin: "https://www.linkedin.com/in/pantha-kanti-nath-116200240/?originalSubdomain=in",
+    mail: "pantha@cse.nits.ac.in",
+  },
 ];
 
 export default Faculty;
