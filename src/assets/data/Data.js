@@ -2342,7 +2342,7 @@ const TeamData = [
     Description: "",
     Batch: "2024-25",
     imageSrc:
-      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288653/febenlhdfjstzcn8ogrq.webp",
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726420720/me_x3iykd.jpg",
     _id: 195,
   },
   {
@@ -2472,7 +2472,7 @@ const TeamData = [
     Name: "Munmun bansal",
     Domain: "Web",
     Github: "https://github.com/munmunbansal",
-    Linkedin: "httpwww.linkedin.com/in/ munmun-bansal-9158902b3",
+    Linkedin: "https://www.linkedin.com/in/munmun-bansal-9158902b3",
     Facebook:
       "https://www.facebook.com/profile.php?id=61556245791014&mibextid=ZbWKwL",
     Description: "",
@@ -2838,6 +2838,17 @@ const TeamData = [
     Github: "https://github.com/Sristi2004-developer",
   },
   {
+    _id: 236,
+    Name: "Shouvik Paul",
+    Domain: "UI/UX",
+    Batch: "2024-25",
+    Github: "https://github.com/ShouvikNITS",
+    Linkedin: "https://www.linkedin.com/in/shouvikpaul-nits/",
+    Facebook: "https://www.facebook.com/profile.php?id=61550671079083",
+    imageSrc: "https://res.cloudinary.com/gdsc-photo/image/upload/v1726419305/tf5bcqjksa85ptupgcie.webp",
+    Description: ""
+},
+  {
     _id: 237,
     Batch: "2024-25",
     imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411195/Evangeline_profile_pic_n20s55.webp",
@@ -2983,10 +2994,11 @@ const TeamData = [
   {
     _id: 250,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dnuhxx8aa/image/upload/f_auto,q_auto/ok4ysalc2zdbvtpjcha5",
     Name: "Subhajyoti Dey",
+    imageSrc: "https://res.cloudinary.com/dludtk5vz/image/upload/v1726422910/kweyyya52iqhl2ytlrvu.webp",
     Domain: "Flutter",
     Description: "",
+    Facebook: "",
     Github: "https://github.com/SubhaNITS150",
     Linkedin: "https://www.linkedin.com/in/subhajyoti-dey-635922235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android"
   },
