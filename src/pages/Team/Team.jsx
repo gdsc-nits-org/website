@@ -14,7 +14,7 @@ const MemberDetails = (d) => {
 
 const Team = () => {
   ScrollToSection();
-  const currentBatch = "2023-24";
+  const currentBatch = "2024-25";
   const [newMemberList] = useState(TeamData);
   const [filterBatchValue, setBatchValue] = useState(currentBatch);
   const [filterModuleValue, setModuleValue] = useState("All");
@@ -114,6 +114,7 @@ const Team = () => {
           option1="2021-22"
           option2="2022-23"
           option3="2023-24"
+          option4="2024-25"
           filterModuleData={onBatchValueSelected}
         />
       </div>
