@@ -3030,7 +3030,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dhry5xscm/image/upload/v1693827549/GDSC%20images/Arunaditya_-_Arunaditya_Dasgupta_gq80ww.jpg",
     Name: "Arunaditya Dasgupta",
-    Domain: "GDSC Lead, NIT Silchar",
+    Domain: "GDSC, NIT Silchar",
     Description: "Lead",
     Linkedin: "https://www.linkedin.com/in/arunaditya-dasgupta-662aa4256",
     Facebook: "https://www.facebook.com/arunaditya.dasgupta",
