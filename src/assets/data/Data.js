@@ -31,10 +31,10 @@ const TeamData = [
     Name: "Adhiraj Dutta",
     Domain: "Web",
     Description: "Web Moderator",
-    Website: "https://byt3h3ad.github.io/",
-    Linkedin: "https://www.linkedin.com/in/byt3h3ad",
-    Facebook: "https://www.facebook.com/byte.head.12",
-    Github: "https://github.com/byt3h3ad",
+    Website: "https://home.byt3h3ad.workers.dev/website",
+    Linkedin: "https://home.byt3h3ad.workers.dev/linkedin",
+    Facebook: "https://www.facebook.com/byt3h3ad/",
+    Github: "https://home.byt3h3ad.workers.dev/github",
   },
   {
     _id: 4,
@@ -1763,10 +1763,10 @@ const TeamData = [
     Name: "Adhiraj Dutta",
     Domain: "Web",
     Description: "",
-    Website: "https://byt3h3ad.github.io/",
-    Linkedin: "https://www.linkedin.com/in/byt3h3ad",
-    Facebook: "https://www.facebook.com/byte.head.12",
-    Github: "https://github.com/byt3h3ad",
+    Website: "https://home.byt3h3ad.workers.dev/website",
+    Linkedin: "https://home.byt3h3ad.workers.dev/linkedin",
+    Facebook: "https://www.facebook.com/byt3h3ad/",
+    Github: "https://home.byt3h3ad.workers.dev/github",
   },
   {
     _id: 148,
@@ -2362,8 +2362,7 @@ const TeamData = [
     Domain: "Web",
     Github: "https://github.com/GulistaKhatun06",
     Linkedin: "https://www.linkedin.com/in/gulista-khatun-9414b6314/",
-    Facebook:
-      "https://www.facebook.com/profile.php?id=61555806877486&mibextid=ZbWKwL",
+    Facebook: "https://www.facebook.com/profile.php?id=61555806877486&mibextid=ZbWKwL",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2424,8 +2423,7 @@ const TeamData = [
     Github: "https://github.com/kaushik9859",
     Linkedin:
       "https://www.linkedin.com/in/kaushik-bhowmick-922b26282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Facebook:
-      "https://www.facebook.com/profile.php?id=100093809000705&mibextid=ZbWKwL",
+    Facebook: "https://www.facebook.com/profile.php?id=100093809000705&mibextid=ZbWKwL",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2473,8 +2471,7 @@ const TeamData = [
     Domain: "Web",
     Github: "https://github.com/munmunbansal",
     Linkedin: "https://www.linkedin.com/in/munmun-bansal-9158902b3",
-    Facebook:
-      "https://www.facebook.com/profile.php?id=61556245791014&mibextid=ZbWKwL",
+    Facebook: "https://www.facebook.com/profile.php?id=61556245791014&mibextid=ZbWKwL",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2548,8 +2545,7 @@ const TeamData = [
     Github: "https://github.com/kaneki-desu",
     Linkedin:
       "https://www.linkedin.com/in/sibajit-mazumder?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Facebook:
-      "https://www.facebook.com/profile.php?id=61550651010065&mibextid=ZbWKwL",
+    Facebook: "https://www.facebook.com/profile.php?id=61550651010065&mibextid=ZbWKwL",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2561,8 +2557,7 @@ const TeamData = [
     Domain: "Web",
     Github: "https://github.com/coderSubhadeepdeb",
     Linkedin: "www.linkedin.com/in/subhadeep-deb-66a6b827a",
-    Facebook:
-      "https://www.facebook.com/profile.php?id=100093466932501&mibextid=ZbWKwL",
+    Facebook: "https://www.facebook.com/profile.php?id=100093466932501&mibextid=ZbWKwL",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2574,8 +2569,7 @@ const TeamData = [
     Domain: "Web",
     Github: "https://github.com/Subrata-20",
     Linkedin: "https://www.linkedin.com/in/subrata-lodh-45541328a/",
-    Facebook:
-      "https://www.facebook.com/profile.php?id=100088421967870&mibextid=ZbWKwL",
+    Facebook: "https://www.facebook.com/profile.php?id=100088421967870&mibextid=ZbWKwL",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2588,8 +2582,7 @@ const TeamData = [
     Github: "https://github.com/Uddhav-Saikia",
     Linkedin:
       "https://www.linkedin.com/in/uddhavsaikia?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Facebook:
-      "https://www.facebook.com/profile.php?id=61551025296236&mibextid=ZbWKwL",
+    Facebook: "https://www.facebook.com/profile.php?id=61551025296236&mibextid=ZbWKwL",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2601,8 +2594,7 @@ const TeamData = [
     Domain: "Web",
     Github: "https://github.com/vivekksh",
     Linkedin: "https://www.linkedin.com/in/vivek-sharma-318593297",
-    Facebook:
-      "https://www.facebook.com/profile.php?id=61550951534773&mibextid=ZbWKwL",
+    Facebook: "https://www.facebook.com/profile.php?id=61550951534773&mibextid=ZbWKwL",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2845,184 +2837,208 @@ const TeamData = [
     Github: "https://github.com/ShouvikNITS",
     Linkedin: "https://www.linkedin.com/in/shouvikpaul-nits/",
     Facebook: "https://www.facebook.com/profile.php?id=61550671079083",
-    imageSrc: "https://res.cloudinary.com/gdsc-photo/image/upload/v1726419305/tf5bcqjksa85ptupgcie.webp",
-    Description: ""
-},
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726419305/tf5bcqjksa85ptupgcie.webp",
+    Description: "",
+  },
   {
     _id: 237,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411195/Evangeline_profile_pic_n20s55.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411195/Evangeline_profile_pic_n20s55.webp",
     Name: "Evangeline Hasda",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/EvangelineHasda",
-    Linkedin: "https://www.linkedin.com/in/evangeline-hasda-0191002a9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLdYMN2UfToaYMZ5ucH5Osw%3D%3D",
-    Facebook: "https://www.facebook.com/profile.php?id=100095026613104&mibextid=ZbWKwL"
+    Linkedin:
+      "https://www.linkedin.com/in/evangeline-hasda-0191002a9?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BLdYMN2UfToaYMZ5ucH5Osw%3D%3D",
+    Facebook: "https://www.facebook.com/profile.php?id=100095026613104&mibextid=ZbWKwL",
   },
   {
     _id: 238,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411196/irene_qnj3qs.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411196/irene_qnj3qs.webp",
     Name: "Irene Therese Joseph",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/ireneyk",
     Linkedin: "https://linkedin.com/in/irenetjoseph",
-    Facebook: "https://www.facebook.com/irene.therese.2024"
+    Facebook: "https://www.facebook.com/irene.therese.2024",
   },
   {
     _id: 239,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/jitamanyu_jhcmkz.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/jitamanyu_jhcmkz.webp",
     Name: "Jitamanyu Phukan",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/procoast",
     Linkedin: "www.linkedin.com/in/jitamanyu-phukan-562728280",
-    Facebook: "https://www.facebook.com/profile.php?id=100070630387563"
+    Facebook: "https://www.facebook.com/profile.php?id=100070630387563",
   },
   {
     _id: 240,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411196/manisha_x7pqig.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411196/manisha_x7pqig.webp",
     Name: "Manisha Saloi",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/manisha999404",
-    Linkedin: "https://www.linkedin.com/in/manisha-saloi-aa564228a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Facebook: "https://www.facebook.com/profile.php?id=61550675969308&mibextid=ZbWKwL"
+    Linkedin:
+      "https://www.linkedin.com/in/manisha-saloi-aa564228a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/profile.php?id=61550675969308&mibextid=ZbWKwL",
   },
   {
     _id: 241,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/mayukh_fmbwe9.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/mayukh_fmbwe9.webp",
     Name: "Mayukh Das",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/MayukhCANTcode",
     Linkedin: "https://www.linkedin.com/in/mayukh-das-b282a930a/",
-    Facebook: "https://www.facebook.com/profile.php?id=61565492228532"
+    Facebook: "https://www.facebook.com/profile.php?id=61565492228532",
   },
   {
     _id: 242,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/niva_bpy2fa.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/niva_bpy2fa.webp",
     Name: "Niva Rani Deka",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/Nivadeka222",
     Linkedin: "https://www.linkedin.com/in/niva-rani-deka-846605314",
-    Facebook: "https://www.facebook.com/share/kzShm2Zsh1ekFhfs/?mibextid=qi2Omg"
+    Facebook: "https://www.facebook.com/share/kzShm2Zsh1ekFhfs/?mibextid=qi2Omg",
   },
   {
     _id: 243,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/piyush_wwvliv.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/piyush_wwvliv.webp",
     Name: "Piyush Chatterjee",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/Piyush-Chatterjee",
-    Linkedin: "https://www.linkedin.com/in/piyush-chatterjee-1b501928b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Facebook: "https://www.facebook.com/profile.php?id=61551008331160"
+    Linkedin:
+      "https://www.linkedin.com/in/piyush-chatterjee-1b501928b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/profile.php?id=61551008331160",
   },
   {
     _id: 244,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/prince_x1fhe7.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/prince_x1fhe7.webp",
     Name: "Prince Guria",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/princeguria",
-    Linkedin: "https://www.linkedin.com/in/prince-guria-490537228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Facebook: "https://www.facebook.com/jack.zustin?mibextid=ZbWKwL"
+    Linkedin:
+      "https://www.linkedin.com/in/prince-guria-490537228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/jack.zustin?mibextid=ZbWKwL",
   },
   {
     _id: 245,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/riya_r4ezxw.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/riya_r4ezxw.webp",
     Name: "Riya Choudhury",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/Riya678-spy",
     Linkedin: "https://www.linkedin.com/feed/",
-    Facebook: "https://www.facebook.com/share/19DQcKtcUa/?mibextid=qi2Omg"
+    Facebook: "https://www.facebook.com/share/19DQcKtcUa/?mibextid=qi2Omg",
   },
   {
     _id: 246,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/sneha_twgqjd.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/sneha_twgqjd.webp",
     Name: "Sneha",
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/Sneha4522",
-    Linkedin: "https://www.linkedin.com/in/sneha-singh-82aa0330b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Facebook: "https://www.facebook.com/profile.php?id=100082051326109&mibextid=ZbWKwL"
+    Linkedin:
+      "https://www.linkedin.com/in/sneha-singh-82aa0330b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/profile.php?id=100082051326109&mibextid=ZbWKwL",
   },
   {
     _id: 247,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411194/Abhinav_profile_swofgs.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411194/Abhinav_profile_swofgs.webp",
     Name: "Abhinav Narayan Dev",
     Domain: "Flutter",
     Description: "",
     Github: "https://github.com/Lakkyra",
     Linkedin: "https://www.linkedin.com/in/abhinav-dev-0a4151289/",
-    Facebook: "https://www.facebook.com/profile.php?id=61550717612079"
+    Facebook: "https://www.facebook.com/profile.php?id=61550717612079",
   },
   {
     _id: 248,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/lakshay_pbpy1a.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/lakshay_pbpy1a.webp",
     Name: "Lakshay Pareek",
     Domain: "Flutter",
     Description: "",
     Github: "https://github.com/BelowAverageCode",
-    Linkedin: "https://www.linkedin.com/in/lakshay-pareek-b973bb280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    Facebook: "https://www.facebook.com/profile.php?id=61551093479988&mibextid=ZbWKwL"
+    Linkedin:
+      "https://www.linkedin.com/in/lakshay-pareek-b973bb280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/profile.php?id=61551093479988&mibextid=ZbWKwL",
   },
   {
     _id: 249,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/rishav_ybiqww.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/rishav_ybiqww.webp",
     Name: "Rishav Kumar Sinha",
     Domain: "Flutter",
     Description: "",
     Github: "https://github.com/RishavKumarSinha",
     Linkedin: "https://www.linkedin.com/in/rishav-kumar-sinha-292471319",
-    Facebook: ""
+    Facebook: "",
   },
   {
     _id: 250,
     Batch: "2024-25",
     Name: "Subhajyoti Dey",
-    imageSrc: "https://res.cloudinary.com/dludtk5vz/image/upload/v1726422910/kweyyya52iqhl2ytlrvu.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dludtk5vz/image/upload/v1726422910/kweyyya52iqhl2ytlrvu.webp",
     Domain: "Flutter",
     Description: "",
     Facebook: "",
     Github: "https://github.com/SubhaNITS150",
-    Linkedin: "https://www.linkedin.com/in/subhajyoti-dey-635922235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android"
+    Linkedin:
+      "https://www.linkedin.com/in/subhajyoti-dey-635922235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android",
   },
   {
     _id: 251,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/tahmid_zit8gp.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/tahmid_zit8gp.webp",
     Name: "Tahmid Choudhury",
     Domain: "Flutter",
     Description: "",
     Github: "https://github.com/Tahmid019",
     Linkedin: "https://www.linkedin.com/in/tahmid019",
-    Facebook: "https://www.facebook.com/share/goY6ipXiWEB8LsaB/?mibextid=qi2Omg"
+    Facebook: "https://www.facebook.com/share/goY6ipXiWEB8LsaB/?mibextid=qi2Omg",
   },
   {
     _id: 252,
     Batch: "2024-25",
-    imageSrc: "https://res.cloudinary.com/dieef3h1w/image/upload/v1726410910/tapasya_f7frhc.webp",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726410910/tapasya_f7frhc.webp",
     Name: "Tapasya Bhattacharjee",
     Domain: "Flutter",
     Description: "",
     Github: "https://github.com/TapasyaBhatt/",
     Linkedin: "https://www.linkedin.com/in/tapasya-bhattacharjee-187367274",
-    Facebook: ""
+    Facebook: "",
   },
   {
     _id: 253,
