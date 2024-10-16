@@ -150,12 +150,12 @@ function Footer() {
 
         <div className="footer-end">
           <div className="footer-end-left">
-            <img src={logo} alt="GDSC NITS" />
-            <ul>Google Developer Student Club NIT Silchar</ul>
+            <img src={logo} alt="GDGC NITS" />
+            <ul>Google Developer Group on Campus, NIT Silchar</ul>
           </div>
 
           <div className="footer-end-right">
-            <ul>Google Developer Student Club, NITS. All Rights Reserved</ul>
+            <ul>Google Developer Group on Campus, NITS. All Rights Reserved</ul>
           </div>
         </div>
       </div>
