@@ -4,7 +4,7 @@ import data from "/src/assets/events.json";
 import DataCard from "./DataCard";
 
 const Events = () => {
-  const [pastEvents, setPastEvents] = useState("2023");
+  const [pastEvents, setPastEvents] = useState("2024");
   const dataReversed = Array.from(data).reverse();
   const [month, year] = [new Date().getMonth(), new Date().getFullYear()];
 
@@ -42,8 +42,8 @@ const Events = () => {
             value={pastEvents}
           >
             <option value="All">All</option>
-            <option value="2023">2023</option>
-            <option value="2024">2024</option>
+            <option value="2024">2023</option>
+            <option value="2023">2022</option>
           </select>
         </div>
       </div>

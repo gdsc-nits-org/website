@@ -67,7 +67,7 @@ function Footer() {
             </div>
             <div className="footer-mail">
               <ul>or e-mail us at </ul>
-              <a href="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</a>
+              <a href="">gdsc@nits.ac.in</a>
             </div>
           </div>
           <div className="footer-top-right">
@@ -128,10 +128,10 @@ function Footer() {
               <Link to="/projects/1" className="footer-project">
                 Attendo
               </Link>
-              <Link to="/projects/0" className="footer-project">
+              <Link to="/projects/6" className="footer-project">
                 Sellr
               </Link>
-              <Link to="/projects/6" className="footer-project">
+              <Link to="/projects/0" className="footer-project">
                 Efficacy
               </Link>
             </div>

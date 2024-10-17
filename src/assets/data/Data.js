@@ -2810,7 +2810,7 @@ const TeamData = [
     _id: 234,
     Batch: "2024-25",
     imageSrc:
-      "https://res.cloudinary.com/dddcd0hco/image/upload/v1729126210/WhatsApp_Image_2024-10-15_at_14.44.35_677a895f_fzlpav.webp",
+      "https://res.cloudinary.com/dddcd0hco/image/upload/v1726293704/IMG20240817202007_jwzdeo.webp",
     Name: "Shibam Singh Yadav",
     Domain: "Android",
     Description: "",
