@@ -2478,7 +2478,7 @@ const TeamData = [
     Description: "",
     Batch: "2024-25",
     imageSrc:
-      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288711/f41avpsfljwgvrqsulad.webp",
+      "https://res.cloudinary.com/dddcd0hco/image/upload/v1729125523/WhatsApp_Image_2024-10-15_at_10.30.54_67d98bf2_xvpqyo.webp",
     _id: 206,
   },
   {
@@ -2560,9 +2560,9 @@ const TeamData = [
     Name: "Subhadeep Deb ",
     Domain: "Web",
     Github: "https://github.com/coderSubhadeepdeb",
-    Linkedin: "www.linkedin.com/in/subhadeep-deb-66a6b827a",
+    Linkedin: "https://www.linkedin.com/in/subhadeep-deb-66a6b827a",
     Facebook:
-      "https://www.facebook.com/profile.php?id=100093466932501&mibextid=ZbWKwL",
+      "https://web.facebook.com/profile.php?id=100093466932501",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2709,7 +2709,7 @@ const TeamData = [
     _id: 225,
     Batch: "2024-25",
     imageSrc:
-      "https://res.cloudinary.com/dddcd0hco/image/upload/v1726228047/Shrish_Lahiri_b3cwn8.webp",
+      "https://res.cloudinary.com/dddcd0hco/image/upload/v1729083027/WhatsApp_Image_2024-10-14_at_21.00.20_3f665817_b9w73h.webp",
     Name: "Shrish Lahiri",
     Domain: "Cloud",
     Description: "",
@@ -2817,7 +2817,7 @@ const TeamData = [
     _id: 234,
     Batch: "2024-25",
     imageSrc:
-      "https://res.cloudinary.com/dddcd0hco/image/upload/v1726293546/Shi_pic_mliy3k.webp",
+      "https://res.cloudinary.com/dddcd0hco/image/upload/v1729126210/WhatsApp_Image_2024-10-15_at_14.44.35_677a895f_fzlpav.webp",
     Name: "Shibam Singh Yadav",
     Domain: "Android",
     Description: "",
