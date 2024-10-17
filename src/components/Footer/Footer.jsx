@@ -67,7 +67,7 @@ function Footer() {
             </div>
             <div className="footer-mail">
               <ul>or e-mail us at </ul>
-              <a href="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</a>
+              <a href="">gdsc@nits.ac.in</a>
             </div>
           </div>
           <div className="footer-top-right">
@@ -128,10 +128,10 @@ function Footer() {
               <Link to="/projects/1" className="footer-project">
                 Attendo
               </Link>
-              <Link to="/projects/0" className="footer-project">
+              <Link to="/projects/6" className="footer-project">
                 Sellr
               </Link>
-              <Link to="/projects/6" className="footer-project">
+              <Link to="/projects/0" className="footer-project">
                 Efficacy
               </Link>
             </div>
@@ -150,12 +150,12 @@ function Footer() {
 
         <div className="footer-end">
           <div className="footer-end-left">
-            <img src={logo} alt="GDSC NITS" />
-            <ul>Google Developer Student Club NIT Silchar</ul>
+            <img src={logo} alt="GDGC NITS" />
+            <ul>Google Developer Group on Campus, NIT Silchar</ul>
           </div>
 
           <div className="footer-end-right">
-            <ul>Google Developer Student Club, NITS. All Rights Reserved</ul>
+            <ul>Google Developer Group on Campus, NITS. All Rights Reserved</ul>
           </div>
         </div>
       </div>

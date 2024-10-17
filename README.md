@@ -1,10 +1,10 @@
-# GDSC NIT Silchar Official Website
+# GDGC NIT Silchar Official Website
 
-Welcome to the GDSC NIT Silchar's official website repository! This website serves as a hub for our community members and visitors to learn about our events, projects, and initiatives. Feel free to explore and contribute to make it even better!
+Welcome to the GDGC NIT Silchar's official website repository! This website serves as a hub for our community members and visitors to learn about our events, projects, and initiatives. Feel free to explore and contribute to make it even better!
 
-## About GDSC NIT Silchar
+## About GDGC NIT Silchar
 
-Google Developer Student Clubs (GDSC) NIT Silchar is a student-led community that aims to inspire and guide developers, innovators, and problem-solvers. We organize workshops, hackathons, and tech talks to enhance technical skills and foster innovation. Our main aim is to empower developers around North-East India and also to have a national and international presence.
+Google Developer Group on Campus (GDGC) NIT Silchar is a student-led community that aims to inspire and guide developers, innovators, and problem-solvers. We organize workshops, hackathons, and tech talks to enhance technical skills and foster innovation. Our main aim is to empower developers around North-East India and also to have a national and international presence.
 
 ### Our Motto
 Together We - Learn, Build, Solve, Transcend
@@ -53,7 +53,7 @@ Contributions are welcome! If you have ideas for features, find bugs, or want to
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Thank you for being a part of GDSC NIT Silchar's community! Let's continue to learn, innovate, and build amazing projects together! 🚀✨
-## Visit GDSC NITS 
-<a href="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-dsc/contentbuilder/logo_dark_horizontal_097s7oa.svg" alt="GDSC NIT Silchar" height="40"/>
+Thank you for being a part of GDGC NIT Silchar's community! Let's continue to learn, innovate, and build amazing projects together! 🚀✨
+## Visit GDGC NITS 
+<a href="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/startup-grind/image/upload/dpr_2.0,fl_sanitize/v1/gcs/platform-data-dsc/contentbuilder/logo_dark_horizontal_097s7oa.svg" alt="GDGC NIT Silchar" height="40"/>
 ---
