@@ -1,5 +1,5 @@
 {
-  "name": "gdsc-website",
+  "name": "gdgc-website",
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000",

@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="title gdsc">
           <span className="gdsc-title-blue">G</span>
           <span className="gdsc-title-yellow">D</span>
-          <span className="gdsc-title-red">S</span>
+          <span className="gdsc-title-red">G</span>
           <span className="gdsc-title-green">C</span>
         </div>
         <div className="title nits">NIT Silchar</div>

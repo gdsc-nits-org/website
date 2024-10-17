@@ -10,7 +10,7 @@ const Faqs = () => {
     if (selected == i) {
       return setSelected(null);
     }
-    setSelected(i);
+    setSelected(i+1);
   };
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const Faqs = () => {
               <span>
                 <SlArrowDown
                   size={23}
-                  className={`faq-arrow ${selected === i ? "active" : ""}`}
+                  className={`faq-arrow ${selected === i ? "active" : "active"}`}
                 />
               </span>
             </div>
