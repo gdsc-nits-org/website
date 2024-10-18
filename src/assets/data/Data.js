@@ -2557,8 +2557,7 @@ const TeamData = [
     Domain: "Web",
     Github: "https://github.com/coderSubhadeepdeb",
     Linkedin: "https://www.linkedin.com/in/subhadeep-deb-66a6b827a",
-    Facebook:
-      "https://web.facebook.com/profile.php?id=100093466932501",
+    Facebook: "https://web.facebook.com/profile.php?id=100093466932501",
     Description: "",
     Batch: "2024-25",
     imageSrc:
