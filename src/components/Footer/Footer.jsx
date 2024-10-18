@@ -20,7 +20,7 @@ function Footer() {
             </div>
             <div className="footer-links">
               <a
-                href="https://www.linkedin.com/company/gdscnits/mycompany/"
+                href="https://www.linkedin.com/company/gdgcnits/"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
@@ -29,7 +29,7 @@ function Footer() {
                 <AiFillLinkedin className="footer-btn-1" size={24} />
               </a>
               <a
-                href="https://www.facebook.com/gdscnits/"
+                href="https://www.facebook.com/gdgnits"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
@@ -38,7 +38,7 @@ function Footer() {
                 <ImFacebook className="footer-btn-2" size={24} />
               </a>
               <a
-                href="https://www.instagram.com/gdsc_nits/"
+                href="https://www.instagram.com/gdgc_nits/"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
@@ -47,11 +47,11 @@ function Footer() {
                 <FiInstagram className="footer-btn-3" size={24} />
               </a>
               <a
-                href="http://twitter.com/gdscnits"
+                href="https://x.com/gdgcnits"
                 target="_blank"
                 rel="noreferrer"
                 className="footer-social-links"
-                title="Twitter"
+                title="X"
               >
                 <FaTwitter className="footer-btn-4" size={24} />
               </a>
@@ -67,7 +67,7 @@ function Footer() {
             </div>
             <div className="footer-mail">
               <ul>or e-mail us at </ul>
-              <a href="">gdsc@nits.ac.in</a>
+              <a href="mailto:gdsc@nits.ac.in">gdsc@nits.ac.in</a>
             </div>
           </div>
           <div className="footer-top-right">
@@ -84,7 +84,7 @@ function Footer() {
                 </a>
               </div>
               <a
-                href="https://gdsc.community.dev/national-institute-of-technology-nit-silchar/"
+                href="https://gdg.community.dev/gdg-on-campus-national-institute-of-technology-silchar-india/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -128,10 +128,10 @@ function Footer() {
               <Link to="/projects/1" className="footer-project">
                 Attendo
               </Link>
-              <Link to="/projects/6" className="footer-project">
+              <Link to="/projects/0" className="footer-project">
                 Sellr
               </Link>
-              <Link to="/projects/0" className="footer-project">
+              <Link to="/projects/6" className="footer-project">
                 Efficacy
               </Link>
             </div>

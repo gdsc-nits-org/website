@@ -2876,7 +2876,7 @@ const TeamData = [
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/procoast",
-    Linkedin: "www.linkedin.com/in/jitamanyu-phukan-562728280",
+    Linkedin: "https://www.linkedin.com/in/jitamanyu-phukan-562728280",
     Facebook: "https://www.facebook.com/profile.php?id=100070630387563",
   },
   {
