@@ -42,8 +42,8 @@ const Events = () => {
             value={pastEvents}
           >
             <option value="All">All</option>
-            <option value="2024">2023</option>
-            <option value="2023">2022</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
           </select>
         </div>
       </div>
