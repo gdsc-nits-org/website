@@ -3,7 +3,7 @@ import "./Footer.scss";
 import { AiFillLinkedin } from "react-icons/ai";
 import { ImFacebook } from "react-icons/im";
 import { FiInstagram } from "react-icons/fi";
-import { FaXTwitter, FaReddit } from "react-icons/fa";
+import { FaTwitter, FaReddit } from "react-icons/fa";
 import logo from "../../assets/images/logo.png";
 import kofi from "../../assets/images/ko-fi.svg";
 import { Link } from "react-router-dom";
@@ -53,7 +53,7 @@ function Footer() {
                 className="footer-social-links"
                 title="X"
               >
-                <FaXTwitter className="footer-btn-4" size={24} />
+                <FaTwitter className="footer-btn-4" size={24} />
               </a>
               <a
                 href="https://www.reddit.com/r/gdscnits/"
