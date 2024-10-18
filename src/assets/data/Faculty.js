@@ -29,7 +29,8 @@ const Faculty = [
     designation: "Associate Professor",
     department: "Computer Science & Engineering",
     website: "http://cs.nits.ac.in/pknath/",
-    linkedin: "https://www.linkedin.com/in/pantha-kanti-nath-116200240/?originalSubdomain=in",
+    linkedin:
+      "https://www.linkedin.com/in/pantha-kanti-nath-116200240/?originalSubdomain=in",
     mail: "pantha@cse.nits.ac.in",
   },
 ];

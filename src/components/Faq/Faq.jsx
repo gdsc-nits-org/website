@@ -10,7 +10,7 @@ const Faqs = () => {
     if (selected == i) {
       return setSelected(null);
     }
-    setSelected(i+1);
+    setSelected(i + 1);
   };
 
   useEffect(() => {

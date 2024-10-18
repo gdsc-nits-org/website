@@ -2557,8 +2557,7 @@ const TeamData = [
     Domain: "Web",
     Github: "https://github.com/coderSubhadeepdeb",
     Linkedin: "https://www.linkedin.com/in/subhadeep-deb-66a6b827a",
-    Facebook:
-      "https://web.facebook.com/profile.php?id=100093466932501",
+    Facebook: "https://web.facebook.com/profile.php?id=100093466932501",
     Description: "",
     Batch: "2024-25",
     imageSrc:
@@ -2876,7 +2875,7 @@ const TeamData = [
     Domain: "UI/UX",
     Description: "",
     Github: "https://github.com/procoast",
-    Linkedin: "www.linkedin.com/in/jitamanyu-phukan-562728280",
+    Linkedin: "https://www.linkedin.com/in/jitamanyu-phukan-562728280",
     Facebook: "https://www.facebook.com/profile.php?id=100070630387563",
   },
   {
