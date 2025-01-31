@@ -2431,18 +2431,6 @@ const TeamData = [
     _id: 202,
   },
   {
-    Name: "Mainak Das",
-    Domain: "Web",
-    Github: "https://github.com/tech-hunter-mainak",
-    Linkedin: "https://linkedin.com/in/mainakdasnits",
-    Facebook: "https://facebook.com/mainak.nitS",
-    Description: "",
-    Batch: "2024-25",
-    imageSrc:
-      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288698/wgkhvdhhuteo1acv5etu.webp",
-    _id: 203,
-  },
-  {
     Name: "Manash Pratim Goswami",
     Domain: "Web",
     Github: "https://github.com/Manashgoswamii",
