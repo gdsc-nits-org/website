@@ -3693,7 +3693,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694472/profile_photos/shraddha_yadav.jpg",
     Name: "Shraddha Yadav",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin:
       "https://www.linkedin.com/in/shraddha-yadav-15aa89341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -3707,7 +3707,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694479/profile_photos/mrigakhi_kashyap.jpg",
     Name: "Mrigakhi Kashyap",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin:
       "https://www.linkedin.com/in/mrigakhi-kashyap-68188a354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -3720,7 +3720,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694489/profile_photos/abhijnyan_saikia.jpg",
     Name: "Abhijnyan Saikia",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin: "https://www.linkedin.com/in/abhijnyan-saikia-458400298/",
     Facebook: "https://www.facebook.com/share/1BVjbTPcKR/",
@@ -3732,7 +3732,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694501/profile_photos/priyadarkshina_khamon.jpg",
     Name: "Priyadarkshina Khamon",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin: "https://www.linkedin.com/in/priyadarkshina-khamon-a89b81332",
     Facebook: "https://www.facebook.com/profile.php?id=61571975554689",
@@ -3744,7 +3744,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694507/profile_photos/debasish_borah.jpg",
     Name: "Debasish Borah",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin:
       "https://www.linkedin.com/in/debasish-borah-51913a338/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bm9%2BH8mnkTRqK9dyK8l1e%2BA%3D%3D",
@@ -3757,7 +3757,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757696383/Darshana_Nath_UI_UX_vr3l10.jpg",
     Name: "Darshana Nath",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin:
       "https://www.linkedin.com/in/darshana-nath-7119a9207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -3770,7 +3770,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757696501/Diksha_Bhattacharjee_UI_UX_pjkjtq.jpg",
     Name: "Diksha Bhattacharjee",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin:
       "https://www.linkedin.com/in/diksha-bhattacharjee-1b5818325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -3783,7 +3783,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694525/profile_photos/samadrita_sarmah.jpg",
     Name: "Samadrita Sarmah",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin:
       "https://www.linkedin.com/in/samadrita-sarmah-4b3736327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -3796,7 +3796,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694538/profile_photos/bedanta_prakash_barman.png",
     Name: "Bedanta Prakash Barman",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin: "https://www.linkedin.com/in/bedanta-prakash-barman-93b1a1328",
     Facebook: "https://www.facebook.com/share/1D7hMkowiv/",
@@ -3806,9 +3806,9 @@ const TeamData = [
     _id: 315,
     Batch: "2025-26",
     imageSrc:
-      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694552/profile_photos/rahul_kumar.jpg",
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757753889/profile_photos/rahul_kumar.jpg",
     Name: "Rahul Kumar",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin: "https://www.linkedin.com/in/rahul-kumar-262272325/",
     Facebook: "https://www.facebook.com/profile.php?id=61565220262684",
@@ -3820,7 +3820,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694567/profile_photos/hiba_shaik.jpg",
     Name: "Hiba Shaik",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin: "www.linkedin.com/in/hiba-shaik-48b231326",
     Facebook: "https://www.facebook.com/profile.php?id=61572974009200",
@@ -3832,7 +3832,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694572/profile_photos/mayur_kalita.jpg",
     Name: "Mayur Kalita",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin: "https://www.linkedin.com/in/mayur-kalita?trk=contact-info",
     Facebook: "https://www.facebook.com/profile.php?id=100092245570571",
@@ -3844,7 +3844,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694576/profile_photos/kallul_gogoi.jpg",
     Name: "Kallul Gogoi",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin: "https://www.linkedin.com/in/kallul-gogoi-00a5152a0/",
     Facebook: "https://www.facebook.com/profile.php?id=100067160496166",
@@ -3856,7 +3856,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694579/profile_photos/surojit_roy.jpg",
     Name: "Surojit Roy",
-    Domain: "UI/UX Design",
+    Domain: "UI/UX",
     Description: "",
     Linkedin: "https://www.linkedin.com/in/surojit-roy-135919379/",
     Facebook: "https://www.facebook.com/surojitroyCE/",
@@ -4409,7 +4409,31 @@ const TeamData = [
     Linkedin: "https://www.linkedin.com/in/tapasya-bhattacharjee-187367274",
     Facebook: "",
     Github: "https://github.com/TapasyaBhatt/",
-  }
+  },
+   {
+    _id: 364,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757754259/sabrin_ara_begum_uqdzhb.jpg",
+    Name: "Sabrin Ara Begum",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/sabrin-ara-begum?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1712SQz3MD/",
+    Github: "https://github.com/Sabrin-Ara-Begum",
+  },
+  {
+    _id: 365,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757754583/IMG-20250820-WA0048_n5vrex.jpg",
+    Name: "Akhil Pusala",
+    Domain: "UI/UX",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/akhil-pusala-8018b82a1",
+    Facebook: "https://www.facebook.com/people/Akhil-Pusala/pfbid02qn4ZZbS4dNvtAvSmFMoz6mnNG5HDwMVeZkk9kmDW1G5L4tQP8JtFimozc8S8tk63l/",
+    Github: "https://github.com/Akhil-Pusala",
+  },
 ];
 
 export default TeamData;
