@@ -4103,7 +4103,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288641/uumrco2ldd9znmazfykh.webp",
     Name: "Anirban Bora",
-    Domain: "Web",
+    Domain: "GDGC, NIT Silchar",
     Description: "Lead",
     Linkedin: "https://www.linkedin.com/in/anirban-bora-432b2a280",
     Facebook: "https://www.facebook.com/profile.php?id=61553104123672",
@@ -4128,7 +4128,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288706/nqiadufi7muqhrc0glax.webp",
     Name: "Mriganka Dey",
-    Domain: "Web",
+    Domain: "Cloud",
     Description: "Cloud Moderator",
     Linkedin: "https://www.linkedin.com/in/mrigankadey/",
     Facebook: "https://www.facebook.com/profile.php?id=100092640578033",
@@ -4190,7 +4190,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288647/aj6lmmhngun0lhwcl8ka.webp",
     Name: "Anmol Swarup Sahoo",
-    Domain: "Web",
+    Domain: "Cloud",
     Description: "Core Member",
     Linkedin: "https://www.linkedin.com/in/anmol77",
     Facebook:
@@ -4263,7 +4263,7 @@ const TeamData = [
     imageSrc:
       "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288664/mxwzuw0suvkdcp0f8bek.webp",
     Name: "Gulista Khatun",
-    Domain: "Web",
+    Domain: "Cloud",
     Description: "Core Member",
     Linkedin: "https://www.linkedin.com/in/gulista-khatun-9414b6314/",
     Facebook:
