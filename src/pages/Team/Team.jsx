@@ -14,7 +14,7 @@ const MemberDetails = (d) => {
 
 const Team = () => {
   ScrollToSection();
-  const currentBatch = "2024-25";
+  const currentBatch = "2025-26";
   const [newMemberList] = useState(TeamData);
   const [filterBatchValue, setBatchValue] = useState(currentBatch);
   const [filterModuleValue, setModuleValue] = useState("All");

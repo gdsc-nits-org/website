@@ -3401,7 +3401,1015 @@ const TeamData = [
     Github: "https://www.github.com/swagatmitra-b",
     Facebook: "",
     Description: "Core Member",
+  },{
+    _id: 283,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694352/profile_photos/lakhyaraj_rajkhowa.jpg",
+    Name: "Lakhyaraj Rajkhowa",
+    Domain: "Android",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/lakhyaraj-rajkhowa-885205292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/lakhyaraj.rajkhowa/",
+    Github: "https://github.com/LakhyarajRajkhowa",
   },
+  {
+    _id: 284,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694355/profile_photos/ankit_yadav.jpg",
+    Name: "Ankit Yadav",
+    Domain: "Android",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/ankit-yadav-67b124360/",
+    Facebook: "https://www.facebook.com/profile.php?id=61570051217386",
+    Github: "https://github.com/Ankit6321",
+  },
+  {
+    _id: 285,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694360/profile_photos/roshan_dey.jpg",
+    Name: "Roshan Dey",
+    Domain: "Android",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/roshan-dey-95a81a330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1ELrt3nbms/",
+    Github: "https://github.com/roshan70lab",
+  },
+  {
+    _id: 286,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694364/profile_photos/bugmita_bora.jpg",
+    Name: "Bugmita Bora",
+    Domain: "Android",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/bugmita-bora-3a9171352/",
+    Facebook: "https://www.facebook.com/share/16ZEKEmuGq/",
+    Github: "https://github.com/Bugmita",
+  },
+  {
+    _id: 287,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694370/profile_photos/kashish_agrawal.png",
+    Name: "Kashish Agrawal",
+    Domain: "Android",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/kashish-agrawal-7a2312327/",
+    Facebook: "https://www.facebook.com/profile.php?id=61565378690421",
+    Github: "https://github.com/CosmicThunder",
+  },
+  {
+    _id: 288,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694374/profile_photos/ayush_thayyil.jpg",
+    Name: "Ayush Thayyil",
+    Domain: "Android",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/ayushthayyil766863332?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/profile.php?id=61560073087588",
+    Github: "https://github.com/higgboson",
+  },
+  {
+    _id: 289,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694377/profile_photos/hemant_verma.jpg",
+    Name: "HEMANT VERMA",
+    Domain: "Android",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/hemant-verma-b31807213/",
+    Facebook: "https://www.facebook.com/share/1CyxpUHocr/",
+    Github: "https://github.com/hemantkumarverma2005",
+  },
+  {
+    _id: 290,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694381/profile_photos/tarpan_saikia.heic",
+    Name: "Tarpan Saikia",
+    Domain: "Android",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/tarpan-saikia-9053bb298/",
+    Facebook: "https://www.facebook.com/share/1BQ5Ei47B9/",
+    Github: "https://github.com/Tarpan07/Tarpan-07",
+  },
+  {
+    _id: 291,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694385/profile_photos/bavanam_divya_reddy.jpg",
+    Name: "Bavanam Divya Reddy",
+    Domain: "Android",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/bavanam-divya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1CP1TGa4zy/",
+    Github: "https://github.com/bavanamdivyareddy",
+  },
+  {
+    _id: 292,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757696265/Prasenjeet_Tiwari_Cloud_qluiaf.jpg",
+    Name: "Prasenjeet Tiwari",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/prasenjeet-tiwari/",
+    Facebook: "https://www.facebook.com/profile.php?id=61565188802431",
+    Github: "https://github.com/Prasenjeet-Tiwari",
+  },
+  {
+    _id: 293,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694390/profile_photos/bornov_shyam_kalita.jpg",
+    Name: "Bornov Shyam Kalita",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/bornov-shyam-kalita-54754a313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/16VrFEBSx3/",
+    Github: "https://github.com/WizardBornov",
+  },
+  {
+    _id: 294,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694394/profile_photos/dishank_choudhury.jpg",
+    Name: "Dishank Choudhury",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/dishank-choudhury-56b565318",
+    Facebook: "https://www.facebook.com/profile.php?id=61567024787802",
+    Github: "https://github.com/di35117",
+  },
+  {
+    _id: 295,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694398/profile_photos/madhav_preeth.jpg",
+    Name: "Madhav Preeth",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/madhav-preeth-153398334/",
+    Facebook: "https://www.facebook.com/profile.php?id=100070852327848",
+    Github: "https://github.com/MadhavPreeth",
+  },
+  {
+    _id: 296,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694411/profile_photos/darshan_gupta.jpg",
+    Name: "Darshan Gupta",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/darshan-gupta-80069930a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/17DGBaTWg8/",
+    Github: "https://github.com/darshan8bits",
+  },
+  {
+    _id: 297,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694417/profile_photos/jyotishmita_borah.jpg",
+    Name: "Jyotishmita Borah",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/jyotishmita-borah-418151326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1CRKowYPWV/",
+    Github: "https://github.com/JyotishmitaBorah",
+  },
+  {
+    _id: 298,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694420/profile_photos/vansh_bagra.jpg",
+    Name: "Vansh Bagra",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/vansh-bagra-a1516b239",
+    Facebook: "https://www.facebook.com/share/1CrCTAvvDz/",
+    Github: "https://share.google/4X0PfHBP0K69TQEkt",
+  },
+  {
+    _id: 299,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694426/profile_photos/piyush_aditya_kar.jpg",
+    Name: "Piyush Aditya Kar",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin: "https://in.linkedin.com/in/piyush-aditya-kar-20a961233",
+    Facebook: "https://www.facebook.com/profile.php?id=61566789152771",
+    Github: "https://github.com/HilariousSoupXD",
+  },
+  {
+    _id: 300,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694431/profile_photos/kiron_roy.jpg",
+    Name: "Kiron Roy",
+    Domain: "Cloud",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/kiron-roy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/16CY5otFMC/",
+    Github: "https://github.com/rkiron",
+  },
+  {
+    _id: 301,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694435/profile_photos/madhurjya_bijoy_sarania.jpg",
+    Name: "MADHURJYA BIJOY SARANIA",
+    Domain: "Flutter",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/madhurjya-bijoy-sarania-78a0a9349/",
+    Facebook: "https://www.facebook.com/profile.php?id=61565279513321",
+    Github: "https://github.com/Sarania-M",
+  },
+  {
+    _id: 302,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694442/profile_photos/prantik_das.jpg",
+    Name: "Prantik Das",
+    Domain: "Flutter",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/prantik-das-84a430327/",
+    Facebook: "https://www.facebook.com/profile.php?id=61565700382146",
+    Github: "https://github.com/prank-it37",
+  },
+  {
+    _id: 303,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694446/profile_photos/shovit_sharma.jpg",
+    Name: "Shovit Sharma",
+    Domain: "Flutter",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/shovit-sharma-2b1445327/",
+    Facebook: "https://www.facebook.com/profile.php?id=61580164532875",
+    Github: "https://github.com/shovitsharma",
+  },
+  {
+    _id: 304,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694450/profile_photos/shrey_kedia.jpg",
+    Name: "Shrey Kedia",
+    Domain: "Flutter",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/shrey-kedia-9548bb2b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1665qKzWdy/",
+    Github: "github.com/kediashrey",
+  },
+  {
+    _id: 305,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694454/profile_photos/debangshu_mounas.jpg",
+    Name: "Debangshu Mounas",
+    Domain: "Flutter",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/debangshu-mounas-3b273b317",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=61561971812602&mibextid=ZbWKwL",
+    Github: "https://github.com/DMounas",
+  },
+  {
+    _id: 306,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694472/profile_photos/shraddha_yadav.jpg",
+    Name: "Shraddha Yadav",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/shraddha-yadav-15aa89341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook:
+      "https://m.facebook.com/story.php?story_fbid=pfbid02k8kvzVaCnhjvVFqwy11fea7azKSqjTXfuoJYfd1JtrMvpbDPaMJjHZStvY75JZM2l&id=61572907958220&mibextid=Nif5oz",
+    Github: "https://github.com/shraddhayadav1",
+  },
+  {
+    _id: 307,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694479/profile_photos/mrigakhi_kashyap.jpg",
+    Name: "Mrigakhi Kashyap",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/mrigakhi-kashyap-68188a354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1D9XaiKPcU/",
+    Github: "https://github.com/mrigakhi65",
+  },
+  {
+    _id: 308,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694489/profile_photos/abhijnyan_saikia.jpg",
+    Name: "Abhijnyan Saikia",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/abhijnyan-saikia-458400298/",
+    Facebook: "https://www.facebook.com/share/1BVjbTPcKR/",
+    Github: "https://github.com/abhijnyan-s9",
+  },
+  {
+    _id: 309,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694501/profile_photos/priyadarkshina_khamon.jpg",
+    Name: "Priyadarkshina Khamon",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/priyadarkshina-khamon-a89b81332",
+    Facebook: "https://www.facebook.com/profile.php?id=61571975554689",
+    Github: "https://github.com/priyadarkshina19",
+  },
+  {
+    _id: 310,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694507/profile_photos/debasish_borah.jpg",
+    Name: "Debasish Borah",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/debasish-borah-51913a338/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bm9%2BH8mnkTRqK9dyK8l1e%2BA%3D%3D",
+    Facebook: "https://www.facebook.com/share/16gdete3YP/",
+    Github: "https://github.com/debasishug24-jpg",
+  },
+  {
+    _id: 311,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757696383/Darshana_Nath_UI_UX_vr3l10.jpg",
+    Name: "Darshana Nath",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/darshana-nath-7119a9207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/19PfQaEKGH/",
+    Github: "https://github.com/darshananath",
+  },
+  {
+    _id: 312,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757696501/Diksha_Bhattacharjee_UI_UX_pjkjtq.jpg",
+    Name: "Diksha Bhattacharjee",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/diksha-bhattacharjee-1b5818325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/profile.php?id=61567060391925",
+    Github: "https://github.com/dikshabhatt05",
+  },
+  {
+    _id: 313,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694525/profile_photos/samadrita_sarmah.jpg",
+    Name: "Samadrita Sarmah",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/samadrita-sarmah-4b3736327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    Facebook: "https://www.facebook.com/share/1BPTW2hdr3/?mibextid=wwXIfr",
+    Github: "https://github.com/Samadrita866",
+  },
+  {
+    _id: 314,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694538/profile_photos/bedanta_prakash_barman.png",
+    Name: "Bedanta Prakash Barman",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/bedanta-prakash-barman-93b1a1328",
+    Facebook: "https://www.facebook.com/share/1D7hMkowiv/",
+    Github: "https://github.com/Bedanta1010",
+  },
+  {
+    _id: 315,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694552/profile_photos/rahul_kumar.jpg",
+    Name: "Rahul Kumar",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/rahul-kumar-262272325/",
+    Facebook: "https://www.facebook.com/profile.php?id=61565220262684",
+    Github: "github.com/xrk9",
+  },
+  {
+    _id: 316,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694567/profile_photos/hiba_shaik.jpg",
+    Name: "Hiba Shaik",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin: "www.linkedin.com/in/hiba-shaik-48b231326",
+    Facebook: "https://www.facebook.com/profile.php?id=61572974009200",
+    Github: "https://github.com/hiba-shaik",
+  },
+  {
+    _id: 317,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694572/profile_photos/mayur_kalita.jpg",
+    Name: "Mayur Kalita",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/mayur-kalita?trk=contact-info",
+    Facebook: "https://www.facebook.com/profile.php?id=100092245570571",
+    Github: "https://github.com/mayurkalita",
+  },
+  {
+    _id: 318,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694576/profile_photos/kallul_gogoi.jpg",
+    Name: "Kallul Gogoi",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/kallul-gogoi-00a5152a0/",
+    Facebook: "https://www.facebook.com/profile.php?id=100067160496166",
+    Github: "https://github.com/kallulgogoi",
+  },
+  {
+    _id: 319,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694579/profile_photos/surojit_roy.jpg",
+    Name: "Surojit Roy",
+    Domain: "UI/UX Design",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/surojit-roy-135919379/",
+    Facebook: "https://www.facebook.com/surojitroyCE/",
+    Github: "https://github.com/SurojitRoy25",
+  },
+  {
+    _id: 320,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757697197/DebarpanRoy_Web_tmknhf.jpg",
+    Name: "Debarpan Roy",
+    Domain: "Web",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/debarpan-roy-435876326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1LzaCmqLMP/",
+    Github: "https://github.com/debarpanRoy2006",
+  },
+  {
+    _id: 321,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694589/profile_photos/akshay_singh.jpg",
+    Name: "Akshay Singh",
+    Domain: "Web",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/akshay-singh-1a65b1322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/178zUFnef5/",
+    Github: "https://github.com/anashvar415",
+  },
+  {
+    _id: 322,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694603/profile_photos/kanika_sharma.jpg",
+    Name: "Kanika Sharma",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/kanika-sharma-a67424324/",
+    Facebook: "https://www.facebook.com/profile.php?id=61570841232235",
+    Github: "https://github.com/KanikaSharma0610",
+  },
+  {
+    _id: 323,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694610/profile_photos/tridip_kalita.jpg",
+    Name: "Tridip Kalita",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/tridip-kalita-417896332/",
+    Facebook: "https://www.facebook.com/profile.php?id=61564929831064",
+    Github: "https://github.com/tri-dip",
+  },
+  {
+    _id: 324,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694614/profile_photos/medhansh_kashyap_borah.jpg",
+    Name: "Medhansh Kashyap Borah",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/medhansh-kashyap-borah-321855332/",
+    Facebook: "https://www.facebook.com/share/16ze65RAdq/",
+    Github: "https://github.com/Medhansh38",
+  },
+  {
+    _id: 325,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694618/profile_photos/manash_jyoti_dihingia.jpg",
+    Name: "Manash Jyoti Dihingia",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/manashdihingia/",
+    Facebook: "NA",
+    Github: "https://github.com/Ohhhkayyyaii",
+  },
+  {
+    _id: 326,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694624/profile_photos/harshit_agarwal.heic",
+    Name: "Harshit Agarwal",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/harshit-agarwal-a119a4332/",
+    Facebook: "https://www.facebook.com/harshit.agarwal.905220",
+    Github: "https://github.com/agarwal-harshit00",
+  },
+  {
+    _id: 327,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757697286/Aman_Raj_Web_b5eq5w.jpg",
+    Name: "Aman Raj",
+    Domain: "Web",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/aman-raj-978909330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1FLP2U5ut7/",
+    Github: "https://github.com/Aman-63",
+  },
+  {
+    _id: 328,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694635/profile_photos/sivangi_kashyap.jpg",
+    Name: "Sivangi Kashyap",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/sivangi-kashyap-391895332",
+    Facebook: "https://www.facebook.com/share/19z6Z48VzX/",
+    Github: "https://github.com/Sivangi77",
+  },
+  {
+    _id: 329,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694639/profile_photos/saima_fateha_begum.jpg",
+    Name: "Saima Fateha Begum",
+    Domain: "Web",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/saima-f-begum-08a818315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    Facebook: "https://www.facebook.com/share/17NMydXR4Q/?mibextid=wwXIfr",
+    Github: "https://github.com/saimafbegum",
+  },
+  {
+    _id: 330,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694643/profile_photos/swastika_paul.webp",
+    Name: "Swastika Paul",
+    Domain: "Web",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/swastika-paul-05186a381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/19jYB5XhHR/",
+    Github: "https://swastika-paul.github.io/realTimeSky/",
+  },
+  {
+    _id: 331,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694648/profile_photos/denish_bharadwaj.jpg",
+    Name: "Denish Bharadwaj",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/denish -bharadwaj-7902b4334",
+    Facebook: "https://www.facebook.com/share/1AsC4D687z/",
+    Github: "https://github.com/Denish12356",
+  },
+  {
+    _id: 332,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694652/profile_photos/aryan_kumar.jpg",
+    Name: "Aryan Kumar",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/aryan-kumar-ak/",
+    Facebook: "https://www.facebook.com/share/1BCueUSwsy/",
+    Github: "https://github.com/Aryan-Kumar7369",
+  },
+  {
+    _id: 333,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694659/profile_photos/anurag_sharma.jpg",
+    Name: "Anurag Sharma",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/anurag-sharma-nits/",
+    Facebook: "https://www.facebook.com/profile.php?id=61565920400619",
+    Github: "https://github.com/Techy-Geek",
+  },
+  {
+    _id: 334,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694663/profile_photos/swapnil_deka.jpg",
+    Name: "Swapnil Deka",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/swapnil-deka-467975332/",
+    Facebook: "https://www.facebook.com/profile.php?id=61566987403561",
+    Github: "https://github.com/Swap-ux",
+  },
+  {
+    _id: 335,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694670/profile_photos/purbita_banik.jpg",
+    Name: "Purbita Banik",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/purbita-banik-075679316/",
+    Facebook: "https://www.facebook.com/profile.php?id=61564019957554",
+    Github: "https://github.com/purbita23",
+  },
+  {
+    _id: 336,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694676/profile_photos/mrinmoy_mazumdar.webp",
+    Name: "Mrinmoy Mazumdar",
+    Domain: "Web",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/mrinmoy-mazumdar-31a248242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/1FLvKjcHWc/",
+    Github: "GitHub.com/M-coder-web-cell",
+  },
+  {
+    _id: 337,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694681/profile_photos/dhruv_kumar.jpg",
+    Name: "Dhruv Kumar",
+    Domain: "Web",
+    Description: "",
+    Linkedin:
+      "https://www.linkedin.com/in/dhruvkdev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/share/19fRSa6BCF/",
+    Github: "https://github.com/dhruvkdev",
+  },
+  {
+    _id: 338,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694687/profile_photos/purba_pratim_mahanta.jpg",
+    Name: "Purba Pratim Mahanta",
+    Domain: "Web",
+    Description: "",
+    Linkedin: "https://www.linkedin.com/in/mahanta-living-life-7617b52a6/",
+    Facebook: "https://www.facebook.com/share/1CTxfkepdk/",
+    Github: "https://github.com/Purbapratim36",
+  },
+  {
+    _id: 339,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288641/uumrco2ldd9znmazfykh.webp",
+    Name: "Anirban Bora",
+    Domain: "Web",
+    Description: "Lead",
+    Linkedin: "https://www.linkedin.com/in/anirban-bora-432b2a280",
+    Facebook: "https://www.facebook.com/profile.php?id=61553104123672",
+    Github: "https://github.com/A-nirvana",
+  },
+  {
+    _id: 340,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dddcd0hco/image/upload/v1726228839/profilePic_thowlx.webp",
+    Name: "Gauri Jain",
+    Domain: "Android",
+    Description: "Android Moderator",
+    Linkedin: "https://www.linkedin.com/in/gauri-jain-545740312/",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=61551755972496&mibextid=ZbWKwL",
+    Github: "https://github.com/gaurijainn",
+  },
+  {
+    _id: 341,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288706/nqiadufi7muqhrc0glax.webp",
+    Name: "Mriganka Dey",
+    Domain: "Web",
+    Description: "Cloud Moderator",
+    Linkedin: "https://www.linkedin.com/in/mrigankadey/",
+    Facebook: "https://www.facebook.com/profile.php?id=100092640578033",
+    Github: "https://github.com/velgardey",
+  },
+  {
+    _id: 342,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411194/Abhinav_profile_swofgs.webp",
+    Name: "Abhinav Narayan Dev",
+    Domain: "Flutter",
+    Description: "Flutter Moderator",
+    Linkedin: "https://www.linkedin.com/in/abhinav-dev-0a4151289/",
+    Facebook: "https://www.facebook.com/profile.php?id=61550717612079",
+    Github: "https://github.com/Lakkyra",
+  },
+  {
+    _id: 343,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/piyush_wwvliv.webp",
+    Name: "Piyush Chatterjee",
+    Domain: "UI/UX",
+    Description: "UI/UX Moderator",
+    Linkedin:
+      "https://www.linkedin.com/in/piyush-chatterjee-1b501928b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook: "https://www.facebook.com/profile.php?id=61551008331160",
+    Github: "https://github.com/Piyush-Chatterjee",
+  },
+  {
+    _id: 344,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288703/xy7nbpmwegeafbrm9may.webp",
+    Name: "Manash Pratim Goswami",
+    Domain: "Web",
+    Description: "Web Moderator",
+    Linkedin: "www.linkedin.com/in/manash-pratim-goswami-477352289",
+    Facebook: "https://www.facebook.com/profile.php?id=61550331861556",
+    Github: "https://github.com/Manashgoswamii",
+  },
+  {
+    _id: 345,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288756/h5dd8okw6nmlkz06rtoz.webp",
+    Name: "Subrata Lodh",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/subrata-lodh-45541328a/",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=100088421967870&mibextid=ZbWKwL",
+    Github: "https://github.com/Subrata-20",
+  },
+  {
+    _id: 346,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288647/aj6lmmhngun0lhwcl8ka.webp",
+    Name: "Anmol Swarup Sahoo",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/anmol77",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=61550888831171&name=xhp_nt__fb__action__open_user",
+    Github: "https://github.com/Newt-Shadow",
+  },
+  {
+    _id: 347,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288659/zqo9vnshva9obsgle9is.webp",
+    Name: "DHANANJOY DAS",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/dhananjoydas733",
+    Facebook: "https://www.facebook.com/dhanabjoy.das",
+    Github: "https://github.com/dhananjoydas733",
+  },
+  {
+    _id: 348,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288668/hhwia4wcqmraaypee6y8.webp",
+    Name: "Hirak Rajbonshi",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/hirak-rajbonshi-baa6a628a/",
+    Facebook: "https://www.facebook.com/hirak.rajbonshi.7?mibextid=ZbWKwL",
+    Github: "https://github.com/hirakRajbonshi",
+  },
+  {
+    _id: 349,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288729/ameajhu1tfoaau5gzwcx.webp",
+    Name: "Priyanshu Kashyap",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/priyanshu-kashyap-8196a928a/",
+    Facebook: "https://www.facebook.com/profile.php?id=61550769088682",
+    Github: "https://github.com/7rikster",
+  },
+  {
+    _id: 350,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288747/pjhnlxhyp2cccdw1up0k.webp",
+    Name: "Subhadeep Deb ",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/subhadeep-deb-66a6b827a",
+    Facebook: "https://web.facebook.com/profile.php?id=100093466932501",
+    Github: "https://github.com/coderSubhadeepdeb",
+  },
+  {
+    _id: 351,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288720/lsrt7qnri0lvu1qhhjep.webp",
+    Name: "Nilabh Sarmah ",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav",
+    Facebook: "https://www.facebook.com/profile.php?id=61555487639898",
+    Github: "https://github.com/TechNilabh",
+  },
+  {
+    _id: 352,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288664/mxwzuw0suvkdcp0f8bek.webp",
+    Name: "Gulista Khatun",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/gulista-khatun-9414b6314/",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=61555806877486&mibextid=ZbWKwL",
+    Github: "https://github.com/GulistaKhatun06",
+  },
+  {
+    _id: 353,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288683/ckhpmom4ysreokkuekz4.webp",
+    Name: "Jilmil Saikia",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/jilmil-saikia-0431b2314/",
+    Facebook: "https://www.facebook.com/jilmil.saikia.2023",
+    Github: "https://github.com/saikia42",
+  },
+  {
+    _id: 354,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/gdsc-photo/image/upload/v1726288693/l77yw1di3h0zfzgpoyja.webp",
+    Name: "Kaushik Bhowmick",
+    Domain: "Web",
+    Description: "Core Member",
+    Linkedin:
+      "https://www.linkedin.com/in/kaushik-bhowmick-922b26282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=100093809000705&mibextid=ZbWKwL",
+    Github: "https://github.com/kaushik9859",
+  },
+  {
+    _id: 355,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/jitamanyu_jhcmkz.webp",
+    Name: "Jitamanyu Phukan",
+    Domain: "UI/UX",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/jitamanyu-phukan-562728280",
+    Facebook: "https://www.facebook.com/profile.php?id=100070630387563",
+    Github: "https://github.com/procoast",
+  },
+  {
+    _id: 356,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411196/manisha_x7pqig.webp",
+    Name: "Manisha Saloi",
+    Domain: "UI/UX",
+    Description: "Core Member",
+    Linkedin:
+      "https://www.linkedin.com/in/manisha-saloi-aa564228a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=61550675969308&mibextid=ZbWKwL",
+    Github: "https://github.com/manisha999404",
+  },
+  {
+    _id: 357,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dddcd0hco/image/upload/v1726293429/1707076275000_vwgvu2.webp",
+    Name: "Shaik Razeef",
+    Domain: "Android",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/shaik-mahammad-razeef-374a4b2a4",
+    Facebook: "https://www.facebook.com/razeef.motadu.5?mibextid=ZbWKwL",
+    Github: "https://github.com/Razeefshaik",
+  },
+  {
+    _id: 358,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dddcd0hco/image/upload/v1726293283/_storage_emulated_0_DCIM_Camera_IMG_20231021_184054_wi5lqx.webp",
+    Name: "Parishmita Banik",
+    Domain: "Android",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/parishmita-banik-8b0235288/",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=61550687674288&mibextid=ZbWKwL",
+    Github: "https://github.com/Parishmitabanik",
+  },
+  {
+    _id: 359,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dddcd0hco/image/upload/v1729126210/WhatsApp_Image_2024-10-15_at_14.44.35_677a895f_fzlpav.webp",
+    Name: "Shibam Singh Yadav",
+    Domain: "Android",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/shibam-singh/",
+    Facebook: "https://www.facebook.com/shibam.yadav.3154",
+    Github: "https://github.com/shibamsingh/",
+  },
+  {
+    _id: 360,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411197/lakshay_pbpy1a.webp",
+    Name: "Lakshay Pareek",
+    Domain: "Flutter",
+    Description: "Core Member",
+    Linkedin:
+      "https://www.linkedin.com/in/lakshay-pareek-b973bb280?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    Facebook:
+      "https://www.facebook.com/profile.php?id=61551093479988&mibextid=ZbWKwL",
+    Github: "https://github.com/BelowAverageCode",
+  },
+  {
+    _id: 361,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726411198/rishav_ybiqww.webp",
+    Name: "Rishav Kumar Sinha",
+    Domain: "Flutter",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/rishav-kumar-sinha-292471319",
+    Facebook: "",
+    Github: "https://github.com/RishavKumarSinha",
+  },
+  {
+    _id: 362,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dludtk5vz/image/upload/v1726422910/kweyyya52iqhl2ytlrvu.webp",
+    Name: "Subhajyoti Dey",
+    Domain: "Flutter",
+    Description: "Core Member",
+    Linkedin:
+      "https://www.linkedin.com/in/subhajyoti-dey-635922235?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android",
+    Facebook: "",
+    Github: "https://github.com/SubhaNITS150",
+  },
+  {
+    _id: 363,
+    Batch: "2025-26",
+    imageSrc:
+      "https://res.cloudinary.com/dieef3h1w/image/upload/v1726410910/tapasya_f7frhc.webp",
+    Name: "Tapasya Bhattacharjee",
+    Domain: "Flutter",
+    Description: "Core Member",
+    Linkedin: "https://www.linkedin.com/in/tapasya-bhattacharjee-187367274",
+    Facebook: "",
+    Github: "https://github.com/TapasyaBhatt/",
+  }
 ];
 
 export default TeamData;
