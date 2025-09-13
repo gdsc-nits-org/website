@@ -3492,7 +3492,7 @@ const TeamData = [
     _id: 290,
     Batch: "2025-26",
     imageSrc:
-      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694381/profile_photos/tarpan_saikia.heic",
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694381/profile_photos/tarpan_saikia.webp",
     Name: "Tarpan Saikia",
     Domain: "Android",
     Description: "",
@@ -3940,7 +3940,7 @@ const TeamData = [
     _id: 326,
     Batch: "2025-26",
     imageSrc:
-      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694624/profile_photos/harshit_agarwal.heic",
+      "https://res.cloudinary.com/dv7jsvmit/image/upload/v1757694624/profile_photos/harshit_agarwal.webp",
     Name: "Harshit Agarwal",
     Domain: "Web",
     Description: "",

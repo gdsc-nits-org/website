@@ -24,7 +24,7 @@ const Faculty = [
   {
     _id: 3,
     name: "Dr. Pantha Kanti Nath",
-    batch: ["2024-25"],
+    batch: ["2024-25", "2025-26"],
     img: "/images/pantha.webp",
     designation: "Associate Professor",
     department: "Computer Science & Engineering",

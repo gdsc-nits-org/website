@@ -116,6 +116,7 @@ const Team = () => {
           option2="2022-23"
           option3="2023-24"
           option4="2024-25"
+          option5="2025-26"
           filterModuleData={onBatchValueSelected}
         />
       </div>
