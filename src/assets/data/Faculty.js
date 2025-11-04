@@ -24,7 +24,7 @@ const Faculty = [
   {
     _id: 3,
     name: "Dr. Pantha Kanti Nath",
-    batch: ["2024-25", "2025-26"],
+    batch: ["2024-25"],
     img: "/images/pantha.webp",
     designation: "Associate Professor",
     department: "Computer Science & Engineering",
@@ -33,6 +33,18 @@ const Faculty = [
       "https://www.linkedin.com/in/pantha-kanti-nath-116200240/?originalSubdomain=in",
     mail: "pantha@cse.nits.ac.in",
   },
+  {
+    _id: 4,
+    name: "Dr. Chukhu Chunka",
+    batch: ["2025-26"],
+    img: "/images/chukhu_maam.jpeg",
+    designation: "Assistant Professor",
+    department: "Computer Science & Engineering",
+    website: "https://cs.nits.ac.in/faculties/chukhu-chunka/",
+    linkedin:
+      "https://www.linkedin.com/in/dr-chukhu-chunka-0b6a6470/",
+    mail: "chukhu@cse.nits.ac.in",
+  }
 ];
 
 export default Faculty;
